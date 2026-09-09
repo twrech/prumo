@@ -1,0 +1,75 @@
+{
+  "versao": "1.0",
+  "eixos": [
+    {
+      "codigo": "eco",
+      "nome": "Economia",
+      "pergunta_guia": "Quem deve cuidar do dinheiro e da riqueza do país: mais o governo ou mais o mercado?",
+      "polo_negativo": { "nome": "Estado", "resumo": "O governo deve garantir serviços, distribuir renda, ter empresas próprias e cobrar mais de quem tem mais." },
+      "polo_positivo": { "nome": "Mercado", "resumo": "As pessoas e as empresas devem ter liberdade para produzir e negociar, com menos impostos, menos regras e menos governo." },
+      "faixas": [
+        { "de": -100, "ate": -60, "rotulo": "fortemente Estado", "texto": "Você acha que o governo deve ser o principal responsável por reduzir a pobreza e a desigualdade, mesmo que isso signifique mais impostos e mais empresas públicas." },
+        { "de": -60, "ate": -20, "rotulo": "mais Estado", "texto": "Você aceita o mercado, mas quer um governo presente: serviços públicos fortes, proteção ao trabalhador e impostos maiores para os mais ricos." },
+        { "de": -20, "ate": 20, "rotulo": "equilibrado", "texto": "Você não tem uma posição fixa: às vezes prefere o governo, às vezes o mercado, dependendo do problema." },
+        { "de": 20, "ate": 60, "rotulo": "mais Mercado", "texto": "Você acha que a economia funciona melhor com menos regras e menos impostos, mas aceita que o governo ajude quem precisa." },
+        { "de": 60, "ate": 100, "rotulo": "fortemente Mercado", "texto": "Você acredita que quase tudo funciona melhor quando o governo sai do caminho: privatizar, cortar impostos e deixar as pessoas negociarem livremente." }
+      ]
+    },
+    {
+      "codigo": "soc",
+      "nome": "Costumes",
+      "pergunta_guia": "Como as pessoas devem viver: cada uma do seu jeito, ou seguindo a tradição, a família e a religião?",
+      "polo_negativo": { "nome": "Progressista", "resumo": "Cada pessoa decide sobre a própria vida; a lei deve proteger minorias e aceitar mudanças nos costumes." },
+      "polo_positivo": { "nome": "Conservador", "resumo": "A família, a religião e a tradição são a base da sociedade; mudanças nos costumes devem ser lentas e cuidadosas." },
+      "faixas": [
+        { "de": -100, "ate": -60, "rotulo": "fortemente progressista", "texto": "Para você, a liberdade de cada pessoa sobre o próprio corpo, a própria fé e a própria família vem antes de qualquer tradição." },
+        { "de": -60, "ate": -20, "rotulo": "progressista", "texto": "Você aceita e defende mudanças nos costumes, mas entende que nem todos avançam no mesmo ritmo." },
+        { "de": -20, "ate": 20, "rotulo": "equilibrado", "texto": "Você valoriza a tradição em alguns temas e a liberdade individual em outros." },
+        { "de": 20, "ate": 60, "rotulo": "conservador", "texto": "Você acha que família, religião e tradição merecem proteção, mesmo aceitando algumas mudanças." },
+        { "de": 60, "ate": 100, "rotulo": "fortemente conservador", "texto": "Para você, a sociedade se sustenta na moral tradicional, e o Estado deve defendê-la." }
+      ]
+    },
+    {
+      "codigo": "pod",
+      "nome": "Poder",
+      "pergunta_guia": "Quanto o governo pode mandar na vida das pessoas para garantir ordem e segurança?",
+      "polo_negativo": { "nome": "Liberdade", "resumo": "O governo deve ter limites claros; direitos e garantias valem para todos, inclusive para quem erra." },
+      "polo_positivo": { "nome": "Ordem", "resumo": "O governo precisa de força para garantir segurança e ordem, mesmo que isso reduza algumas liberdades." },
+      "faixas": [
+        { "de": -100, "ate": -60, "rotulo": "fortemente liberdade", "texto": "Você desconfia do poder do Estado e acha que nenhuma emergência justifica abrir mão de direitos." },
+        { "de": -60, "ate": -20, "rotulo": "liberdade", "texto": "Você aceita autoridade, mas quer que ela seja fiscalizada e limitada pela lei." },
+        { "de": -20, "ate": 20, "rotulo": "equilibrado", "texto": "Você pesa caso a caso: mais rigor em algumas situações, mais garantias em outras." },
+        { "de": 20, "ate": 60, "rotulo": "ordem", "texto": "Você acha que a segurança e a ordem exigem um Estado firme, com polícia forte e punições duras." },
+        { "de": 60, "ate": 100, "rotulo": "fortemente ordem", "texto": "Para você, um governo forte e decidido vale mais do que garantias que só atrapalham." }
+      ]
+    },
+    {
+      "codigo": "sob",
+      "nome": "Mundo",
+      "pergunta_guia": "O Brasil deve se abrir para o mundo ou proteger o que é seu?",
+      "polo_negativo": { "nome": "Abertura", "resumo": "Comércio, cooperação e imigração fazem o país crescer; o Brasil ganha mais se integrando ao mundo." },
+      "polo_positivo": { "nome": "Soberania", "resumo": "O Brasil deve proteger sua indústria, suas terras, suas fronteiras e decidir sozinho o seu destino." },
+      "faixas": [
+        { "de": -100, "ate": -60, "rotulo": "fortemente abertura", "texto": "Você acha que fronteiras e barreiras só atrapalham: o Brasil deve se integrar ao máximo." },
+        { "de": -60, "ate": -20, "rotulo": "abertura", "texto": "Você é a favor de acordos, comércio e imigração, com algumas proteções para o país." },
+        { "de": -20, "ate": 20, "rotulo": "equilibrado", "texto": "Você quer o Brasil aberto em algumas áreas e protegido em outras." },
+        { "de": 20, "ate": 60, "rotulo": "soberania", "texto": "Você acha que o Brasil deve priorizar o que é nacional e desconfiar de dependência de outros países." },
+        { "de": 60, "ate": 100, "rotulo": "fortemente soberania", "texto": "Para você, o Brasil vem primeiro: indústria própria, controle das fronteiras e independência total." }
+      ]
+    },
+    {
+      "codigo": "amb",
+      "nome": "Natureza",
+      "pergunta_guia": "Quando a natureza e o crescimento entram em conflito, qual deve vir primeiro?",
+      "polo_negativo": { "nome": "Preservação", "resumo": "Floresta, água, clima e povos tradicionais vêm primeiro; o crescimento tem que respeitar esses limites." },
+      "polo_positivo": { "nome": "Desenvolvimento", "resumo": "Empregos, obras e produção vêm primeiro; a natureza deve ser usada com responsabilidade, mas usada." },
+      "faixas": [
+        { "de": -100, "ate": -60, "rotulo": "fortemente preservação", "texto": "Para você, a natureza tem prioridade absoluta, mesmo que isso custe empregos ou crescimento." },
+        { "de": -60, "ate": -20, "rotulo": "preservação", "texto": "Você aceita crescimento, mas quer regras ambientais firmes e fiscalizadas." },
+        { "de": -20, "ate": 20, "rotulo": "equilibrado", "texto": "Você tenta conciliar: crescer, mas sem exagerar no uso da natureza." },
+        { "de": 20, "ate": 60, "rotulo": "desenvolvimento", "texto": "Você acha que o Brasil precisa produzir e crescer, e que as regras ambientais muitas vezes atrapalham." },
+        { "de": 60, "ate": 100, "rotulo": "fortemente desenvolvimento", "texto": "Para você, floresta parada é oportunidade perdida: o país deve usar seus recursos ao máximo." }
+      ]
+    }
+  ]
+}

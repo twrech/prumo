@@ -1,0 +1,1931 @@
+{
+ "versao": "1.2-verificado",
+ "config": {
+  "fator_pulo": 0.3,
+  "feedback_pedagogico": false
+ },
+ "nota": "Banco revisado (adversarial, 09/09/2026) e com status quo conferido em fontes primárias na mesma data. Rechecar antes de cada eleição: itens de jurisprudência pendente (q020, q039, q100, q106) e de lei recente (q047, q063, q110).",
+ "perguntas": [
+  {
+   "id": "q001",
+   "nivel": 1,
+   "tema": "pena-de-morte",
+   "texto": "A pena de morte deveria existir no Brasil para crimes muito graves, como estupro seguido de morte?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 5º XLVII a",
+   "ativa": true
+  },
+  {
+   "id": "q002",
+   "nivel": 1,
+   "tema": "transferencia-de-renda",
+   "texto": "O governo deve pagar todo mês um valor em dinheiro para famílias muito pobres, como o Bolsa Família ou o Auxílio Brasil?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 14.601/2023",
+   "ativa": true
+  },
+  {
+   "id": "q003",
+   "nivel": 1,
+   "tema": "aborto",
+   "texto": "Uma mulher deve poder interromper a gravidez nos primeiros meses, se assim decidir?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": -1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CP arts. 124-128; STF ADPF 54",
+   "ativa": true
+  },
+  {
+   "id": "q004",
+   "nivel": 1,
+   "tema": "privatizacao",
+   "texto": "Empresas do governo, como a Petrobras e os Correios, deveriam ser vendidas para empresas privadas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": 0,
+    "sob": -1,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Ambas seguem estatais; governo descartou privatização dos Correios (dez/2025)",
+   "ativa": true
+  },
+  {
+   "id": "q005",
+   "nivel": 1,
+   "tema": "armas",
+   "texto": "Uma pessoa comum, sem antecedentes criminais, deve poder comprar uma arma e guardá-la em casa?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": -1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 10.826/2003; Decreto 11.615/2023",
+   "ativa": true
+  },
+  {
+   "id": "q006",
+   "nivel": 1,
+   "tema": "policia-garantias",
+   "texto": "A polícia deve poder entrar em uma casa sem ordem de um juiz quando suspeita que ali se vende droga?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 5º XI; STF RE 603.616",
+   "ativa": true
+  },
+  {
+   "id": "q007",
+   "nivel": 1,
+   "tema": "casamento-homoafetivo",
+   "texto": "Duas pessoas do mesmo sexo devem poder se casar?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "STF ADI 4277 (2011); CNJ Res. 175/2013",
+   "ativa": true
+  },
+  {
+   "id": "q008",
+   "nivel": 1,
+   "tema": "drogas",
+   "texto": "Uma pessoa deve poder plantar maconha em casa para uso próprio, sem ser punida?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -2,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Conduta segue ilícita como infração administrativa; STF RE 635.659/Tema 506 (2024) afastou só as consequências penais até 6 plantas fêmeas",
+   "ativa": true
+  },
+  {
+   "id": "q009",
+   "nivel": 1,
+   "tema": "salario-minimo",
+   "texto": "O salário mínimo deve aumentar mais do que a inflação todos os anos?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 14.663/2023 (valorização real)",
+   "ativa": true
+  },
+  {
+   "id": "q010",
+   "nivel": 1,
+   "tema": "imposto-grandes-fortunas",
+   "texto": "Deve ser criado um imposto sobre grandes fortunas, cobrado de quem tem muitos milhões em bens?",
+   "contexto": "",
+   "vetor": {
+    "eco": -3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 153, VII prevê o imposto sobre grandes fortunas, nunca regulamentado",
+   "ativa": true
+  },
+  {
+   "id": "q011",
+   "nivel": 1,
+   "tema": "cotas",
+   "texto": "As universidades públicas devem reservar vagas para negros e indígenas?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": -2,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 12.711/2012, renovada pela Lei 14.723/2023",
+   "ativa": true
+  },
+  {
+   "id": "q012",
+   "nivel": 1,
+   "tema": "religiao-escola",
+   "texto": "As escolas públicas devem ter aula de religião obrigatória para todos os alunos?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": 1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 210 §1º (matrícula facultativa)",
+   "ativa": true
+  },
+  {
+   "id": "q013",
+   "nivel": 1,
+   "tema": "militares-poder",
+   "texto": "Em uma crise muito grave, as Forças Armadas deveriam poder assumir o governo do país por um tempo?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 3,
+    "sob": 1,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 arts. 142 e 85; STF ADI 6457",
+   "ativa": true
+  },
+  {
+   "id": "q014",
+   "nivel": 1,
+   "tema": "urna-eletronica",
+   "texto": "A urna eletrônica deveria imprimir um comprovante em papel para o eleitor conferir o voto?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "PEC 135/2019 (voto impresso) rejeitada em 2021",
+   "ativa": true
+  },
+  {
+   "id": "q015",
+   "nivel": 1,
+   "tema": "sus",
+   "texto": "O SUS deve atender de graça qualquer pessoa, inclusive quem tem plano de saúde?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "CF/88 art. 196 (universalidade)",
+   "ativa": true
+  },
+  {
+   "id": "q016",
+   "nivel": 1,
+   "tema": "imigracao",
+   "texto": "O Brasil deve receber imigrantes de países em crise, como venezuelanos e haitianos?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": 0,
+    "sob": -2,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 13.445/2017; Operação Acolhida",
+   "ativa": true
+  },
+  {
+   "id": "q017",
+   "nivel": 1,
+   "tema": "desmatamento",
+   "texto": "Deve ser permitido abrir novas áreas de floresta para plantar e criar gado, se isso gerar empregos?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 3
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Código Florestal (Lei 12.651/2012) limita; meta de desmatamento zero",
+   "ativa": true
+  },
+  {
+   "id": "q018",
+   "nivel": 1,
+   "tema": "letalidade-policial",
+   "texto": "A polícia deve poder atirar para matar um suspeito armado, mesmo quando seria possível prendê-lo?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CP art. 23 (legítima defesa exige necessidade); STF ADPF 635",
+   "ativa": true
+  },
+  {
+   "id": "q019",
+   "nivel": 1,
+   "tema": "maioridade-penal",
+   "texto": "Um jovem de 16 anos que comete um crime grave deve ser julgado e preso como adulto?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 228; ECA",
+   "ativa": true
+  },
+  {
+   "id": "q020",
+   "nivel": 1,
+   "tema": "pessoas-trans",
+   "texto": "Uma pessoa trans deve poder usar o banheiro do gênero com que se identifica?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Sem regra nacional; STF cancelou a repercussão geral do RE 845.779 (2024) sem julgar o mérito; ADPFs 1169-1173 pendentes",
+   "ativa": true
+  },
+  {
+   "id": "q021",
+   "nivel": 1,
+   "tema": "voucher-educacao",
+   "texto": "O governo deve dar dinheiro para a família pagar escola particular, em vez de colocar o filho em escola pública?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem programa nacional de vouchers",
+   "ativa": true
+  },
+  {
+   "id": "q022",
+   "nivel": 1,
+   "tema": "bpc",
+   "texto": "Todo idoso pobre deve receber um salário mínimo do governo, mesmo que nunca tenha contribuído para a Previdência?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "BPC — Lei 8.742/1993 art. 20",
+   "ativa": true
+  },
+  {
+   "id": "q023",
+   "nivel": 1,
+   "tema": "demissao",
+   "texto": "Uma empresa deve poder demitir um funcionário sem pagar multa nem aviso prévio?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CLT; CF/88 art. 7º I e XXI",
+   "ativa": true
+  },
+  {
+   "id": "q024",
+   "nivel": 1,
+   "tema": "importacao",
+   "texto": "Produtos de fora, como celulares e roupas, devem entrar no Brasil pagando pouco imposto?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": -2,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Tarifas elevadas; taxação de compras internacionais (2024)",
+   "ativa": true
+  },
+  {
+   "id": "q025",
+   "nivel": 1,
+   "tema": "terras-indigenas",
+   "texto": "Os povos indígenas devem ter direito às terras onde seus antepassados viviam, mesmo que hoje existam fazendas lá?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": 0,
+    "sob": -1,
+    "amb": -2
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "STF rejeitou o marco temporal em 2023 (RE 1.017.365) e de novo ao julgar a Lei 14.701/2023 (ADC 87 e ADIs 7582/7583/7586), acórdão publicado em 18/03/2026",
+   "ativa": true
+  },
+  {
+   "id": "q026",
+   "nivel": 1,
+   "tema": "educacao-sexual",
+   "texto": "As escolas devem ensinar aos adolescentes sobre sexo e como evitar gravidez?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -2,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "BNCC; Lei 13.798/2019",
+   "ativa": true
+  },
+  {
+   "id": "q027",
+   "nivel": 1,
+   "tema": "controle-precos",
+   "texto": "Quando o preço da gasolina, do gás ou da comida sobe muito, o governo deve tabelar o preço?",
+   "contexto": "",
+   "vetor": {
+    "eco": -3,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem tabelamento desde os anos 1990",
+   "ativa": true
+  },
+  {
+   "id": "q028",
+   "nivel": 1,
+   "tema": "hino-nacional",
+   "texto": "Os alunos devem cantar o hino nacional na escola toda semana?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 1,
+    "sob": 2,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 12.031/2009 (obrigatório semanal no fundamental)",
+   "ativa": true
+  },
+  {
+   "id": "q029",
+   "nivel": 1,
+   "tema": "censura-imprensa",
+   "texto": "O governo deve poder proibir um jornal de publicar uma notícia que ele considera mentirosa?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 220; STF ADPF 130",
+   "ativa": true
+  },
+  {
+   "id": "q030",
+   "nivel": 1,
+   "tema": "gasto-militar",
+   "texto": "O Brasil deve gastar mais dinheiro com as Forças Armadas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 1,
+    "sob": 2,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Gasto estável em torno de 1% do PIB",
+   "ativa": true
+  },
+  {
+   "id": "q031",
+   "nivel": 1,
+   "tema": "caca",
+   "texto": "A caça de animais silvestres deve ser permitida em algumas regiões, como acontece em outros países?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 0,
+    "sob": 0,
+    "amb": 2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 5.197/1967",
+   "ativa": true
+  },
+  {
+   "id": "q032",
+   "nivel": 1,
+   "tema": "agro-impostos",
+   "texto": "As grandes fazendas e empresas do agronegócio devem pagar menos impostos do que as outras empresas, porque produzem os alimentos do país?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 1,
+    "amb": 1
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Benefícios fiscais vigentes (Lei Kandir, isenções de insumos)",
+   "ativa": true
+  },
+  {
+   "id": "q033",
+   "nivel": 1,
+   "tema": "juros-cartao",
+   "texto": "Os bancos devem poder cobrar os juros que quiserem no cartão de crédito?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 14.690/2023 (teto de 100% do saldo)",
+   "ativa": true
+  },
+  {
+   "id": "q034",
+   "nivel": 1,
+   "tema": "objecao-consciencia",
+   "texto": "Um médico deve poder se recusar, por motivo religioso, a fazer um aborto que a lei permite?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": -1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Código de Ética Médica (objeção de consciência)",
+   "ativa": true
+  },
+  {
+   "id": "q035",
+   "nivel": 1,
+   "tema": "liberdade-expressao",
+   "texto": "Qualquer pessoa deve poder dizer o que pensa na internet, mesmo que ofenda algum grupo, sem ser punida?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": -3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Injúria racial, homofobia (STF ADO 26) e outros crimes de opinião",
+   "ativa": true
+  },
+  {
+   "id": "q036",
+   "nivel": 1,
+   "tema": "prisao-provisoria",
+   "texto": "Quem é preso por um crime pequeno, como furto, deve responder ao processo em liberdade?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "CPP art. 310 (audiência de custódia); prisão preventiva é exceção",
+   "ativa": true
+  },
+  {
+   "id": "q037",
+   "nivel": 1,
+   "tema": "eutanasia",
+   "texto": "Um adulto com uma doença sem cura e muito sofrimento deve poder escolher morrer com ajuda de um médico?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -2,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CP art. 122",
+   "ativa": true
+  },
+  {
+   "id": "q038",
+   "nivel": 1,
+   "tema": "vigilancia",
+   "texto": "As câmeras que reconhecem o rosto das pessoas nas ruas devem ser proibidas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Em uso em vários estados (SP, BA, RJ)",
+   "ativa": true
+  },
+  {
+   "id": "q039",
+   "nivel": 1,
+   "tema": "trabalho-aplicativo",
+   "texto": "As empresas de aplicativo, como as de transporte e entrega, devem ser obrigadas a dar carteira assinada a motoristas e entregadores?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem obrigação de vínculo; STF Tema 1291 (RE 1.446.336) sem julgamento de mérito até set/2026",
+   "ativa": true
+  },
+  {
+   "id": "q040",
+   "nivel": 1,
+   "tema": "homeschooling",
+   "texto": "Os pais devem poder educar os filhos em casa, sem colocá-los na escola?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "STF RE 888.815 (2018): sem lei, não é permitido",
+   "ativa": true
+  },
+  {
+   "id": "q041",
+   "nivel": 1,
+   "tema": "carros-poluicao",
+   "texto": "As cidades devem proibir carros no centro em alguns dias, para reduzir a poluição?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": -2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Rodízio existe em SP, mas por trânsito; sem proibição ambiental ampla",
+   "ativa": true
+  },
+  {
+   "id": "q042",
+   "nivel": 1,
+   "tema": "fabrica-poluidora",
+   "texto": "Uma fábrica que polui um rio deve ser fechada, mesmo que muita gente perca o emprego?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": -3
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Regra é multa e adequação (Lei 9.605/1998); fechamento é raro",
+   "ativa": true
+  },
+  {
+   "id": "q043",
+   "nivel": 1,
+   "tema": "fundo-amazonia",
+   "texto": "O Brasil deve aceitar dinheiro de outros países para proteger a Amazônia, mesmo que, em troca, eles queiram participar das decisões sobre a floresta?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": -2,
+    "amb": -1
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Fundo Amazônia (Noruega, Alemanha, outros)",
+   "ativa": true
+  },
+  {
+   "id": "q044",
+   "nivel": 1,
+   "tema": "familias-diversas",
+   "texto": "As crianças devem aprender na escola que existem vários tipos de família, inclusive com dois pais ou duas mães?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Sem regra nacional; conteúdo varia por rede de ensino",
+   "ativa": true
+  },
+  {
+   "id": "q045",
+   "nivel": 2,
+   "tema": "religiao-estado",
+   "texto": "Igrejas e templos devem ser isentos de impostos?",
+   "contexto": "Hoje a Constituição proíbe cobrar impostos de templos de qualquer religião.",
+   "vetor": {
+    "eco": 1,
+    "soc": 2,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "CF/88 art. 150 VI b",
+   "ativa": true
+  },
+  {
+   "id": "q046",
+   "nivel": 2,
+   "tema": "terras-estrangeiros",
+   "texto": "Uma empresa estrangeira deve poder comprar grandes áreas de terra no Brasil, como fazendas inteiras?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 0,
+    "sob": -3,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 5.709/1971; parecer AGU LA-01/2010",
+   "ativa": true
+  },
+  {
+   "id": "q047",
+   "nivel": 2,
+   "tema": "petroleo-amazonia",
+   "texto": "O Brasil deve explorar petróleo no mar perto da foz do rio Amazonas, se isso gerar empregos e dinheiro para o governo?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 1,
+    "amb": 3
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Ibama licenciou o poço Morpho no bloco FZA-M-59 (out/2025) e autorizou três poços adicionais (set/2026)",
+   "ativa": true
+  },
+  {
+   "id": "q048",
+   "nivel": 2,
+   "tema": "stf-redes",
+   "texto": "Um juiz do Supremo deve poder mandar tirar do ar um perfil de rede social por publicar o que o tribunal considera mentira sobre a eleição?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Inquéritos e decisões do STF/TSE desde 2019",
+   "ativa": true
+  },
+  {
+   "id": "q049",
+   "nivel": 2,
+   "tema": "identidade-genero",
+   "texto": "Uma pessoa deve poder mudar o nome e o sexo nos documentos sem fazer cirurgia?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": -1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "STF ADI 4275 (2018); Provimento CNJ 73/2018",
+   "ativa": true
+  },
+  {
+   "id": "q050",
+   "nivel": 2,
+   "tema": "pre-sal",
+   "texto": "O petróleo que está no fundo do mar brasileiro deve ser do governo, e não das empresas que o extraem?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 2,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "CF/88 art. 20 e 176; Lei 12.351/2010 (partilha)",
+   "ativa": true
+  },
+  {
+   "id": "q051",
+   "nivel": 2,
+   "tema": "midia-estrangeira",
+   "texto": "Empresas estrangeiras devem poder ser donas de jornais e canais de TV no Brasil?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 0,
+    "sob": -2,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 222 (limite de 30%)",
+   "ativa": true
+  },
+  {
+   "id": "q052",
+   "nivel": 2,
+   "tema": "remicao-pena",
+   "texto": "Um preso deve poder reduzir a pena estudando e trabalhando na cadeia?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 7.210/1984 art. 126",
+   "ativa": true
+  },
+  {
+   "id": "q053",
+   "nivel": 2,
+   "tema": "ditadura-anistia",
+   "texto": "Os militares que torturaram pessoas durante a ditadura (1964–1985) deveriam ter sido julgados e punidos?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -2,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 6.683/1979 (anistia); STF ADPF 153",
+   "ativa": true
+  },
+  {
+   "id": "q054",
+   "nivel": 2,
+   "tema": "moeda-comum",
+   "texto": "O Brasil deve criar uma moeda comum com países vizinhos, como a Argentina, parecida com o euro?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": -3,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Proposta discutida em 2023, sem avanço",
+   "ativa": true
+  },
+  {
+   "id": "q055",
+   "nivel": 2,
+   "tema": "cotas-empresas",
+   "texto": "As empresas grandes devem ser obrigadas por lei a ter uma parte mínima de mulheres e negros na diretoria?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": -2,
+    "pod": 1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem lei nacional que imponha cotas de gênero ou raça em diretorias de empresas privadas",
+   "ativa": true
+  },
+  {
+   "id": "q056",
+   "nivel": 2,
+   "tema": "imposto-digital",
+   "texto": "Empresas estrangeiras que ganham muito dinheiro no Brasil, como as de streaming e redes sociais, devem pagar um imposto extra aqui?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 2,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem imposto digital específico sobre empresas estrangeiras de tecnologia",
+   "ativa": true
+  },
+  {
+   "id": "q057",
+   "nivel": 2,
+   "tema": "agrotoxicos",
+   "texto": "Agrotóxicos que são proibidos na Europa devem ser permitidos no Brasil?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 1,
+    "amb": 3
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 14.785/2023; vários produtos banidos na UE seguem registrados",
+   "ativa": true
+  },
+  {
+   "id": "q058",
+   "nivel": 2,
+   "tema": "prisao-segunda-instancia",
+   "texto": "Quem é condenado e depois perde o recurso em um tribunal deve ir para a cadeia, mesmo podendo ainda recorrer aos tribunais superiores?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "STF ADCs 43/44/54 (2019)",
+   "ativa": true
+  },
+  {
+   "id": "q059",
+   "nivel": 2,
+   "tema": "imposto-sindical",
+   "texto": "Todos os trabalhadores devem ser obrigados a pagar uma contribuição anual aos sindicatos?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 13.467/2017 tornou facultativa",
+   "ativa": true
+  },
+  {
+   "id": "q060",
+   "nivel": 2,
+   "tema": "escola-civico-militar",
+   "texto": "As escolas públicas devem ser administradas em parceria com militares (escolas cívico-militares)?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Programa federal encerrado em 2023; o modelo persiste em redes estaduais, mas é exceção na rede pública",
+   "ativa": true
+  },
+  {
+   "id": "q061",
+   "nivel": 2,
+   "tema": "ocupacao-urbana",
+   "texto": "Famílias sem casa devem poder morar em prédios abandonados no centro da cidade?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Ocupação é esbulho (CC art. 1.210), embora haja função social (CF art. 182)",
+   "ativa": true
+  },
+  {
+   "id": "q062",
+   "nivel": 2,
+   "tema": "remocao-area-risco",
+   "texto": "A prefeitura deve poder retirar à força quem mora em área de risco de deslizamento, para proteger essas pessoas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Prática varia; remoções compulsórias são contestadas judicialmente",
+   "ativa": true
+  },
+  {
+   "id": "q063",
+   "nivel": 2,
+   "tema": "livre-comercio",
+   "texto": "O Brasil deve fazer acordos de livre comércio que reduzam impostos de importação, mesmo que algumas fábricas brasileiras percam clientes para produtos de fora?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": -2,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Acordo Mercosul-União Europeia em vigor provisório desde 1º/5/2026 (Decreto Legislativo 14/2026; Decreto 12.953/2026)",
+   "ativa": true
+  },
+  {
+   "id": "q064",
+   "nivel": 2,
+   "tema": "politica-sala-aula",
+   "texto": "Os professores devem poder falar sobre política em sala de aula?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -2,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "STF ADI 5537 e outras (2020) derrubaram leis 'Escola sem Partido'",
+   "ativa": true
+  },
+  {
+   "id": "q065",
+   "nivel": 2,
+   "tema": "medicos-estrangeiros",
+   "texto": "O governo deve trazer médicos de outros países para atender em cidades pequenas, mesmo sem exigir que eles passem na prova brasileira de revalidação do diploma?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": -1,
+    "pod": 0,
+    "sob": -2,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Programa Mais Médicos (Lei 12.871/2013), retomado em 2023",
+   "ativa": true
+  },
+  {
+   "id": "q066",
+   "nivel": 2,
+   "tema": "vacina-obrigatoria",
+   "texto": "A vacina deve ser obrigatória, com multa ou perda de benefícios para quem se recusa?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "STF ADIs 6586/6587 (2020): obrigatória com sanções indiretas",
+   "ativa": true
+  },
+  {
+   "id": "q067",
+   "nivel": 2,
+   "tema": "negociado-legislado",
+   "texto": "Trabalhador e patrão devem poder combinar entre si regras diferentes das que estão na lei, como mais horas por mais dinheiro?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": -1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CLT art. 611-A/B: só por acordo coletivo, com limites",
+   "ativa": true
+  },
+  {
+   "id": "q068",
+   "nivel": 2,
+   "tema": "reforma-agraria",
+   "texto": "Fazendas grandes que não produzem devem ser desapropriadas pelo governo, com pagamento ao dono, e divididas entre famílias sem terra?",
+   "contexto": "",
+   "vetor": {
+    "eco": -3,
+    "soc": -1,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "CF/88 arts. 184-186 (previsto; pouco executado)",
+   "ativa": true
+  },
+  {
+   "id": "q069",
+   "nivel": 2,
+   "tema": "isolamento-preso",
+   "texto": "Um preso considerado muito perigoso deve poder ficar isolado por anos, sem visitas e sem sol?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "RDD (LEP art. 52) tem limites de prazo e garante banho de sol",
+   "ativa": true
+  },
+  {
+   "id": "q070",
+   "nivel": 2,
+   "tema": "grandes-obras",
+   "texto": "Grandes obras, como hidrelétricas e estradas na Amazônia, devem ser feitas mesmo contra a vontade das comunidades que vivem lá?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 1,
+    "sob": 1,
+    "amb": 3
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Convenção 169 da OIT (consulta prévia)",
+   "ativa": true
+  },
+  {
+   "id": "q071",
+   "nivel": 2,
+   "tema": "industria-nacional",
+   "texto": "O Brasil deve fabricar seus próprios remédios, chips e armas, mesmo que fique mais caro do que comprar de fora?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 3,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Políticas parciais (Nova Indústria Brasil), sem consenso",
+   "ativa": true
+  },
+  {
+   "id": "q072",
+   "nivel": 2,
+   "tema": "discriminacao-contratacao",
+   "texto": "O dono de uma empresa deve poder recusar contratar alguém por causa da religião ou da orientação sexual dessa pessoa?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 2,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 9.029/1995; STF ADO 26",
+   "ativa": true
+  },
+  {
+   "id": "q073",
+   "nivel": 2,
+   "tema": "cassinos",
+   "texto": "Cassinos e jogos de azar devem ser liberados no Brasil?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": -2,
+    "pod": -1,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Cassinos, bingos e jogo do bicho seguem proibidos; PL 2234/2022 parado no Senado (urgência rejeitada em dez/2025). Apostas online reguladas pela Lei 14.790/2023",
+   "ativa": true
+  },
+  {
+   "id": "q074",
+   "nivel": 2,
+   "tema": "corte-arvores-propriedade",
+   "texto": "Quem tem um sítio ou fazenda deve poder cortar as árvores da própria terra sem pedir licença?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": -1,
+    "sob": 0,
+    "amb": 3
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Código Florestal (reserva legal, APP, autorização de supressão)",
+   "ativa": true
+  },
+  {
+   "id": "q075",
+   "nivel": 2,
+   "tema": "carros-combustao",
+   "texto": "A venda de carros novos a gasolina deve ser proibida a partir de uma certa data, como na Europa?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": -3
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem data de proibição no Brasil",
+   "ativa": true
+  },
+  {
+   "id": "q076",
+   "nivel": 2,
+   "tema": "divida-climatica",
+   "texto": "O Brasil deve cobrar dinheiro dos países ricos porque eles poluíram muito mais no passado?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": 2,
+    "amb": -2
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Posição negociada em COPs, sem resultado definido",
+   "ativa": true
+  },
+  {
+   "id": "q077",
+   "nivel": 2,
+   "tema": "internacao-compulsoria",
+   "texto": "Pessoas em situação de rua que usam drogas devem poder ser internadas à força?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 13.840/2019 permite internação involuntária em casos definidos",
+   "ativa": true
+  },
+  {
+   "id": "q078",
+   "nivel": 2,
+   "tema": "imposto-heranca",
+   "texto": "Quem herda muito dinheiro deve pagar um imposto alto sobre a herança?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "ITCMD com alíquota máxima de 8%; EC 132/2023 tornou a progressividade obrigatória",
+   "ativa": true
+  },
+  {
+   "id": "q079",
+   "nivel": 2,
+   "tema": "porte-drogas",
+   "texto": "Quem é pego com pequena quantidade de maconha para uso próprio deve responder por crime?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "STF RE 635.659/Tema 506 (2024): porte de maconha para uso pessoal é infração administrativa, não crime",
+   "ativa": true
+  },
+  {
+   "id": "q080",
+   "nivel": 2,
+   "tema": "financiamento-campanha",
+   "texto": "As empresas devem poder doar dinheiro para campanhas de candidatos?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "STF ADI 4650 (2015); fundo público",
+   "ativa": true
+  },
+  {
+   "id": "q081",
+   "nivel": 2,
+   "tema": "chinas-investimento",
+   "texto": "Empresas de outros países, inclusive da China, devem poder comprar portos, hidrelétricas e redes de energia no Brasil?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": -3,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Participação estrangeira permitida em concessões e ativos de energia",
+   "ativa": true
+  },
+  {
+   "id": "q082",
+   "nivel": 3,
+   "tema": "maioria-minorias",
+   "texto": "Se a maioria dos brasileiros votasse para tirar um direito de um grupo pequeno de pessoas, o resultado da votação deveria valer?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 60 §4º (cláusulas pétreas)",
+   "ativa": true
+  },
+  {
+   "id": "q083",
+   "nivel": 3,
+   "tema": "desobediencia-civil",
+   "texto": "Quando uma lei é injusta, uma pessoa tem o direito de desobedecê-la?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": -3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Ordenamento não reconhece desobediência como excludente",
+   "ativa": true
+  },
+  {
+   "id": "q084",
+   "nivel": 3,
+   "tema": "venda-orgaos",
+   "texto": "Uma pessoa deve poder vender um rim para quem pagar mais?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": -1,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 199 §4º; Lei 9.434/1997",
+   "ativa": true
+  },
+  {
+   "id": "q085",
+   "nivel": 3,
+   "tema": "banco-central",
+   "texto": "O Banco Central deve seguir ordens do presidente da República sobre os juros?",
+   "contexto": "Hoje o Banco Central tem autonomia: o presidente não pode demitir o dirigente dele por discordar dos juros.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "LC 179/2021",
+   "ativa": true
+  },
+  {
+   "id": "q086",
+   "nivel": 3,
+   "tema": "origem-riqueza",
+   "texto": "A riqueza de um país é criada principalmente por quem abre empresas e corre riscos, e não por quem trabalha nelas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra",
+   "ativa": true
+  },
+  {
+   "id": "q087",
+   "nivel": 3,
+   "tema": "mentira-estado",
+   "texto": "É aceitável que o governo esconda a verdade da população durante uma crise, se for para evitar pânico?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra",
+   "ativa": true
+  },
+  {
+   "id": "q088",
+   "nivel": 3,
+   "tema": "ciencia-religiao",
+   "texto": "Quando a ciência e a religião discordam, a lei deve seguir a ciência?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra (Estado laico, CF art. 19 I)",
+   "ativa": true
+  },
+  {
+   "id": "q089",
+   "nivel": 3,
+   "tema": "investimento-privilegio",
+   "texto": "Para atrair uma fábrica estrangeira que gere muitos empregos, o Brasil deve aceitar cobrar dela menos impostos e exigir menos regras ambientais do que exige das empresas brasileiras?",
+   "contexto": "",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": -2,
+    "amb": 2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Isonomia tributária e ambiental (CF art. 150 II; Lei 6.938/1981)",
+   "ativa": true
+  },
+  {
+   "id": "q090",
+   "nivel": 3,
+   "tema": "desigualdade",
+   "texto": "A diferença entre ricos e pobres é um problema em si, mesmo quando a vida dos pobres está melhorando?",
+   "contexto": "",
+   "vetor": {
+    "eco": -3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra",
+   "ativa": true
+  },
+  {
+   "id": "q091",
+   "nivel": 3,
+   "tema": "patria-liberdade",
+   "texto": "Um brasileiro deve aceitar perder algumas liberdades para o país ficar mais forte diante do mundo?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 2,
+    "sob": 3,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra",
+   "ativa": true
+  },
+  {
+   "id": "q092",
+   "nivel": 3,
+   "tema": "tradicao",
+   "texto": "A tradição de um povo merece ser preservada mesmo quando parte dela é considerada errada hoje?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 3,
+    "pod": 0,
+    "sob": 1,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra",
+   "ativa": true
+  },
+  {
+   "id": "q093",
+   "nivel": 3,
+   "tema": "geracoes-futuras",
+   "texto": "As pessoas que ainda vão nascer têm o direito de limitar o quanto nós consumimos hoje?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": -3
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra (CF art. 225 fala em 'futuras gerações')",
+   "ativa": true
+  },
+  {
+   "id": "q094",
+   "nivel": 3,
+   "tema": "dados-pesquisa",
+   "texto": "Uma pessoa deve poder proibir que seus dados de saúde sejam usados em pesquisas, mesmo que isso atrase a descoberta de curas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "LGPD (Lei 13.709/2018)",
+   "ativa": true
+  },
+  {
+   "id": "q095",
+   "nivel": 3,
+   "tema": "renda-basica",
+   "texto": "O governo deve pagar uma renda mensal para todos os brasileiros, inclusive para quem não quer trabalhar?",
+   "contexto": "",
+   "vetor": {
+    "eco": -3,
+    "soc": -1,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 10.835/2004 prevê renda básica, nunca implementada universalmente",
+   "ativa": true
+  },
+  {
+   "id": "q096",
+   "nivel": 3,
+   "tema": "governo-forte",
+   "texto": "É melhor um governo que decide sozinho e rápido do que um Congresso que demora, mas discute tudo?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Crença, não regra",
+   "ativa": true
+  },
+  {
+   "id": "q097",
+   "nivel": 3,
+   "tema": "refugiados-maioria",
+   "texto": "Um país deve fechar as fronteiras para refugiados quando a maioria da população pede isso?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 1,
+    "sob": 3,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Lei 9.474/1997; Convenção de 1951",
+   "ativa": true
+  },
+  {
+   "id": "q098",
+   "nivel": 3,
+   "tema": "propriedade-absoluta",
+   "texto": "O direito de uma pessoa sobre o que é dela deve valer acima de qualquer necessidade da coletividade?",
+   "contexto": "",
+   "vetor": {
+    "eco": 3,
+    "soc": 0,
+    "pod": -1,
+    "sob": 0,
+    "amb": 1
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 5º XXIII (função social)",
+   "ativa": true
+  },
+  {
+   "id": "q099",
+   "nivel": 3,
+   "tema": "moeda-digital",
+   "texto": "O Brasil deve ter uma moeda digital do Banco Central, mesmo que o governo passe a poder ver todas as compras das pessoas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 2,
+    "sob": 1,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem moeda digital em circulação; o BC desligou a plataforma do Drex em nov/2025 e reformulou o projeto",
+   "ativa": true
+  },
+  {
+   "id": "q100",
+   "nivel": 3,
+   "tema": "prisao-por-ideias",
+   "texto": "Uma pessoa deve poder ser presa por defender publicamente a volta da ditadura?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Lei 14.197/2021 pune atos concretos contra o Estado Democrático de Direito; o alcance sobre a defesa abstrata de ideias é controverso",
+   "ativa": true
+  },
+  {
+   "id": "q101",
+   "nivel": 1,
+   "tema": "celular-policia",
+   "texto": "Uma pessoa deve poder se recusar a mostrar o celular para a polícia durante uma abordagem na rua?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": -3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Acesso ao conteúdo do celular exige autorização judicial (jurisprudência do STJ)",
+   "ativa": true
+  },
+  {
+   "id": "q102",
+   "nivel": 2,
+   "tema": "tarifa-zero",
+   "texto": "O ônibus deve ser de graça, pago com impostos, para diminuir o número de carros nas ruas?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": -2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Tarifa zero existe em poucas cidades; regra é tarifa paga",
+   "ativa": true
+  },
+  {
+   "id": "q103",
+   "nivel": 1,
+   "tema": "construcao-praia",
+   "texto": "Deve ser proibido construir casas e hotéis em dunas e na beira de rios, mesmo que o terreno seja do dono?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": -3
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Código Florestal (APP); Lei 7.661/1988 (zona costeira)",
+   "ativa": true
+  },
+  {
+   "id": "q104",
+   "nivel": 2,
+   "tema": "mineracao-indigena",
+   "texto": "A mineração em terras indígenas deve ser permitida, se os indígenas concordarem e receberem parte do lucro?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 1,
+    "amb": 2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "CF/88 art. 231 §3º exige lei específica, nunca aprovada",
+   "ativa": true
+  },
+  {
+   "id": "q105",
+   "nivel": 2,
+   "tema": "voto-preso",
+   "texto": "Um preso que ainda não foi condenado deve poder votar nas eleições?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": -1,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Res. TSE 23.219/2010 (presos provisórios votam); condenados não (CF art. 15 III)",
+   "ativa": true
+  },
+  {
+   "id": "q106",
+   "nivel": 3,
+   "tema": "criptografia",
+   "texto": "As pessoas devem poder usar aplicativos de mensagem que nem a polícia consegue ler, mesmo sabendo que criminosos também usam?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": -3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Criptografia de ponta a ponta em uso, sem lei que a proíba; ADI 5527/ADPF 403 com votos dos relatores pela proteção, sem conclusão definitiva",
+   "ativa": true
+  },
+  {
+   "id": "q107",
+   "nivel": 1,
+   "tema": "sacola-plastico",
+   "texto": "Sacolas e canudos de plástico devem ser proibidos em todo o país?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 1,
+    "sob": 0,
+    "amb": -2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Proibições só em alguns estados e cidades",
+   "ativa": true
+  },
+  {
+   "id": "q108",
+   "nivel": 2,
+   "tema": "obras-amazonia-estatais",
+   "texto": "O governo deve construir grandes obras na Amazônia, como hidrelétricas e ferrovias, mesmo derrubando floresta para isso?",
+   "contexto": "",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 1,
+    "amb": 3
+   },
+   "status_quo": "neutro",
+   "fonte_status_quo": "Obras em andamento e paralisadas coexistem (Ferrogrão, BR-319)",
+   "ativa": true
+  },
+  {
+   "id": "q109",
+   "nivel": 1,
+   "tema": "multas-ambientais",
+   "texto": "As multas ambientais aplicadas a pequenos produtores rurais devem ser perdoadas?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 2
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem perdão geral de multas; existem programas de conversão de multas em serviços ambientais",
+   "ativa": true
+  },
+  {
+   "id": "q110",
+   "nivel": 2,
+   "tema": "licenciamento",
+   "texto": "A licença para construir uma estrada ou uma fábrica deveria sair mais rápido, com menos estudos sobre os danos à natureza?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": -1,
+    "sob": 0,
+    "amb": 3
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 15.190/2025 (Lei Geral do Licenciamento Ambiental): 52 vetos derrubados em nov/2025, em vigor desde fev/2026; ADIs 7913, 7916 e 7919 no STF",
+   "ativa": true
+  },
+  {
+   "id": "q111",
+   "nivel": 1,
+   "tema": "desocupacao-terras",
+   "texto": "A polícia deve poder usar a força para retirar famílias sem-terra que ocuparam uma fazenda?",
+   "contexto": "",
+   "vetor": {
+    "eco": 1,
+    "soc": 0,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Reintegração de posse com força policial é prática corrente (CPC art. 554)",
+   "ativa": true
+  },
+  {
+   "id": "q112",
+   "nivel": 2,
+   "tema": "greve-servicos-essenciais",
+   "texto": "Trabalhadores de hospitais, ônibus e escolas devem poder fazer greve, mesmo deixando a população sem o serviço?",
+   "contexto": "",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "sim",
+   "fonte_status_quo": "Lei 7.783/1989 permite, com serviços mínimos",
+   "ativa": true
+  },
+  {
+   "id": "q113",
+   "nivel": 1,
+   "tema": "toque-recolher",
+   "texto": "Em bairros com muita violência, o governo deve poder proibir as pessoas de sair de casa à noite?",
+   "contexto": "",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "status_quo": "nao",
+   "fonte_status_quo": "Sem previsão fora do estado de defesa/sítio (CF arts. 136-139)",
+   "ativa": true
+  }
+ ]
+}

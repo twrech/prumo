@@ -1,0 +1,183 @@
+{
+ "versao": "1.0-provisorio",
+ "nota": "Coordenadas em [-1, 1] por eixo (eco, soc, pod, sob, amb). Provisórias: revalidar quando os partidos forem posicionados na etapa 2. Rótulo = arquétipo mais próximo (distância euclidiana); se intensidade < 15%, usar 'centrista'.",
+ "limiar_centrista": 15,
+ "arquetipos": [
+  {
+   "id": "socialista",
+   "nome": "Socialista",
+   "coordenadas": {
+    "eco": -0.8,
+    "soc": -0.6,
+    "pod": 0.2,
+    "sob": 0.3,
+    "amb": -0.3
+   },
+   "curta": "Governo forte na economia, liberdade nos costumes.",
+   "longa": "Você acha que a riqueza deve ser repartida e que o governo deve controlar setores importantes da economia. Nos costumes, defende a liberdade de cada pessoa e os direitos das minorias. Aceita um Estado firme quando é para proteger os mais fracos e a soberania do país.",
+   "termos_relacionados": [
+    "esquerda",
+    "socialismo democrático",
+    "trabalhismo radical"
+   ]
+  },
+  {
+   "id": "trabalhista",
+   "nome": "Trabalhista",
+   "coordenadas": {
+    "eco": -0.6,
+    "soc": 0.0,
+    "pod": 0.1,
+    "sob": 0.6,
+    "amb": 0.3
+   },
+   "curta": "Governo que protege o trabalhador e a indústria nacional.",
+   "longa": "Para você, o governo deve gerar emprego, proteger o trabalhador e fazer o país crescer com indústria própria e grandes obras. Nos costumes, você é moderado: nem quer virar tudo de cabeça para baixo, nem voltar ao passado. Prefere o desenvolvimento à preservação quando os dois entram em conflito.",
+   "termos_relacionados": [
+    "esquerda nacionalista",
+    "desenvolvimentismo",
+    "getulismo"
+   ]
+  },
+  {
+   "id": "social-democrata",
+   "nome": "Social-democrata",
+   "coordenadas": {
+    "eco": -0.4,
+    "soc": -0.4,
+    "pod": -0.2,
+    "sob": -0.3,
+    "amb": -0.2
+   },
+   "curta": "Mercado com regras, direitos garantidos, Estado que cuida.",
+   "longa": "Você aceita o mercado, mas quer um governo que garanta saúde, educação e proteção social para todos. Defende liberdades civis, direitos das minorias e cooperação com outros países. Quer crescer respeitando o meio ambiente.",
+   "termos_relacionados": [
+    "centro-esquerda",
+    "Estado de bem-estar social"
+   ]
+  },
+  {
+   "id": "verde",
+   "nome": "Verde",
+   "coordenadas": {
+    "eco": -0.4,
+    "soc": -0.7,
+    "pod": -0.5,
+    "sob": -0.4,
+    "amb": -0.95
+   },
+   "curta": "A natureza e os direitos vêm antes do crescimento.",
+   "longa": "Para você, proteger a floresta, o clima e os povos tradicionais é a prioridade número um, mesmo que custe crescimento. Nos costumes, é fortemente progressista. Desconfia do poder do Estado e prefere cooperação internacional a nacionalismo.",
+   "termos_relacionados": [
+    "ecossocialismo",
+    "ambientalismo",
+    "socioambientalismo"
+   ]
+  },
+  {
+   "id": "liberal-progressista",
+   "nome": "Liberal progressista",
+   "coordenadas": {
+    "eco": 0.6,
+    "soc": -0.6,
+    "pod": -0.5,
+    "sob": -0.6,
+    "amb": -0.2
+   },
+   "curta": "Liberdade na economia e liberdade nos costumes.",
+   "longa": "Você quer menos governo na economia e menos governo na vida privada. Defende mercado livre, comércio aberto com o mundo e, ao mesmo tempo, direitos das minorias e liberdade individual. Aceita regras ambientais razoáveis.",
+   "termos_relacionados": [
+    "liberalismo social",
+    "centro liberal"
+   ]
+  },
+  {
+   "id": "libertario",
+   "nome": "Libertário",
+   "coordenadas": {
+    "eco": 0.9,
+    "soc": -0.3,
+    "pod": -0.9,
+    "sob": -0.3,
+    "amb": 0.3
+   },
+   "curta": "O menor governo possível, em tudo.",
+   "longa": "Para você, o governo deve fazer o mínimo: nada de impostos altos, empresas públicas ou regras sobre a vida das pessoas. Cada um é dono de si e do que produz. Desconfia profundamente de qualquer autoridade e prefere que a natureza seja cuidada por donos privados, não pelo Estado.",
+   "termos_relacionados": [
+    "libertarianismo",
+    "anarcocapitalismo",
+    "minarquismo"
+   ]
+  },
+  {
+   "id": "liberal-conservador",
+   "nome": "Liberal conservador",
+   "coordenadas": {
+    "eco": 0.7,
+    "soc": 0.5,
+    "pod": 0.0,
+    "sob": -0.2,
+    "amb": 0.4
+   },
+   "curta": "Mercado livre e valores tradicionais.",
+   "longa": "Você acredita em mercado livre, privatizações e menos impostos, e ao mesmo tempo valoriza família, religião e tradição. Quer ordem, mas dentro da lei. Aberto ao comércio com o mundo. Prefere o desenvolvimento quando ele entra em conflito com regras ambientais.",
+   "termos_relacionados": [
+    "centro-direita",
+    "liberalismo conservador",
+    "direita liberal"
+   ]
+  },
+  {
+   "id": "conservador",
+   "nome": "Conservador",
+   "coordenadas": {
+    "eco": 0.2,
+    "soc": 0.8,
+    "pod": 0.2,
+    "sob": 0.3,
+    "amb": 0.2
+   },
+   "curta": "Família, fé e ordem acima de tudo.",
+   "longa": "Para você, a sociedade se sustenta na moral tradicional, na família e na religião, e o Estado deve protegê-las. Na economia, é moderado: aceita mercado, mas não é contra o governo ajudar. Quer ordem e segurança, e defende o que é nacional.",
+   "termos_relacionados": [
+    "direita tradicional",
+    "conservadorismo cristão"
+   ]
+  },
+  {
+   "id": "nacionalista-autoritario",
+   "nome": "Nacionalista de ordem",
+   "coordenadas": {
+    "eco": 0.3,
+    "soc": 0.7,
+    "pod": 0.9,
+    "sob": 0.9,
+    "amb": 0.6
+   },
+   "curta": "Governo forte, pátria em primeiro lugar.",
+   "longa": "Para você, o país precisa de um governo forte, decidido, que garanta ordem e segurança sem ficar preso a garantias e burocracias. A pátria vem primeiro: fronteiras, Forças Armadas, indústria nacional. Nos costumes, é fortemente conservador. Prefere explorar os recursos do país a preservá-los.",
+   "termos_relacionados": [
+    "direita nacionalista",
+    "conservadorismo autoritário"
+   ]
+  },
+  {
+   "id": "centrista",
+   "nome": "Centrista",
+   "coordenadas": {
+    "eco": 0.0,
+    "soc": 0.0,
+    "pod": 0.0,
+    "sob": 0.0,
+    "amb": 0.0
+   },
+   "curta": "Sem lado fixo: decide caso a caso.",
+   "longa": "Você não se encaixa em um lado: em cada tema, pesa os argumentos e escolhe o que parece funcionar. Isso pode significar equilíbrio real ou posições fortes que se anulam entre os eixos — veja o detalhe de cada eixo para entender qual é o seu caso.",
+   "termos_relacionados": [
+    "centro",
+    "pragmatismo",
+    "moderado"
+   ]
+  }
+ ]
+}
