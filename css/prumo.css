@@ -161,6 +161,8 @@ button:disabled:hover { border-color: var(--borda); }
 .legenda-grafico i.faixa { border-top-width: 9px; border-top-color: var(--cobre); opacity: .25; }
 
 .cartoes { display: grid; gap: 1rem; }
+.titulo-cargo { margin: 2rem 0 .75rem; font-size: 1.05rem; color: var(--texto-suave); font-weight: 600; }
+.titulo-cargo:first-child { margin-top: 0; }
 .cartao-eixo {
   background: var(--superficie); border: 1px solid var(--borda);
   border-radius: var(--raio); padding: 1.1rem 1.2rem;
@@ -224,7 +226,11 @@ dialog li { margin-bottom: .5rem; }
   .respostas { grid-template-columns: 1fr 1fr auto; }
   .respostas .pular { grid-column: auto; }
   .cartoes { grid-template-columns: 1fr 1fr; }
-  .cartoes .cartao-eixo:nth-child(5) { grid-column: 1 / -1; }
+  /* Regra dos CINCO EIXOS, e só deles: o quinto cartão ocupa a linha inteira
+     porque cinco não cabe em duas colunas. Aplicada a qualquer `.cartoes`,
+     sorteava um candidato qualquer da lista para ficar largo. */
+  #cartoes .cartao-eixo:nth-child(5),
+  #ficha-eixos .cartao-eixo:nth-child(5) { grid-column: 1 / -1; }
 }
 
 @media (prefers-reduced-motion: reduce) {

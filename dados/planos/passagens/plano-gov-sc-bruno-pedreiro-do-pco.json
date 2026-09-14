@@ -1,0 +1,243 @@
+{
+  "arquivo": "plano-gov-sc-bruno-pedreiro-do-pco.txt",
+  "identidade": "BRUNO PEDREIRO DO PCO — PCO — Governador SC",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 134,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 3,
+        "termos": [
+          "clt",
+          "trabalhista",
+          "terceiriz"
+        ],
+        "compromisso": false,
+        "texto": "É preciso uma ampla mobilização que ponha fim à criminosa reforma trabalhista levada a cabo pelos golpistas e imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "trabalhista"
+        ],
+        "compromisso": true,
+        "texto": "02 Reduzir a jornada e acabar com o desemprego A burguesia tem criado mecanismos para que, diante do medo do desemprego, os trabalhadores aceitem a redução de qualquer garantia trabalhista que ainda lhes resta."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "imposto"
+        ],
+        "compromisso": true,
+        "texto": "• Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões"
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "• Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores, para garantir o uso dessas riquezas em favor do povo."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "terceiriz"
+        ],
+        "compromisso": true,
+        "texto": "É preciso lutar contra essa política de toda a direita e defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "salário mínimo",
+          "bolsa família"
+        ],
+        "compromisso": false,
+        "texto": "• Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo, enquanto durar a situação de caos atual"
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "estatiz",
+          "estatal"
+        ],
+        "compromisso": false,
+        "texto": "• Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores"
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "trabalhista"
+        ],
+        "compromisso": false,
+        "texto": "01 Parar o roubo dos salários A inflação, a cassação dos direitos trabalhistas e os juros exorbitantes vêm corroendo ininterruptamente o salário do trabalhador brasileiro, por isso é necessário um reajuste imediato dos salários e uma política de proteção dos vencimentos dos trabalhadores diante da inflação."
+      }
+    ],
+    "soc": [],
+    "pod": [
+      {
+        "pagina": 5,
+        "termos": [
+          "polícia",
+          "liberdade de expressão"
+        ],
+        "compromisso": false,
+        "texto": "Liberdade de expressão e direito de autodefesa É preciso acabar com a cassação dos direitos democráticos de todo o povo, com a verdadeira ditadura que é o controle dos meios de comunicação por meia dúzia de famílias e com o massacre do povo negro, dos jovens e trabalhadores, com as mais de seis mil mortes por ano provocadas pela polícia em todo o País, em uma verdadeira guerra contra o povo pobre."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "• Dissolução da polícia militar e de todo o aparato repressivo"
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "O povo, acuado sob a ameaça da violência policial e empresarial, não tem mais direito a se expressar nem a lutar por seus interesses."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "• Fim dos privilégios de oficiais militares, juízes e familiares"
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "armament"
+        ],
+        "compromisso": false,
+        "texto": "• Direito de autodefesa e armamento para os trabalhadores do campo e índios"
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "censura"
+        ],
+        "compromisso": false,
+        "texto": "• Abaixo a censura; fim da proibição do uso de celulares nas escolas."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "censura"
+        ],
+        "compromisso": false,
+        "texto": "• Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas etc."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "censura"
+        ],
+        "compromisso": false,
+        "texto": "• Liberdade irrestrita de expressão; abaixo a censura."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 3,
+        "termos": [
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro por verdadeiros lesa-pátria."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "dólar"
+        ],
+        "compromisso": false,
+        "texto": "Fim da política de paridade com o dólar"
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": false,
+        "texto": "• Contra as terceirizações; estabilidade imediata para todos os servidores contratados precariamente, com isonomia de direitos e salários"
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "• Volta do programa Mais Médicos e validação imediata de todos os diplomas de médicos brasileiros e estrangeiros residentes no País"
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "13 Fora o imperialismo da Amazônia e da América Latina A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": false,
+        "texto": "• Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico e da sua exploração em benefício do povo"
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 2,
+        "termos": [
+          "emissões"
+        ],
+        "compromisso": false,
+        "texto": "• Proibição das demissões; ocupação e controle dos trabalhadores sobre as empresas que demitam ou ameacem fechar"
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "petróleo"
+        ],
+        "compromisso": false,
+        "texto": "• Nacionalização do petróleo, Petrobrás 100% estatal, sob o controle dos trabalhadores, com eleição de todos os seus postos de direção pelos trabalhadores"
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "petróleo"
+        ],
+        "compromisso": false,
+        "texto": "• Colocar a riqueza do petróleo a serviço das necessidades do povo brasileiro, destinando-a à saúde e educação públicas, construção de moradias populares, obras de infraestrutura etc."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "amazônia"
+        ],
+        "compromisso": false,
+        "texto": "13 Fora o imperialismo da Amazônia e da América Latina A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "amazônia"
+        ],
+        "compromisso": false,
+        "texto": "• Não à internacionalização da Amazônia e a toda a política de ingerência do imperialismo na região"
+      }
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "arquivo": "plano-gov-sc-professor-marcus-sodre.txt",
+  "identidade": "PROFESSOR MARCUS SODRÉ — PSTU — Governador SC",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 799,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 23,
+        "termos": [
+          "privatiz",
+          "terceiriz"
+        ],
+        "compromisso": true,
+        "texto": "É preciso cobrar os grandes empresários devedores do Estado, parar as privatizações e terceirizações que só servem para piorar o serviço público e para aumentar a corrupção, favorecendo todo tipo de falcatrua para os governantes, políticos e empresários."
+      },
+      {
+        "pagina": 27,
+        "termos": [
+          "trabalhista",
+          "terceiriz"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos a revogação das reformas da previdência de FHC, Lula e Dilma, do governo Temer, revogação da reforma trabalhista, da lei das terceirizações, das restrições ao seguro desemprego, ao abono do PIS e a outros direitos, da Emenda Constitucional que congelou gastos com saúde, educação e demais áreas sociais por 20 anos, da reforma do ensino médio e da base nacional comun curricular."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "imposto",
+          "tributár"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos também impostos sobre grandes fortunas e um modelo tributário com tributos progressivos e que tribute prioritariamente a renda e o patrimônio."
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "ajuste fiscal"
+        ],
+        "compromisso": true,
+        "texto": "Isto é, ajuste fiscal e a deterioração dos serviços públicos para todos, juros elevados de modo a garantir os rendimentos de grandes capitais nacionais tornados improdutivos."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "estatiz"
+        ],
+        "compromisso": true,
+        "texto": "Soberania significa estatizar a produção nacional de metais preciosos, bem como as reservas do grande capital privado de modo a substituirmos as atuais reservas internacionais que atualmente são títulos do tesouro estadunidense."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "reforma agrária"
+        ],
+        "compromisso": true,
+        "texto": "Esse dinheiro poderia estar sendo usado para apoiar os pequenos proprietários do campo e das cidades, que vivem à míngua, e para fazer uma reforma agrária."
+      },
+      {
+        "pagina": 35,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "Criar uma empresa estatal de obras para garantir a construção de moradias populares faltantes e obras de infraestrutura, a baixo custo."
+      },
+      {
+        "pagina": 42,
+        "termos": [
+          "estatiz"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos a estatização sob controle dos trabalhadores e sem indenização dos grandes empreendimentos que cometerem crimes ambientais ou incentivarem o turismo sexual, e a destinação dessas áreas para uma função pública e social."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 42,
+        "termos": [
+          "droga",
+          "legalização"
+        ],
+        "compromisso": true,
+        "texto": "Por isso, defendemos a legalização das drogas e seu controle estatal para acabar com o narcotráfico."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "droga",
+          "legalização"
+        ],
+        "compromisso": true,
+        "texto": "Defender a legalização das drogas implica, também, em reparar as consequências de uma guerra que matou e encarcerou o povo negro e pobre."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "lgbt",
+          "racismo"
+        ],
+        "compromisso": true,
+        "texto": "Vamos juntos construir um quilombo socialista contra a exploração, o desemprego, o racismo, a LGBTfobia, o machismo, a xenofobia."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "lgbt",
+          "religios",
+          "moral"
+        ],
+        "compromisso": false,
+        "texto": "O ataque às mulheres e à sua luta por igualdade, também à população LGBT, assim como o fortalecimento do moralismo familiar e religioso, cumprem um papel central na tentativa de disciplinar setores da população trabalhadora em meio à crise social e econômica."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "aborto",
+          "descriminaliz",
+          "legalização"
+        ],
+        "compromisso": false,
+        "texto": "Em defesa do direito a decidir, legalização e descriminalização do aborto;"
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "droga",
+          "descriminaliz",
+          "legalização"
+        ],
+        "compromisso": false,
+        "texto": "Pela legalização e descriminalização das drogas sob monopólio e controle estatais!"
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Desse modo, a opressão se une com a exploração para aumentar a própria exploração, com mulheres, negros, LGBTs e indígenas sendo o maior alvo da violência, do desemprego e dos empregos precários."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "Portanto, defendemos uma política de desencarceramento dos negros e pobres, que envolva “limpar a ficha” dos presos relacionados à lei antidrogas e o cumprimento de penas de maneira alternativa."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 43,
+        "termos": [
+          "encarcer",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Portanto, defendemos uma política de desencarceramento dos negros e pobres, que envolva “limpar a ficha” dos presos relacionados à lei antidrogas e o cumprimento de penas de maneira alternativa."
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "polícia",
+          "militar",
+          "tortura"
+        ],
+        "compromisso": false,
+        "texto": "Punição a todos os torturadores da ditadura militar e aos que têm usado essa prática nas delegacias de polícia e sistema prisional!"
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Mas convenhamos: milhões não eram mobilizados apenas para combater a direita (ou mesmo a ditadura), nem em torno de palavras de ordem vazias."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos a unificação das polícias estaduais numa única polícia civil, garantindo o direito à livre organização sindical dos policiais e eleições para os chefes de polícia."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "encarcer"
+        ],
+        "compromisso": true,
+        "texto": "Defender a legalização das drogas implica, também, em reparar as consequências de uma guerra que matou e encarcerou o povo negro e pobre."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "Os trabalhadores e o povo pobre das periferias sofrem com a violência policial, com os despejos, com a violência machista, racista e lgbtfóbica."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "Desmilitarização da Polícia Militar!"
+      },
+      {
+        "pagina": 30,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "Abaixo à repressão policial LGBTfóbica!"
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 18,
+        "termos": [
+          "soberania",
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "Soberania significa ter autonomia para definir os rumos do país, incluindo um projeto nacional de desenvolvimento não subordinado ao capital estrangeiro."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "soberania",
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "Soberania significa, ainda, iniciarmos um processo que inverta a lógica atual em que a produção de média e alta intensidade tecnológica aqui instalada são de propriedade do capital estrangeiro."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "soberania",
+          "estrangeir",
+          "dólar"
+        ],
+        "compromisso": false,
+        "texto": "Soberania significa orientar a produção agrária nacional para o mercado interno, afastando as megas empresas, predominantemente estrangeiras, que hoje orientam toda produção nacional às exportações, sacrificando o trabalhador rural e os médios e pequenos proprietários, contribuindo para a fome nas grandes cidades ao dolarizar e encarecer o preço dos alimentos, erodindo também a nossa soberania alimentar."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Soberania significa estatizar a produção nacional de metais preciosos, bem como as reservas do grande capital privado de modo a substituirmos as atuais reservas internacionais que atualmente são títulos do tesouro estadunidense."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "estrangeir",
+          "dólar"
+        ],
+        "compromisso": false,
+        "texto": "As reservas em moeda estrangeira, sobretudo dólares, acumuladas no período do boom das commodities, não podem ser aplicadas em local algum."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "São mantidas como títulos do tesouro estadunidense para serem vendidas no momento necessário com o objetivo de segurar o câmbio e contrabalancear a saída contínua da moeda brasileira em função da fuga de capitais para o exterior, feita tanto pelo capital estrangeiro como pelo nacional."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "Ciclo esse que amarra o Estado ao capital nacional privado, o capital nacional ao capital estrangeiro em um contexto internacional marcado pela disputa comercial e militar entre a China e os Estados Unidos pelos excedentes do capital dispersos em todo o mundo periférico."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "A economia brasileira é controlada hoje por um punhado de grandes empresas, grande parte delas sob controle do capital estrangeiro."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 5,
+        "termos": [
+          "ambiental",
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "Assentada na maior crise econômica mundial desde os anos 30, em meio a uma revolução tecnológica, a uma gravíssima crise climática e ambiental e do sistema mundial de Estados, vivemos uma situação de desiquilíbrio e nesse momento de ruptura na Ordem Imperialista antes consensuada."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "mineraç",
+          "petróleo",
+          "saneamento"
+        ],
+        "compromisso": false,
+        "texto": "Para prover serviços públicos decentes – saúde, educação, moradia, saneamento –, bem como concentrar a riqueza apropriada pelos múltiplos capitais individuais e direcioná-los para investimentos produtivos é necessário expropriar as empresas estratégicas que acumulam bilhões ou dezenas de bilhões de reais em setores diretamente dependentes de recursos naturais como mineração, petróleo e energia."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "mineraç",
+          "petróleo",
+          "agronegócio"
+        ],
+        "compromisso": false,
+        "texto": "Parasitam nossos recursos e alimentam suas matrizes: eis a fuga de capitais que constantemente desvaloriza nossa moeda, exigindo que se queimem os royalties do petróleo e da mineração, bem como os excedentes do agronegócio e outros setores exportadores em meras operações cambiais."
+      },
+      {
+        "pagina": 37,
+        "termos": [
+          "meio ambiente",
+          "agronegócio",
+          "agrotóxico"
+        ],
+        "compromisso": false,
+        "texto": "Situação semelhante existe no campo, com a imposição de padrões capitalistas de desenvolvimento devido ao peso do agronegócio e que vêm impondo a concentração das terras, destruição da natureza, aumento da violência e a utilização de grandes quantidades de agrotóxicos e sementes transgênicas sem garantias científicas sobre o impacto ao meio ambiente e aos seres humanos."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "energia renovável"
+        ],
+        "compromisso": true,
+        "texto": "Em uma produção voltada ao atendimento das necessidades sociais e individuais, pode-se priorizar a construção de malhas ferroviárias e metroviárias em detrimento da expansão massiva da frota de automóveis individuais; parte do excedente de empresas que exploram combustíveis fósseis, como a Petrobras, pode ser sistematicamente redirecionada para a produção de energia renovável."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "mineraç"
+        ],
+        "compromisso": true,
+        "texto": "O gigante asiático tem priorizado adquirir empresas brasileiras em vez de construir novas, isto é, realizar a compra de ativos já existentes – fusões e aquisições – sobretudo em setores como energia, mineração e infraestrutura."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "indígena"
+        ],
+        "compromisso": true,
+        "texto": "Desse modo, a opressão se une com a exploração para aumentar a própria exploração, com mulheres, negros, LGBTs e indígenas sendo o maior alvo da violência, do desemprego e dos empregos precários."
+      },
+      {
+        "pagina": 27,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Um plano para construir hospitais, postos de saúde, escolas e creches, casas populares, obras de saneamento, investimentos preventivos e para socorro contra as enchentes, vendavais e secas."
+      }
+    ]
+  }
+}

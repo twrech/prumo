@@ -1,0 +1,383 @@
+{
+  "arquivo": "plano-pres-lula.txt",
+  "identidade": "LULA — PT — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 1000,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 19,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Aprovamos a reforma tributária do consumo e isentamos de imposto de renda todos os que ganham até R$ 5.000, compromisso assumido na campanha de 2022, marcos do início do processo de redução da regressividade do sistema tributário brasileiro."
+      },
+      {
+        "pagina": 59,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Ao regulamentar a reforma tributária, vamos, por meio do Imposto Seletivo, desestimular produtos nocivos à saúde."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "tributár",
+          "transferência de renda"
+        ],
+        "compromisso": true,
+        "texto": "Combater as desigualdades O combate às desigualdades requer justiça tributária, fortalecimento do Estado de bem-estar social, valorização do salário-mínimo, inclusão produtiva, educação, saúde, programas eficientes de transferência de renda."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Nosso desafio é sustentar taxas robustas de crescimento, ampliar os investimentos, elevar a produtividade e consolidar os avanços promovidos pela reforma tributária e pelas políticas de desenvolvimento produtivo."
+      },
+      {
+        "pagina": 57,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "No próximo período, vamos simplificar ainda mais o ambiente de negócios, ampliar o acesso das pequenas empresas às compras governamentais, assegurar tratamento tributário justo na implementação da reforma tributária e estimular uma cultura de inovação tecnológica e inserção exportadora."
+      },
+      {
+        "pagina": 75,
+        "termos": [
+          "trabalhista",
+          "terceiriz"
+        ],
+        "compromisso": true,
+        "texto": "Vamos aprimorar a legislação trabalhista, alterando regras que induzem a precarização das condições de trabalho, os marcos regressivos contidos na legislação, as fraudes presentes em muitas terceirizações, e retomando assistência sindical nas homologações de rescisão do contrato de trabalho."
+      },
+      {
+        "pagina": 30,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "O Ministério fortalecerá a integração entre os entes federados, a inteligência estatal, o enfrentamento ao crime organizado, a prevenção da violência e a proteção dos direitos civis."
+      },
+      {
+        "pagina": 35,
+        "termos": [
+          "regulação"
+        ],
+        "compromisso": true,
+        "texto": "Vamos acelerar a utilização de inteligência artificial para a triagem, a priorização de casos graves, a regulação por risco clínico e o diagnóstico em áreas com escassez de especialistas."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 23,
+        "termos": [
+          "gênero",
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Continuaremos a planejar e construir políticas e ações levando em conta as dimensões de gênero, identidade, orientação sexual, étnico-raciais e classe social assim como as demais desigualdades sociais, de modo a garantir capacidade de o Estado atender, de forma adequada, justa e inclusiva, às pessoas LGBTQIAP+ e todas as suas especificidades."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "lgbt",
+          "racismo"
+        ],
+        "compromisso": true,
+        "texto": "As ações priorizarão o combate à exploração sexual de crianças e adolescentes, à violência contra mulheres e pessoas LGBTQIAP+, ao racismo, às fraudes bancárias eletrônicas, aos crimes de alta tecnologia, aos crimes de ódio e aos delitos cibernéticos praticados contra o Estado brasileiro ou de caráter transnacional."
+      },
+      {
+        "pagina": 75,
+        "termos": [
+          "lgbt",
+          "racial"
+        ],
+        "compromisso": true,
+        "texto": "Vamos continuar combatendo a xenofobia, o capacitismo e as discriminações racial, étnica, LGBTQIAP+ e de classe no acesso ao trabalho decente, com atenção especial ao acolhimento de migrantes."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "racial"
+        ],
+        "compromisso": true,
+        "texto": "Vamos continuar engajados na implementação das deliberações da 5ª Conferência Nacional de Promoção da Igualdade Racial (V CONAPIR), realizada em 2025, após um intervalo de sete anos."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "racial",
+          "racismo"
+        ],
+        "compromisso": false,
+        "texto": "Manteremos o combate ao racismo no centro de nossa estratégia de desenvolvimento, pois não é possível compreender nem superar as desigualdades brasileiras sem enfrentar a questão racial como dimensão estruturante da sociedade."
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "cota"
+        ],
+        "compromisso": false,
+        "texto": "10\u001f\u001e\u001d\u001c\u001e\u001b\u001a\u001b\u0019\u0018\u0017\u0019\u001c\u001d\u0016\u0017\u001e\u0015\u001d Internacionalmente, o Brasil foi isolado geopoliticamente, sofrendo rebaixamento de seu prestígio diplomático, desidratação de acordos regionais e o risco iminente de perda de direito de voto em organismos multilaterais pelo não pagamento de cotas internacionais básicas."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "racial"
+        ],
+        "compromisso": false,
+        "texto": "Poucos países têm a riqueza cultural, a diversidade étnica, racial, as reservas hídricas, os biomas, os recursos minerais, a capacidade agroalimentar, a matriz energética limpa, o soft power e o potencial científico e tecnológico do Brasil."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "racial"
+        ],
+        "compromisso": false,
+        "texto": "Reforçamos a utilização no orçamento de marcadores que permitem acompanhar gastos relacionados a cada uma das agendas transversais do PPA 2024-2027 (mulheres; meio ambiente; igualdade racial; povos indígenas; crianças e adolescentes)."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 30,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "A valorização e a qualificação dos profissionais de segurança pública são fundamentais para fortalecer a atuação policial, assegurar o uso legítimo da força e ampliar a confiança da população nas instituições."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "segurança pública",
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Consolidaremos o Sistema de Inteligência de Segurança Pública e Justiça Criminal, modernizaremos o SINESP e a Infoseg e ampliaremos as Forças Integradas de Combate ao Crime Organizado (FICCOs)."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "penitenciár",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "Seguiremos apoiando Estados para implementar padrões nacionais de gestão, monitoramento e modernização das penitenciárias estaduais."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "polícia",
+          "policial",
+          "forças armadas"
+        ],
+        "compromisso": false,
+        "texto": "Manteremos as Forças Armadas presentes nas fronteiras amazônicas e na Pan-Amazônia, com patrulhamento fluvial e aéreo, inteligência policial e ambiental e cooperação com os países da Organização do Tratado de Cooperação Amazônica (OTCA)."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Vamos continuar fazendo as escolhas políticas necessárias à construção de um país em que o trabalho seja valorizado, os serviços públicos sejam continuamente aprimorados, a democracia seja praticada e não apenas declarada, e a soberania nacional seja efetivamente exercida."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "judiciário"
+        ],
+        "compromisso": true,
+        "texto": "Nesse sentido, propomos a continuidade do diálogo permanente com os atores do judiciário, respeitada a autonomia dos Poderes, para estimular o aperfeiçoamento do sistema de Justiça."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "Ampliaremos as Salas Lilás e vamos adquirir e distribuir aos Estados kits para aprimorar o monitoramento de agressores."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "direitos humanos"
+        ],
+        "compromisso": true,
+        "texto": "Seguiremos apoiando a ampliação das vagas públicas em Instituições de Longa Permanência - ILPIS e aperfeiçoando os mecanismos de fiscalização desses estabelecimentos para garantir condições adequadas de funcionamento e identificar eventuais casos de violações de direitos humanos e maus tratos."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 50,
+        "termos": [
+          "soberania",
+          "comércio exterior"
+        ],
+        "compromisso": true,
+        "texto": "Vamos continuar integrando as políticas industrial, científica, tecnológica, de inovação e de comércio exterior, combinando cinco objetivos centrais: elevar a produtividade, agregar valor às cadeias produtivas, fortalecer a soberania tecnológica, gerar empregos qualificados e descarbonizar a economia."
+      },
+      {
+        "pagina": 77,
+        "termos": [
+          "soberania",
+          "protecion"
+        ],
+        "compromisso": true,
+        "texto": "Defender a soberania nacional e o protagonismo internacional do Brasil O mundo contemporâneo vivencia o ressurgimento do unilateralismo, do protecionismo e de conflitos sem precedentes desde a Segunda Guerra Mundial."
+      },
+      {
+        "pagina": 81,
+        "termos": [
+          "brics",
+          "fmi",
+          "banco mundial"
+        ],
+        "compromisso": false,
+        "texto": "Defenderemos a reforma da arquitetura financeira internacional, com a democratização do FMI, do Banco Mundial e dos bancos multilaterais e o fortalecimento do CAF, do Novo Banco de Desenvolvimento (NDB) e dos mecanismos financeiros dos BRICS."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "FORTALECER A SAÚDE COM EQUIDADE, INOVAÇÃO E SOBERANIA..............................................................................................34"
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Vamos continuar fazendo as escolhas políticas necessárias à construção de um país em que o trabalho seja valorizado, os serviços públicos sejam continuamente aprimorados, a democracia seja praticada e não apenas declarada, e a soberania nacional seja efetivamente exercida."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Estamos prontos para continuar as tarefas de ampliar a capacidade de planejamento do Estado brasileiro, fortalecer a base produtiva e tecnológica, democratizar o orçamento público, reafirmar a soberania nacional e enfrentar as ameaças externas que desconsideram os interesses do povo brasileiro."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Queremos fortalecer a soberania brasileira em todas as suas dimensões:"
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Propomos a criação de um Conselho Nacional pela Soberania Digital, com participação da sociedade."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 3,
+        "termos": [
+          "ambiental",
+          "clima",
+          "climát",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "PROMOVER A SUSTENTABILIDADE AMBIENTAL E CLIMÁTICA........................................................................................................69"
+      },
+      {
+        "pagina": 69,
+        "termos": [
+          "ambiental",
+          "clima",
+          "climát",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "Promover a Sustentabilidade Ambiental e Climática No atual mandato, retomamos os instrumentos de colaboração federativa necessários à efetiva implementação da política ambiental."
+      },
+      {
+        "pagina": 53,
+        "termos": [
+          "ambiental",
+          "eólica",
+          "solar",
+          "saneamento",
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "Dessa forma, o Novo PAC estimulou a geração de empregos de qualidade, como na indústria naval e na produção de trens, e em setores que colaboram com a sustentabilidade ambiental, como na geração de energia eólica e solar, na garantia de recursos hídricos no Nordeste brasileiro e nos investimentos em saneamento."
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "meio ambiente",
+          "clima",
+          "climát",
+          "saneamento"
+        ],
+        "compromisso": false,
+        "texto": "O direito à cidade exige uma reforma urbana que integre habitação, saneamento, mobilidade, uso do solo, gestão de riscos, adaptação às mudanças climáticas, meio ambiente urbano, cultura, comunicação e desenvolvimento econômico local."
+      },
+      {
+        "pagina": 51,
+        "termos": [
+          "ambiental",
+          "clima",
+          "climát",
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "A Taxonomia Sustentável Brasileira (TSB), criada neste governo, trouxe critérios transparentes e cientificamente fundamentados para sustentabilidade climática e ambiental, além de critérios mensuráveis para agenda social e redução de desigualdades."
+      },
+      {
+        "pagina": 70,
+        "termos": [
+          "clima",
+          "climát",
+          "carbono",
+          "emissões"
+        ],
+        "compromisso": false,
+        "texto": "Promovemos uma das principais reformas da política climática nacional ao instituir o mercado regulado de carbono, com a lei que criou o Sistema Brasileiro de Comércio de Emissões (SBCE)."
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "ambiental",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "Voltamos ao governo em 2023 para reconstruir o Estado, retomar políticas públicas, recuperar o crescimento econômico, reduzir desigualdades, ampliar a sustentabilidade ambiental, recompor o protagonismo internacional e reconstruir a presença do Brasil no mundo."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Voltamos a assegurar aos povos e comunidades tradicionais – indígenas, quilombolas e ribeirinhos – seus direitos, inclusive em relação a seus territórios."
+      }
+    ]
+  }
+}

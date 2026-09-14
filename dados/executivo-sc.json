@@ -1,0 +1,2327 @@
+{
+  "versao": "1.0",
+  "gerado_em": "2026-09-14",
+  "fonte": "Plano de governo registrado no TSE, eleição 20322002026, lido contra o catálogo de temas-planos.json",
+  "o_que_isto_mede": "o que a pessoa diz que fará — não o que ela fez",
+  "confianca_minima": 60,
+  "regra": "Toda posição carrega a passagem literal que a originou, com a página. Sem passagem citada, sem posição — o valor é 'silencio'.",
+  "catalogo": {
+    "versao": "1.0",
+    "temas": 27
+  },
+  "candidatos": [
+    {
+      "id": 280002552484,
+      "nome": "CLARIANA BARAO",
+      "partido": "DC",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 15,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 11,
+        "soc": 0,
+        "pod": 19,
+        "sob": 20,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 11,
+        "soc": 0,
+        "pod": 19,
+        "sob": 20,
+        "amb": 0
+      },
+      "confianca_media": 10,
+      "temas_respondidos": 3,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 5,
+          "passagem": "Concessões, PPPs e planejamento de longo prazo",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 9,
+          "passagem": "Sensores, radares e monitoramento remoto",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 9,
+          "passagem": "Fronteiras inteligentes e integradas",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002551975,
+      "nome": "EDMILSON COSTA",
+      "partido": "PCB",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 16,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -63,
+        "soc": -62,
+        "pod": -44,
+        "sob": 30,
+        "amb": -57
+      },
+      "confianca": {
+        "eco": 63,
+        "soc": 63,
+        "pod": 44,
+        "sob": 30,
+        "amb": 57
+      },
+      "confianca_media": 51,
+      "temas_respondidos": 14,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 4,
+          "passagem": "As empresas estratégicas privatizadas serão retomadas para o patrimônio público",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "contra",
+          "pagina": 14,
+          "passagem": "além da criação de um imposto especial sobre lucros e dividendos, grandes fortunas",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 13,
+          "passagem": "Fim das terceirizações, das privatizações e de todas as flexibilizações legais e tributárias em favor dos grandes capitalistas.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "favor",
+          "pagina": 2,
+          "passagem": "a estatização das áreas estratégicas da economia e dos setores produtores de bens necessários à vida, como água, energia, saneamento",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "Serão adotadas políticas públicas de combate radical ao machismo, à misoginia, ao racismo, à lgbtfobia, ao capacitismo",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg09",
+          "titulo": "Drogas como questão de saúde, não de polícia",
+          "valor": "favor",
+          "pagina": 12,
+          "passagem": "Descriminalização do uso de drogas, com legalização da maconha a curto prazo.",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "favor",
+          "pagina": 7,
+          "passagem": "Promoveremos o fim do vestibular nas universidades federais e a ampliação das cotas (54% para a população negra",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg12",
+          "titulo": "Proteção da vida desde a concepção",
+          "valor": "contra",
+          "pagina": 11,
+          "passagem": "Legalização do aborto, com garantia de atendimento na rede pública de saúde",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "contra",
+          "pagina": 12,
+          "passagem": "Contra a redução da maioridade penal e ampliação das medidas socioeducativas.",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "pondo fim à política de “guerra às drogas”, para o que se faz necessária a completa desmilitarização da segurança pública",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 14,
+          "passagem": "Transição para o regime de monopólio estatal da exploração, produção, refino, petroquímica e distribuição",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "contra",
+          "pagina": 14,
+          "passagem": "No lugar da exploração da Margem Equatorial, defendemos pesquisas e buscas em outras áreas e uma melhor exploração do Pré-Sal, reduzindo os lucros e a extração desenfreada",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 8,
+          "passagem": "Serão reforçadas as ações voltadas para a redução das emissões de gases do efeito estufa, o combate ao desmatamento",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg26",
+          "titulo": "Agronegócio como motor, com regras mais leves",
+          "valor": "contra",
+          "pagina": 9,
+          "passagem": "Expropriação do agronegócio, não apenas para garantir comida na mesa do povo trabalhador brasileiro",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002551547,
+      "nome": "ESCRITOR AUGUSTO CURY",
+      "partido": "AVANTE",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 200,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 16,
+        "soc": 0,
+        "pod": 19,
+        "sob": 30,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 26,
+        "soc": 0,
+        "pod": 19,
+        "sob": 70,
+        "amb": 43
+      },
+      "confianca_media": 32,
+      "temas_respondidos": 8,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "sob"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 38,
+          "passagem": "Compromisso com uma carga tributária menor ao fim da transição",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 50,
+          "passagem": "Por isso, ampliaremos as concessões e as parcerias público-privadas, sempre com regras claras, segurança jurídica e rigorosa fiscalização.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 46,
+          "passagem": "A segurança pública será fortalecida pelo uso de câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones, monitoramento integrado",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 60,
+          "passagem": "A política externa brasileira será guiada pela defesa da soberania, da segurança econômica e dos interesses estratégicos do país",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg20",
+          "titulo": "Compromissos com organismos e acordos internacionais",
+          "valor": "favor",
+          "pagina": 46,
+          "passagem": "Fortaleceremos a cooperação com organismos internacionais e países vizinhos para combater o tráfico internacional",
+          "eixos": [
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 46,
+          "passagem": "fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 48,
+          "passagem": "O objetivo é assegurar ao produtor uma resposta clara em tempo razoável, eliminando a insegurança que hoje paralisa investimentos legítimos",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 51,
+          "passagem": "Ampliaremos investimentos em energia solar, eólica, biomassa, pequenas centrais hidrelétricas e outras fontes renováveis",
+          "eixos": [
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002551544,
+      "nome": "FLAVIO BOLSONARO",
+      "partido": "PL",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 76,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 53,
+        "soc": 38,
+        "pod": 19,
+        "sob": -40,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 53,
+        "soc": 38,
+        "pod": 56,
+        "sob": 80,
+        "amb": 43
+      },
+      "confianca_media": 54,
+      "temas_respondidos": 13,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "sob"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "favor",
+          "pagina": 70,
+          "passagem": "vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 31,
+          "passagem": "Vamos reduzir impostos sobre energia elétrica e combustíveis, buscar segurança energética ao menor preço possível para o consumidor",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 50,
+          "passagem": "adotar um novo modelo de financiamento para toda a infraestrutura, com fundo lastreado na securitização de ativos e imóveis da União, uso intensivo de PPPs e concessões",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg07",
+          "titulo": "Família tradicional e valores religiosos como diretriz de governo",
+          "valor": "favor",
+          "pagina": 9,
+          "passagem": "Nossa forma de governar permanece fiel a valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg12",
+          "titulo": "Proteção da vida desde a concepção",
+          "valor": "favor",
+          "pagina": 9,
+          "passagem": "valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção, à propriedade privada",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "favor",
+          "pagina": 13,
+          "passagem": "O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos.",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 15,
+          "passagem": "Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg17",
+          "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+          "valor": "favor",
+          "pagina": 12,
+          "passagem": "um Tesouraço na Censura para garantir a liberdade de criticar sem medo",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg18",
+          "titulo": "Abertura comercial",
+          "valor": "favor",
+          "pagina": 63,
+          "passagem": "vamos nos preparar para uma abertura comercial que dê ao setor produtivo acesso a bens de capital, tecnologia e insumos importados",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "contra",
+          "pagina": 55,
+          "passagem": "Vamos trabalhar para atrair o capital estrangeiro e a tecnologia que já existem no mundo, aplicando aqui o que outros países já dominam",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 13,
+          "passagem": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "favor",
+          "pagina": 53,
+          "passagem": "vamos estimular a modernização do refino rumo ao aproveitamento do petróleo nacional",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 63,
+          "passagem": "nossa meta para 2030 é posicionar o Brasil entre os principais destinos mundiais de investimento em transição energética",
+          "eixos": [
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002541457,
+      "nome": "HERTZ DIAS",
+      "partido": "PSTU",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 33,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -37,
+        "soc": -75,
+        "pod": -50,
+        "sob": 30,
+        "amb": -36
+      },
+      "confianca": {
+        "eco": 37,
+        "soc": 75,
+        "pod": 50,
+        "sob": 30,
+        "amb": 36
+      },
+      "confianca_media": 46,
+      "temas_respondidos": 12,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "soc"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 11,
+          "passagem": "Fim da privatização e da gestão privada da saúde (OS, Fundações e PPP)",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "favor",
+          "pagina": 28,
+          "passagem": "A estatização do sistema financeiro e centralização do crédito em um banco único",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 24,
+          "passagem": "unificando a luta da população lgbti+",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg09",
+          "titulo": "Drogas como questão de saúde, não de polícia",
+          "valor": "favor",
+          "pagina": 19,
+          "passagem": "Descriminalização das drogas e revogação da Lei Antidrogas, para efetivamente combater e acabar com o narcotráfico",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "favor",
+          "pagina": 21,
+          "passagem": "Manutenção e ampliação de cotas para negros nas universidades e serviços públicos",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg11",
+          "titulo": "Controle das famílias sobre o conteúdo escolar",
+          "valor": "contra",
+          "pagina": 12,
+          "passagem": "Não à militarização das escolas e a projetos de controle ideológico, como Escola Sem Partido!",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg12",
+          "titulo": "Proteção da vida desde a concepção",
+          "valor": "contra",
+          "pagina": 23,
+          "passagem": "Aborto legal, seguro e gratuito pelo sus",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "contra",
+          "pagina": 21,
+          "passagem": "Contra a redução da maioridade penal",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 21,
+          "passagem": "Desmilitarização da pm e unificação das polícias sob controle dos trabalhadores",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 5,
+          "passagem": "Defender a soberania do Brasil, neste marco, significa garantir que as riquezas produzidas no país permaneçam sob controle nacional",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg25",
+          "titulo": "Terras indígenas e áreas protegidas",
+          "valor": "favor",
+          "pagina": 15,
+          "passagem": "Reparação e demarcação imediata das terras indígenas, titulação dos territórios quilombolas e proteção das comunidades tradicionais",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg26",
+          "titulo": "Agronegócio como motor, com regras mais leves",
+          "valor": "contra",
+          "pagina": 22,
+          "passagem": "Que o Banco do Brasil destine suas verbas para a agricultura familiar, quilombola e indígena, e não para o agronegócio escravista.",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002542548,
+      "nome": "LULA",
+      "partido": "PT",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 84,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -37,
+        "soc": -31,
+        "pod": 0,
+        "sob": 10,
+        "amb": -43
+      },
+      "confianca": {
+        "eco": 37,
+        "soc": 31,
+        "pod": 0,
+        "sob": 50,
+        "amb": 43
+      },
+      "confianca_media": 32,
+      "temas_respondidos": 9,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "contra",
+          "pagina": 19,
+          "passagem": "isentamos de imposto de renda todos os que ganham até R$ 5.000, compromisso assumido na campanha de 2022, marcos do início do processo de redução da regressividade do sistema tributário",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg03",
+          "titulo": "Transferência de renda como política permanente",
+          "valor": "favor",
+          "pagina": 18,
+          "passagem": "O combate às desigualdades requer justiça tributária, fortalecimento do Estado de bem-estar social, valorização do salário-mínimo, inclusão produtiva, educação, saúde, programas eficientes de transferência de renda.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 75,
+          "passagem": "Vamos aprimorar a legislação trabalhista, alterando regras que induzem a precarização das condições de trabalho",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 23,
+          "passagem": "de modo a garantir capacidade de o Estado atender, de forma adequada, justa e inclusiva, às pessoas LGBTQIAP+ e todas as suas especificidades",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "favor",
+          "pagina": 19,
+          "passagem": "As políticas de fomento à participação da população negra no funcionalismo público, especialmente nos espaços superiores da gestão governamental, terão continuidade, alinhadas à política de cotas no serviço público",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 50,
+          "passagem": "elevar a produtividade, agregar valor às cadeias produtivas, fortalecer a soberania tecnológica, gerar empregos qualificados e descarbonizar a economia",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg20",
+          "titulo": "Compromissos com organismos e acordos internacionais",
+          "valor": "favor",
+          "pagina": 81,
+          "passagem": "Defenderemos a reforma da arquitetura financeira internacional, com a democratização do FMI, do Banco Mundial e dos bancos multilaterais",
+          "eixos": [
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 70,
+          "passagem": "Promovemos uma das principais reformas da política climática nacional ao instituir o mercado regulado de carbono",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg25",
+          "titulo": "Terras indígenas e áreas protegidas",
+          "valor": "favor",
+          "pagina": 19,
+          "passagem": "Voltamos a assegurar aos povos e comunidades tradicionais – indígenas, quilombolas e ribeirinhos – seus direitos, inclusive em relação a seus territórios.",
+          "eixos": [
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002553884,
+      "nome": "PABLO MARÇAL",
+      "partido": "PRTB",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 28,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 26,
+        "soc": 0,
+        "pod": 0,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 26,
+        "soc": 0,
+        "pod": 0,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca_media": 5,
+      "temas_respondidos": 2,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "favor",
+          "pagina": 20,
+          "passagem": "Desestatização Prioritária",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 14,
+          "passagem": "Redução progressiva da carga tributária sobre a produção, o investimento e a geração de empregos",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002540694,
+      "nome": "RENAN SANTOS",
+      "partido": "MISSÃO",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 51,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 11,
+        "soc": 13,
+        "pod": 44,
+        "sob": 50,
+        "amb": 43
+      },
+      "confianca": {
+        "eco": 21,
+        "soc": 13,
+        "pod": 44,
+        "sob": 50,
+        "amb": 43
+      },
+      "confianca_media": 34,
+      "temas_respondidos": 8,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 43,
+          "passagem": "Suas medidas visam a reduzir impostos sobre empresas de tecnologia, facilitar a distribuição de stock options",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "contra",
+          "pagina": 32,
+          "passagem": "Abolir o sistema de cotas na educação brasileira e em geral.",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "com ênfase na aplicação do Direito Penal do Inimigo como arcabouço legal que permitirá o desmonte do crime organi",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg17",
+          "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+          "valor": "contra",
+          "pagina": 28,
+          "passagem": "propomos, alternativamente, a criação de um código de imprensa, que hoje não possui regulação",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 46,
+          "passagem": "Proposta de desdolarização da América do Sul busca reduzir a dependência do dólar americano",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 13,
+          "passagem": "vamos reconquistar o controle estatal sobre portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 24,
+          "passagem": "implementação plena da Lei Geral do Licenciamento Ambiental (Lei nº 15.190/2025, oriunda do PL 2159/2021), com uso ostensivo da Licença Ambiental Especial",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "favor",
+          "pagina": 42,
+          "passagem": "sancionar e regulamentar o Projeto de Lei 2.780/2024, aprovado pela Câmara em 2026, que cria a Política Nacional de Minerais Críticos",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002551932,
+      "nome": "RONALDO CAIADO",
+      "partido": "PSD",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 100,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 21,
+        "soc": -12,
+        "pod": 19,
+        "sob": 30,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 32,
+        "soc": 13,
+        "pod": 56,
+        "sob": 70,
+        "amb": 43
+      },
+      "confianca_media": 43,
+      "temas_respondidos": 11,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "sob"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 56,
+          "passagem": "Enviar ao Congresso proposta de financiamento plurianual, sem novo imposto geral e sem aumento da carga tributária.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "A iniciativa privada será o principal motor da economia; ao Estado caberá garantir estabilidade, concorrência, infraestrutura, capital humano, regulação de qualidade",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "favor",
+          "pagina": 7,
+          "passagem": "Reduzir desigualdades raciais e de gênero por políticas mensuráveis de segurança, educação, saúde e oportunidades.",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "favor",
+          "pagina": 20,
+          "passagem": "Reduzir a maioridade penal e agravar o furto de celular",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 67,
+          "passagem": "Dados sobre uso da força serão auditados, e boas práticas de redução de letalidade e vitimização policial serão disseminadas.",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 67,
+          "passagem": "videomonitoramento com Inteligência Artificial (estratégias de reconhecimento facial e uso de câmeras deverão considerar toda a diversidade brasileira, com auditoria permanente",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 53,
+          "passagem": "Minerais críticos e terras raras serão tratados como ativos estratégicos de soberania, transição energética, defesa e indústria digital.",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg20",
+          "titulo": "Compromissos com organismos e acordos internacionais",
+          "valor": "favor",
+          "pagina": 74,
+          "passagem": "Participar ativamente da ONU, da OMC, do G20 e do BRICS e retomar, com pragmatismo, o processo de aproximação com a OCDE.",
+          "eixos": [
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 18,
+          "passagem": "Implantar o Comando Nacional de Proteção de Fronteiras e Corredores Logísticos, reunindo Forças Armadas, Polícia Federal, Polícia Rodoviária Federal",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "contra",
+          "pagina": 53,
+          "passagem": "Coordenar mineração, meio ambiente, patrimônio, água e uso do solo em processo único de gestão, sem reduzir exigências.",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "favor",
+          "pagina": 3,
+          "passagem": "O agronegócio, a indústria, a mineração responsável, a energia, a infraestrutura e a ciência serão articulados em uma estratégia nacional de desenvolvimento.",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002552487,
+      "nome": "RUI COSTA PIMENTA",
+      "partido": "PCO",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 7,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -68,
+        "soc": 6,
+        "pod": -25,
+        "sob": 50,
+        "amb": 21
+      },
+      "confianca": {
+        "eco": 79,
+        "soc": 6,
+        "pod": 50,
+        "sob": 50,
+        "amb": 21
+      },
+      "confianca_media": 41,
+      "temas_respondidos": 12,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "eco"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg03",
+          "titulo": "Transferência de renda como política permanente",
+          "valor": "favor",
+          "pagina": 2,
+          "passagem": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg13",
+          "titulo": "Acesso do cidadão a armas de fogo",
+          "valor": "favor",
+          "pagina": 4,
+          "passagem": "Direito de autodefesa e armamento para os trabalhadores do campo e índios",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 5,
+          "passagem": "Dissolução da polícia militar e de todo o aparato repressivo",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg17",
+          "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 7,
+          "passagem": "Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg20",
+          "titulo": "Compromissos com organismos e acordos internacionais",
+          "valor": "contra",
+          "pagina": 7,
+          "passagem": "A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva.",
+          "eixos": [
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "favor",
+          "pagina": 3,
+          "passagem": "Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 4,
+          "passagem": "defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002538811,
+      "nome": "SAMARA",
+      "partido": "UP",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 67,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -32,
+        "soc": -37,
+        "pod": -37,
+        "sob": 30,
+        "amb": -21
+      },
+      "confianca": {
+        "eco": 32,
+        "soc": 38,
+        "pod": 38,
+        "sob": 30,
+        "amb": 21
+      },
+      "confianca_media": 32,
+      "temas_respondidos": 8,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 7,
+          "passagem": "Defendemos que saúde, educação, água, energia, saneamento, moradia, transporte, cultura e comunicação sejam direitos, e não mercadorias.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 7,
+          "passagem": "Defendemos o fim da escala 6x1, a redução da jornada com aumento salarial, a elevação em 100% do salário mínimo",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 33,
+          "passagem": "Fortalecer o enfrentamento institucional à LGBTfobia, com acompanhamento regular dos dados sobre a violência LGBTfóbica",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg12",
+          "titulo": "Proteção da vida desde a concepção",
+          "valor": "contra",
+          "pagina": 28,
+          "passagem": "Descriminalização e legalização do aborto, primando pela vida das mulheres, tratando a saúde da mulher como questão de saúde pública.",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 48,
+          "passagem": "Por isso, defendemos a desmilitarização da polícia, que deve proteger a população, respeitar direitos fundamentais",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg17",
+          "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+          "valor": "favor",
+          "pagina": 36,
+          "passagem": "Por isso, defendemos a ampla liberdade de expressão e religiosa e a livre organização dos trabalhadores",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 57,
+          "passagem": "Defendemos o imediato estancamento da sangria de nossos recursos para o exterior, pondo fim às remessas de lucros",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg25",
+          "titulo": "Terras indígenas e áreas protegidas",
+          "valor": "favor",
+          "pagina": 63,
+          "passagem": "Demarcação e posse imediata de todas as terras indígenas e quilombolas",
+          "eixos": [
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002548139,
+      "nome": "VETERINÁRIO WILSON GRASSI",
+      "partido": "DEMOCRATA",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 58,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 0,
+        "soc": 0,
+        "pod": 19,
+        "sob": 50,
+        "amb": 64
+      },
+      "confianca": {
+        "eco": 11,
+        "soc": 0,
+        "pod": 19,
+        "sob": 50,
+        "amb": 64
+      },
+      "confianca_media": 29,
+      "temas_respondidos": 6,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "amb"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 22,
+          "passagem": "Vigilância eletrônica contínua dos trechos críticos de fronteira, com sensoriamento remoto e apoio logístico das Forças Armadas.",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 52,
+          "passagem": "Investimento estrangeiro em setor estratégico vem acompanhado de contrapartida em conteúdo nacional, transferência de tecnologia e emprego no Brasil.",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 50,
+          "passagem": "Emprego permanente das Forças Armadas na faixa de fronteira, com o poder de polícia da Lei Complementar nº 97/1999",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 47,
+          "passagem": "Licenciamento ambiental com prazo definido e análise técnica de qualidade.",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "favor",
+          "pagina": 47,
+          "passagem": "Defendemos abrir o debate sobre um regime legal de aproveitamento mineral em terra indígena com participação econômica dos indígenas",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg25",
+          "titulo": "Terras indígenas e áreas protegidas",
+          "valor": "contra",
+          "pagina": 47,
+          "passagem": "Mineração em terra indígena: sair da clandestinidade",
+          "eixos": [
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 280002539826,
+      "nome": "ZEMA",
+      "partido": "NOVO",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": 81,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 53,
+        "soc": 19,
+        "pod": 44,
+        "sob": -10,
+        "amb": 36
+      },
+      "confianca": {
+        "eco": 53,
+        "soc": 19,
+        "pod": 81,
+        "sob": 50,
+        "amb": 36
+      },
+      "confianca_media": 48,
+      "temas_respondidos": 13,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "pod"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "Fixar metas progressivas de redução da carga tributária que imponham os cortes de gastos necessários para atingi-las",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg03",
+          "titulo": "Transferência de renda como política permanente",
+          "valor": "contra",
+          "pagina": 15,
+          "passagem": "integrando fontes alternativas de informação para evitar fraudes e duplicidade de benefícios, de modo que os esforços do governo sejam voltados para tirar as pessoas da pobreza de forma definitiva",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 31,
+          "passagem": "ampliar a estruturação de projetos de concessão e PPPs e promover soluções que ampliem a escala, a eficiência operacional e a capacidade de investimento dos prestadores",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg11",
+          "titulo": "Controle das famílias sobre o conteúdo escolar",
+          "valor": "favor",
+          "pagina": 53,
+          "passagem": "avançando em uma agenda de parcerias com escolas conveniadas na educação, escolas cívico-militares e regulamentando o homeschooling",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg13",
+          "titulo": "Acesso do cidadão a armas de fogo",
+          "valor": "favor",
+          "pagina": 45,
+          "passagem": "Consolidar e ampliar o direito do produtor rural de portar arma em toda a extensão de sua propriedade, avançando para além da posse estendida já prevista em lei",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "Reduzir a maioridade penal para 16 anos, assegurando a responsabilização criminal de adolescentes a partir dessa idade",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "contra",
+          "pagina": 7,
+          "passagem": "Fortalecer a atuação policial, garantindo proteção legal na legítima defesa contra criminosos armados, especialmente com fuzis",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg17",
+          "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+          "valor": "favor",
+          "pagina": 74,
+          "passagem": "Descriminalizar a opinião e punir quem censura",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg18",
+          "titulo": "Abertura comercial",
+          "valor": "favor",
+          "pagina": 21,
+          "passagem": "Alinhar gradualmente as tarifas de importação brasileiras à média dos países em desenvolvimento à medida que o Custo Brasil for reduzido",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg21",
+          "titulo": "Controle de fronteiras e da imigração",
+          "valor": "favor",
+          "pagina": 38,
+          "passagem": "Ampliar a presença do Estado brasileiro nos postos de fronteira e na Amazônia, integrando inteligência, vigilância e forças de segurança",
+          "eixos": [
+            "pod",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 44,
+          "passagem": "simplificando o licenciamento de atividades de baixo risco, para atrair investimentos sem abrir mão da conservação ambiental",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg26",
+          "titulo": "Agronegócio como motor, com regras mais leves",
+          "valor": "favor",
+          "pagina": 44,
+          "passagem": "Reduzir entraves do licenciamento ambiental à atividade agropecuária",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "contra",
+          "pagina": 76,
+          "passagem": "Enxugar o custo do Legislativo e do Judiciário, atacando o excesso de pessoal e os salários acima da média que sustentam essas estruturas",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240002553718,
+      "nome": "BRUNO PEDREIRO DO PCO",
+      "partido": "PCO",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 7,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -68,
+        "soc": 6,
+        "pod": -25,
+        "sob": 50,
+        "amb": 21
+      },
+      "confianca": {
+        "eco": 79,
+        "soc": 6,
+        "pod": 50,
+        "sob": 50,
+        "amb": 21
+      },
+      "confianca_media": 41,
+      "temas_respondidos": 12,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "eco"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg03",
+          "titulo": "Transferência de renda como política permanente",
+          "valor": "favor",
+          "pagina": 2,
+          "passagem": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg13",
+          "titulo": "Acesso do cidadão a armas de fogo",
+          "valor": "favor",
+          "pagina": 4,
+          "passagem": "Direito de autodefesa e armamento para os trabalhadores do campo e índios",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 5,
+          "passagem": "Dissolução da polícia militar e de todo o aparato repressivo",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg17",
+          "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+          "valor": "favor",
+          "pagina": 6,
+          "passagem": "Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 7,
+          "passagem": "Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg20",
+          "titulo": "Compromissos com organismos e acordos internacionais",
+          "valor": "contra",
+          "pagina": 7,
+          "passagem": "A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva.",
+          "eixos": [
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg23",
+          "titulo": "Novas fronteiras de petróleo e mineração",
+          "valor": "favor",
+          "pagina": 3,
+          "passagem": "Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 4,
+          "passagem": "defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240002548628,
+      "nome": "GELSON MERÍSIO",
+      "partido": "PSB",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 74,
+      "evidencia": "plano-ilegivel"
+    },
+    {
+      "id": 240002551001,
+      "nome": "JOÃO RODRIGUES",
+      "partido": "PSD",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 25,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 0,
+        "soc": -12,
+        "pod": 6,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 21,
+        "soc": 13,
+        "pod": 19,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca_media": 11,
+      "temas_respondidos": 4,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 20,
+          "passagem": "Parte substancial desses recursos deverá vir da iniciativa privada, por meio de parcerias público-privadas e concessões, sempre que se mostrarem vantajosas para o interesse público.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg09",
+          "titulo": "Drogas como questão de saúde, não de polícia",
+          "valor": "favor",
+          "pagina": 13,
+          "passagem": "Implementar ações voltadas ao diagnóstico e cuidado da saúde mental e à prevenção do uso de álcool e outras drogas",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 8,
+          "passagem": "Aperfeiçoar o programa de videomonitoramento, ampliando o número de câmeras com tecnologia de reconhecimento facial, leitura de placas de veículos, inteligência artificial e alertas em tempo real",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 23,
+          "passagem": "A valorização do servidor público é condição para a qualidade da gestão.",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240002537073,
+      "nome": "JORGINHO MELLO",
+      "partido": "PL",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 22,
+      "evidencia": "plano-ilegivel"
+    },
+    {
+      "id": 240002550544,
+      "nome": "LAÍS CHAUD",
+      "partido": "UP",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 23,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -47,
+        "soc": -19,
+        "pod": -19,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 47,
+        "soc": 19,
+        "pod": 19,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca_media": 17,
+      "temas_respondidos": 6,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 4,
+          "passagem": "Fortalecer a CASAN enquanto empresa pública estratégica, ampliando sua capacidade de investimento",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 16,
+          "passagem": "garantindo igualdade salarial, enfrentamento ao assédio sexual e moral, proteção às trabalhadoras informais e redução da jornada de trabalho sem redução salarial",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "favor",
+          "pagina": 4,
+          "passagem": "Ampliar os investimentos públicos em saneamento, estabelecendo um plano estadual para universalizar o abastecimento de água, a coleta e o tratamento de esgoto.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg06",
+          "titulo": "Controle público de preços e tarifas",
+          "valor": "favor",
+          "pagina": 11,
+          "passagem": "Estabelecimento de uma rede estadual pública de mercados populares, que comercialize alimentos de qualidade à preço de custo, com subsídios do Governo de Santa Catarina",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 18,
+          "passagem": "Criar uma Política Estadual de Enfrentamento a LGBTfobia, com orçamento próprio e atuação conjunta das áreas de segurança, saúde, educação, assistência social e trabalho.",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 13,
+          "passagem": "Retomar imediatamente a obrigatoriedade do uso de câmeras corporais entre todos os policiais militares e civis de Santa Catarina",
+          "eixos": [
+            "pod"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240002544118,
+      "nome": "MARCELO BRIGADEIRO",
+      "partido": "MISSÃO",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 21,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 37,
+        "soc": 0,
+        "pod": 38,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 37,
+        "soc": 0,
+        "pod": 38,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca_media": 15,
+      "temas_respondidos": 5,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "favor",
+          "pagina": 11,
+          "passagem": "Privatizar empresas estatais eficientes, superavitárias ou ainda úteis, com metas estabelecidas e sistemas de avaliação de desempenho, tais como CELESC e CASAN",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "favor",
+          "pagina": 9,
+          "passagem": "Reduzir a carga tributária para aumentar a competitividade do setor produtivo catarinense",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 3,
+          "passagem": "utilizaremos instrumentos modernos de gestão, incluindo parcerias com a iniciativa privada, privatizações, concessões e parcerias público-privadas capazes de ampliar investimentos",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "Realizar parcerias público-privadas (PPPs) para a construção, a administração e a manutenção de presídios e penitenciárias no estado de Santa Catarina",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "contra",
+          "pagina": 16,
+          "passagem": "assegurando assistência jurídica pela PGE nos processos relacionados a atos praticados no exercício regular da função",
+          "eixos": [
+            "pod"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240002541913,
+      "nome": "PROFESSOR MARCUS SODRÉ",
+      "partido": "PSTU",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 50,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": -63,
+        "soc": -50,
+        "pod": -44,
+        "sob": 60,
+        "amb": -36
+      },
+      "confianca": {
+        "eco": 63,
+        "soc": 50,
+        "pod": 44,
+        "sob": 60,
+        "amb": 36
+      },
+      "confianca_media": 51,
+      "temas_respondidos": 13,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [
+        "eco",
+        "sob"
+      ],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg01",
+          "titulo": "Privatização de empresas estatais",
+          "valor": "contra",
+          "pagina": 23,
+          "passagem": "parar as privatizações e terceirizações que só servem para piorar o serviço público",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg02",
+          "titulo": "Redução da carga tributária",
+          "valor": "contra",
+          "pagina": 47,
+          "passagem": "Defendemos também impostos sobre grandes fortunas e um modelo tributário com tributos progressivos e que tribute prioritariamente a renda e o patrimônio.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg04",
+          "titulo": "Flexibilização das regras trabalhistas",
+          "valor": "contra",
+          "pagina": 27,
+          "passagem": "revogação da reforma trabalhista, da lei das terceirizações, das restrições ao seguro desemprego",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "favor",
+          "pagina": 35,
+          "passagem": "Criar uma empresa estatal de obras para garantir a construção de moradias populares faltantes e obras de infraestrutura, a baixo custo.",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 30,
+          "passagem": "Abaixo à repressão policial LGBTfóbica!",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg09",
+          "titulo": "Drogas como questão de saúde, não de polícia",
+          "valor": "favor",
+          "pagina": 42,
+          "passagem": "Por isso, defendemos a legalização das drogas e seu controle estatal para acabar com o narcotráfico.",
+          "eixos": [
+            "soc",
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg12",
+          "titulo": "Proteção da vida desde a concepção",
+          "valor": "contra",
+          "pagina": 28,
+          "passagem": "Em defesa do direito a decidir, legalização e descriminalização do aborto",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg14",
+          "titulo": "Endurecimento penal",
+          "valor": "contra",
+          "pagina": 43,
+          "passagem": "defendemos uma política de desencarceramento dos negros e pobres, que envolva “limpar a ficha” dos presos relacionados à lei antidrogas e o cumprimento de penas de maneira alternativa",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg15",
+          "titulo": "Controle externo da atividade policial e direitos humanos",
+          "valor": "favor",
+          "pagina": 44,
+          "passagem": "Punição a todos os torturadores da ditadura militar e aos que têm usado essa prática nas delegacias de polícia e sistema prisional!",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg18",
+          "titulo": "Abertura comercial",
+          "valor": "contra",
+          "pagina": 18,
+          "passagem": "orientar a produção agrária nacional para o mercado interno, afastando as megas empresas, predominantemente estrangeiras, que hoje orientam toda produção nacional às exportações",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg19",
+          "titulo": "Soberania sobre recursos estratégicos",
+          "valor": "favor",
+          "pagina": 18,
+          "passagem": "Soberania significa estatizar a produção nacional de metais preciosos",
+          "eixos": [
+            "eco",
+            "sob"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 17,
+          "passagem": "parte do excedente de empresas que exploram combustíveis fósseis, como a Petrobras, pode ser sistematicamente redirecionada para a produção de energia renovável",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg26",
+          "titulo": "Agronegócio como motor, com regras mais leves",
+          "valor": "contra",
+          "pagina": 37,
+          "passagem": "o peso do agronegócio e que vêm impondo a concentração das terras, destruição da natureza, aumento da violência e a utilização de grandes quantidades de agrotóxicos",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240002552157,
+      "nome": "RALF ZIMMER",
+      "partido": "PRD",
+      "cargo": "gov",
+      "cargo_nome": "Governador de Santa Catarina",
+      "ue": "SC",
+      "paginas": 25,
+      "evidencia": "plano",
+      "posicao": {
+        "eco": 0,
+        "soc": 0,
+        "pod": 13,
+        "sob": 0,
+        "amb": 0
+      },
+      "confianca": {
+        "eco": 21,
+        "soc": 0,
+        "pod": 13,
+        "sob": 0,
+        "amb": 43
+      },
+      "confianca_media": 15,
+      "temas_respondidos": 5,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg05",
+          "titulo": "Investimento público direto e banco público de fomento",
+          "valor": "contra",
+          "pagina": 11,
+          "passagem": "realizando concessão e/ou parceria público-privada por edital de concorrência nacional/internacional com pedágio como fonte compensatória de custeio",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 7,
+          "passagem": "expandir videomonitoramento e leitura de placas conforme a legislação",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "simplificar processos ambientais sem reduzir proteção; definir competências com clareza; ampliar segurança jurídica",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "incentivar energia renovável e eficiência energética",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 7,
+          "passagem": "recompor efetivos por concursos e gestão eficiente de pessoal",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
+    }
+  ]
+}

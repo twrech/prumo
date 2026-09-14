@@ -1,0 +1,142 @@
+{
+  "versao": "1.0",
+  "gerado_em": "2026-09-14",
+  "fonte": "Atas em PDF das sessões plenárias da ALESC, legislatura 2023-2027",
+  "convencao": "Igual à da etapa 2: o SIM da bancada aponta para o sinal do vetor.",
+
+  "aviso_de_sinal": "A maioria destas votações é de veto. Em veto, a ata diz 'os srs. deputados que votarem sim MANTÊM o veto': o SIM aponta CONTRA o projeto vetado. O vetor abaixo já está escrito na direção do SIM da ata. Confundir os dois inverte tudo.",
+
+  "eixos_publicaveis": ["eco", "soc"],
+  "eixos_nao_publicaveis": {
+    "pod": "20,0% do peso com o SIM apontando para Ordem — fora da faixa de 40% a 60%. Duas votações puxam para Liberdade e nenhuma equilibra.",
+    "amb": "66,7% — fora da faixa. Três pontos de peso ao todo, insuficientes.",
+    "sob": "Nenhuma votação nominal da legislatura toca soberania. Não é lacuna do levantamento: soberania nacional não é competência de assembleia estadual."
+  },
+  "polaridade": {
+    "eco": { "peso": 10, "fracao_sim_para_polo_mais": 60.0, "passa": true },
+    "soc": { "peso": 5, "fracao_sim_para_polo_mais": 40.0, "passa": true },
+    "pod": { "peso": 5, "fracao_sim_para_polo_mais": 20.0, "passa": false },
+    "amb": { "peso": 3, "fracao_sim_para_polo_mais": 66.7, "passa": false },
+    "sob": { "peso": 0, "fracao_sim_para_polo_mais": null, "passa": false }
+  },
+  "nota_sobre_a_polaridade": "Economia e Costumes passam exatamente nos limites da faixa — 60,0% e 40,0%. Passar na borda não é passar com folga: qualquer votação a mais ou a menos joga os dois para fora. Isto é um catálogo pequeno e deve ser lido como tal.",
+
+  "funil": {
+    "sessoes_plenarias": 613,
+    "votacoes_nominais": 188,
+    "com_minoria_de_20_por_cento_ou_mais": 22,
+    "sobreviveram_a_revisao_adversarial": 8
+  },
+
+  "revisao_adversarial": {
+    "metodo": "Revisão cega em três lotes. O revisor recebeu apenas o trecho literal da ata — sem meu vetor, sem minha justificativa, sem saber se eu havia incluído ou excluído a votação, e com o nome do autor da matéria omitido. Prompts em dados/revisao-alesc/prompts/.",
+    "modelo": "Opus. O Fable era o modelo pretendido, pela independência de leitor, mas os créditos estavam esgotados — pela segunda vez, depois da revisão do item 2j.",
+    "o_que_mudou": [
+      "al67 teve o SINAL INVERTIDO. Eu havia lido 'sim' como aprovar a proibição do nudismo. O revisor leu que a votação era do PARECER CONTRÁRIO da CCJ, não do projeto. A ata resolve a disputa na linha seguinte à votação: 'Está rejeitado o parecer da Comissão de Constituição e Justiça'. O revisor estava certo e o vetor foi invertido.",
+      "al71 (Dia Estadual do Caçador) foi EXCLUÍDA. O revisor recusou: data comemorativa não tem conteúdo normativo. Eu havia atribuído amb +2 argumentando que a votação funcionou como plebiscito sobre a caça — que é inferir pelo assunto, não pelo que foi votado, exatamente o erro que a revisão da etapa 2 derrubou nove vezes.",
+      "al29 (quadro de pessoal do TCE) foi EXCLUÍDA. O revisor apontou que a ata não diz QUAIS dispositivos foram alterados nem em que sentido, e sem isso o vetor seria do assunto, não do texto.",
+      "al172 (abigeato) foi EXCLUÍDA, com concordância: é veto parcial e o dispositivo vetado não consta da ata.",
+      "al119 caiu de eco +3 para +2 e al166 perdeu o pod +1 que eu havia atribuído. Divergências de peso, resolvidas a favor da leitura mais contida."
+    ],
+    "efeito": "Das 11 votações submetidas, 8 sobreviveram. Uma teve o sinal invertido, três foram excluídas e duas tiveram peso reduzido. Só três passaram sem alteração nenhuma."
+  },
+
+  "defeito_de_extracao_corrigido": {
+    "o_que_era": "O último deputado de cada chamada nominal não era capturado. A lista da ata é alfabética, então o efeito não era ruído: apagava sempre a mesma pessoa. Volnei Weber aparecia em 47 das 188 votações, contra 188 de colegas da mesma legislatura.",
+    "como_apareceu": "A ata declara o próprio placar ('Temos 13 votos sim, 11 votos não'). Comparando o que o parser contou com o que a Casa contou, 157 das 188 votações divergiam — sempre por um voto.",
+    "depois_da_correcao": "184 das 188 conferem exatamente. As 4 restantes são de sessões fora deste catálogo e ficam registradas como limite conhecido.",
+    "licao": "Sem a conferência contra o placar declarado, o Prumo teria publicado o histórico de um deputado com três quartos dos votos faltando, e nada na aparência do dado denunciaria isso."
+  },
+
+  "votacoes": [
+    {
+      "id": "al186", "data": "2023-05-02", "sessao": "zjn6z", "placar": "14 sim x 15 não",
+      "materia": "Mensagem de Veto 0054/2023 ao PL 039/2022",
+      "resumo": "Atualizar monetariamente as faixas de valor da base de cálculo do ITCMD.",
+      "sentido_do_sim": "mantém o veto, isto é, deixa as faixas sem correção",
+      "por_que_o_vetor": "Faixa não corrigida faz mais transmissão cair em alíquota alta. Manter o veto é, na prática, tributar mais.",
+      "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "revisao": "confirmada sem alteração"
+    },
+    {
+      "id": "al180", "data": "2023-06-13", "sessao": "NOlVz", "placar": "20 sim x 9 não",
+      "materia": "Mensagem de Veto 0093/2023 ao PL 095/2022",
+      "resumo": "Obrigar o governo a divulgar a lista de detentos beneficiados por indulto natalino e saída temporária.",
+      "sentido_do_sim": "mantém o veto, isto é, não divulga a lista",
+      "por_que_o_vetor": "Derrubar o veto amplia vigilância sobre egressos do sistema prisional e expõe nominalmente pessoas presas. O SIM recusa as duas coisas.",
+      "vetor": { "eco": 0, "soc": -1, "pod": -2, "sob": 0, "amb": 0 },
+      "revisao": "o revisor acrescentou soc −1 ao meu pod −2, por causa da exposição nominal de pessoas presas; acatado"
+    },
+    {
+      "id": "al166", "data": "2023-09-19", "sessao": "NpA4z", "placar": "21 sim x 12 não",
+      "materia": "Mensagem de Veto 0003/2023 ao PL 420/2019",
+      "resumo": "Instituir Programa de Recuperação de Dependentes Químicos no Sistema Prisional.",
+      "sentido_do_sim": "mantém o veto, isto é, não cria o programa",
+      "por_que_o_vetor": "Derrubar o veto trata a dependência do preso como saúde e cria despesa estadual. O SIM recusa as duas coisas.",
+      "vetor": { "eco": 1, "soc": 2, "pod": 0, "sob": 0, "amb": 0 },
+      "revisao": "o revisor tirou o pod +1 que eu havia atribuído e reforçou soc; acatado"
+    },
+    {
+      "id": "al119", "data": "2023-12-19", "sessao": "KvxGN", "placar": "27 sim x 11 não",
+      "materia": "PLC 0031/2023, do Governo do Estado",
+      "resumo": "Segregação de massa de segurados do Regime Próprio de Previdência Social do Estado.",
+      "sentido_do_sim": "aprova a matéria",
+      "por_que_o_vetor": "Reforma no financiamento da previdência do funcionalismo estadual, com a bancada do PT em bloco contra e manifestação nas galerias.",
+      "vetor": { "eco": 2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "revisao": "peso reduzido de +3 para +2; o revisor observou que a ata não diz se há mudança de alíquota ou de benefício"
+    },
+    {
+      "id": "al90", "data": "2024-04-16", "sessao": "K4vgN", "placar": "12 sim x 10 não",
+      "materia": "Mensagem de Veto 0180/2023 ao PL 212/2020",
+      "resumo": "Proibir a cobrança de débitos de terceiros na troca de titularidade de contratos de água e energia.",
+      "sentido_do_sim": "mantém o veto, isto é, a proibição não vale",
+      "por_que_o_vetor": "Derrubar o veto é regulação a favor do consumidor contra a concessionária. O SIM é o lado do mercado.",
+      "vetor": { "eco": 2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "revisao": "confirmada sem alteração"
+    },
+    {
+      "id": "al67", "data": "2025-06-03", "sessao": "5GEVz", "placar": "9 sim x 18 não",
+      "materia": "Parecer contrário da CCJ ao PL 0112/2025",
+      "resumo": "Vedar a conduta do nudismo a céu aberto, inclusive em praias marítimas e fluviais.",
+      "sentido_do_sim": "acolhe o parecer contrário e arquiva o projeto — NÃO aprova a proibição",
+      "por_que_o_vetor": "A votação não era do projeto, era do parecer contrário da CCJ, do qual o autor recorrera. Quem votou SIM quis matar a proibição do nudismo.",
+      "vetor": { "eco": 0, "soc": -2, "pod": -2, "sob": 0, "amb": 0 },
+      "revisao": "SINAL INVERTIDO pela revisão. Confirmado pela linha seguinte da própria ata: 'Está rejeitado o parecer da Comissão de Constituição e Justiça', e o Presidente encaminha a matéria às Comissões de Direitos Humanos e de Turismo."
+    },
+    {
+      "id": "al23", "data": "2026-02-10", "sessao": "zjvoz", "placar": "10 sim x 18 não",
+      "materia": "Mensagem de Veto 0921/2025 ao PL 153/2023",
+      "resumo": "Instituir Política de Gestão dos Resíduos Sólidos Orgânicos e incentivar a compostagem.",
+      "sentido_do_sim": "mantém o veto, isto é, não institui a política",
+      "por_que_o_vetor": "Derrubar o veto cria obrigação ambiental e custo para quem gera resíduo. O SIM recusa a obrigação.",
+      "vetor": { "eco": 1, "soc": 0, "pod": 0, "sob": 0, "amb": 2 },
+      "revisao": "confirmada sem alteração"
+    },
+    {
+      "id": "al87", "data": "2026-02-25", "sessao": "z8M7K", "placar": "13 sim x 11 não",
+      "materia": "PL 0011/2023",
+      "resumo": "Proibir a venda, a queima e a soltura de fogos de artifício com estampido.",
+      "sentido_do_sim": "aprova a proibição",
+      "por_que_o_vetor": "Restrição de atividade comercial e festiva, com componente de ruído.",
+      "vetor": { "eco": -2, "soc": 0, "pod": 1, "sob": 0, "amb": -1 },
+      "revisao": "redistribuída pelo revisor: mais peso em eco, pod +1 pela restrição de conduta, amb reduzido a −1 porque só o ruído consta da ementa. Ressalva registrada: houve emenda substitutiva global cujo teor não está na ata."
+    }
+  ],
+
+  "excluidas": [
+    { "id": "al71", "motivo": "Dia Estadual do Caçador — data comemorativa sem conteúdo normativo. Excluída pela revisão cega, contra a minha primeira passada." },
+    { "id": "al29", "motivo": "Quadro de pessoal do TCE — a ata não identifica os dispositivos alterados. Excluída pela revisão cega, contra a minha primeira passada." },
+    { "id": "al172", "motivo": "Veto PARCIAL ao PL do abigeato — o dispositivo vetado não consta da ata." },
+    { "id": "al120", "motivo": "Destaque de votação em separado — matéria processual." },
+    { "id": "al156", "motivo": "Requerimento de votação em separado de emenda ao PL do javali — o dispositivo destacado não consta da ata." },
+    { "id": "al178", "motivo": "Votação do Artigo 49 de substitutivo global não identificável; houve questão de ordem em plenário sobre o sentido do próprio 'sim'." },
+    { "id": "al11", "motivo": "Moção pedindo federalização de investigação criminal — manifestação, não decisão de política pública." },
+    { "id": "al7", "motivo": "Sinalização agrícola em rodovias estaduais — matéria técnica, sem posição em nenhum eixo." },
+    { "id": "al77", "motivo": "PEC sobre a fatia da Assembleia no orçamento — disputa entre Poderes, sem eixo." },
+    { "id": "al35", "motivo": "Emolumentos e Fundo de Reaparelhamento da Justiça — matéria fiscal cartorária, sem eixo claro." },
+    { "id": "al158", "motivo": "Veto ao projeto que veda recadastro — desburocratização de teor insuficiente." },
+    { "id": "al159", "motivo": "Veto ao Programa Nota Fiscal Catarinense — sinal econômico ambíguo nos dois sentidos." },
+    { "id": "al10", "motivo": "Veto à Política de Plantas Medicinais — criação de programa de baixo teor ideológico." },
+    { "id": "al22", "motivo": "Veto sobre parteiras tradicionais nas Declarações de Nascidos Vivos — regulação sanitária pontual, sem eixo claro." }
+  ]
+}

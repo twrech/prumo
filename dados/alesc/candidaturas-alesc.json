@@ -1,0 +1,519 @@
+{
+  "versao": "1.0",
+  "gerado_em": "2026-09-14",
+  "o_que_e": "Liga cada deputado estadual medido à candidatura dele em 2026, quando existe.",
+  "por_que_a_mao": "Cruzamento automático por nome erra, e errar aqui é dar a uma pessoa o histórico de voto de outra. O caso que prova a regra está neste lote: \"CHICA DO ESKUDLARK\" concorre a deputada estadual pelo PL e NÃO é Maurício Eskudlark. Casar por sobrenome atribuiria a ela sete votações que não são dela.",
+  "regra": "Só entra candidatura confirmada por nome de urna idêntico ou por prova documental no registro do TSE. Semelhança de nome não basta e não é usada.",
+  "total_medidos": 33,
+  "com_candidatura": 29,
+  "sem_candidatura": 4,
+  "por_cargo": {
+    "Deputado Estadual": 27,
+    "Senador": 1,
+    "Deputado Federal": 1
+  },
+  "deputados": [
+    {
+      "deputado": "LUCAS NEVES",
+      "grafias": [
+        "LUCAS NEVES"
+      ],
+      "candidatura": {
+        "id": "240002537915",
+        "nome": "LUCAS NEVES",
+        "numero": "10282",
+        "partido": "REPUBLICANOS",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MAURÍCIO PEIXER",
+      "grafias": [
+        "MAURÍCIO PEIXER"
+      ],
+      "candidatura": {
+        "id": "240002539976",
+        "nome": "MAURÍCIO PEIXER",
+        "numero": "22122",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "OSCAR GUTZ",
+      "grafias": [
+        "OSCAR GUTZ"
+      ],
+      "candidatura": {
+        "id": "240002539988",
+        "nome": "OSCAR GUTZ",
+        "numero": "22470",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "PEPÊ COLLAÇO",
+      "grafias": [
+        "PEPÊ COLLAÇO"
+      ],
+      "candidatura": {
+        "id": "240002543418",
+        "nome": "PEPÊ COLLAÇO",
+        "numero": "11223",
+        "partido": "PP",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "CARLOS HUMBERTO",
+      "grafias": [
+        "CARLOS HUMBERTO"
+      ],
+      "candidatura": {
+        "id": "240002539964",
+        "nome": "CARLOS HUMBERTO",
+        "numero": "22444",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "FERNANDO KRELLING",
+      "grafias": [
+        "FERNANDO KRELLING"
+      ],
+      "candidatura": {
+        "id": "240002541382",
+        "nome": "FERNANDO KRELLING",
+        "numero": "15655",
+        "partido": "MDB",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "JAIR MIOTTO",
+      "grafias": [
+        "JAIR MIOTTO"
+      ],
+      "candidatura": {
+        "id": "240002539985",
+        "nome": "JAIR MIOTTO",
+        "numero": "22422",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "JESSÉ LOPES",
+      "grafias": [
+        "JESSÉ LOPES"
+      ],
+      "candidatura": {
+        "id": "240002539971",
+        "nome": "JESSÉ LOPES",
+        "numero": "22022",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "LUNELLI",
+      "grafias": [
+        "LUNELLI",
+        "ANTÍDIO LUNELLI"
+      ],
+      "candidatura": {
+        "id": "240002548630",
+        "nome": "LUNELLI",
+        "numero": 155,
+        "partido": "MDB",
+        "situacao": "Deferido",
+        "cargo": "Senador"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MATHEUS CADORIN",
+      "grafias": [
+        "MATHEUS CADORIN"
+      ],
+      "candidatura": {
+        "id": "240002535461",
+        "nome": "MATHEUS CADORIN",
+        "numero": "30000",
+        "partido": "NOVO",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MAURÍCIO ESKUDLARK",
+      "grafias": [
+        "MAURÍCIO ESKUDLARK"
+      ],
+      "candidatura": null,
+      "como": "sem candidatura casada",
+      "prova": "Não consta candidatura em 2026 a estadual, federal ou Senado. Há \"CHICA DO ESKUDLARK\" (PL, estadual), que é outra pessoa — casar por sobrenome daria a ela o histórico de voto dele."
+    },
+    {
+      "deputado": "NEODI SARETTA",
+      "grafias": [
+        "NEODI SARETTA"
+      ],
+      "candidatura": {
+        "id": "240002540094",
+        "nome": "NEODI SARETTA",
+        "numero": "13120",
+        "partido": "PT",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "TIAGO ZILLI",
+      "grafias": [
+        "TIAGO ZILLI"
+      ],
+      "candidatura": {
+        "id": "240002541393",
+        "nome": "TIAGO ZILLI",
+        "numero": "15789",
+        "partido": "MDB",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "VOLNEI WEBER",
+      "grafias": [
+        "VOLNEI WEBER"
+      ],
+      "candidatura": null,
+      "como": "sem candidatura casada",
+      "prova": "Não consta candidatura em 2026 em nenhum dos três cargos, nem sob outra grafia."
+    },
+    {
+      "deputado": "ANA CAMPAGNOLO",
+      "grafias": [
+        "ANA CAMPAGNOLO"
+      ],
+      "candidatura": {
+        "id": "240002539977",
+        "nome": "ANA CAMPAGNOLO",
+        "numero": "22222",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "CAMILO MARTINS",
+      "grafias": [
+        "CAMILO MARTINS"
+      ],
+      "candidatura": {
+        "id": "240002539983",
+        "nome": "CAMILO MARTINS",
+        "numero": "22369",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "DR. VICENTE CAROPRESO",
+      "grafias": [
+        "DR. VICENTE CAROPRESO"
+      ],
+      "candidatura": {
+        "id": "240002543392",
+        "nome": "DR. VICENTE",
+        "numero": "44000",
+        "partido": "UNIÃO",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "conferido à mão",
+      "prova": "TSE: nome completo VICENTE AUGUSTO CAROPRESO, eleito deputado estadual em 2014, 2018 e 2022 pelo PSDB; concorre em 2026 pelo UNIÃO com nome de urna DR. VICENTE"
+    },
+    {
+      "deputado": "IVAN NAATZ",
+      "grafias": [
+        "IVAN NAATZ"
+      ],
+      "candidatura": {
+        "id": "240002539965",
+        "nome": "IVAN NAATZ",
+        "numero": "22555",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MARCOS DA ROSA",
+      "grafias": [
+        "MARCOS DA ROSA"
+      ],
+      "candidatura": {
+        "id": "240002539981",
+        "nome": "MARCOS DA ROSA",
+        "numero": "22077",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MÁRIO MOTTA",
+      "grafias": [
+        "MÁRIO MOTTA"
+      ],
+      "candidatura": {
+        "id": "240002551477",
+        "nome": "MÁRIO MOTTA",
+        "numero": "55555",
+        "partido": "PSD",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MARQUITO",
+      "grafias": [
+        "MARQUITO"
+      ],
+      "candidatura": {
+        "id": "240002537811",
+        "nome": "MARQUITO",
+        "numero": "50150",
+        "partido": "PSOL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "SARGENTO LIMA",
+      "grafias": [
+        "SARGENTO LIMA"
+      ],
+      "candidatura": {
+        "id": "240002539368",
+        "nome": "SARGENTO LIMA",
+        "numero": 2212,
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Federal"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "ALTAIR SILVA",
+      "grafias": [
+        "ALTAIR SILVA"
+      ],
+      "candidatura": {
+        "id": "240002543410",
+        "nome": "ALTAIR SILVA",
+        "numero": "11130",
+        "partido": "PP",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "RODRIGO MINOTTO",
+      "grafias": [
+        "RODRIGO MINOTTO"
+      ],
+      "candidatura": {
+        "id": "240002533283",
+        "nome": "RODRIGO MINOTTO",
+        "numero": "12345",
+        "partido": "PDT",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "MARCIUS MACHADO",
+      "grafias": [
+        "MARCIUS MACHADO"
+      ],
+      "candidatura": {
+        "id": "240002539963",
+        "nome": "MARCIUS MACHADO",
+        "numero": "22123",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "EMERSON STEIN",
+      "grafias": [
+        "EMERSON STEIN"
+      ],
+      "candidatura": {
+        "id": "240002541374",
+        "nome": "EMERSON STEIN",
+        "numero": "15100",
+        "partido": "MDB",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "FABIANO DA LUZ",
+      "grafias": [
+        "FABIANO DA LUZ"
+      ],
+      "candidatura": {
+        "id": "240002540084",
+        "nome": "FABIANO DA LUZ",
+        "numero": "13500",
+        "partido": "PT",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "JOSÉ MILTON SCHEFFER",
+      "grafias": [
+        "JOSÉ MILTON SCHEFFER"
+      ],
+      "candidatura": null,
+      "como": "sem candidatura casada",
+      "prova": "Não consta. Há \"SANDRA SCHEFFER\" (UNIÃO, estadual), que é outra pessoa."
+    },
+    {
+      "deputado": "NAPOLEÃO BERNARDES",
+      "grafias": [
+        "NAPOLEÃO BERNARDES"
+      ],
+      "candidatura": {
+        "id": "240002551461",
+        "nome": "NAPOLEÃO BERNARDES",
+        "numero": "55777",
+        "partido": "PSD",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "DELEGADO EGIDIO",
+      "grafias": [
+        "DELEGADO EGIDIO"
+      ],
+      "candidatura": null,
+      "como": "sem candidatura casada",
+      "prova": "NÃO CONFIRMADO. O único nome plausível é EGIDIO BECKHAUSER (REPUBLICANOS, Deputado Federal), suplente de estadual em 2022 e vereador em Blumenau — compatível com um suplente que assumiu por pouco tempo, mas o TSE não traz nada que ligue os dois com certeza. Sem prova, não se atribui: o registro fica sem candidatura casada."
+    },
+    {
+      "deputado": "MASSOCCO",
+      "grafias": [
+        "MASSOCCO"
+      ],
+      "candidatura": {
+        "id": "240002539970",
+        "nome": "MASSOCCO",
+        "numero": "22150",
+        "partido": "PL",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "NILSO BERLANDA",
+      "grafias": [
+        "NILSO BERLANDA",
+        "BERLANDA"
+      ],
+      "candidatura": {
+        "id": "240002551465",
+        "nome": "BERLANDA",
+        "numero": "55055",
+        "partido": "PSD",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "nome de urna idêntico",
+      "prova": null
+    },
+    {
+      "deputado": "PADRE PEDRO BALDISSERA",
+      "grafias": [
+        "PADRE PEDRO BALDISSERA"
+      ],
+      "candidatura": {
+        "id": "240002540082",
+        "nome": "PADRE PEDRO",
+        "numero": "13987",
+        "partido": "PT",
+        "situacao": "Deferido",
+        "cargo": "Deputado Estadual"
+      },
+      "como": "conferido à mão",
+      "prova": "TSE: nome completo PEDRO BALDISSERA, eleito deputado estadual em 2006, 2010, 2014, 2018 e 2022 pelo PT; nome de urna em 2026 é PADRE PEDRO"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+# Licença do Prumo
+
+Este repositório tem duas licenças, porque tem duas coisas dentro dele.
+
+## O código: MIT
+
+Vale para tudo que é programa — `index.html`, `etapa2/`, `js/`, `css/`,
+`ferramentas/`, `testes/`.
+
+```
+Copyright (c) 2026 Talyz (github.com/twrech)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## O conteúdo: CC BY-SA 4.0
+
+Vale para o que é criação intelectual e não programa: as 114 perguntas do banco,
+a atribuição de vetor a cada votação e a cada tema, os textos do `README.md`, da
+spec e das fichas, e os arquivos de `dados/` na parte em que eles carregam
+julgamento — `perguntas.json`, `eixos.json`, `arquetipos.json`,
+`votacoes.json`, `dados/alesc/votacoes-alesc.json`,
+`dados/planos/temas-planos.json` e `dados/planos/respostas-planos.json`.
+
+Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional
+(CC BY-SA 4.0) — texto completo em
+<https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br>.
+
+Em resumo: qualquer pessoa pode usar, adaptar e republicar, **desde que**
+credite a origem e **mantenha o derivado sob a mesma licença**.
+
+### Por que CompartilhaIgual, e não só Atribuição
+
+Porque isto é ferramenta eleitoral. Licença nenhuma impede que alguém pegue o
+banco, mexa nos pesos e publique uma versão enviesada — nem a mais restritiva
+impediria. O que o CompartilhaIgual garante é outra coisa: que essa versão
+enviesada **também tenha de ser aberta**. Quem alterar os vetores é obrigado a
+deixar visível o que alterou, exatamente como este repositório deixa. A defesa
+não é o cadeado, é a obrigação de mostrar a conta.
+
+O "não comercial" foi considerado e descartado. Parece proteção e é armadilha:
+"comercial" é vago o suficiente para travar um jornal que queira republicar, que
+é justamente o uso que interessa.
+
+## O que NÃO é coberto por nenhuma das duas
+
+Os dados públicos brutos, porque não pertencem a ninguém — nem a mim.
+
+- Votação nominal da Câmara dos Deputados (API de Dados Abertos)
+- Registro de candidatura e planos de governo (DivulgaCandContas/TSE)
+- Atas das sessões plenárias da ALESC
+
+São atos públicos, e fato não tem direito autoral. Estão aqui reproduzidos para
+que a conta possa ser conferida, e qualquer pessoa pode buscá-los na fonte.
+
+O que é criação minha, e por isso licenciado, é a **escolha** de quais votações
+entram, o **vetor** atribuído a cada uma, a **redação** das perguntas e o
+**método** descrito no README.

@@ -1,0 +1,995 @@
+{
+  "versao": "1.0",
+  "gerado_em": "2026-09-14",
+  "base": "8 votações nominais da ALESC, catálogo revisado",
+  "eixos_publicaveis": [
+    "eco",
+    "soc"
+  ],
+  "eixos_recusados": {
+    "pod": "20,0% do peso com o SIM apontando para Ordem — fora da faixa de 40% a 60%. Duas votações puxam para Liberdade e nenhuma equilibra.",
+    "amb": "66,7% — fora da faixa. Três pontos de peso ao todo, insuficientes.",
+    "sob": "Nenhuma votação nominal da legislatura toca soberania. Não é lacuna do levantamento: soberania nacional não é competência de assembleia estadual."
+  },
+  "peso_por_eixo": {
+    "eco": 10,
+    "soc": 5
+  },
+  "votacoes_por_eixo": {
+    "eco": 6,
+    "soc": 3
+  },
+  "amplitude_entre_deputados": {
+    "eco": 160,
+    "soc": 180
+  },
+  "confianca_minima": 60,
+  "o_que_isto_mede": "o que a pessoa fez em plenário, nas votações nominais — não o que ela diz",
+  "grafias_unidas": [
+    "ANTÍDIO LUNELLI (81) → LUNELLI (107) · soma 188, e nunca aparecem juntos",
+    "BERLANDA (12) → NILSO BERLANDA (176) · soma 188, e nunca aparecem juntos",
+    "SÉRGIO GUIMARÃES (143) → REPÓRTER SÉRGIO GUIMARÃES (45) · soma 188, e nunca aparecem juntos"
+  ],
+  "ressalva_sobre_a_confianca": "A confiança aqui mede quanto do catálogo a pessoa cobriu, e o catálogo tem 8 votações. Quem compareceu a todas sai com 100%, e isso NÃO quer dizer que a posição dela esteja bem medida: quer dizer que ela votou nas oito. A limitação real é o tamanho do catálogo, não a assiduidade, e a ficha do candidato é obrigada a dizer sobre quantas votações o número foi calculado.",
+  "o_que_o_eixo_economia_mede_aqui": "Não é o eixo Economia do questionário. As seis votações estaduais que o compõem perguntam, no fundo, uma coisa só: o Estado deve criar programa, obrigar e regular, ou não? Não há privatização, não há reforma tributária ampla, não há legislação trabalhista — essas não são competência da Assembleia. Um deputado que aparece no polo Estado aqui votou por criar programas e obrigações estaduais, o que não é a mesma afirmação que sai da etapa 1.",
+  "nota_de_validacao": "Os extremos batem com o que se sabe dos deputados por fora do dado: PT e PDT no polo Estado e Progressista, PL e Republicanos no polo oposto. A correlação entre os dois eixos é 0,72 entre os 24 deputados com base nos dois — alta, mas bem abaixo dos 0,94 dos partidos na etapa 2.",
+  "deputados": [
+    {
+      "nome": "LUCAS NEVES",
+      "grafias": [
+        "LUCAS NEVES"
+      ],
+      "chamadas": 8,
+      "votou": 8,
+      "faltou": 0,
+      "posicao": {
+        "eco": 0,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 100,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MAURÍCIO PEIXER",
+      "grafias": [
+        "MAURÍCIO PEIXER"
+      ],
+      "chamadas": 8,
+      "votou": 8,
+      "faltou": 0,
+      "posicao": {
+        "eco": 40,
+        "soc": 60
+      },
+      "confianca": {
+        "eco": 100,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "OSCAR GUTZ",
+      "grafias": [
+        "OSCAR GUTZ"
+      ],
+      "chamadas": 8,
+      "votou": 8,
+      "faltou": 0,
+      "posicao": {
+        "eco": 60,
+        "soc": 100
+      },
+      "confianca": {
+        "eco": 100,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "PEPÊ COLLAÇO",
+      "grafias": [
+        "PEPÊ COLLAÇO"
+      ],
+      "chamadas": 8,
+      "votou": 8,
+      "faltou": 0,
+      "posicao": {
+        "eco": 40,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 100,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "CARLOS HUMBERTO",
+      "grafias": [
+        "CARLOS HUMBERTO"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 40,
+        "soc": 100
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "FERNANDO KRELLING",
+      "grafias": [
+        "FERNANDO KRELLING"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 20,
+        "soc": 60
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "JAIR MIOTTO",
+      "grafias": [
+        "JAIR MIOTTO"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 70,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 90,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "JESSÉ LOPES",
+      "grafias": [
+        "JESSÉ LOPES"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 40,
+        "soc": 100
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "LUNELLI",
+      "grafias": [
+        "LUNELLI",
+        "ANTÍDIO LUNELLI"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 20,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MATHEUS CADORIN",
+      "grafias": [
+        "MATHEUS CADORIN"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 10,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 90,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MAURÍCIO ESKUDLARK",
+      "grafias": [
+        "MAURÍCIO ESKUDLARK"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 10,
+        "soc": 60
+      },
+      "confianca": {
+        "eco": 90,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "NEODI SARETTA",
+      "grafias": [
+        "NEODI SARETTA"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": -60,
+        "soc": -60
+      },
+      "confianca": {
+        "eco": 100,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "TIAGO ZILLI",
+      "grafias": [
+        "TIAGO ZILLI"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 0,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "VOLNEI WEBER",
+      "grafias": [
+        "VOLNEI WEBER"
+      ],
+      "chamadas": 8,
+      "votou": 7,
+      "faltou": 1,
+      "posicao": {
+        "eco": 20,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "ANA CAMPAGNOLO",
+      "grafias": [
+        "ANA CAMPAGNOLO"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": 80,
+        "soc": 80
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 80
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "CAMILO MARTINS",
+      "grafias": [
+        "CAMILO MARTINS"
+      ],
+      "chamadas": 7,
+      "votou": 6,
+      "faltou": 1,
+      "posicao": {
+        "eco": 0,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "DR. VICENTE CAROPRESO",
+      "grafias": [
+        "DR. VICENTE CAROPRESO"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": -80,
+        "soc": -60
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "IVAN NAATZ",
+      "grafias": [
+        "IVAN NAATZ"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": -10,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 70,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MARCOS DA ROSA",
+      "grafias": [
+        "MARCOS DA ROSA"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": 40,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 60,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MÁRIO MOTTA",
+      "grafias": [
+        "MÁRIO MOTTA"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": -10,
+        "soc": 60
+      },
+      "confianca": {
+        "eco": 70,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MARQUITO",
+      "grafias": [
+        "MARQUITO"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": -20,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "SARGENTO LIMA",
+      "grafias": [
+        "SARGENTO LIMA"
+      ],
+      "chamadas": 7,
+      "votou": 6,
+      "faltou": 1,
+      "posicao": {
+        "eco": 40,
+        "soc": 80
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 80
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "ALTAIR SILVA",
+      "grafias": [
+        "ALTAIR SILVA"
+      ],
+      "chamadas": 8,
+      "votou": 5,
+      "faltou": 3,
+      "posicao": {
+        "eco": 20,
+        "soc": 60
+      },
+      "confianca": {
+        "eco": 60,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "RODRIGO MINOTTO",
+      "grafias": [
+        "RODRIGO MINOTTO"
+      ],
+      "chamadas": 8,
+      "votou": 5,
+      "faltou": 3,
+      "posicao": {
+        "eco": -60,
+        "soc": -80
+      },
+      "confianca": {
+        "eco": 60,
+        "soc": 80
+      },
+      "eixos_com_base": [
+        "eco",
+        "soc"
+      ]
+    },
+    {
+      "nome": "MARCIUS MACHADO",
+      "grafias": [
+        "MARCIUS MACHADO"
+      ],
+      "chamadas": 8,
+      "votou": 6,
+      "faltou": 2,
+      "posicao": {
+        "eco": 10,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 90,
+        "soc": 20
+      },
+      "eixos_com_base": [
+        "eco"
+      ]
+    },
+    {
+      "nome": "EMERSON STEIN",
+      "grafias": [
+        "EMERSON STEIN"
+      ],
+      "chamadas": 7,
+      "votou": 5,
+      "faltou": 2,
+      "posicao": {
+        "eco": 20,
+        "soc": 40
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 40
+      },
+      "eixos_com_base": [
+        "eco"
+      ]
+    },
+    {
+      "nome": "FABIANO DA LUZ",
+      "grafias": [
+        "FABIANO DA LUZ"
+      ],
+      "chamadas": 8,
+      "votou": 5,
+      "faltou": 3,
+      "posicao": {
+        "eco": -40,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 80,
+        "soc": 40
+      },
+      "eixos_com_base": [
+        "eco"
+      ]
+    },
+    {
+      "nome": "JOSÉ MILTON SCHEFFER",
+      "grafias": [
+        "JOSÉ MILTON SCHEFFER"
+      ],
+      "chamadas": 8,
+      "votou": 5,
+      "faltou": 3,
+      "posicao": {
+        "eco": 10,
+        "soc": 60
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 100
+      },
+      "eixos_com_base": [
+        "soc"
+      ]
+    },
+    {
+      "nome": "NAPOLEÃO BERNARDES",
+      "grafias": [
+        "NAPOLEÃO BERNARDES"
+      ],
+      "chamadas": 7,
+      "votou": 5,
+      "faltou": 2,
+      "posicao": {
+        "eco": -10,
+        "soc": -60
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "soc"
+      ]
+    },
+    {
+      "nome": "DELEGADO EGIDIO",
+      "grafias": [
+        "DELEGADO EGIDIO"
+      ],
+      "chamadas": 5,
+      "votou": 4,
+      "faltou": 1,
+      "posicao": {
+        "eco": 50,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "soc"
+      ]
+    },
+    {
+      "nome": "MASSOCCO",
+      "grafias": [
+        "MASSOCCO"
+      ],
+      "chamadas": 5,
+      "votou": 4,
+      "faltou": 1,
+      "posicao": {
+        "eco": 10,
+        "soc": 20
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 60
+      },
+      "eixos_com_base": [
+        "soc"
+      ]
+    },
+    {
+      "nome": "NILSO BERLANDA",
+      "grafias": [
+        "NILSO BERLANDA",
+        "BERLANDA"
+      ],
+      "chamadas": 8,
+      "votou": 4,
+      "faltou": 4,
+      "posicao": {
+        "eco": 0,
+        "soc": 40
+      },
+      "confianca": {
+        "eco": 60,
+        "soc": 40
+      },
+      "eixos_com_base": [
+        "eco"
+      ]
+    },
+    {
+      "nome": "PADRE PEDRO BALDISSERA",
+      "grafias": [
+        "PADRE PEDRO BALDISSERA"
+      ],
+      "chamadas": 8,
+      "votou": 4,
+      "faltou": 4,
+      "posicao": {
+        "eco": -20,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 60,
+        "soc": 20
+      },
+      "eixos_com_base": [
+        "eco"
+      ]
+    },
+    {
+      "nome": "ALEX BRASIL",
+      "grafias": [
+        "ALEX BRASIL"
+      ],
+      "chamadas": 3,
+      "votou": 3,
+      "faltou": 0,
+      "posicao": {
+        "eco": 30,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 30,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "JULIO GARCIA",
+      "grafias": [
+        "JULIO GARCIA"
+      ],
+      "chamadas": 7,
+      "votou": 3,
+      "faltou": 4,
+      "posicao": {
+        "eco": -10,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "MARCOS VIEIRA",
+      "grafias": [
+        "MARCOS VIEIRA"
+      ],
+      "chamadas": 8,
+      "votou": 3,
+      "faltou": 5,
+      "posicao": {
+        "eco": 20,
+        "soc": 40
+      },
+      "confianca": {
+        "eco": 40,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "MAURO DE NADAL",
+      "grafias": [
+        "MAURO DE NADAL"
+      ],
+      "chamadas": 8,
+      "votou": 3,
+      "faltou": 5,
+      "posicao": {
+        "eco": 10,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 30,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "REPÓRTER SÉRGIO GUIMARÃES",
+      "grafias": [
+        "REPÓRTER SÉRGIO GUIMARÃES",
+        "SÉRGIO GUIMARÃES"
+      ],
+      "chamadas": 8,
+      "votou": 3,
+      "faltou": 5,
+      "posicao": {
+        "eco": -10,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "SERGIO MOTTA",
+      "grafias": [
+        "SERGIO MOTTA"
+      ],
+      "chamadas": 8,
+      "votou": 3,
+      "faltou": 5,
+      "posicao": {
+        "eco": -10,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 50,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "LUCIANE CARMINATTI",
+      "grafias": [
+        "LUCIANE CARMINATTI"
+      ],
+      "chamadas": 8,
+      "votou": 2,
+      "faltou": 6,
+      "posicao": {
+        "eco": -30,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 30,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "PAULINHA",
+      "grafias": [
+        "PAULINHA"
+      ],
+      "chamadas": 7,
+      "votou": 2,
+      "faltou": 5,
+      "posicao": {
+        "eco": 20,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 20,
+        "soc": 20
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "DIRCE HEIDERSCHEIDT",
+      "grafias": [
+        "DIRCE HEIDERSCHEIDT"
+      ],
+      "chamadas": 1,
+      "votou": 1,
+      "faltou": 0,
+      "posicao": {
+        "eco": 0,
+        "soc": -40
+      },
+      "confianca": {
+        "eco": 0,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "GERRI CONSOLI",
+      "grafias": [
+        "GERRI CONSOLI"
+      ],
+      "chamadas": 1,
+      "votou": 1,
+      "faltou": 0,
+      "posicao": {
+        "eco": 0,
+        "soc": -20
+      },
+      "confianca": {
+        "eco": 0,
+        "soc": 20
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "JANICE KRASNIAK",
+      "grafias": [
+        "JANICE KRASNIAK"
+      ],
+      "chamadas": 1,
+      "votou": 1,
+      "faltou": 0,
+      "posicao": {
+        "eco": 0,
+        "soc": 40
+      },
+      "confianca": {
+        "eco": 0,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "JUNIOR CARDOSO",
+      "grafias": [
+        "JUNIOR CARDOSO"
+      ],
+      "chamadas": 3,
+      "votou": 1,
+      "faltou": 2,
+      "posicao": {
+        "eco": -20,
+        "soc": 0
+      },
+      "confianca": {
+        "eco": 20,
+        "soc": 0
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "THIAGO MORASTONI",
+      "grafias": [
+        "THIAGO MORASTONI"
+      ],
+      "chamadas": 1,
+      "votou": 1,
+      "faltou": 0,
+      "posicao": {
+        "eco": 0,
+        "soc": 40
+      },
+      "confianca": {
+        "eco": 0,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "ZÉ CARAMORI",
+      "grafias": [
+        "ZÉ CARAMORI"
+      ],
+      "chamadas": 1,
+      "votou": 1,
+      "faltou": 0,
+      "posicao": {
+        "eco": 10,
+        "soc": 40
+      },
+      "confianca": {
+        "eco": 10,
+        "soc": 40
+      },
+      "eixos_com_base": []
+    },
+    {
+      "nome": "SORATTO",
+      "grafias": [
+        "SORATTO"
+      ],
+      "chamadas": 1,
+      "votou": 0,
+      "faltou": 1,
+      "posicao": {
+        "eco": 0,
+        "soc": 0
+      },
+      "confianca": {
+        "eco": 0,
+        "soc": 0
+      },
+      "eixos_com_base": []
+    }
+  ]
+}

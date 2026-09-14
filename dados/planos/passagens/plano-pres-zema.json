@@ -1,0 +1,370 @@
+{
+  "arquivo": "plano-pres-zema.txt",
+  "identidade": "ZEMA — NOVO — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 788,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 19,
+        "termos": [
+          "tributár",
+          "carga tributária",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Evitar que a regulamentação da Reforma Tributária replique a complexidade do sistema atual por meio de burocracias desnecessárias, regimes especiais, exceções e tratamentos favorecidos, garantindo monitoramento técnico, transparência sobre impactos setoriais e compromisso verificável de neutralidade da carga tributária."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Assegurar uma implementação eficaz da Reforma Tributária:"
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "Modernizar as Leis de Concessões e PPPs:"
+      },
+      {
+        "pagina": 31,
+        "termos": [
+          "concessão",
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer a regionalização da prestação dos serviços, ampliar a estruturação de projetos de concessão e PPPs e promover soluções que ampliem a escala, a eficiência operacional e a capacidade de investimento dos prestadores, em articulação entre a União, estados e municípios, para cumprir as metas do Novo Marco do Saneamento."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "imposto",
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": false,
+        "texto": "Fixar metas progressivas de redução da carga tributária que imponham os cortes de gastos necessários para atingi-las, invertendo a lógica atual em que o gasto define o imposto."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "tributár"
+        ],
+        "compromisso": true,
+        "texto": "Reduzir as matérias que podem ser levadas ao STF, acabando com competências como matérias criminais e tributárias:"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "ajuste fiscal"
+        ],
+        "compromisso": true,
+        "texto": "Fazer o ajuste fiscal de verdade exige atacar a raiz do problema: cortar gastos, reduzir o peso do Estado onde ele não é essencial e devolver ao orçamento a capacidade de investir, crescer e aliviar a pressão sobre famílias e empresas."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "transferência de renda"
+        ],
+        "compromisso": true,
+        "texto": "Unificar programas de transferência de renda e aumentar a qualidade do CadÚnico, integrando fontes alternativas de informação para evitar fraudes e duplicidade de benefícios, de modo que os esforços do governo sejam voltados para tirar as pessoas da pobreza de forma definitiva."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 7,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Ampliar a rede de delegacias da mulher com atuação 24 horas e equipes preferencialmente femininas capacitadas em violência de gênero, e apoiar os estados na construção de sistemas integrados entre Saúde, Segurança Pública e delegacias."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": true,
+        "texto": "Por isso, reformar esse arranjo é, na prática, restabelecer limites ao ativismo judicial, moralizar o funcionamento do Judiciário e dos órgãos de controle e criar mecanismos efetivos de fiscalização das Cortes, dando ao Senado condições reais de exercer o papel que a Constituição lhe atribuiu."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": true,
+        "texto": "MORALIZ AR O JUDICIÁRIO E OS ÓRGÃOS DE CONTROLE Proibir que parentes de ministros dos Tribunais Superiores advoguem nestes tribunais:"
+      },
+      {
+        "pagina": 38,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "Ampliar a presença do Estado brasileiro nos postos de fronteira e na Amazônia, integrando inteligência, vigilância e forças de segurança para sufocar a entrada de drogas e armas que abastecem o crime organizado."
+      },
+      {
+        "pagina": 64,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "Apoiar estados e municípios a fazer a internação involuntária de dependentes de drogas e álcool que vivem nas ruas:"
+      },
+      {
+        "pagina": 74,
+        "termos": [
+          "descriminaliz"
+        ],
+        "compromisso": true,
+        "texto": "P L A N O I M P L A C Á V E L ● R O M E U Z E M A | 7 4 GARANTIR A EFETIVA PROTEÇÃO À LIBERDADE DE E XPRESSÃO NO BRASIL Descriminalizar a opinião e punir quem censura:"
+      },
+      {
+        "pagina": 76,
+        "termos": [
+          "cota",
+          "moral"
+        ],
+        "compromisso": false,
+        "texto": "Enxugar o custo do Legislativo e do Judiciário, atacando o excesso de pessoal e os salários acima da média que sustentam essas estruturas, além de moralizar despesas como verba de gabinete e cota parlamentar, devolvendo ao contribuinte recursos hoje gastos com o conforto dos ocupantes dos cargos."
+      },
+      {
+        "pagina": 53,
+        "termos": [
+          "homeschooling"
+        ],
+        "compromisso": false,
+        "texto": "Dar mais liberdade aos pais de escolher o modelo educacional de seus filhos, facilitando a formalização de parcerias com instituições comunitárias, filantrópicas e confessionais, avançando em uma agenda de parcerias com escolas conveniadas na educação, escolas cívico-militares e regulamentando o homeschooling."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 5,
+        "termos": [
+          "armament",
+          "pena",
+          "forças armadas"
+        ],
+        "compromisso": true,
+        "texto": "Enquadrar como terroristas os criminosos que usam táticas e armamentos de guerra para dominar territórios, de modo a permitir o uso da Força Nacional, das Forças Armadas, dos órgãos de controle e da colaboração internacional para combatê-los, além de garantir penas mais altas e a impossibilidade de progressão de regime."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "maioridade penal",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "REDUZIR A MAIORIDADE PENAL E ENDURECER A LEGISL AÇÃO Reduzir a maioridade penal para 16 anos ou menos:"
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "maioridade penal",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Reduzir a maioridade penal para 16 anos, assegurando a responsabilização criminal de adolescentes a partir dessa idade e permitindo, excepcionalmente, a imputação penal de pessoas ainda mais jovens nos casos de crimes graves, como homicídio e estupro, ou reincidência."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "pena",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "Garantir que o criminoso fique efetivamente preso durante o cumprimento da pena substituindo o modelo atual em que o preso progride rapidamente do regime fechado para o semiaberto e aberto, por um modelo de restrição de liberdade seguido de liberdade condicional com monitoramento eletrônico."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer a atuação policial, garantindo proteção legal na legítima defesa contra criminosos armados, especialmente com fuzis, e fornecer estrutura para o trabalho policial, integrando em tempo real as informações entre as polícias federal e estaduais e ampliando o acesso a equipamentos e tecnologias."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "segurança pública",
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "Expandir nas redes de segurança pública e saúde de estados e municípios as Patrulhas Maria da Penha, que monitoram o cumprimento de medidas protetivas para reduzir a reincidência, e as Salas Lilás, com espaços de acolhimento às vítimas em unidades policiais."
+      },
+      {
+        "pagina": 38,
+        "termos": [
+          "crime organizado",
+          "vigilância"
+        ],
+        "compromisso": true,
+        "texto": "Ampliar a presença do Estado brasileiro nos postos de fronteira e na Amazônia, integrando inteligência, vigilância e forças de segurança para sufocar a entrada de drogas e armas que abastecem o crime organizado."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "polícia",
+          "forças armadas",
+          "crime organizado"
+        ],
+        "compromisso": false,
+        "texto": "Empregar as Forças Armadas de forma integrada às polícias para retomar territórios dominados pelo crime organizado:"
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 29,
+        "termos": [
+          "comércio exterior"
+        ],
+        "compromisso": true,
+        "texto": "Expandir a infraestrutura portuária, por meio da modernização da gestão e dos processos operacionais, da melhoria dos acessos terrestres e aquaviários, da integração logística dos portos com as malhas ferroviária e rodoviária e do aperfeiçoamento dos modelos de gestão, ampliando a participação privada, observadas as características de cada complexo, para elevar a produtividade, reduzir custos logísticos e fortalecer a competitividade do comércio exterior brasileiro."
+      },
+      {
+        "pagina": 33,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": true,
+        "texto": "Reduzir encargos setoriais da tarifa de energia elétrica:"
+      },
+      {
+        "pagina": 36,
+        "termos": [
+          "política externa"
+        ],
+        "compromisso": true,
+        "texto": "P L A N O I M P L A C Á V E L ● R O M E U Z E M A | 3 6 POLÍTICA EXTERNA O Brasil já foi uma voz respeitada no mundo, com uma diplomacia reconhecida pelo pragmatismo e pela capacidade de defender os interesses nacionais."
+      },
+      {
+        "pagina": 38,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "COMBATER AS AMEAÇAS QUE CRUZ AM FRONTEIRAS Assumir protagonismo regional no combate ao crime que extrapola nossas fronteiras:"
+      },
+      {
+        "pagina": 38,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "Ampliar a presença do Estado brasileiro nos postos de fronteira e na Amazônia, integrando inteligência, vigilância e forças de segurança para sufocar a entrada de drogas e armas que abastecem o crime organizado."
+      },
+      {
+        "pagina": 77,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "P L A N O I M P L A C Á V E L ● R O M E U Z E M A | 7 7 DEFESA E SEGURANÇA NACIONAL Garantir a paz, o desenvolvimento e a soberania do Brasil requer uma política de defesa e segurança nacional com visão de longo prazo, capaz de articular suas diferentes dimensões de forma coerente e de priorizar ações nas frentes em que existirem as maiores vulnerabilidades do país, garantindo a dissuasão de riscos."
+      },
+      {
+        "pagina": 77,
+        "termos": [
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "Sem modernizar seus sistemas de defesa e inteligência, o país reduz sua margem de decisão e se torna mais suscetível à influência de potências estrangeiras sobre suas instituições e seus recursos."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "importação",
+          "tarifa"
+        ],
+        "compromisso": false,
+        "texto": "Alinhar gradualmente as tarifas de importação brasileiras à média dos países em desenvolvimento à medida que o Custo Brasil for reduzido, acabando com a dupla tributação e reduzindo as barreiras não tarifárias."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 44,
+        "termos": [
+          "ambiental",
+          "licenciamento",
+          "agropecuár"
+        ],
+        "compromisso": true,
+        "texto": "Reduzir entraves do licenciamento ambiental à atividade agropecuária:"
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "clima",
+          "climát",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "Reduzir entraves ao desenvolvimento do setor de seguros rurais, com um fundo privado de aportes públicos e privados que cubram perdas por eventos climáticos, pragas e oscilações de mercado, garantindo sustentabilidade financeira e efetiva proteção da renda agrícola."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "ambiental",
+          "meio ambiente",
+          "licenciamento"
+        ],
+        "compromisso": true,
+        "texto": "CONSERVAR A NATURE Z A SEM TRAVAR O DESENVOLVIMENTO Garantir um licenciamento ambiental que proteja o meio ambiente sem prejudicar o desenvolvimento econômico:"
+      },
+      {
+        "pagina": 27,
+        "termos": [
+          "ambiental",
+          "licenciamento"
+        ],
+        "compromisso": true,
+        "texto": "GARANTIR SEGURANÇA JURÍDICA PARA INVESTIDORES E OPERADORES Simplificar o processo de licenciamento conforme a nova Lei Geral do Licenciamento Ambiental:"
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "ambiental",
+          "licenciamento"
+        ],
+        "compromisso": true,
+        "texto": "Garantir a implementação efetiva da Nova Lei do Licenciamento Ambiental, com prazos definidos e critérios técnicos objetivos, distinguindo os diferentes graus de impacto e simplificando o licenciamento de atividades de baixo risco, para atrair investimentos sem abrir mão da conservação ambiental."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "ambiental",
+          "licenciamento"
+        ],
+        "compromisso": true,
+        "texto": "Garantir critérios técnicos, previsibilidade e segurança jurídica no licenciamento ambiental, assegurando o cumprimento do Código Florestal e a análise do CAR, sem penalizar quem produz e investe dentro da lei."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "desmatament",
+          "indígena"
+        ],
+        "compromisso": true,
+        "texto": "Combater com rigor a grilagem e o desmatamento ilegal, integrando forças de segurança, órgãos ambientais e o sistema de justiça, com monitoramento por satélite, punição efetiva dos infratores e proteção às comunidades indígenas."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "ambiental",
+          "carbono"
+        ],
+        "compromisso": true,
+        "texto": "Estabelecer um ambiente de negócios seguro e desburocratizado para a comercialização voluntária de créditos de carbono com o mercado internacional, garantindo que o patrimônio ambiental seja um ativo lucrativo para produtores e comunidades, sem criar novos tributos ou custos para os brasileiros."
+      }
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "gerado_em": "2026-09-14",
+  "max_por_eixo": 8,
+  "planos": [
+    {
+      "arquivo": "plano-gov-sc-bruno-pedreiro-do-pco.txt",
+      "identidade": "BRUNO PEDREIRO DO PCO — PCO — Governador SC",
+      "legivel": true,
+      "frases": 134,
+      "achados": 27,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 0,
+        "pod": 8,
+        "sob": 6,
+        "amb": 5
+      }
+    },
+    {
+      "arquivo": "plano-gov-sc-gelson-merisio.txt",
+      "identidade": "GELSON MERÍSIO — PSB — Governador SC",
+      "legivel": false,
+      "achados": 0
+    },
+    {
+      "arquivo": "plano-gov-sc-joao-rodrigues.txt",
+      "identidade": "JOÃO RODRIGUES — PSD — Governador SC",
+      "legivel": true,
+      "frases": 346,
+      "achados": 34,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 5,
+        "pod": 8,
+        "sob": 5,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-gov-sc-jorginho-mello.txt",
+      "identidade": "JORGINHO MELLO — PL — Governador SC",
+      "legivel": false,
+      "achados": 0
+    },
+    {
+      "arquivo": "plano-gov-sc-lais-chaud.txt",
+      "identidade": "LAÍS CHAUD — UP — Governador SC",
+      "legivel": true,
+      "frases": 287,
+      "achados": 33,
+      "por_eixo": {
+        "eco": 7,
+        "soc": 8,
+        "pod": 8,
+        "sob": 2,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-gov-sc-marcelo-brigadeiro.txt",
+      "identidade": "MARCELO BRIGADEIRO — MISSÃO — Governador SC",
+      "legivel": true,
+      "frases": 207,
+      "achados": 26,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 1,
+        "pod": 8,
+        "sob": 1,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-gov-sc-professor-marcus-sodre.txt",
+      "identidade": "PROFESSOR MARCUS SODRÉ — PSTU — Governador SC",
+      "legivel": true,
+      "frases": 799,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-gov-sc-ralf-zimmer.txt",
+      "identidade": "RALF ZIMMER — PRD — Governador SC",
+      "legivel": true,
+      "frases": 196,
+      "achados": 26,
+      "por_eixo": {
+        "eco": 6,
+        "soc": 0,
+        "pod": 8,
+        "sob": 4,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-clariana-barao.txt",
+      "identidade": "CLARIANA BARAO — DC — Presidente",
+      "legivel": true,
+      "frases": 167,
+      "achados": 10,
+      "por_eixo": {
+        "eco": 3,
+        "soc": 1,
+        "pod": 3,
+        "sob": 3,
+        "amb": 0
+      }
+    },
+    {
+      "arquivo": "plano-pres-edmilson-costa.txt",
+      "identidade": "EDMILSON COSTA — PCB — Presidente",
+      "legivel": true,
+      "frases": 268,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-escritor-augusto-cury.txt",
+      "identidade": "ESCRITOR AUGUSTO CURY — AVANTE — Presidente",
+      "legivel": true,
+      "frases": 2705,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-flavio-bolsonaro.txt",
+      "identidade": "FLAVIO BOLSONARO — PL — Presidente",
+      "legivel": true,
+      "frases": 1203,
+      "achados": 34,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 2,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-hertz-dias.txt",
+      "identidade": "HERTZ DIAS — PSTU — Presidente",
+      "legivel": true,
+      "frases": 481,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-lula.txt",
+      "identidade": "LULA — PT — Presidente",
+      "legivel": true,
+      "frases": 1000,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-pablo-marcal.txt",
+      "identidade": "PABLO MARÇAL — PRTB — Presidente",
+      "legivel": true,
+      "frases": 99,
+      "achados": 13,
+      "por_eixo": {
+        "eco": 7,
+        "soc": 0,
+        "pod": 3,
+        "sob": 1,
+        "amb": 2
+      }
+    },
+    {
+      "arquivo": "plano-pres-renan-santos.txt",
+      "identidade": "RENAN SANTOS — MISSÃO — Presidente",
+      "legivel": true,
+      "frases": 771,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-ronaldo-caiado.txt",
+      "identidade": "RONALDO CAIADO — PSD — Presidente",
+      "legivel": true,
+      "frases": 1964,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-rui-costa-pimenta.txt",
+      "identidade": "RUI COSTA PIMENTA — PCO — Presidente",
+      "legivel": true,
+      "frases": 134,
+      "achados": 27,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 0,
+        "pod": 8,
+        "sob": 6,
+        "amb": 5
+      }
+    },
+    {
+      "arquivo": "plano-pres-samara.txt",
+      "identidade": "SAMARA — UP — Presidente",
+      "legivel": true,
+      "frases": 826,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-veterinario-wilson-grassi.txt",
+      "identidade": "VETERINÁRIO WILSON GRASSI — DEMOCRATA — Presidente",
+      "legivel": true,
+      "frases": 946,
+      "achados": 36,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 4,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    },
+    {
+      "arquivo": "plano-pres-zema.txt",
+      "identidade": "ZEMA — NOVO — Presidente",
+      "legivel": true,
+      "frases": 788,
+      "achados": 40,
+      "por_eixo": {
+        "eco": 8,
+        "soc": 8,
+        "pod": 8,
+        "sob": 8,
+        "amb": 8
+      }
+    }
+  ]
+}

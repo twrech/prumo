@@ -1,0 +1,336 @@
+{
+  "arquivo": "plano-pres-veterinario-wilson-grassi.txt",
+  "identidade": "VETERINÁRIO WILSON GRASSI — DEMOCRATA — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 946,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 10,
+        "termos": [
+          "imposto",
+          "salário mínimo"
+        ],
+        "compromisso": true,
+        "texto": "Amarrar o limite ao salário mínimo tira do governo a possibilidade de aumentar imposto pela inércia, sem votar nada."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "7 Eixo 1 — Reforma tributária: o Imposto Único Federal..........................................................."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "— 8 — Eixo 1 — Reforma tributária: o Imposto Único Federal Esta é a proposta central do Democrata, e é dela que decorre boa parte do resto."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": true,
+        "texto": "Desburocratizar Reduzir o número de obrigações que o cidadão e a empresa precisam cumprir só para existir legalmente."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "Reforma tributária passa por emenda constitucional."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "imposto",
+          "isenção"
+        ],
+        "compromisso": false,
+        "texto": "▪ O Imposto de Renda da Pessoa Física acima do patamar de isenção tratado no item seguinte."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": false,
+        "texto": "A carga tributária das três esferas somadas foi de 32,40% do PIB, cerca de R$ 4,11 trilhões, conforme o Tesouro Nacional."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "1.7 As salvaguardas da reforma Toda reforma tributária ampla carrega riscos conhecidos."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 22,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "Pilar 3 — Fechar a porta de entrada Arma e droga entram por algum lugar."
+      },
+      {
+        "pagina": 50,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "13.3 Fronteira com presença permanente A fronteira brasileira é a porta por onde entram a arma e a droga que abastecem a facção na periferia de São Paulo e do Rio."
+      },
+      {
+        "pagina": 50,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "▪ Emprego permanente das Forças Armadas na faixa de fronteira, com o poder de polícia da Lei Complementar nº 97/1999, dirigido ao tráfico de armas, drogas e ao contrabando."
+      },
+      {
+        "pagina": 52,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "COMO MEDIR Orçamento de defesa em percentual do PIB e percentual efetivamente aplicado em modernização; razão entre o menor e o maior soldo; taxa de evasão de praças; apreensões de arma e droga na faixa de fronteira; índice de disponibilidade de meios por Força."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 51,
+        "termos": [
+          "polícia",
+          "forças armadas",
+          "crime organizado"
+        ],
+        "compromisso": false,
+        "texto": "Forças Armadas empregadas contra o crime organizado são instrumento de exceção controlada, não substituto permanente da polícia — e é justamente essa contenção que garante que a medida funcione sem desgastar a instituição."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": true,
+        "texto": "O Brasil não precisa criar um sistema nacional de informações de segurança pública, porque ele já existe no papel desde 2012."
+      },
+      {
+        "pagina": 32,
+        "termos": [
+          "vigilância"
+        ],
+        "compromisso": true,
+        "texto": "▪ Manter e ampliar os status sanitários internacionais já conquistados, com vigilância permanente para febre aftosa, influenza aviária e peste suína clássica."
+      },
+      {
+        "pagina": 51,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "13.5 Investir melhor, e não apenas investir mais Dobrar orçamento sem mudar a forma de gastar produz um Ministério da Defesa mais caro e igualmente desaparelhado."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "presídio",
+          "crime organizado"
+        ],
+        "compromisso": false,
+        "texto": "2.3 O crime organizado se administra de dentro do sistema prisional As facções brasileiras nasceram dentro de presídios e continuam ali."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "presídio",
+          "facção"
+        ],
+        "compromisso": false,
+        "texto": "Na sua rua Chefe de facção em presídio federal de segurança máxima, sem telefone e sem comando."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "forças armadas",
+          "vigilância"
+        ],
+        "compromisso": false,
+        "texto": "▪ Vigilância eletrônica contínua dos trechos críticos de fronteira, com sensoriamento remoto e apoio logístico das Forças Armadas."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "segurança pública",
+          "penitenciár"
+        ],
+        "compromisso": false,
+        "texto": "E a PEC nº 18/2025, aprovada pela Câmara em março de 2026 e hoje em tramitação no Senado, constitucionaliza o Susp, amplia a competência da União sobre o sistema penitenciário e cria fontes vinculadas para o Fundo Nacional de Segurança Pública e para o Funpen."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 13,
+        "termos": [
+          "importação",
+          "exportação",
+          "fronteira"
+        ],
+        "compromisso": false,
+        "texto": "Um imposto sobre valor agregado é ajustável na fronteira: a exportação sai desonerada e a importação é tributada."
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "onu"
+        ],
+        "compromisso": true,
+        "texto": "Por isso o compromisso deste eixo é de execução com ônus, e não de nova legislação."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": true,
+        "texto": "▪ Reduzir os encargos setoriais embutidos na tarifa, com transparência sobre o que cada consumidor paga e por quê."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "Um país com quinze mil quilômetros de fronteira terrestre, pré-sal, Amazônia e a maior reserva de água doce do planeta não pode se defender com esse orçamento nem pagar assim quem carrega o fuzil."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "importação",
+          "exportação"
+        ],
+        "compromisso": false,
+        "texto": "▪ Os impostos de importação e exportação, que têm função extrafiscal."
+      },
+      {
+        "pagina": 52,
+        "termos": [
+          "investimento estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "▪ Investimento estrangeiro em setor estratégico vem acompanhado de contrapartida em conteúdo nacional, transferência de tecnologia e emprego no Brasil."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "comércio exterior"
+        ],
+        "compromisso": false,
+        "texto": "29 Eixo 6 — Agropecuária, sanidade e comércio exterior.........................................................."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "banco mundial"
+        ],
+        "compromisso": false,
+        "texto": "O número que costuma aparecer nesse debate é o tempo médio anual que uma empresa brasileira gasta com obrigações tributárias, medido pelo relatório Doing Business, do Banco Mundial, que colocava o país isolado no fim do ranking."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 48,
+        "termos": [
+          "ambiental",
+          "licenciamento",
+          "minério",
+          "indígena"
+        ],
+        "compromisso": false,
+        "texto": "231, §3º, com três condições inegociáveis no texto: consentimento da comunidade afetada apurado por consulta na forma da Convenção nº 169; participação econômica dos indígenas nos resultados, paga diretamente e com governança definida pela própria comunidade, e não por intermediário; e licenciamento ambiental pleno, com proibição de mercúrio, garantia financeira prévia para recuperação de área degradada e responsabilidade solidária de quem compra o minério."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "ambiental",
+          "indígena"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos abrir o debate sobre um regime legal de aproveitamento mineral em terra indígena com participação econômica dos indígenas e responsabilidade ambiental."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "amazônia",
+          "pré-sal"
+        ],
+        "compromisso": true,
+        "texto": "Um país com quinze mil quilômetros de fronteira terrestre, pré-sal, Amazônia e a maior reserva de água doce do planeta não pode se defender com esse orçamento nem pagar assim quem carrega o fuzil."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "desmatament"
+        ],
+        "compromisso": true,
+        "texto": "▪ Combater o desmatamento ilegal com inteligência, rastreabilidade da cadeia produtiva e responsabilização patrimonial, com o mesmo instrumental do Pilar 2 do Eixo 3."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "ambiental",
+          "licenciamento"
+        ],
+        "compromisso": false,
+        "texto": "▪ Licenciamento ambiental com prazo definido e análise técnica de qualidade."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "▪ Adaptação climática com foco em defesa civil, incluindo a proteção de animais em desastres prevista na Lei nº 15.355/2026."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "mineraç",
+          "indígena"
+        ],
+        "compromisso": false,
+        "texto": "Mineração em terra indígena: sair da clandestinidade Hoje o garimpo em terra indígena é ilegal e acontece assim mesmo."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "licenciamento",
+          "desmatament"
+        ],
+        "compromisso": false,
+        "texto": "COMO MEDIR Custo logístico por corredor e participação do modal ferroviário na matriz de transporte de carga; quilômetros de ferrovia entregues por trecho; cobertura de coleta e tratamento de esgoto; tarifa média de energia; área de desmatamento ilegal detectada; percentual de licenciamentos concluídos no prazo."
+      }
+    ]
+  }
+}

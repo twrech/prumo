@@ -10,7 +10,7 @@
  *   1. Abra https://divulgacandcontas.tse.jus.br/divulga/
  *   2. F12 → Console
  *   3. Cole este arquivo inteiro e dê Enter
- *   4. Rode:  await extrairCandidatos('SC')
+ *   4. Rode:  await extrairCandidatos('SC', ['DF', 'SEN', 'DE'])
  *   5. O navegador baixa `candidatos-sc-1.psv`. Mova para `dados/` do projeto.
  *   6. No projeto:  node ferramentas/montar_candidatos.js SC
  *
@@ -31,7 +31,11 @@
  *     (/rest/v1/eleicao/eleicoes-anteriores etc.) respondem 404; os que valem
  *     estão abaixo.
  *   · A listagem NÃO traz ocupação nem histórico: só o detalhe de cada
- *     candidato traz. Por isso é preciso um fetch por pessoa — 244 em SC.
+ *     candidato traz. Por isso é preciso um fetch por pessoa — 657 em SC, nos
+ *     três cargos (231 federais, 13 ao Senado e 413 estaduais).
+ *   · Deputado estadual é o cargo que mais importa aqui, e não por tamanho: os
+ *     29 deputados medidos na ALESC concorrem quase todos à reeleição. Sem o
+ *     cargo 7, a medição estadual inteira ficava sem onde aparecer.
  *   · `eleicoesAnteriores` inclui a candidatura de 2026 em si; é filtrada.
  *   · Cargos: 1 Presidente, 3 Governador, 5 Senador, 6 Deputado Federal,
  *     7 Deputado Estadual. Presidente usa a UE 'BR'.

@@ -1,0 +1,365 @@
+{
+  "arquivo": "plano-pres-renan-santos.txt",
+  "identidade": "RENAN SANTOS — MISSÃO — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 771,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 9,
+        "termos": [
+          "tributár",
+          "carga tributária",
+          "ajuste fiscal"
+        ],
+        "compromisso": false,
+        "texto": "Após a implementação do plano, o principal instrumento de ajuste fiscal foi a elevação da carga tributária; um modelo que secou as fontes de investimento e em última instância mostrou-se incapaz de sustentar um crescimento médio anual de 6% nos gastos públicos."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "tributár",
+          "trabalhista",
+          "regulação"
+        ],
+        "compromisso": false,
+        "texto": "As reformas tangenciam quase todos os eixos estruturais da economia brasileira, passando por justiça tributária, legislação trabalhista, regulação financeira e governança pública;"
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "privatiz"
+        ],
+        "compromisso": true,
+        "texto": "O insight inicial para o Livro Amarelo surgiu da constatação, que vinha amadurecendo havia algum tempo, de que a versão do liberalismo brasileiro, vulgarizada pela nova direita, oferecia soluções simplistas para problemas complexos: bastava privatizar tudo, retirar o Estado de todas as áreas e proferir platitudes sobre meio ambiente, saúde, educação, cultura e segurança, e tudo se resolveria de uma forma quase mágica."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "No primeiro front, vamos reconquistar o controle estatal sobre portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada; implementar sistemas de monitoramento aéreo, espacial e amazônico; e apertar os mecanismos de asfixia financeira que cortam o oxigênio econômico das facções."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": true,
+        "texto": "As propostas desse capítulo, assim como do capítulo 1, também contaram com forte inspiração do material produzido pelo Centro de Debate de Políticas Públicas (CDPP), que subsidiou nossa pesquisa com várias soluções voltadas a aumentar a produtividade brasileira."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "regulação"
+        ],
+        "compromisso": true,
+        "texto": "Por fim, demarcamos nossa posição em relação à liberdade de imprensa e propomos, alternativamente, a criação de um código de imprensa, que hoje não possui regulação."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "imposto"
+        ],
+        "compromisso": true,
+        "texto": "Suas medidas visam a reduzir impostos sobre empresas de tecnologia, facilitar a distribuição de stock options e maximizar o investimento em venture capital por fundos brasileiros."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "tributár"
+        ],
+        "compromisso": true,
+        "texto": "As Zonas Econômicas de Alta Inteligência (ZEAIs) serão a aplicação das ZEEs à inteligência artificial, um subtipo ao lado das ZEEs de defesa e de terras raras dos capítulos 10 e 11, com regime regulatório, tributário e energético próprio da cadeia da IA."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 5,
+        "termos": [
+          "cristã"
+        ],
+        "compromisso": true,
+        "texto": "Que maneira melhor de cristalizar esse compromisso do que escrevendo um livro?"
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "cota"
+        ],
+        "compromisso": true,
+        "texto": "No nível universitário, propomos a ampliação das vagas de STEM e a substituição das cotas por um conceito de bolsas por mérito; na educação básica e fundamental, pretendemos universalizar o exemplo exitoso do Ceará e restaurar a ordem nas salas de aula, em um modelo capaz de elevar o Brasil nos rankings internacionais."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": false,
+        "texto": "O mesmo se passa com o Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) e com sua política excessivamente generosa de tombamentos."
+      },
+      {
+        "pagina": 31,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "Práticas como bullying violento e tráfico de drogas nas escolas também são comuns, notadamente em regiões periféricas e pobres."
+      },
+      {
+        "pagina": 32,
+        "termos": [
+          "cota"
+        ],
+        "compromisso": false,
+        "texto": "4 Abolir o sistema de cotas na educação brasileira e em geral."
+      },
+      {
+        "pagina": 45,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "▪ a presença deficiente do Estado nas fronteiras, criando vulnerabilidades que potências rivais exploram por meio de drogas, armas e ocupação territorial gradual."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": false,
+        "texto": "Nas últimas décadas, a mídia passou a vendê-la como algo exótico, glamouroso até, romantizando o crime, a promiscuidade e a degradação material e moral."
+      },
+      {
+        "pagina": 50,
+        "termos": [
+          "cristã"
+        ],
+        "compromisso": false,
+        "texto": "Ele é fruto de um longo trabalho de discussão e análise de problemas brasileiros, que está espalhado em lives, dossiês no Valete+, artigos na Revista Valete e que foi cristalizado sobretudo pelas ideias de colaboradores como Orlando Lima e João Carvalho, assim como a partir dos resultados de pesquisas diligentes feitas por especialistas que se voluntariaram para esse trabalho."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 6,
+        "termos": [
+          "segurança pública",
+          "pena",
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Em seguida, em “Prendeu, Matou?”, discorremos sobre nossa política de segurança pública, com ênfase na aplicação do Direito Penal do Inimigo como arcabouço legal que permitirá o desmonte do crime organizado e o fim dos crimes de rua."
+      },
+      {
+        "pagina": 45,
+        "termos": [
+          "polícia",
+          "policial",
+          "militar",
+          "crime organizado"
+        ],
+        "compromisso": false,
+        "texto": "2 Proposta sobre a Guerra contra o Tráfico redefine esse combate como questão de segurança nacional de nível militar, não simplesmente policial, exigindo um Pacto Interamericano contra o crime organizado, liderado pelo Brasil e ancorado na Convenção de Palermo e na OEA, com um Centro de Operações Central na América Latina e um tribunal internacional especializado em criminalidade transnacional."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "pena",
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "Complementam essa frente a decretação de um estado de defesa e um rol de medidas que aumentam penas, alteram o ciclo das polícias e modificam o ingresso na carreira policial."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "pena",
+          "polícia",
+          "judiciário"
+        ],
+        "compromisso": false,
+        "texto": "L I V R O A M A R E L O - M I S S Ã O 2 0 2 61 2 Estado brasileiro manteve-se preso a processos burocráticos, polícias que não compartilham dados, sistemas judiciários sobrecarregados e uma visão de policiamento baseada apenas no confronto físico, negligenciando a asfixia financeira e a inteligência preditiva."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "forças armadas",
+          "garantia da lei e da ordem",
+          "intervenção federal"
+        ],
+        "compromisso": false,
+        "texto": "▪ intervenção federal em estados com controle territorial faccional, e emprego das Forças Armadas via Garantia da Lei e da Ordem (GLO) com autorização para uso de força pesada em territórios classificados como dominados."
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "polícia",
+          "crime organizado",
+          "judiciário"
+        ],
+        "compromisso": false,
+        "texto": "▪ a captura de instituições pelo crime organizado, que contamina o aparato judiciário, legislativo e ex-ecutivo, criando um Estado paralelo que não pode ser eliminado por abordagens convencionais de policiamento;"
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "A raiz jurídica do problema reside no fato de que o ordenamento legal brasileiro atual, moldado pelo garantismo penal pós-1988, é inadequado para combater ameaças organizadas excepcionais."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "A sofisticação das organizações criminosas atingiu o patamar de empresa transnacional, com uso de criptoativos para lavagem de dinheiro, drones para monitoramento de fronteiras e táticas de guerrilha urbana para garantir o escoamento de ilícitos."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 11,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "A sofisticação das organizações criminosas atingiu o patamar de empresa transnacional, com uso de criptoativos para lavagem de dinheiro, drones para monitoramento de fronteiras e táticas de guerrilha urbana para garantir o escoamento de ilícitos."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Naturalmente, não consiste em prender e matar os criminosos, mas simplesmente em permitir que as forças de segurança tratem como inimigos aqueles que ameaçam a segurança dos cidadãos e a soberania do Estado Brasileiro."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "No primeiro front, vamos reconquistar o controle estatal sobre portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada; implementar sistemas de monitoramento aéreo, espacial e amazônico; e apertar os mecanismos de asfixia financeira que cortam o oxigênio econômico das facções."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Os resultados serão massivamente divulgados e farão parte de uma campanha nacional de mobilização popular contra as facções: um grande evento de refundação nacional que dê a todo brasileiro um propósito profundo: expulsar essa escória do seu país e retomar a soberania sobre a integridade do nosso território."
+      },
+      {
+        "pagina": 40,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Ou seja, o projeto da Missão passa por entregar ao país um plano para o futuro e um compromisso inadiável (e inabalável) com a soberania nacional."
+      },
+      {
+        "pagina": 42,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": true,
+        "texto": "A política de Zonas Econômicas Especiais, as linhas de crédito do BNDES condicionadas a metas de exportação e a busca de acordos comerciais bilaterais serão nossos principais instrumentos."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "dólar"
+        ],
+        "compromisso": true,
+        "texto": "7 Proposta de desdolarização da América do Sul busca reduzir a dependência do dólar americano mediante a criação de uma cesta de moedas sul-americana liderada pelo real brasileiro, linhas de swap entre bancos centrais e cooperação monetária regional, convertendo o Brasil em âncora financeira do continente."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Como não existe soberania sem indústria militar forte, também propomos:"
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 42,
+        "termos": [
+          "licenciamento",
+          "indígena"
+        ],
+        "compromisso": true,
+        "texto": "Vamos executar e ampliar o Plano Nacional de Fertilizantes (Decreto 10.991/2022); sancionar e regulamentar o Projeto de Lei 2.780/2024, aprovado pela Câmara em 2026, que cria a Política Nacional de Minerais Críticos e Estratégicos e o licenciamento acelerado para a exploração de fosfato, potássio e nitrogênio em território nacional; e construir, no Congresso, o marco da exploração mineral controlada em terras indígenas, que abrigam reservas estratégicas de fosfato e potássio."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "licenciamento",
+          "amazônia",
+          "agronegócio"
+        ],
+        "compromisso": false,
+        "texto": "Em rodovias, os corredores de escoamento do agronegócio, a exemplo da BR-163 no eixo do Arco Norte, sofrem com pavimentação precária e concessões arrastadas; já eixos de integração regional, como a BR-319, que liga a Amazônia Ocidental ao restante do país, permanecem inacabados por entraves de licenciamento, e mesmo a BR-101, espinha dorsal do litoral, acumula trechos críticos."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "energia renovável",
+          "eólica",
+          "solar"
+        ],
+        "compromisso": false,
+        "texto": "No setor elétrico, o Brasil vive o mesmo paradoxo: tem matriz limpa e potencial renovável extraordinário no Nordeste, mas em 2024 chegou a cortar (curtailment), em meses de pico, cerca de 26% da energia renovável que poderia ter sido gerada, por falta de capacidade de transmissão, gerando prejuízo bilionário e desestimulando investimentos em energia eólica e solar."
+      },
+      {
+        "pagina": 39,
+        "termos": [
+          "ambiental",
+          "licenciamento",
+          "minério"
+        ],
+        "compromisso": false,
+        "texto": "▪ Racionalização e simplificação dos processos de licenciamento ambiental para a exploração dos minérios, com base na nova Lei Geral do Licenciamento Ambiental (Lei nº 15.190/2025, em vigor desde fevereiro de 2026)."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "meio ambiente"
+        ],
+        "compromisso": true,
+        "texto": "O insight inicial para o Livro Amarelo surgiu da constatação, que vinha amadurecendo havia algum tempo, de que a versão do liberalismo brasileiro, vulgarizada pela nova direita, oferecia soluções simplistas para problemas complexos: bastava privatizar tudo, retirar o Estado de todas as áreas e proferir platitudes sobre meio ambiente, saúde, educação, cultura e segurança, e tudo se resolveria de uma forma quase mágica."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "agropecuár"
+        ],
+        "compromisso": true,
+        "texto": "L I V R O A M A R E L O - M I S S Ã O 2 0 2 64 3 abilidade, vamos submeter didáticos e materiais do MEC a auditoria técnica permanente, com participação da Empresa Brasileira de Pesquisa Agropecuária (Embrapa) e de universidades agrárias, para garantir que o aluno brasileiro receba uma representação factual do setor que sustenta um quarto do PIB nacional."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "desmatament"
+        ],
+        "compromisso": true,
+        "texto": "▪ Iniciativa Sentinela, monitoramento mensal por satélite das áreas urbanas e periurbanas, adaptando para o problema urbano a mesma tecnologia que o INPE já utiliza para combater o desmatamento;"
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "desmatament",
+          "amazônia"
+        ],
+        "compromisso": false,
+        "texto": "Nas regiões mais pobres, e em particular na Amazônia Legal, o problema transborda: o isolamento econômico e o acesso restrito a mercados resultam em PIB per capita cerca de 30% inferior à média nacional, ao mesmo tempo em que aproximadamente 95% do desmatamento ocorre nas proximidades de rodovias, com a terra convertida majoritariamente em pecuária extensiva de baixo retorno."
+      }
+    ]
+  }
+}

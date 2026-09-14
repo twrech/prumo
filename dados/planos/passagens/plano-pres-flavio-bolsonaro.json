@@ -1,0 +1,315 @@
+{
+  "arquivo": "plano-pres-flavio-bolsonaro.txt",
+  "identidade": "FLAVIO BOLSONARO — PL — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 1203,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 30,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Vamos promover a revisão e o redimensionamento da reforma tributária em curso e da majoração de impostos efetuada pelo atual governo, com o objetivo de reduzir efetivamente a carga sobre a produção e o consumo."
+      },
+      {
+        "pagina": 50,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "Vamos modernizar os marcos regulatórios e adotar um novo modelo de financiamento para toda a infraestrutura, com fundo lastreado na securitização de ativos e imóveis da União, uso intensivo de PPPs e concessões e financiamentos do BNDES"
+      },
+      {
+        "pagina": 70,
+        "termos": [
+          "desestatiz",
+          "estatiz"
+        ],
+        "compromisso": true,
+        "texto": "E vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido."
+      },
+      {
+        "pagina": 30,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "A comparação com outros países é dramática: com a atual reforma tributária, o Brasil caminha para ter um dos maiores impostos sobre valor agregado (IVA) do mundo, projetado em torno de 30%, contra uma média de 19% nos países da OCDE, e menos ainda em vários vizinhos."
+      },
+      {
+        "pagina": 71,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "Menos impostos: a reforma tributária corrigida A reforma tributária aprovada pela atual gestão foi entregue ao sabor dos lobbies."
+      },
+      {
+        "pagina": 30,
+        "termos": [
+          "imposto"
+        ],
+        "compromisso": true,
+        "texto": "Vamos corrigir suas distorções, reduzir o IVA, hoje projetado num dos patamares mais altos do mundo, e assegurar a não cumulatividade, para que não se cobre imposto sobre imposto."
+      },
+      {
+        "pagina": 31,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": true,
+        "texto": "Vamos simplificar a conta de luz, racionalizando encargos e subsídios cruzados, e promover a redução gradual da CDE e das fontes incentivadas, mantida a tarifa social para quem mais precisa dela."
+      },
+      {
+        "pagina": 31,
+        "termos": [
+          "imposto"
+        ],
+        "compromisso": true,
+        "texto": "Vamos reduzir impostos sobre energia elétrica e combustíveis, buscar segurança energética ao menor preço possível para o consumidor e regular as diversas fontes com um único norte: o menor preço final para quem paga a conta."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 9,
+        "termos": [
+          "religios",
+          "liberdade religiosa",
+          "desde a concepção"
+        ],
+        "compromisso": false,
+        "texto": "Nossos valores Nossa forma de governar permanece fiel a valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção, à propriedade privada, à democracia, à liberdade de expressão e à liberdade religiosa."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "Fuzis e drogas que abastecem 100% das facções serão interceptados por terra, pelos portos e pelo espaço aéreo."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 13,
+        "termos": [
+          "armament",
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "Vamos fazer consórcios e convênios com estados e municípios para investir em inteligência, retomada de territórios alinhada a políticas públicas estruturantes, tecnologia, armamentos de última geração e valorização do policial."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "maioridade penal",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "O crime do menor não é menor O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "censura"
+        ],
+        "compromisso": true,
+        "texto": "12 Brasil que Cumpre a Constituição, regras que valem para todos e não mudam no meio do jogo Instituições fortes, cada Poder dentro de seus limites e um Tesouraço na Censura para garantir a liberdade de criticar sem medo."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Terrorista vai ser tratado como terrorista Vamos declarar guerra ao crime organizado."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "tortura"
+        ],
+        "compromisso": true,
+        "texto": "Vamos punir também maiores de 14 anos que cometerem crimes graves, como estupro, tráfico, tortura e assassinato."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Vamos desorganizar o crime organizado e asfixiar o crime física e financeiramente."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Vamos endurecer a lei e obrigar assassinos e agressores de mulheres a cumprir integralmente suas penas."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "reconhecimento facial"
+        ],
+        "compromisso": true,
+        "texto": "Luz, câmara, prisão Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais, inspirado no Smart Sampa, da Prefeitura de São Paulo, e no Muralha Paulista, do Governo do Estado."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 15,
+        "termos": [
+          "onu",
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "Os recursos hoje direcionados às famílias de detentos serão redirecionados às famílias das vítimas, conforme recomendado pela ONU e por tratados internacionais dos quais o Brasil é signatário, embora Lula e o PT nunca os tenham cumprido."
+      },
+      {
+        "pagina": 55,
+        "termos": [
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "Vamos trabalhar para atrair o capital estrangeiro e a tecnologia que já existem no mundo, aplicando aqui o que outros países já dominam e transferindo esse conhecimento ao Brasil."
+      },
+      {
+        "pagina": 63,
+        "termos": [
+          "importad",
+          "abertura comercial"
+        ],
+        "compromisso": true,
+        "texto": "E vamos nos preparar para uma abertura comercial que dê ao setor produtivo acesso a bens de capital, tecnologia e insumos importados, num ambiente de concorrência que reduz preços e melhora a oferta ao consumidor."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "Terrorista vai ser tratado como terrorista Vamos declarar guerra ao crime organizado."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "14 da Força Aérea Brasileira, equipada com armas de guerra, inteligência e tecnologia, responsável por criar um paredão na fronteira."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "onu"
+        ],
+        "compromisso": true,
+        "texto": "Bônus de internet conectar pessoas é conectar oportunidades Vamos conectar o Brasil, porque a internet é a infraestrutura da prosperidade no século XXI."
+      },
+      {
+        "pagina": 24,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "E vamos levar conectividade às localidades de baixa cobertura, priorizando escolas, áreas rurais e regiões de fronteira, dando continuidade ao trabalho que, no governo Bolsonaro, já havia conectado mais de 11 milhões de pessoas, por meio da instalação de mais de 21.000 pontos de inclusão digital pelo Programa Wi-Fi Brasil."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 52,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "E vamos ampliar a infraestrutura de prevenção a eventos climáticos extremos, com barragens de usos múltiplos, reservatórios de controle de cheias, diques, canais e obras de drenagem e macrodrenagem, além do fortalecimento do monitoramento, alerta e resposta da Defesa Civil."
+      },
+      {
+        "pagina": 53,
+        "termos": [
+          "petróleo",
+          "agronegócio"
+        ],
+        "compromisso": true,
+        "texto": "Com o mesmo princípio, vamos estimular a modernização do refino rumo ao aproveitamento do petróleo nacional, incentivar o escoamento de combustível ao Centro-Oeste por modais mais baratos que o caminhão, e favorecer a produção nacional de fertilizantes a partir do gás, para reduzir a dependência externa que fragiliza o agronegócio e a nossa segurança alimentar."
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "ambiental",
+          "meio ambiente"
+        ],
+        "compromisso": true,
+        "texto": "Combater o crime ambiental é separar com clareza quem produz legalmente de quem se apropria do patrimônio público e destrói o meio ambiente para lucrar."
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "ambiental",
+          "desmatament"
+        ],
+        "compromisso": true,
+        "texto": "Vamos fortalecer a fiscalização ambiental, com prioridade para as áreas de maior pressão de desmatamento e queimadas, usando inteligência, satélite e atuação coordenada dos órgãos federais para identificar as áreas críticas com mais rapidez."
+      },
+      {
+        "pagina": 61,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Esse desenvolvimento respeita quem vive na região: os povos indígenas e as comunidades quilombolas terão autonomia para decidir sobre as atividades produtivas em suas terras, e o morador da floresta, o ribeirinho e o extrativista serão tratados como parceiros do desenvolvimento, não como obstáculo."
+      },
+      {
+        "pagina": 63,
+        "termos": [
+          "eólica",
+          "solar",
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "Nossa energia limpa e a sustentabilidade são vantagens competitivas que sustentam essa projeção: nossa meta para 2030 é posicionar o Brasil entre os principais destinos mundiais de investimento em transição energética, tendo os biocombustíveis, a energia solar, a eólica e o hidrogênio verde como alavancas e a diplomacia como instrumento permanente."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "amazônia"
+        ],
+        "compromisso": true,
+        "texto": "A CAIXA Econômica Federal, o Banco da Amazônia e o Banco do Nordeste serão motores dessa prosperidade, ampliando o programa CAIXA Pra Elas e ajudando milhões de mulheres a construir reputação financeira e formar patrimônio ao longo da vida."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "O governo do PT tentou desarticulá-lo por decreto; nós vamos garantir sua plena aplicação e acelerar as concessões e parcerias para universalizar o acesso à água tratada e ao esgoto, com atenção especial ao saneamento rural."
+      }
+    ]
+  }
+}

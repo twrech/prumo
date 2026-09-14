@@ -1,0 +1,386 @@
+{
+  "arquivo": "plano-pres-hertz-dias.txt",
+  "identidade": "HERTZ DIAS — PSTU — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 481,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 11,
+        "termos": [
+          "privatiz",
+          "estatal",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "Defesa do sus público, universal, gratuito e 100% estatal Fim da privatização e da gestão privada da saúde (OS, Fundações e PPP) Proibição da transferência de leitos públicos para planos privados Ampliação do investimento público em saúde, com prioridade para a atenção básica Cuidado com a saúde mental: ampliação do investimento público nos Centros de Atenção Psicossocial (Caps), no Serviço de Residências Terapêuticas e Centros de Convivência."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "imposto",
+          "isenção",
+          "subsídio"
+        ],
+        "compromisso": false,
+        "texto": "Crédito público direcionado, sem intermediação privada, com juros baixos, combinado com subsídios ao pequeno produtor, incluindo isenção de impostos, seguro agrícola e políticas que evitem endividamento."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": true,
+        "texto": "Hoje, setores empresariais passam a defender a tarifa zero como forma de ampliar subsídios estatais, garantindo lucros sem assegurar qualidade, expansão da rede ou condições dignas de trabalho."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos outra lógica: transporte público, estatal, de qualidade e voltado às necessidades da população, e não aos interesses das empresas."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "estatiz"
+        ],
+        "compromisso": true,
+        "texto": "Suspensão do pagamento da dívida pública aos grandes investidores e auditoria Fim a Lei de Responsabilidade Fiscal A estatização do sistema financeiro e centralização do crédito em um banco único é essencial para planejar a economia e garantir o controle de capitais."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "Defender uma Petrobras 100% estatal, sem entregar bilhões em lucros e dividendos a acionistas privados e estrangeiros, significa enfrentar bancos, Bolsa de Valores, imperialismo e grandes meios de comunicação."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "estatiz"
+        ],
+        "compromisso": true,
+        "texto": "Estatizar a Vale sob controle dos trabalhadores significa enfrentar mineradoras, acionistas, Judiciário, Congresso e"
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "arcabouço fiscal",
+          "subsídio"
+        ],
+        "compromisso": false,
+        "texto": "Mantém o arcabouço fiscal e a agiotagem escandalosa do pagamento da dívida, preserva os lucros dos bilionários, concede subsídios às multinacionais e submete o país às exigências do imperialismo."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 19,
+        "termos": [
+          "droga",
+          "descriminaliz"
+        ],
+        "compromisso": true,
+        "texto": "Descriminalização das drogas e revogação da Lei Antidrogas, para efetivamente combater e acabar com o narcotráfico, junto com políticas públicas de prevenção, tratamento e redução de danos."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "cota",
+          "racismo",
+          "religios"
+        ],
+        "compromisso": false,
+        "texto": "Salário igual para trabalho igual nos serviços públicos Manutenção e ampliação de cotas para negros nas universidades e serviços públicos Combate à intolerância às religiões de matriz africana, como expressão do racismo religioso no Brasil Contra a criminalização das culturas periféricas: funk e batalhas de rima não são casos de polícia."
+      },
+      {
+        "pagina": 24,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos um programa que enfrente a violência, garanta acesso ao trabalho e à renda, à saúde e à educação, assegure direitos sociais plenos e combata todas as formas de discriminação, unificando a luta da população lgbti+ com a luta de toda a classe trabalhadora."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "lgbt",
+          "racismo"
+        ],
+        "compromisso": false,
+        "texto": "Combate às opressões: abaixo o racismo, o machismo, a lgbtfobia, a xenofobia."
+      },
+      {
+        "pagina": 24,
+        "termos": [
+          "família tradicional",
+          "lgbt"
+        ],
+        "compromisso": false,
+        "texto": "LGBTQIAPN+ No capitalismo, a sexualidade é moldada pela necessidade da reprodução da força de trabalho e da família tradicional."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "Nas periferias e nos grandes centros urbanos, a violência policial por meio, principalmente, da Polícia Militar, submete toda uma população a um estado de exceção permanente, com execuções sumárias, chacinas e o encarceramento em massa, sob a justificativa da “guerra às drogas”."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "cota"
+        ],
+        "compromisso": false,
+        "texto": "É necessário controlar o topo da hierarquia do agronegócio, hoje operado por empresas estrangeiras ou grandes conglomerados brasileiros, como a JBS, os quais direcionam, administram e orientam toda produção nacional ao mercado externo, seguindo seus preços e cotações."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "escola sem partido"
+        ],
+        "compromisso": false,
+        "texto": "Não à militarização das escolas e a projetos de controle ideológico, como Escola Sem Partido!"
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 21,
+        "termos": [
+          "presídio",
+          "maioridade penal",
+          "pena",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "Contra a redução da maioridade penal Desmilitarização da pm e unificação das polícias sob controle dos trabalhadores Revogação da Lei Antidrogas e fim da privatização dos presídios."
+      },
+      {
+        "pagina": 32,
+        "termos": [
+          "encarcer",
+          "polícia",
+          "militar",
+          "forças armadas",
+          "judiciário"
+        ],
+        "compromisso": false,
+        "texto": "Ele aparece de forma concreta na vida da classe trabalhadora por meio do Congresso que bloqueia direitos, do Judiciário que protege os ricos, das Forças Armadas que tutelam o regime, das pms militarizadas, da polícia que mata nossos filhos nas periferias, do encarceramento em massa, das milícias, da repressão às greves, ocupações e protestos."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "encarcer",
+          "polícia",
+          "policial",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "Nas periferias e nos grandes centros urbanos, a violência policial por meio, principalmente, da Polícia Militar, submete toda uma população a um estado de exceção permanente, com execuções sumárias, chacinas e o encarceramento em massa, sob a justificativa da “guerra às drogas”."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "militar",
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Combater o crime organizado, as máfias, as milícias, as facções e demais organizações criminosas por meio da investigação, inteligência e desarticulação de seus negócios, atingindo seu patrimônio, suas fontes de financiamento e suas relações com agentes públicos, políticos, empresários e, em especial, com o sistema financeiro, em vez de realizar operações militares que vitimam principalmente a população trabalhadora."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "polícia",
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Desde já, é preciso estimular a população a se auto-organizar para garantir sua própria segurança, seja diante do crime organizado e da criminalidade em geral, seja diante da violência do Estado por suas polícias."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "Não é por menos que, nos governos estaduais, sejam governadas pelo PT ou a extrema direita, o que chamam de \"segurança pública\", na verdade, aparatos de repressão policial, sejam priorizados como política pública."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "Coerentes com esse papel, as atuais instituições policiais estão organizadas para exercer o controle social sobre a população pobre e trabalhadora, e não para garantir sua"
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "Assim, defendemos liberdade de organização e os direitos econômicos e democráticos da base das polícias."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 29,
+        "termos": [
+          "soberania",
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "A construção de uma infraestrutura digital sob controle público e dos trabalhadores também se coloca como parte desse mesmo processo: garantir soberania sobre os dados, a produção e o conhecimento implica enfrentar o controle privado e estrangeiro dessas ferramentas."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Uma burguesia covarde que prefere abrir mão da soberania de seu próprio país para garantir seus centavos."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Defender a soberania do Brasil, neste marco, significa garantir que as riquezas produzidas no país permaneçam sob controle nacional e sejam direcionadas às necessidades da população."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "É, antes de tudo, um chamado à ação em torno a medidas para mudar as condições de vida da classe trabalhadora e do povo pobre, garantir soberania e libertar as amarras do Brasil das correntes que nos mantém submissos ao imperialismo e presos a um ciclo de dominação que impossibilita qualquer tipo de desenvolvimento nacional."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": true,
+        "texto": "Hoje, setores empresariais passam a defender a tarifa zero como forma de ampliar subsídios estatais, garantindo lucros sem assegurar qualidade, expansão da rede ou condições dignas de trabalho."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Também para garantir soberania alimentar, acabar com a fome no Brasil e produzir uma agricultura livre de agrotóxicos."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "Defender uma Petrobras 100% estatal, sem entregar bilhões em lucros e dividendos a acionistas privados e estrangeiros, significa enfrentar bancos, Bolsa de Valores, imperialismo e grandes meios de comunicação."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "investimento estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "Nesses casos, o investimento estrangeiro entra no país apenas para trocar a propriedade do capital: nem uma nova unidade produtiva é criada, nem um emprego adicional surge, e a produção nacional não aumenta um só centavo."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 15,
+        "termos": [
+          "petróleo",
+          "agronegócio",
+          "indígena",
+          "quilombola",
+          "agrotóxico"
+        ],
+        "compromisso": true,
+        "texto": "Autorizou a exploração de petróleo na Margem Equatorial, enquanto o Congresso aprovou o Projeto de Lei da Devastação e o Marco Temporal É preciso enfrentar o agronegócio e os governos capitalistas e defender medidas visando o fim do uso de agrotóxicos, a recuperação de áreas degradadas, a promoção da agroecologia e a aceleração da demarcação de terras indígenas e territórios quilombolas:"
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "amazônia",
+          "agronegócio",
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "É crescente a incompatibilidade entre a expansão do agronegócio e a preservação da Amazônia em um contexto de crise climática global."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "mineraç",
+          "petróleo",
+          "agronegócio"
+        ],
+        "compromisso": false,
+        "texto": "Parasitam nossos recursos e alimentam suas matrizes: eis a fuga de capitais que constantemente desvaloriza nossa moeda, exigindo que se queimem os royalties do petróleo e da mineração, bem como os excedentes do agronegócio e outros setores exportadores em meras operações cambiais."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "ambiental",
+          "meio ambiente",
+          "saneamento"
+        ],
+        "compromisso": false,
+        "texto": "Plano nacional de obras públicas voltado à geração de empregos, universalização do saneamento básico, construção de escolas, hospitais, creches, infraestrutura ambiental, entre outras obras necessárias e respeitadoras do meio ambiente."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "meio ambiente",
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "O novo relatório do Programa das Nações Unidas para o Meio Ambiente (Pnuma) reforça o avanço acelerado da crise climática e o fracasso iminente das metas estabelecidas no Acordo de Paris."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "meio ambiente",
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": false,
+        "texto": "Reparação e demarcação imediata das terras indígenas, titulação dos territórios quilombolas e proteção das comunidades tradicionais Reconhecimento e reparação das populações atingidas por crimes ambientais Garantia do direito à autodefesa de todas as comunidades e militantes que lutam em defesa do meio ambiente diante da violência patronal e estatal."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "agronegócio",
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": false,
+        "texto": "PROGRAMA PARA A QUESTÃO NEGRA Expropriação imediata, sem indenização, de todas as fazendas do agronegócio que atuam sobre territórios indígenas e quilombolas."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "agronegócio",
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": false,
+        "texto": "Que o Banco do Brasil destine suas verbas para a agricultura familiar, quilombola e indígena, e não para o agronegócio escravista."
+      }
+    ]
+  }
+}

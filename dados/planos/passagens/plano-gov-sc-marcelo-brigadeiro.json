@@ -1,0 +1,248 @@
+{
+  "arquivo": "plano-gov-sc-marcelo-brigadeiro.txt",
+  "identidade": "MARCELO BRIGADEIRO — MISSÃO — Governador SC",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 207,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 3,
+        "termos": [
+          "privatiz",
+          "concessões"
+        ],
+        "compromisso": true,
+        "texto": "Para isso, utilizaremos instrumentos modernos de gestão, incluindo parcerias com a iniciativa privada, privatizações, concessões e parcerias público-privadas capazes de ampliar investimentos e acelerar a entrega de resultados para a população."
+      },
+      {
+        "pagina": 9,
+        "termos": [
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": true,
+        "texto": "2.5.3 Reduzir a carga tributária para aumentar a competitividade do setor produtivo catarinense;"
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "2.8.4 Fortalecer e ampliar o programa de PPPs e concessões do estado de Santa Catarina, que foi concebido em 2019."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "privatiz",
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "• Promoção de privatizações e ampliação de PPPs e concessões."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "privatiz"
+        ],
+        "compromisso": true,
+        "texto": "2.8.2 Privatizar empresas estatais eficientes, superavitárias ou ainda úteis, com metas estabelecidas e sistemas de avaliação de desempenho, tais como CELESC e CASAN;"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "concessões"
+        ],
+        "compromisso": true,
+        "texto": "2.12.5 Apoiar tecnicamente e financeiramente as parcerias público-privadas e as concessões nos municípios, a fim de ampliar a capacidade de investimento em sistemas de abastecimento de água, tratamento de esgoto e coleta de resíduos sólidos urbanos;"
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "parceria público-privada",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "2.9.2 Estruturar parceria público-privada (PPP) nas escolas estaduais para operação e manutenção das edificações educacionais e incentivar a mesma prática nos municípios, oferecendo apoio técnico e financeiro;"
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "parceria público-privada",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "2.14.2 Retomar e licitar a parceria público-privada (PPP) para construção, operação e manutenção do Complexo Hospitalar de Santa Catarina, em parceria com o Banco Interamericano de Desenvolvimento (BID), que unifica as operações do Hospital Celso Ramos, Nereu Ramos, Maternidade Carmela Dutra e Hospital Infantil, projeto pronto que foi abandonado pelo governo atual;"
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 10,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": false,
+        "texto": "2.6.5 Ampliação e moralização do Programa Bolsa Atleta Catarinense, aumentando o número de atletas e modalidades contempladas com recursos financiados pelo Governo do Estado."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 16,
+        "termos": [
+          "segurança pública",
+          "pena",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "2.15.4 Criação do Projeto “SC Protege sua Polícia”, para valorizar as polícias Militar e Civil, bem como os policiais penais e demais agentes de segurança pública, assegurando assistência jurídica pela PGE nos processos relacionados a atos praticados no exercício regular da função, nos termos da legislação aplicável;"
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "presídio",
+          "penitenciár",
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "2.15.7 Realizar parcerias público-privadas (PPPs) para a construção, a administração e a manutenção de presídios e penitenciárias no estado de Santa Catarina, nos quais poderão ser instaladas unidades produtivas, permitindo o trabalho remunerado dos apenados, nos termos da legislação aplicável, inclusive para auxiliar no custeio de sua manutenção;"
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "2.17.1 Modernizar o sistema de monitoramento hidrológico e meteorológico;"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "2.13.1 Valorizar e fomentar a Rede Catarina de Proteção à Mulher, programa da Polícia Militar de Santa Catarina;"
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "pena",
+          "polícia"
+        ],
+        "compromisso": false,
+        "texto": "2.15.2 Iniciar a “Operação Retomada” para eliminar o controle das facções criminosas em território catarinense com integração da PMSC, PCSC, Polícia Penal, IGP e Inteligência;"
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "2.15.11 Fortalecimento da atividade policial nas fronteiras e nas divisas catarinenses, bem como em pontos de entrada de mercadorias como aeroportos e portos."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": false,
+        "texto": "Na segurança pública, não aceitaremos que facções criminosas imponham o medo às famílias catarinenses."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": false,
+        "texto": "CAPÍTULO 1 – Apresentação e Visão de Futuro Santa Catarina apresenta indicadores socioeconômicos acima da média nacional, porém enfrenta desafios relevantes relacionados à infraestrutura logística, segurança pública, saúde especializada, competitividade econômica, qualificação profissional e eficiência administrativa."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 17,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": false,
+        "texto": "2.15.11 Fortalecimento da atividade policial nas fronteiras e nas divisas catarinenses, bem como em pontos de entrada de mercadorias como aeroportos e portos."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 6,
+        "termos": [
+          "agropecuár",
+          "sustentab",
+          "reciclagem"
+        ],
+        "compromisso": false,
+        "texto": "2.2.3 Estimular medidas que permitam a reciclagem e aproveitamento dos resíduos e dejetos da atividade agropecuária gerando produção de energia, fertilizantes e garantindo a sustentabilidade;"
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Neste sentido, vamos elaborar e aprovar a lei de regionalização estadual do saneamento, permitindo que todos os 295 municípios catarinenses tenham acesso a investimentos para a universalização do serviço até o ano de 2033."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "agropecuár"
+        ],
+        "compromisso": true,
+        "texto": "2.2.1 Investir em programas de qualificação profissional voltados à manutenção e à ampliação da produtividade agropecuária regional;"
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "eólica"
+        ],
+        "compromisso": true,
+        "texto": "2.11.4 Fomentar fontes alternativas de geração de energia, tais como fotovoltaica, eólica e gás natural, bem como ampliar a distribuição das mesmas; e"
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "Promover políticas de sustentabilidade sem perder de vista a necessidade de desenvolvimento econômico e social."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "meio ambiente",
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "2.12 MEIO AMBIENTE E SUSTENTABILIDADE Objetivo:"
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "2.16.4 Aprimorar as ferramentas climatológicas e meteorológicas para auxiliar a navegação de pequenas e grandes embarcações."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "2.17 PROTEÇÃO AOS DESASTRES NATURAIS E RESILIÊNCIA CLIMÁTICA Objetivo:"
+      }
+    ]
+  }
+}

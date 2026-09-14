@@ -1,0 +1,372 @@
+{
+  "arquivo": "plano-pres-edmilson-costa.txt",
+  "identidade": "EDMILSON COSTA — PCB — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 268,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 4,
+        "termos": [
+          "imposto",
+          "tributár",
+          "isenção",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "O governo popular retomará o controle do câmbio e do comércio exterior e realizará uma reforma tributária com impostos progressivos, com isenção do imposto de renda para quem ganha até 1 salário-mínimo do Dieese."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "estatal",
+          "regulação"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos a forte regulação das Big Techs e redes sociais imperialistas e o monopólio estatal das telecomunicações, da telefonia e da internet, com incentivo à criação de cooperativas dos trabalhadores."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "privatiz",
+          "tributár",
+          "terceiriz"
+        ],
+        "compromisso": false,
+        "texto": "Fim das terceirizações, das privatizações e de todas as flexibilizações legais e tributárias em favor dos grandes capitalistas."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "Reforma tributária: redução da tributação sobre o consumo, com cobrança progressiva de impostos, de acordo com o rendimento de cada contribuinte, além da criação de um imposto especial sobre lucros e dividendos, grandes fortunas, transações financeiras e heranças."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "estatiz"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos o fim dos monopólios nas comunicações; a estatização das áreas estratégicas da economia e dos setores produtores de bens necessários à vida, como água, energia, saneamento etc.; a proteção ao meio ambiente; um amplo programa de moradia popular digna; o combate às opressões e a todo e qualquer tipo de discriminação e preconceito."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "privatiz"
+        ],
+        "compromisso": true,
+        "texto": "As empresas estratégicas privatizadas serão retomadas para o patrimônio público, será investigado todo o processo de privatizações, com a punição dos responsáveis por adoção de medidas ilícitas, através da criação de uma comissão da verdade das privatizações."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "arcabouço fiscal"
+        ],
+        "compromisso": true,
+        "texto": "Agiremos para promover a revogação do Arcabouço Fiscal, da Lei de Responsabilidade Fiscal, da Lei das Estatais (13.303/2016), a retomada do Banco Central (fim da autonomia), desmontando todo fiscalismo e arcabouço jurídico e institucional neoliberal"
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos a Petrobras 100% estatal, com a redução do ritmo da exploração do petróleo e a criação de um fundo, a partir da renda do petróleo, para financiar a pesquisa e a substituição do petróleo com vistas à geração de energia limpa."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 12,
+        "termos": [
+          "droga",
+          "descriminaliz",
+          "legalização",
+          "maconha"
+        ],
+        "compromisso": false,
+        "texto": "Descriminalização do uso de drogas, com legalização da maconha a curto prazo."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "lgbt",
+          "racismo"
+        ],
+        "compromisso": true,
+        "texto": "Serão adotadas políticas públicas de combate radical ao machismo, à misoginia, ao racismo, à lgbtfobia, ao capacitismo, em defesa dos direitos das mulheres, da juventude, do povo negro, dos povos originários, quilombolas e das pessoas com deficiência."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "lgbt",
+          "racismo"
+        ],
+        "compromisso": false,
+        "texto": "10 – Combate às opressões, ao machismo e à violência contra as mulheres O combate permanente a todas as formas de opressão (como o machismo, o racismo, a LGBTfobia) deve realizar-se não apenas em uma dimensão cultural e de valores, mas por meio da efetiva garantia dos direitos e condições dignas de vida desses grupos oprimidos."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "aborto",
+          "legalização"
+        ],
+        "compromisso": false,
+        "texto": "Legalização do aborto, com garantia de atendimento na rede pública de saúde, bem como políticas públicas que possibilitem a emancipação da mulher dos trabalhos domésticos, zerando as filas de creches, ampliando a educação integral e efetuando a construção massiva de restaurantes e lavanderias populares."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "racismo",
+          "religios"
+        ],
+        "compromisso": false,
+        "texto": "11 – Enfrentamento radical ao racismo e defesa dos povos originários Defesa da liberdade de culto religioso, com o combate ao preconceito e aos ataques às religiões de matriz africana e o fim do genocídio dos povos indígenas e do povo negro."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": false,
+        "texto": "Nossa proposta de reforma agrária também será para as periferias das cidades, com transferência de títulos da terra em pequenos lotes sem direito de revenda, fomento à organização de cooperativas com apoio de políticas públicas para a produção agroecológica, armazenamento e escoamento de gêneros para alimentação; implementação de políticas públicas de compras para fornecimento às redes escolares, hospitalares, restaurantes populares e outras redes semelhantes."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "O governo do Poder Popular agirá com rigor no combate ao genocídio da população negra, pondo fim à política de “guerra às drogas”, para o que se faz necessária a completa desmilitarização da segurança pública, com unificação das polícias e instituição do ciclo completo junto com a desvinculação das forças de segurança do exército, sob bases curriculares e formativas completamente reestruturadas numa lógica democrática."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "cota"
+        ],
+        "compromisso": false,
+        "texto": "Promoveremos o fim do vestibular nas universidades federais e a ampliação das cotas (54% para a população negra, refletindo o censo do IBGE e estabelecendo 70 ou 80% de cota para estudantes das escolas públicas)."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 9,
+        "termos": [
+          "pena",
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Expropriação do agronegócio, não apenas para garantir comida na mesa do povo trabalhador brasileiro, mas também como necessidade humanitária, uma vez que o agronegócio é o principal destruidor do meio ambiente e um dos grandes financiadores do crime organizado e da violência no campo."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "polícia",
+          "forças armadas"
+        ],
+        "compromisso": true,
+        "texto": "As forças armadas priorizarão o cuidado das fronteiras, em conjunto com a polícia federal e demais órgãos de inteligência."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "O governo do Poder Popular agirá com rigor no combate ao genocídio da população negra, pondo fim à política de “guerra às drogas”, para o que se faz necessária a completa desmilitarização da segurança pública, com unificação das polícias e instituição do ciclo completo junto com a desvinculação das forças de segurança do exército, sob bases curriculares e formativas completamente reestruturadas numa lógica democrática."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "judiciário"
+        ],
+        "compromisso": true,
+        "texto": "Para reverter essa situação propomos uma reforma estrutural profunda de todo o judiciário brasileiro (incluindo necessariamente o Ministério Público), tanto do ponto de vista da legislação, quanto do controle social e transparência sobre a atividade da justiça e, especialmente, que os juízes nomeados para os tribunais regionais e superiores tenham mandato fixo sob controle social: mandatos de 10 anos elegíveis e revogáveis pelo Poder Popular em sua respectiva jurisdição."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "No lugar da exploração da Margem Equatorial, defendemos pesquisas e buscas em outras áreas e uma melhor exploração do Pré-Sal, reduzindo os lucros e a extração desenfreada, que visam apenas beneficiar o grande capital, drenando nossas reservas e encarecendo produtos e serviços."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "segurança pública",
+          "direitos humanos"
+        ],
+        "compromisso": false,
+        "texto": "Será desenvolvida uma política de segurança dos direitos humanos, no lugar da segurança pública baseada na repressão à classe trabalhadora, à população pobre e aos moradores das periferias, com a criação de um ministério voltado à aplicação das medidas necessárias à garantia desses direitos e a revogação completa da lei antiterrorismo (12.850/2013)."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "maioridade penal",
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "Contra a redução da maioridade penal e ampliação das medidas socioeducativas."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "segurança pública",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "13 – Segurança dos Direitos no lugar da velha “Segurança Pública” A segurança pública será desmilitarizada e reorganizada sob o marco civil, com controle social substituindo uma política e um ministério de segurança pública para uma política de segurança dos direitos, com base na criminologia crítica e no acúmulo político e programático dos movimentos negros e populares."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 8,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Diante da atual agressividade do imperialismo, o governo do poder popular fortalecerá todos os processos de integração, tanto regionais quanto internacionais, reafirmará a soberania dos povos e prestará ativa solidariedade a Cuba, Palestina, Venezuela, Irã, Saara Ocidental e todos os povos em luta contra o imperialismo."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": true,
+        "texto": "Estímulo à encampação pública pelos municípios de todo o transporte de passageiros nas cidades, centralizando e renovando a estrutura de transporte, com a modernização e ampliação da frota de ônibus, a produção de veículos leves sobre trilhos, ampliação dos metrôs, trens e barcas, especialmente nas grandes metrópoles, de forma a garantir a tarifa zero para toda a população."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "As forças armadas priorizarão o cuidado das fronteiras, em conjunto com a polícia federal e demais órgãos de inteligência."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "soberania",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "Transição para o regime de monopólio estatal da exploração, produção, refino, petroquímica e distribuição; retirada das ações da Petrobrás das bolsas de valores estrangeiras, visando o resgate da soberania energética do Brasil; fim do PPI e das políticas de precificação artificialmente altas, que têm sacrificado a população com valores estratosféricos de combustíveis, gás de cozinha e outros derivados de petróleo."
+      },
+      {
+        "pagina": 1,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": false,
+        "texto": "A candidatura de Edmilson Costa vem para qualificar o debate sobre o Brasil e apresentar soluções para um conjunto de problemas que as outras candidaturas não têm coragem de discutir, como a dramática crise social, as precárias condições de vida dos trabalhadores e trabalhadoras, o enfrentamento ao imperialismo, além de reafirmar a solidariedade com todos os povos em luta por sua soberania e autodeterminação."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": false,
+        "texto": "Dentre eles, desenvolvemos a luta permanente contra o imperialismo e a solidariedade militante a Cuba, à Palestina, ao povo do Irã, da Venezuela e todos os povos que enfrentam a velha ordem imperial e defendem sua soberania e autodeterminação."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": false,
+        "texto": "Nosso objetivo é romper com a velha ordem oligárquica, excludente e subordinada ao capital internacional que marca a sociedade brasileira, inaugurando um novo tempo político, econômico e social, fundado na soberania popular e na autodeterminação nacional."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "comércio exterior"
+        ],
+        "compromisso": false,
+        "texto": "O governo popular retomará o controle do câmbio e do comércio exterior e realizará uma reforma tributária com impostos progressivos, com isenção do imposto de renda para quem ganha até 1 salário-mínimo do Dieese."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 2,
+        "termos": [
+          "meio ambiente",
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos o fim dos monopólios nas comunicações; a estatização das áreas estratégicas da economia e dos setores produtores de bens necessários à vida, como água, energia, saneamento etc.; a proteção ao meio ambiente; um amplo programa de moradia popular digna; o combate às opressões e a todo e qualquer tipo de discriminação e preconceito."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "desmatament",
+          "emissões"
+        ],
+        "compromisso": true,
+        "texto": "Serão reforçadas as ações voltadas para a redução das emissões de gases do efeito estufa, o combate ao desmatamento, a promoção de ações de reflorestamento, de fortalecimento e ampliação da coleta e do reaproveitamento de resíduos sólidos (lixo)."
+      },
+      {
+        "pagina": 9,
+        "termos": [
+          "meio ambiente",
+          "agronegócio"
+        ],
+        "compromisso": true,
+        "texto": "Expropriação do agronegócio, não apenas para garantir comida na mesa do povo trabalhador brasileiro, mas também como necessidade humanitária, uma vez que o agronegócio é o principal destruidor do meio ambiente e um dos grandes financiadores do crime organizado e da violência no campo."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "ambiental",
+          "agrotóxico",
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "O PCB entende que a luta pela sustentabilidade ambiental é uma luta anticapitalista, pois os padrões de produção industrial e agrícola em escalas cada vez mais elevadas por grandes conglomerados nacionais e internacionais, com o uso intensivo de agrotóxicos e fertilizantes químicos em grandes plantações com monocultura e mecanização, promovem um processo de esgotamento dos recursos naturais, contaminação dos solos,"
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "meio ambiente",
+          "desmatament",
+          "mineraç"
+        ],
+        "compromisso": false,
+        "texto": "9 – Preservação do meio ambiente Combate rigoroso ao desmatamento em todos os ecossistemas, à mineração ilegal, com uma profunda revisão nos processos de produção mineral em curso."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "eólica",
+          "solar",
+          "bioma"
+        ],
+        "compromisso": false,
+        "texto": "Investimentos em energias alternativas (solar, eólica, biomassa, de maré) e biocombustíveis, aumentando a diversificação, soberania e segurança energética e diminuindo os impactos ambientais, através de destinação de percentual do lucro da produção para este fim."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "petróleo"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos a Petrobras 100% estatal, com a redução do ritmo da exploração do petróleo e a criação de um fundo, a partir da renda do petróleo, para financiar a pesquisa e a substituição do petróleo com vistas à geração de energia limpa."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Serão adotadas políticas públicas de combate radical ao machismo, à misoginia, ao racismo, à lgbtfobia, ao capacitismo, em defesa dos direitos das mulheres, da juventude, do povo negro, dos povos originários, quilombolas e das pessoas com deficiência."
+      }
+    ]
+  }
+}

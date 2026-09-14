@@ -107,6 +107,44 @@ for (const c of candidatos) {
   };
 }
 
+// ------------------------------- casa com o voto medido na Assembleia estadual
+//
+// Um deputado ESTADUAL que se candidata a federal ou ao Senado tem voto medido —
+// só que na ALESC, não na Câmara. É evidência real e não pode ser jogada fora,
+// mas também não é a mesma coisa: são 8 votações em vez de 23, e só dois eixos
+// passam na conferência de polaridade. Por isso vira um degrau PRÓPRIO da
+// escada, `medido-alesc`, e nunca se mistura com `medido`.
+//
+// O arquivo de candidaturas é entrada, não é gerado aqui — o cruzamento entre
+// deputado e candidatura é conferido à mão, pela mesma razão de sempre:
+// "CHICA DO ESKUDLARK" concorre a estadual pelo PL e NÃO é Maurício Eskudlark.
+let medidosAlesc = 0;
+try {
+  const liga = JSON.parse(readFileSync(`${raiz}dados/alesc/candidaturas-alesc.json`, 'utf8'));
+  const alesc = JSON.parse(readFileSync(`${raiz}dados/alesc/deputados-alesc.json`, 'utf8'));
+  const porNome = new Map(alesc.deputados.map((d) => [d.nome, d]));
+
+  for (const x of liga.deputados) {
+    if (!x.candidatura) continue;
+    const c = candidatos.find((y) => String(y.id) === String(x.candidatura.id));
+    if (!c || c.medicao) continue; // voto na Câmara, quando existe, tem precedência
+    const d = porNome.get(x.deputado);
+    if (!d) continue;
+    medidosAlesc++;
+    c.medicao_alesc = {
+      fonte: 'voto nominal na Assembleia Legislativa de Santa Catarina, legislatura 2023-2027',
+      nome_na_assembleia: x.deputado,
+      eixos_medidos: alesc.eixos_publicaveis,
+      posicao: d.posicao,
+      confianca: d.confianca,
+      eixos_com_base: d.eixos_com_base,
+      votou: d.votou,
+      votacoes_do_catalogo: alesc.base,
+      ressalva: alesc.o_que_o_eixo_economia_mede_aqui,
+    };
+  }
+} catch { /* sem ALESC, a escada segue com os cinco degraus originais */ }
+
 // ------------------------------------------------------ escada de evidência
 for (const c of candidatos) {
   const eleicoes = c.candidaturas_anteriores;
@@ -119,6 +157,10 @@ for (const c of candidatos) {
     // tem voto, mas faltou demais para a posição ser confiável
     c.evidencia = 'medido-fraco';
     c.evidencia_texto = `Esteve na Câmara nesta legislatura, mas só votou em ${c.medicao.votacoes_com_posicao} das ${c.medicao.votacoes_do_catalogo} votações do catálogo — pouco para dizer onde está.`;
+  } else if (c.medicao_alesc?.eixos_com_base.length) {
+    c.evidencia = 'medido-alesc';
+    const n = c.medicao_alesc.eixos_com_base.length;
+    c.evidencia_texto = `Não há voto na Câmara, mas há na Assembleia de Santa Catarina: votou em ${c.medicao_alesc.votou} das 8 votações do catálogo estadual. Isso posiciona a pessoa em ${n === 1 ? 'um eixo' : `${n} eixos`}, não nos cinco — e mede política estadual, que não é a mesma coisa.`;
   } else if (mandatos.length) {
     c.evidencia = 'com-mandato';
     c.mandatos = mandatos;
@@ -143,11 +185,12 @@ writeFileSync(`${raiz}dados/candidatos-${min}.json`, `${JSON.stringify({
   versao: '0.1',
   uf,
   montado_em: new Date().toISOString().slice(0, 10),
-  fonte: 'TSE, DivulgaCandContas, eleição 20322002026 (cargos Deputado Federal e Senador de ' + uf + ')',
+  fonte: `TSE, DivulgaCandContas, eleição 20322002026 (cargos ${[...new Set(candidatos.map((c) => c.cargo))].join(', ')} de ${uf})`,
   cargos: [...new Set(candidatos.map((c) => c.cargo))],
   escada_de_evidencia: {
     medido: 'voto nominal na Câmara desta legislatura; recebe posição e índice de compatibilidade',
     'medido-fraco': 'esteve na Câmara mas faltou demais; a posição não é confiável e não é exibida como medida',
+    'medido-alesc': 'voto nominal na Assembleia de SC; posição em dois eixos apenas, sobre um catálogo de 8 votações de competência estadual',
     'com-mandato': 'já foi eleito para algum cargo; sem voto nominal nosso, a ficha aponta onde procurar',
     tentou: 'já concorreu e nunca se elegeu; sem posição',
     estreante: 'primeira candidatura; sem posição',
@@ -163,7 +206,8 @@ console.log('escada de evidência:');
 for (const [k, v] of Object.entries(contagem).sort((a, b) => b[1] - a[1])) {
   console.log(`  ${k.padEnd(14)} ${String(v).padStart(3)}  ${(100 * v / candidatos.length).toFixed(0)}%`);
 }
-console.log(`\ncasados com o voto medido: ${medidos}`);
+console.log(`\ncasados com o voto medido na Câmara: ${medidos}`);
+console.log(`casados com o voto medido na ALESC: ${medidosAlesc}`);
 const semRegistro = candidatos.filter((c) => c.situacao_do_registro !== 'Deferido');
 console.log(`registro não deferido: ${semRegistro.length} — ${semRegistro.map((c) => `${c.nome} (${c.situacao_do_registro})`).slice(0, 6).join(', ')}`);
 console.log(`\nEscrito em dados/candidatos-${min}.json`);

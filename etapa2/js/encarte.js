@@ -33,6 +33,7 @@ const estado = {
   catalogo: null,
   votos: null,
   candidatos: null, // etapa 3: candidatos da UF, com escada de evidência
+  executivo: null,  // etapa 3: presidente e governador, lidos pelo plano de governo
   partidoAberto: null,
   perfil: null,     // { posicao, confianca } vindo do código na URL
   alinhamento: null,
@@ -60,6 +61,13 @@ async function carregar() {
     const r = await fetch('../dados/candidatos-sc.json');
     if (r.ok) estado.candidatos = await r.json();
   } catch { /* segue sem a etapa 3 */ }
+
+  // O Executivo também é opcional, e pela mesma razão: um estado sem leitura de
+  // planos continua tendo as etapas 1 e 2 inteiras.
+  try {
+    const r = await fetch('../dados/executivo-sc.json');
+    if (r.ok) estado.executivo = await r.json();
+  } catch { /* segue sem os candidatos ao Executivo */ }
 }
 
 function lerPerfilDaUrl() {
@@ -91,7 +99,7 @@ function coresDoTema() {
 /* ---------------------------------------------------------------- galeria */
 
 function mostrar(tela) {
-  for (const id of ['tela-galeria', 'tela-ficha', 'tela-candidato']) $(id).classList.toggle('oculto', id !== tela);
+  for (const id of ['tela-galeria', 'tela-ficha', 'tela-candidato', 'tela-executivo']) $(id).classList.toggle('oculto', id !== tela);
   window.scrollTo({ top: 0 });
 }
 
@@ -191,6 +199,8 @@ function desenharGaleria() {
     : entradas
       .filter(([, p]) => confiancaDoPartido(p) < (estado.revelado.confianca_minima_para_ranking ?? CONFIANCA_MINIMA))
       .map(([s, p]) => ({ sigla: s, confianca: Math.round(confiancaDoPartido(p)), bancada: p.bancada, votacoes: p.votacoes }));
+
+  desenharExecutivo();
 
   if (semPosicao.length) {
     $('secao-sem-posicao').classList.remove('oculto');
@@ -411,6 +421,7 @@ function desenharVotacoesDaFicha(sigla) {
 (async function iniciar() {
   $('botao-voltar-galeria').addEventListener('click', () => { desenharGaleria(); mostrar('tela-galeria'); });
   $('botao-voltar-partido').addEventListener('click', () => { if (estado.partidoAberto) abrirFicha(estado.partidoAberto); });
+  $('botao-voltar-executivo').addEventListener('click', () => { desenharGaleria(); mostrar('tela-galeria'); });
   $('botao-teste').addEventListener('click', () => { window.location.href = '../index.html'; });
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (!$('tela-ficha').classList.contains('oculto')) $('botao-voltar-galeria').click();
@@ -434,13 +445,14 @@ function desenharVotacoesDaFicha(sigla) {
 const ROTULO_EVIDENCIA = {
   medido: 'com voto medido',
   'medido-fraco': 'esteve na Câmara, faltou demais',
+  'medido-alesc': 'voto medido na Assembleia de SC',
   'com-mandato': 'já exerceu mandato',
   tentou: 'já concorreu, nunca eleito',
   estreante: 'primeira candidatura',
 };
 
 /** Ordem da escada: quem tem mais evidência aparece primeiro. */
-const ORDEM_EVIDENCIA = ['medido', 'medido-fraco', 'com-mandato', 'tentou', 'estreante'];
+const ORDEM_EVIDENCIA = ['medido', 'medido-alesc', 'medido-fraco', 'com-mandato', 'tentou', 'estreante'];
 
 const dinheiro = (n) => (typeof n === 'number'
   ? n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 })
@@ -465,7 +477,10 @@ function cartaoCandidato(c) {
   titulo.textContent = c.nome;
   cabeca.append(titulo);
 
-  // Só quem tem voto medido recebe número. Ninguém mais.
+  // Só quem tem voto medido NA CÂMARA recebe número. Quem foi medido na
+  // Assembleia tem posição em dois eixos, sobre outro tipo de competência — dar
+  // a ele um índice com a mesma aparência seria dizer que as duas medidas são
+  // comparáveis, e não são.
   if (c.evidencia === 'medido' && estado.perfil) {
     const valor = document.createElement('span');
     valor.className = 'valor';
@@ -499,6 +514,12 @@ function cartaoCandidato(c) {
   return cartao;
 }
 
+/**
+ * Ordem dos cargos na lista do partido. Não é alfabética nem por tamanho: é a
+ * ordem em que o eleitor preenche a urna, de cima para baixo.
+ */
+const ORDEM_CARGO = ['Senador', 'Deputado Federal', 'Deputado Estadual'];
+
 function desenharCandidatosDoPartido(sigla) {
   const secao = $('secao-candidatos');
   const lista = $('lista-candidatos');
@@ -512,17 +533,43 @@ function desenharCandidatosDoPartido(sigla) {
   $('titulo-candidatos') .textContent = `Quem concorre por este partido em ${uf}`;
 
   const medidos = cands.filter((c) => c.evidencia === 'medido').length;
+  const alesc = cands.filter((c) => c.evidencia === 'medido-alesc').length;
+  const nCargos = new Set(cands.map((c) => c.cargo)).size;
+  const emCargos = ['', '', 'em dois cargos', 'em três cargos'][nCargos] || '';
   $('intro-candidatos').textContent =
-    `${cands.length} ${cands.length === 1 ? 'candidato' : 'candidatos'}. `
+    `${cands.length} ${cands.length === 1 ? 'candidato' : 'candidatos'}${emCargos ? ` ${emCargos}` : ''}. `
     + (medidos
-      ? `${medidos} ${medidos === 1 ? 'tem' : 'têm'} voto nominal na Câmara e por isso ${medidos === 1 ? 'recebe' : 'recebem'} posição própria — `
-      : 'Nenhum tem voto nominal na Câmara para medir — ')
-    + 'os demais aparecem com o que existe sobre eles, sem posição inventada. '
+      ? `${medidos} ${medidos === 1 ? 'tem' : 'têm'} voto nominal na Câmara. `
+      : 'Nenhum tem voto nominal na Câmara. ')
+    + (alesc
+      ? `${alesc} ${alesc === 1 ? 'tem' : 'têm'} voto nominal na Assembleia de Santa Catarina, que mede dois eixos e não os cinco. `
+      : '')
+    + (medidos + alesc
+      ? 'Os demais aparecem com o que existe sobre eles, sem posição inventada. '
+      : 'Todos aparecem com o que existe sobre eles, sem posição inventada. ')
     + 'A posição do partido nunca é atribuída à pessoa.';
 
-  cands.sort((a, b) => ORDEM_EVIDENCIA.indexOf(a.evidencia) - ORDEM_EVIDENCIA.indexOf(b.evidencia)
-    || a.nome.localeCompare(b.nome));
-  for (const c of cands) lista.append(cartaoCandidato(c));
+  // Uma lista corrida de 57 nomes em três cargos diferentes não é uma lista, é
+  // um monte. Separar por cargo é o mínimo para o eleitor achar o voto que ele
+  // está decidindo agora.
+  const cargos = [...new Set(cands.map((c) => c.cargo))]
+    .sort((a, b) => ORDEM_CARGO.indexOf(a) - ORDEM_CARGO.indexOf(b));
+
+  for (const cargo of cargos) {
+    const doCargo = cands.filter((c) => c.cargo === cargo)
+      .sort((a, b) => ORDEM_EVIDENCIA.indexOf(a.evidencia) - ORDEM_EVIDENCIA.indexOf(b.evidencia)
+        || a.nome.localeCompare(b.nome));
+
+    const titulo = document.createElement('h4');
+    titulo.className = 'titulo-cargo';
+    titulo.textContent = `${cargo} · ${doCargo.length}`;
+    lista.append(titulo);
+
+    const grade = document.createElement('div');
+    grade.className = 'cartoes';
+    for (const c of doCargo) grade.append(cartaoCandidato(c));
+    lista.append(grade);
+  }
 }
 
 function abrirCandidato(id) {
@@ -542,6 +589,58 @@ function abrirCandidato(id) {
   // ---------------------------------------------------------- medição
   const alvoMed = $('cand-medicao');
   alvoMed.textContent = '';
+
+  // Medição na Assembleia: dois eixos, catálogo de oito votações, competência
+  // estadual. Aparece como régua por eixo, nunca como radar — radar dos cinco
+  // eixos com três vazios sugeriria que os três foram medidos e deram zero.
+  if (c.evidencia === 'medido-alesc') {
+    const m = c.medicao_alesc;
+    const h = document.createElement('h2');
+    h.textContent = 'O que os votos na Assembleia revelam';
+    const nota = document.createElement('p');
+    nota.className = 'discreto';
+    nota.textContent = `Esta pessoa não tem voto na Câmara, mas tem na Assembleia Legislativa de Santa Catarina: `
+      + `votou em ${m.votou} das 8 votações do catálogo estadual. `
+      + 'Isso mede política estadual, que não tem privatização, reforma tributária ampla nem legislação trabalhista — '
+      + 'as votações perguntam, no fundo, se o Estado deve criar programa, obrigar e regular. '
+      + 'Não é a mesma pergunta da etapa 1, e por isso não vira índice de compatibilidade.';
+    alvoMed.append(h, nota);
+
+    const tabA = document.createElement('div');
+    tabA.className = 'cartoes';
+    for (const k of EIXOS) {
+      const eixo = estado.eixos.find((e) => e.codigo === k);
+      if (!eixo) continue;
+      const temBase = m.eixos_com_base.includes(k);
+      const cart = document.createElement('article');
+      cart.className = 'cartao-eixo';
+      const hh = document.createElement('header');
+      const t3 = document.createElement('h3');
+      t3.textContent = eixo.nome;
+      const val = document.createElement('span');
+      val.className = 'valor';
+      if (temBase) {
+        const v = m.posicao[k];
+        const polo = v === 0 ? null : (v < 0 ? eixo.polo_negativo : eixo.polo_positivo);
+        val.textContent = polo ? `${polo.nome} ${Math.abs(v)}%` : 'no meio';
+      } else {
+        val.textContent = 'não medido';
+        val.style.opacity = '0.6';
+      }
+      hh.append(t3, val);
+      cart.append(hh);
+
+      const selo = document.createElement('p');
+      selo.className = 'discreto confianca';
+      selo.textContent = temBase
+        ? `${m.confianca[k]}% do catálogo estadual neste eixo`
+        : 'as votações da Assembleia não medem este eixo';
+      cart.append(selo);
+      tabA.append(cart);
+    }
+    alvoMed.append(tabA);
+  }
+
   if (c.evidencia === 'medido') {
     const h = document.createElement('h2');
     h.textContent = 'A posição que os votos revelam';
@@ -670,4 +769,236 @@ function abrirCandidato(id) {
   alvoReg.append(fonte);
 
   mostrar('tela-candidato');
+}
+
+/* ------------------------------------------------ etapa 3: o Executivo */
+
+/**
+ * Presidente e governador entram por seção própria, não pela aba do partido.
+ *
+ * Não é preferência de layout. Dos 15 partidos com candidato ao Executivo em
+ * 2026, oito não têm ficha na etapa 2 porque não têm bancada medida na Câmara —
+ * PRTB, MISSÃO, DEMOCRATA, DC, PCB, PSTU, UP e PCO. Pendurar o Executivo na aba
+ * do partido sumiria com oito candidaturas, entre elas todas as de esquerda fora
+ * do PT. Quem não tem bancada continua tendo candidato, e o eleitor vota no nome.
+ */
+
+const ROTULO_EXECUTIVO = {
+  plano: 'plano de governo lido',
+  'plano-ilegivel': 'plano registrado, mas ilegível',
+  'sem-plano': 'não registrou plano',
+};
+
+function cartaoExecutivo(c) {
+  const cartao = document.createElement('article');
+  cartao.className = 'cartao-eixo';
+  cartao.style.cursor = 'pointer';
+  cartao.tabIndex = 0;
+  cartao.setAttribute('role', 'button');
+
+  const cabeca = document.createElement('header');
+  const titulo = document.createElement('h3');
+  titulo.textContent = c.nome;
+  cabeca.append(titulo);
+
+  // Número só apareceria se a confiança do plano passasse a mesma trava da
+  // etapa 2. Em 2026 nenhum plano passa, e é isso que o cartão diz.
+  if (c.permite_compatibilidade && estado.perfil) {
+    const valor = document.createElement('span');
+    valor.className = 'valor';
+    valor.textContent = `${compatibilidade(estado.perfil.posicao, estado.perfil.confianca, c.posicao)}%`;
+    cabeca.append(valor);
+  }
+  cartao.append(cabeca);
+
+  const linha = document.createElement('p');
+  linha.className = 'discreto';
+  linha.style.margin = '0';
+  linha.textContent = `${c.partido} · ${c.cargo_nome}`;
+  cartao.append(linha);
+
+  const selo = document.createElement('p');
+  selo.className = 'discreto confianca';
+  if (c.evidencia === 'plano') {
+    const n = c.eixos_com_base.length;
+    selo.textContent = n
+      ? `plano lido · ${c.temas_respondidos} de ${c.temas_no_catalogo} temas · posição firme em ${n === 1 ? '1 eixo' : `${n} eixos`}`
+      : `plano lido · ${c.temas_respondidos} de ${c.temas_no_catalogo} temas · sem base firme em nenhum eixo`;
+  } else {
+    selo.textContent = ROTULO_EXECUTIVO[c.evidencia] || c.evidencia;
+  }
+  cartao.append(selo);
+
+  const abrir = () => abrirExecutivo(c.id);
+  cartao.addEventListener('click', abrir);
+  cartao.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); abrir(); } });
+  return cartao;
+}
+
+function desenharExecutivo() {
+  const secao = $('secao-executivo');
+  if (!estado.executivo) { secao.classList.add('oculto'); return; }
+  secao.classList.remove('oculto');
+
+  const cands = estado.executivo.candidatos;
+  const lidos = cands.filter((c) => c.evidencia === 'plano');
+  const comBase = lidos.filter((c) => c.eixos_com_base.length).length;
+
+  $('intro-executivo').textContent =
+    `Presidente e governador são os únicos cargos que registram plano de governo no TSE. `
+    + `Os ${cands.length} planos de 2026 foram lidos contra um catálogo fixo de `
+    + `${estado.executivo.catalogo.temas} temas. Isto mede o que a pessoa diz que vai fazer — `
+    + `nunca o que ela fez. De ${lidos.length} planos legíveis, ${comBase} chegam a ter posição firme `
+    + `em pelo menos um eixo, e nenhum diz o bastante para virar um índice de compatibilidade.`;
+
+  const lista = $('lista-executivo');
+  lista.textContent = '';
+  for (const c of cands) lista.append(cartaoExecutivo(c));
+}
+
+/** Régua de um eixo, marcando se aquele eixo tem base ou não. */
+function reguaDoEixo(c, k) {
+  const eixo = estado.eixos.find((e) => e.codigo === k);
+  if (!eixo) return null;
+  const valor = c.posicao[k];
+  const conf = c.confianca[k];
+  const temBase = c.eixos_com_base.includes(k);
+
+  const cartao = document.createElement('article');
+  cartao.className = 'cartao-eixo';
+
+  const cabeca = document.createElement('header');
+  const h = document.createElement('h3');
+  h.textContent = eixo.nome;
+  const v = document.createElement('span');
+  v.className = 'valor';
+  if (temBase) {
+    const polo = valor === 0 ? null : (valor < 0 ? eixo.polo_negativo : eixo.polo_positivo);
+    v.textContent = polo ? `${polo.nome} ${Math.abs(valor)}%` : 'no meio';
+  } else {
+    v.textContent = 'não dá para dizer';
+    v.style.opacity = '0.6';
+  }
+  cabeca.append(h, v);
+  cartao.append(cabeca);
+
+  if (temBase) {
+    const regua = document.createElement('div');
+    regua.className = 'regua';
+    const marcador = document.createElement('span');
+    marcador.className = 'marcador';
+    marcador.style.left = `${(valor + 100) / 2}%`;
+    regua.append(marcador);
+    if (estado.perfil) {
+      const meu = document.createElement('span');
+      meu.className = 'marcador incerto';
+      meu.style.left = `${((estado.perfil.posicao[k] || 0) + 100) / 2}%`;
+      meu.title = 'você';
+      regua.append(meu);
+    }
+    const polos = document.createElement('div');
+    polos.className = 'polos';
+    const e1 = document.createElement('span');
+    e1.textContent = eixo.polo_negativo.nome;
+    const e2 = document.createElement('span');
+    e2.textContent = eixo.polo_positivo.nome;
+    polos.append(e1, e2);
+    cartao.append(regua, polos);
+  }
+
+  const selo = document.createElement('p');
+  selo.className = 'discreto confianca';
+  // Três recados diferentes, porque 0%, 19% e 53% não querem dizer a mesma coisa.
+  // Chamar 53% de "pouca coisa" seria tão enganoso quanto exibir a posição: o
+  // plano falou bastante do eixo e ainda assim não o bastante para a trava.
+  const minimo = estado.executivo.confianca_minima;
+  selo.textContent = temBase
+    ? `o plano toma lado em ${conf}% dos temas deste eixo — o bastante para afirmar a posição`
+    : (conf === 0
+      ? 'o plano não toca em nenhum tema deste eixo'
+      : conf < 30
+        ? `o plano mal toca neste eixo (${conf}%) — longe do necessário para afirmar uma posição`
+        : `o plano toca em ${conf}% dos temas deste eixo, abaixo dos ${minimo}% que o Prumo exige para afirmar uma posição`);
+  cartao.append(selo);
+
+  return cartao;
+}
+
+function abrirExecutivo(id) {
+  if (!estado.executivo) return;
+  const c = estado.executivo.candidatos.find((x) => x.id === id);
+  if (!c) return;
+
+  $('exec-nome').textContent = c.nome;
+  $('exec-linha').textContent = `${c.partido} · ${c.cargo_nome}`;
+
+  const alvoEixos = $('exec-eixos');
+  const alvoPass = $('exec-passagens');
+  alvoEixos.textContent = '';
+  alvoPass.textContent = '';
+
+  if (c.evidencia !== 'plano') {
+    $('exec-sintese').textContent = c.evidencia === 'plano-ilegivel'
+      ? 'Esta pessoa registrou plano de governo no TSE, mas o arquivo é uma imagem: não tem texto dentro. '
+        + 'Não há uma linha que possa ser citada, e sem citação o Prumo não atribui posição nenhuma.'
+      : 'Não consta plano de governo registrado para esta candidatura.';
+    $('exec-base').textContent = c.evidencia === 'plano-ilegivel'
+      ? `${c.paginas} páginas registradas, todas como imagem · isto é diferente de não ter registrado, e diferente de ter registrado e não dizer nada`
+      : '';
+    mostrar('tela-executivo');
+    return;
+  }
+
+  $('exec-sintese').textContent =
+    'O que está abaixo é o que esta pessoa escreveu no plano de governo entregue ao TSE. '
+    + 'É o que ela diz que vai fazer — não é o que ela fez. '
+    + 'Toda posição vem acompanhada da passagem que a originou e da página, para você conferir no documento original.';
+  $('exec-base').textContent =
+    `${c.temas_respondidos} dos ${c.temas_no_catalogo} temas do catálogo · `
+    + `confiança média ${c.confianca_media}% · `
+    + (c.permite_compatibilidade
+      ? 'base suficiente para comparar com o seu perfil'
+      : `abaixo dos ${estado.executivo.confianca_minima}% que o Prumo exige para calcular compatibilidade`);
+
+  for (const k of EIXOS) {
+    const cartao = reguaDoEixo(c, k);
+    if (cartao) alvoEixos.append(cartao);
+  }
+
+  // As passagens. São o coração da etapa: sem elas, nada do que está acima
+  // poderia ser afirmado, e o eleitor não teria como conferir.
+  const titulo = document.createElement('h2');
+  titulo.textContent = 'O que o plano diz, com todas as letras';
+  const nota = document.createElement('p');
+  nota.className = 'discreto';
+  nota.textContent = `${c.passagens.length} trechos. Cada um é a frase do próprio documento, com a página.`;
+  alvoPass.append(titulo, nota);
+
+  for (const p of c.passagens) {
+    const bloco = document.createElement('article');
+    bloco.className = 'cartao-eixo';
+
+    const cabeca = document.createElement('header');
+    const h = document.createElement('h3');
+    h.textContent = p.titulo;
+    const v = document.createElement('span');
+    v.className = 'valor';
+    v.textContent = p.valor === 'favor' ? 'a favor' : 'contra';
+    cabeca.append(h, v);
+
+    const cita = document.createElement('blockquote');
+    cita.style.margin = '0.6rem 0 0';
+    cita.style.paddingLeft = '0.9rem';
+    cita.style.borderLeft = '3px solid var(--cobre)';
+    cita.textContent = `“${p.passagem}”`;
+
+    const rodape = document.createElement('p');
+    rodape.className = 'discreto confianca';
+    rodape.textContent = `página ${p.pagina} do plano · pesa em ${p.eixos.map(nomeDoEixo).join(', ')}`;
+
+    bloco.append(cabeca, cita, rodape);
+    alvoPass.append(bloco);
+  }
+
+  mostrar('tela-executivo');
 }

@@ -1,0 +1,293 @@
+{
+  "arquivo": "plano-gov-sc-lais-chaud.txt",
+  "identidade": "LAÍS CHAUD — UP — Governador SC",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 287,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 4,
+        "termos": [
+          "empresa pública"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer a CASAN enquanto empresa pública estratégica, ampliando sua capacidade de investimento e garantindo a expansão dos serviços de saneamento para as regiões ainda não atendidas."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "salário mínimo"
+        ],
+        "compromisso": true,
+        "texto": "Política de valorização do salário mínimo e dos pisos salariais estaduais, com o objetivo de ampliar o poder de compra dos trabalhadores e acompanhar a evolução do custo de vida."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "sindicat"
+        ],
+        "compromisso": true,
+        "texto": "Interiorizar as políticas públicas para as mulheres e fortalecer a participação popular, garantindo que movimentos de mulheres, organizações populares, sindicatos e trabalhadoras participem da construção e fiscalização das políticas estaduais."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "trabalhista"
+        ],
+        "compromisso": false,
+        "texto": "Em Chapecó, 22% dos processos trabalhistas distribuídos entre"
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "trabalhista"
+        ],
+        "compromisso": false,
+        "texto": "Incentivar a instalação de empresas de reciclagem, reaproveitamento de resíduos e tecnologias de baixo impacto ambiental, vinculando os incentivos públicos ao cumprimento de metas trabalhistas e ambientais."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "sindicat"
+        ],
+        "compromisso": false,
+        "texto": "De acordo com um relatório elaborado pelo Sindicato Docente da UDESC (APRUDESC), não."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": false,
+        "texto": "Estabelecimento de uma rede estadual pública de mercados populares, que comercialize alimentos de qualidade à preço de custo, com subsídios do Governo de Santa Catarina;"
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 18,
+        "termos": [
+          "gênero",
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Combater a discriminação LGBTTIA+ no trabalho, criando mecanismos de denúncia e fiscalização e responsabilizando empresas e instituições que discriminem trabalhadores por orientação sexual ou identidade de gênero."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": true,
+        "texto": "Combater a desigualdade e a exploração das mulheres no trabalho, garantindo igualdade salarial, enfrentamento ao assédio sexual e moral, proteção às trabalhadoras informais e redução da jornada de trabalho sem redução salarial."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Construir uma política permanente de combate ao machismo e à violência de gênero, envolvendo escolas, universidades, locais de trabalho e equipamentos públicos, com ações de prevenção e formação."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Combater a exploração sexual de mulheres e crianças e garantir políticas específicas de proteção para mulheres negras, indígenas, quilombolas, camponesas, com deficiência, idosas e LGBTQIA+, considerando as diferentes formas de violência e opressão."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Criar uma Política Estadual de Enfrentamento a LGBTfobia, com orçamento próprio e atuação conjunta das áreas de segurança, saúde, educação, assistência social e trabalho."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Criar um sistema estadual de registro da violência contra a população LGBTTIA+, garantindo que os casos de LGBTfobia sejam corretamente identificados nos registros policiais e permitindo enfrentar a atual subnotificação."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Criar e fortalecer espaços públicos de acolhimento às vítimas de LGBTfobia, oferecendo assistência psicológica, social e jurídica e garantindo encaminhamento adequado das denúncias."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Criar o Conselho Estadual dos Direitos da População LGBTTIA+, garantindo a participação dos movimentos e organizações LGBTTIA+ na formulação, acompanhamento e fiscalização das políticas públicas."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 15,
+        "termos": [
+          "segurança pública",
+          "judiciário"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer a Patrulha Maria da Penha e o acompanhamento das medidas protetivas, garantindo resposta rápida diante do descumprimento das medidas e construindo uma política estadual de prevenção ao feminicídio articulada entre Segurança Pública, Judiciário, Ministério Público, Defensoria, Saúde e Assistência Social."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "segurança pública",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Criar um programa estadual de apoio às festas de rua e manifestações culturais comunitárias, garantindo recursos, infraestrutura e apoio para sua realização e impedindo que manifestações populares sejam tratadas apenas como problema de segurança pública."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "polícia",
+          "militar",
+          "câmeras"
+        ],
+        "compromisso": false,
+        "texto": "Retomar imediatamente a obrigatoriedade do uso de câmeras corporais entre todos os policiais militares e civis de Santa Catarina;"
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Ao mesmo tempo, embora Santa Catarina possua 313 hospitais, apenas 48 deles são públicos, evidenciando a forte dependência da rede privada e filantrópica para garantir o atendimento da população."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": true,
+        "texto": "Criar uma política estadual de prevenção e enfrentamento à violência contra pessoas com deficiência, articulando saúde, assistência social, educação e segurança pública."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": true,
+        "texto": "Ampliar as ações de instrução dos agentes de segurança pública no desescalonamento de crises, assim como centralizar a formação das Guardas Municipais, como prevê a Lei 13022 de 2014, para que todas melhor cumpram seu dever de proteger à vida do povo catarinense;"
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "Assegurar ampla cooperação entre as forças de segurança estaduais e federais no sentido de combater o avanço do crime organizado através da inteligência e combate aos crimes financeiros necessários para garantir as operações em larga escala das facções;"
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "Criar um sistema estadual de registro da violência contra a população LGBTTIA+, garantindo que os casos de LGBTfobia sejam corretamente identificados nos registros policiais e permitindo enfrentar a atual subnotificação."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 6,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "pública estadual e garantir que o acesso à saúde seja tratado como um direito da população, e não como uma oportunidade de negócio para grupos privados."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer a parceria entre a Secretaria de Saúde e as universidades públicas catarinenses, como a Universidade Federal da Fronteira Sul, a Universidade Federal de Santa Catarina e a Universidade do Estado de Santa Catarina para pesquisa, formação de profissionais e desenvolvimento de políticas públicas."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 4,
+        "termos": [
+          "ambiental",
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Criar frentes de trabalho para obras de infraestrutura, recuperação ambiental, saneamento e manutenção de equipamentos públicos, priorizando regiões com maiores necessidades sociais."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Combater a exploração sexual de mulheres e crianças e garantir políticas específicas de proteção para mulheres negras, indígenas, quilombolas, camponesas, com deficiência, idosas e LGBTQIA+, considerando as diferentes formas de violência e opressão."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Garantir apoio às culturas indígenas, quilombolas e de povos e comunidades tradicionais, assegurando a participação dessas comunidades na definição das políticas que envolvam sua cultura e seus territórios."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Garantir apoio à produção cultural de mulheres, população negra, indígena, quilombola e LGBTTIA+, combatendo a exclusão histórica desses grupos dos espaços de produção e financiamento cultural."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "É necessário garantir que a riqueza produzida no estado se transforme em salários melhores, serviços públicos de qualidade, infraestrutura, moradia, saneamento, ciência e tecnologia e oportunidades para todas as regiões."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Ampliar os investimentos públicos em saneamento, estabelecendo um plano estadual para universalizar o abastecimento de água, a coleta e o tratamento de esgoto."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer a CASAN enquanto empresa pública estratégica, ampliando sua capacidade de investimento e garantindo a expansão dos serviços de saneamento para as regiões ainda não atendidas."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Garantir que os municípios tenham apoio técnico e financeiro do Estado para implantação de redes de saneamento, drenagem urbana e gestão adequada de resíduos sólidos."
+      }
+    ]
+  }
+}

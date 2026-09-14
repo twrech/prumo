@@ -1,0 +1,302 @@
+{
+  "arquivo": "plano-gov-sc-joao-rodrigues.txt",
+  "identidade": "JOÃO RODRIGUES — PSD — Governador SC",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 346,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 10,
+        "termos": [
+          "concessão"
+        ],
+        "compromisso": true,
+        "texto": "• Em conjunto com os municípios, criar políticas públicas para resolver a problemática de moradores de rua, mediante projetos de recuperação de usuários de drogas, recolhimento em albergues, assistência e concessão de oportunidades de trabalho;"
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "• (d) parcerias com a iniciativa privada, por meio de Parcerias Público-Privadas (PPPs) ou concessões de serviços públicos, sempre que esses arranjos se mostrarem vantajosos para o interesse público."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": false,
+        "texto": "• Modernização, desburocratização e entrega de serviços públicos de qualidade em todas as áreas de atuação do Estado;"
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "concessões"
+        ],
+        "compromisso": false,
+        "texto": "Parte substancial desses recursos deverá vir da iniciativa privada, por meio de parcerias público-privadas e concessões, sempre que se mostrarem vantajosas para o interesse público."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": false,
+        "texto": "A desburocratização será perseguida de forma sistemática."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "servidor público"
+        ],
+        "compromisso": false,
+        "texto": "A valorização do servidor público é condição para a qualidade da gestão."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": false,
+        "texto": "• Desburocratização contínua de processos e serviços;"
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "servidor público"
+        ],
+        "compromisso": false,
+        "texto": "• Valorização e capacitação permanente do servidor público."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 8,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "• Implantar barreiras de segurança nas fronteiras estaduais, utilizando tecnologias para identificar e interceptar criminosos, veículos e mercadorias ilegais, combatendo o tráfico de armas e de drogas;"
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "• Em conjunto com os municípios, criar políticas públicas para resolver a problemática de moradores de rua, mediante projetos de recuperação de usuários de drogas, recolhimento em albergues, assistência e concessão de oportunidades de trabalho;"
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "• Implementar ações voltadas ao diagnóstico e cuidado da saúde mental e à prevenção do uso de álcool e outras drogas;"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "A saúde mental e a prevenção ao uso de álcool e outras drogas também serão priorizadas, reconhecendo a dimensão epidemiológica desses desafios."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "Apesar de historicamente Santa Catarina não possuir índices elevados de violência em comparação com muitos outros estados da Federação, é imprescindível que sejam mantidas e desenvolvidas políticas públicas eficientes e enérgicas de combate a todo tipo de crime, principalmente àqueles associados às facções criminosas e à ocupação territorial pelo tráfico de drogas."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 10,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "• Combater com veemência toda forma de violência no campo, colocando todo o aparato policial de prontidão para garantir a dignidade e a segurança do produtor rural catarinense;"
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "câmeras",
+          "reconhecimento facial",
+          "monitorament"
+        ],
+        "compromisso": false,
+        "texto": "• Aperfeiçoar o programa de videomonitoramento, ampliando o número de câmeras com tecnologia de reconhecimento facial, leitura de placas de veículos, inteligência artificial e alertas em tempo real, instaladas em pontos estratégicos do Estado, constituindo a “Muralha Digital Catarinense”;"
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": true,
+        "texto": "• Investir na aquisição de tecnologias aplicadas à segurança pública;"
+      },
+      {
+        "pagina": 9,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": true,
+        "texto": "• Priorizar, fortalecer e integrar as atividades de inteligência na segurança pública e no sistema prisional, com aquisição de equipamentos de alta tecnologia e desenvolvimento de ações estratégicas;"
+      },
+      {
+        "pagina": 9,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "• Aumentar o efetivo por meio da convocação voluntária de policiais da reserva fisicamente aptos para atuarem em áreas estratégicas;"
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "• Ampliar o policiamento comunitário por meio de mecanismos de participação da sociedade civil."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "• Implantar política estadual de qualificação da atenção à mulher e à criança, fortalecendo educação permanente, serviços e rede de atenção ao pré-natal, parto e recém-nascido, além de instrumentos de monitoramento e avaliação;"
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "A sustentabilidade ambiental não é apenas exigência de mercado, mas compromisso com as futuras gerações de catarinenses."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 8,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "• Implantar barreiras de segurança nas fronteiras estaduais, utilizando tecnologias para identificar e interceptar criminosos, veículos e mercadorias ilegais, combatendo o tráfico de armas e de drogas;"
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "A implantação da “Muralha Digital Catarinense”, o reforço das barreiras de fronteira, a integração das forças de inteligência e o investimento massivo em tecnologia e em gente formam o conjunto de medidas que permitirão ao Estado antecipar-se às ameaças e responder com rapidez e eficácia."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": false,
+        "texto": "O Governo impulsará a transformação da produção de leite em uma cadeia eficiente e competitiva para a exportação de lácteos, nos mesmos moldes já alcançados pelas cadeias de suínos e frangos."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": false,
+        "texto": "Será estruturado um programa de incentivo à produção de carne bovina, com tecnologia de ponta e sistemas intensivos para suprir o déficit de carne destinado ao abastecimento do mercado interno e gerar excedentes para exportação de carne de qualidade."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": false,
+        "texto": "• Inovação e modernização da cadeia produtiva do leite, com foco em exportação de lácteos;"
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 18,
+        "termos": [
+          "ambiental",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "A sustentabilidade ambiental não é apenas exigência de mercado, mas compromisso com as futuras gerações de catarinenses."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "agronegócio"
+        ],
+        "compromisso": true,
+        "texto": "• Ações inovadoras que modernizam a produção para fortalecer a competitividade e expandir as cadeias produtivas do agronegócio;"
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "7.4 Recursos Hídricos e Saneamento Básico Serão estruturados programas de proteção dos mananciais que alimentam o sistema hídrico do Estado, para assegurar água potável destinada ao abastecimento humano."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "meio ambiente",
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "• Inclusão social, sustentabilidade, respeito ao meio ambiente e inovação tecnológica."
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "ambiental",
+          "meio ambiente"
+        ],
+        "compromisso": false,
+        "texto": "• Aperfeiçoar a estrutura da Polícia Militar Ambiental, fornecendo tecnologia e equipamentos com o objetivo de vigiar, fiscalizar e reprimir crimes cometidos contra o meio ambiente no território catarinense;"
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "A água é recurso estratégico, e sua gestão inteligente é condição de competitividade e de resiliência frente às mudanças climáticas."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "ambiental",
+          "agronegócio"
+        ],
+        "compromisso": false,
+        "texto": "A modernização da cadeia do leite, o incentivo à produção de carne bovina de qualidade, o fortalecimento da horticultura e da pesca, a solução do déficit de milho e o avanço na conformidade ambiental da produção animal são medidas que, em conjunto, consolidarão Santa Catarina como referência nacional e internacional de agronegócio sustentável e competitivo."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "Página 21 de 25 O sistema de defesa civil e de proteção do cidadão no enfrentamento aos desafios climáticos extremos será fortalecido."
+      }
+    ]
+  }
+}

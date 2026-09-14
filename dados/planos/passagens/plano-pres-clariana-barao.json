@@ -1,0 +1,100 @@
+{
+  "arquivo": "plano-pres-clariana-barao.txt",
+  "identidade": "CLARIANA BARAO — DC — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 167,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 5,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "• Concessões, PPPs e planejamento de longo prazo Indicadores sugeridos: custo logístico; tempo de transporte; investimento contratado; qualidade da infraestrutura."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": false,
+        "texto": "• Revisão de gastos e subsídios"
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "regulação"
+        ],
+        "compromisso": false,
+        "texto": "• Regulação inteligente de filas"
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 9,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "• Prioridade a grandes organizações e cadeias de abastecimento Indicadores sugeridos: organizações desarticuladas; armas e drogas apreendidas; investigações concluídas;"
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 9,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": false,
+        "texto": "• Sensores, radares e monitoramento remoto"
+      },
+      {
+        "pagina": 9,
+        "termos": [
+          "polícia"
+        ],
+        "compromisso": false,
+        "texto": "• Policiamento baseado em evidências"
+      },
+      {
+        "pagina": 10,
+        "termos": [
+          "penitenciár"
+        ],
+        "compromisso": false,
+        "texto": "• Inteligência penitenciária e controle de comunicações ilícitas Indicadores sugeridos: reincidência; presos em educação/trabalho; incidentes; apreensões e comunicações ilícitas detectadas."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 5,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": false,
+        "texto": "• Concessões, PPPs e planejamento de longo prazo Indicadores sugeridos: custo logístico; tempo de transporte; investimento contratado; qualidade da infraestrutura."
+      },
+      {
+        "pagina": 9,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": false,
+        "texto": "4.1 Fronteiras inteligentes e integradas Objetivo."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": false,
+        "texto": "• Gestão de riscos e prevenção de fraude Indicadores sugeridos: competitividade de licitações; economia em compras; alertas tratados; transparência ativa."
+      }
+    ],
+    "amb": []
+  }
+}

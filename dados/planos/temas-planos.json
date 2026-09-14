@@ -1,0 +1,204 @@
+{
+  "versao": "1.0",
+  "gerado_em": "2026-09-14",
+  "o_que_e": "Catálogo fixo de temas para ler plano de governo. Faz para o texto o que as 23 votações fazem para o partido: dá um denominador igual para todos, de modo que quem fala pouco apareça com confiança baixa em vez de sumir.",
+  "regra_inviolavel": "Toda posição carrega a passagem literal que a originou, com a página. Sem passagem citada, sem posição — o valor é 'silencio'.",
+  "como_responder": {
+    "favor": "o plano defende explicitamente o que o tema descreve em 'a_favor'",
+    "contra": "o plano defende explicitamente o que o tema descreve em 'contra'",
+    "silencio": "o plano não toma lado; menção vaga, diagnóstico sem compromisso e frase de efeito contam como silêncio"
+  },
+  "por_que_silencio_nao_e_centro": "Silêncio não entra na conta: não soma nem subtrai, e reduz a confiança daquele eixo. Tratar silêncio como meio-termo faria um plano omisso parecer moderado, que é o mesmo erro que tirou do ranking os partidos faltosos na etapa 2.",
+  "polaridade": "Conferida por eixo: a fração de peso em que 'favor' aponta para o polo + fica entre 40% e 60% em todos os cinco. Calculada por ferramentas/calcular_planos.js, que recusa o catálogo se algum eixo sair da faixa.",
+  "temas": [
+    {
+      "id": "pg01",
+      "titulo": "Privatização de empresas estatais",
+      "vetor": { "eco": 3, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "vender, privatizar ou desestatizar empresas públicas",
+      "contra": "preservar ou ampliar o setor produtivo estatal"
+    },
+    {
+      "id": "pg02",
+      "titulo": "Redução da carga tributária",
+      "vetor": { "eco": 2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "baixar impostos, ampliar isenções, reduzir a carga sobre empresas",
+      "contra": "tributar mais renda alta, lucros, dividendos ou grandes fortunas"
+    },
+    {
+      "id": "pg03",
+      "titulo": "Transferência de renda como política permanente",
+      "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "ampliar programas de renda, benefícios e assistência direta",
+      "contra": "reduzir, focalizar drasticamente ou substituir por contrapartida de trabalho"
+    },
+    {
+      "id": "pg04",
+      "titulo": "Flexibilização das regras trabalhistas",
+      "vetor": { "eco": 2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "novas formas de contratação, menos encargos, liberdade de negociação direta",
+      "contra": "reforçar a CLT, a proteção do emprego formal e a negociação sindical"
+    },
+    {
+      "id": "pg05",
+      "titulo": "Investimento público direto e banco público de fomento",
+      "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "o Estado investindo e financiando diretamente a economia",
+      "contra": "deixar o investimento com o setor privado, via concessão e parceria"
+    },
+    {
+      "id": "pg06",
+      "titulo": "Controle público de preços e tarifas",
+      "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "o poder público fixando ou segurando preços, tarifas e juros",
+      "contra": "deixar preço e tarifa por conta do mercado e da concorrência"
+    },
+    {
+      "id": "pg07",
+      "titulo": "Família tradicional e valores religiosos como diretriz de governo",
+      "vetor": { "eco": 0, "soc": 3, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "governar tendo a família tradicional e a fé como referência declarada",
+      "contra": "Estado laico e neutro quanto a arranjos familiares e credo"
+    },
+    {
+      "id": "pg08",
+      "titulo": "Direitos de pessoas LGBT",
+      "vetor": { "eco": 0, "soc": -3, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "políticas próprias de proteção e ampliação de direitos dessa população",
+      "contra": "recusar política específica ou reverter direitos já reconhecidos"
+    },
+    {
+      "id": "pg09",
+      "titulo": "Drogas como questão de saúde, não de polícia",
+      "vetor": { "eco": 0, "soc": -2, "pod": -1, "sob": 0, "amb": 0 },
+      "a_favor": "descriminalizar, regular ou tratar o uso como problema de saúde",
+      "contra": "repressão penal ao uso e ao pequeno comércio"
+    },
+    {
+      "id": "pg10",
+      "titulo": "Cotas e ação afirmativa racial",
+      "vetor": { "eco": 0, "soc": -2, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "cotas e políticas dirigidas a grupos racialmente discriminados",
+      "contra": "critério exclusivamente universal, sem recorte de raça"
+    },
+    {
+      "id": "pg11",
+      "titulo": "Controle das famílias sobre o conteúdo escolar",
+      "vetor": { "eco": 0, "soc": 2, "pod": 1, "sob": 0, "amb": 0 },
+      "a_favor": "educação domiciliar, filtro de conteúdo, veto familiar a temas em sala",
+      "contra": "currículo definido por critério técnico e autonomia docente"
+    },
+    {
+      "id": "pg12",
+      "titulo": "Proteção da vida desde a concepção",
+      "vetor": { "eco": 0, "soc": 3, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "restringir o aborto ou declarar a vida protegida desde a concepção",
+      "contra": "ampliar o acesso ao aborto legal ou tratá-lo como saúde pública"
+    },
+    {
+      "id": "pg13",
+      "titulo": "Acesso do cidadão a armas de fogo",
+      "vetor": { "eco": 0, "soc": 1, "pod": 2, "sob": 0, "amb": 0 },
+      "a_favor": "facilitar posse e porte pelo cidadão comum",
+      "contra": "restringir a circulação de armas na sociedade"
+    },
+    {
+      "id": "pg14",
+      "titulo": "Endurecimento penal",
+      "vetor": { "eco": 0, "soc": 0, "pod": 3, "sob": 0, "amb": 0 },
+      "a_favor": "penas maiores, mais prisões, redução da maioridade penal, menos benefícios",
+      "contra": "penas alternativas, desencarceramento, foco em reinserção"
+    },
+    {
+      "id": "pg15",
+      "titulo": "Controle externo da atividade policial e direitos humanos",
+      "vetor": { "eco": 0, "soc": 0, "pod": -3, "sob": 0, "amb": 0 },
+      "a_favor": "fiscalizar a letalidade policial, ouvidoria independente, política de direitos humanos",
+      "contra": "proteger o agente de investigação e ampliar a excludente de ilicitude"
+    },
+    {
+      "id": "pg16",
+      "titulo": "Vigilância eletrônica em larga escala",
+      "vetor": { "eco": 0, "soc": 0, "pod": 2, "sob": 0, "amb": 0 },
+      "a_favor": "reconhecimento facial, câmeras e monitoramento amplo da população",
+      "contra": "limitar vigilância em massa por causa da privacidade"
+    },
+    {
+      "id": "pg17",
+      "titulo": "Liberdade de expressão sem punição estatal a conteúdo",
+      "vetor": { "eco": 0, "soc": 0, "pod": -3, "sob": 0, "amb": 0 },
+      "a_favor": "impedir que o Estado remova conteúdo ou puna opinião",
+      "contra": "responsabilizar plataformas e punir desinformação"
+    },
+    {
+      "id": "pg18",
+      "titulo": "Abertura comercial",
+      "vetor": { "eco": 1, "soc": 0, "pod": 0, "sob": -3, "amb": 0 },
+      "a_favor": "baixar tarifas de importação e abrir a economia à concorrência externa",
+      "contra": "proteger a produção nacional da concorrência importada"
+    },
+    {
+      "id": "pg19",
+      "titulo": "Soberania sobre recursos estratégicos",
+      "vetor": { "eco": -1, "soc": 0, "pod": 0, "sob": 3, "amb": 0 },
+      "a_favor": "reservar recursos, terras e setores estratégicos ao controle nacional",
+      "contra": "abrir esses setores ao capital e à propriedade estrangeira"
+    },
+    {
+      "id": "pg20",
+      "titulo": "Compromissos com organismos e acordos internacionais",
+      "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": -2, "amb": 0 },
+      "a_favor": "assumir metas e compromissos firmados em acordos e organismos multilaterais",
+      "contra": "recusar ingerência externa e decidir sem amarra internacional"
+    },
+    {
+      "id": "pg21",
+      "titulo": "Controle de fronteiras e da imigração",
+      "vetor": { "eco": 0, "soc": 0, "pod": 1, "sob": 2, "amb": 0 },
+      "a_favor": "endurecer o controle de fronteira e restringir a entrada de estrangeiros",
+      "contra": "política de acolhimento e regularização de imigrantes"
+    },
+    {
+      "id": "pg22",
+      "titulo": "Flexibilização do licenciamento ambiental",
+      "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": 3 },
+      "a_favor": "acelerar, simplificar ou dispensar licença para destravar obra e investimento",
+      "contra": "reforçar a exigência ambiental como condição da obra"
+    },
+    {
+      "id": "pg23",
+      "titulo": "Novas fronteiras de petróleo e mineração",
+      "vetor": { "eco": 1, "soc": 0, "pod": 0, "sob": 0, "amb": 3 },
+      "a_favor": "explorar novas áreas de petróleo, gás e minério como motor de renda",
+      "contra": "barrar novas fronteiras fósseis e minerárias"
+    },
+    {
+      "id": "pg24",
+      "titulo": "Metas de emissão e transição energética",
+      "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": -3 },
+      "a_favor": "assumir meta de corte de emissões e trocar a matriz por fontes limpas",
+      "contra": "tratar meta climática como entrave ao crescimento"
+    },
+    {
+      "id": "pg25",
+      "titulo": "Terras indígenas e áreas protegidas",
+      "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": -3 },
+      "a_favor": "demarcar terras indígenas e criar ou defender unidades de conservação",
+      "contra": "abrir essas áreas à produção ou barrar novas demarcações"
+    },
+    {
+      "id": "pg26",
+      "titulo": "Agronegócio como motor, com regras mais leves",
+      "vetor": { "eco": 1, "soc": 0, "pod": 0, "sob": 0, "amb": 2 },
+      "a_favor": "expandir a produção agropecuária afrouxando exigência regulatória",
+      "contra": "condicionar o apoio ao agronegócio a exigência ambiental e fundiária"
+    },
+    {
+      "id": "pg27",
+      "titulo": "Serviço público de carreira",
+      "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+      "a_favor": "concurso, recomposição de quadros e valorização da carreira pública",
+      "contra": "enxugar o funcionalismo, terceirizar e ampliar cargo de livre nomeação"
+    }
+  ]
+}

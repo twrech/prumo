@@ -1,0 +1,389 @@
+{
+  "arquivo": "plano-pres-ronaldo-caiado.txt",
+  "identidade": "RONALDO CAIADO — PSD — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 1964,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 26,
+        "termos": [
+          "tributár",
+          "carga tributária",
+          "subsídio"
+        ],
+        "compromisso": true,
+        "texto": "ampliar recondicionamento e doação de equipamentos; reduzir a carga tributária do smartphone de entrada, como uma forma de subsídio e inclusão digital da população de baixa renda; promover letramento digital; e criar indicador oficial por município e faixa de renda."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": true,
+        "texto": "COMPROMISSO: estabilizar a dívida, reconstruir superávits, proteger o investimento e reduzir o peso dos juros sem transferir a conta aos mais pobres e sem recorrer a aumentos permanentes de carga tributária."
+      },
+      {
+        "pagina": 26,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Criar regime tributário estável para bens de capital e serviços de data center, coerente com a reforma tributária, condicionado a energia nova e renovável, eficiência hídrica com métricas públicas e resfriamento de ciclo fechado, reserva de capacidade para universidades, pesquisa e empresas brasileiras, qualificação e emprego local e investimento na rede elétrica."
+      },
+      {
+        "pagina": 56,
+        "termos": [
+          "imposto",
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": false,
+        "texto": "Política Nacional de Financiamento no primeiro ano Enviar ao Congresso proposta de financiamento plurianual, sem novo imposto geral e sem aumento da carga tributária."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": true,
+        "texto": "Vamos apresentar a verdade sobre as contas públicas, reduzir desperdícios, rever privilégios e subsídios sem resultado, qualificar o gasto e recuperar a capacidade de investir."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "regulação"
+        ],
+        "compromisso": true,
+        "texto": "A iniciativa privada será o principal motor da economia; ao Estado caberá garantir estabilidade, concorrência, infraestrutura, capital humano, regulação de qualidade e instrumentos para que inovação e investimento de longo prazo aconteçam."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "concessões"
+        ],
+        "compromisso": true,
+        "texto": "Elevar o investimento privado e público Organizar carteira de projetos, concluir obras paradas, ampliar concessões e parcerias, proteger manutenção e investimento no orçamento e mobilizar recursos privados nacionais e estrangeiros com segurança jurídica."
+      },
+      {
+        "pagina": 25,
+        "termos": [
+          "tributár"
+        ],
+        "compromisso": true,
+        "texto": "Data centers terão ambiente tributário competitivo e contrapartidas ambientais, tecnológicas e sociais; a inteligência artificial será regulada segundo usos e riscos concretos; e o país criará condições para competir em serviços digitais, semicondutores, sistemas autônomos, espaço e infraestrutura pública digital."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 98,
+        "termos": [
+          "religios",
+          "liberdade religiosa"
+        ],
+        "compromisso": true,
+        "texto": "Restaurar bens com plano de uso, formar guias e produtores e assegurar autenticidade, liberdade religiosa e participação das comunidades na renda gerada."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "• Reduzir desigualdades raciais e de gênero por políticas mensuráveis de segurança, educação, saúde e oportunidades."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": true,
+        "texto": "O Executivo voltará a exercer liderança, com gestão profissional, autoridade moral e compromisso permanente com a verdade."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "• Criar zonas prioritárias de recuperação da soberania, a exemplo da Amazônia, com presença permanente do Estado após a retomada dos territórios, para assegurar o combate permanente ao tráfico de drogas e armas, ao garimpo ilegal, à grilagem, aos crimes ambientais, ao tráfico humano e à exploração sexual."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Dados serão desagregados por território, raça, gênero, idade e deficiência."
+      },
+      {
+        "pagina": 39,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Implementar o Sinesp e o SNIIE, definir responsabilidades de União, estados e municípios, pactuar cofinanciamento e publicar dados por território, modalidade, gênero, idade, raça e deficiência."
+      },
+      {
+        "pagina": 41,
+        "termos": [
+          "racismo"
+        ],
+        "compromisso": true,
+        "texto": "Futebol com formação, governança e segurança Proteger categorias de base, desenvolver futebol feminino, profissionalizar gestão, aperfeiçoar transparência de clubes e SAFs e combater violência de torcidas e racismo."
+      },
+      {
+        "pagina": 59,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Criar o Selo “Empresa pela Igualdade”, com critérios públicos, para reconhecer empresas que promovam equidade de gênero e condições dignas, inclusive na contratação e permanência de mulheres periféricas, mães atípicas e mulheres acima de 50 anos."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 67,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "câmeras",
+          "reconhecimento facial",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "Segurança pública sem discriminação Aperfeiçoar formação, protocolos de abordagem, videomonitoramento com Inteligência Artificial (estratégias de reconhecimento facial e uso de câmeras deverão considerar toda a diversidade brasileira, com auditoria permanente e medidas para treinar, identificar e reduzir vieses raciais e enfrentar o racismo algorítmico), supervisão e responsabilização, protegendo simultaneamente cidadãos e policiais."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "penitenciár",
+          "polícia",
+          "policial",
+          "impunidade"
+        ],
+        "compromisso": false,
+        "texto": "Em Goiás, demonstramos que liderança, inteligência, cooperação policial, investigação e controle penitenciário reduzem a impunidade."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "crime organizado",
+          "liberdade de expressão"
+        ],
+        "compromisso": true,
+        "texto": "Proteger a integridade e a liberdade Combater a corrupção, o crime organizado e a captura do Estado, ao mesmo tempo em que se preservam o devido processo legal, a liberdade de expressão, a imprensa livre e a independência das instituições."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "polícia",
+          "forças armadas"
+        ],
+        "compromisso": true,
+        "texto": "• Implantar o Comando Nacional de Proteção de Fronteiras e Corredores Logísticos, reunindo Forças Armadas, Polícia Federal, Polícia Rodoviária Federal, forças estaduais, órgãos ambientais e autoridades portuárias e aeroportuárias na defesa permanente das fronteiras brasileiras, portos e aeroportos, e na recuperação do controle territorial da Amazônia Legal pelo Estado brasileiro, e, de forma complementar, no apoio aos estados e DF em ações de reintegração de territórios ao Estado brasileiro."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "maioridade penal",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Reduzir a maioridade penal e agravar o furto de celular"
+      },
+      {
+        "pagina": 40,
+        "termos": [
+          "polícia",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "Integridade, antidopagem e combate à manipulação Fortalecer controle de dopagem, integridade de competições, monitoramento de apostas e cooperação entre reguladores, polícia, Ministério Público e entidades esportivas."
+      },
+      {
+        "pagina": 51,
+        "termos": [
+          "segurança pública",
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Operações serão coordenadas com segurança pública e Receita, atingindo cadeias econômicas e não apenas executores na ponta."
+      },
+      {
+        "pagina": 67,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "Dados sobre uso da força serão auditados, e boas práticas de redução de letalidade e vitimização policial serão disseminadas."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 17,
+        "termos": [
+          "soberania",
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "O Sistema Integrado de Proteção à Soberania Nacional vai integrar diversos órgãos do governo federal e vai estabelecer cooperação federativa e cooperação com países limítrofes para garantir o enfrentamento às organizações criminosas, a proteção de fronteiras e maior segurança penitenciária."
+      },
+      {
+        "pagina": 27,
+        "termos": [
+          "exportação",
+          "política externa"
+        ],
+        "compromisso": true,
+        "texto": "Transformar PIX, gov.br, open finance e outras soluções brasileiras em instrumentos de cooperação e exportação; diversificar parcerias de computação e tecnologia; liderar coalizões de potências médias para ampliar o acesso global à capacidade computacional; e usar a política externa para atrair investimento, conhecimento e mercado."
+      },
+      {
+        "pagina": 53,
+        "termos": [
+          "soberania",
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "Minerais críticos e terras raras serão tratados como ativos estratégicos de soberania, transição energética, defesa e indústria digital."
+      },
+      {
+        "pagina": 74,
+        "termos": [
+          "omc",
+          "brics",
+          "onu"
+        ],
+        "compromisso": false,
+        "texto": "Multilateralismo com resultado e aproximação com a OCDE Participar ativamente da ONU, da OMC, do G20 e do BRICS e retomar, com pragmatismo, o processo de aproximação com a OCDE."
+      },
+      {
+        "pagina": 74,
+        "termos": [
+          "exportação",
+          "investimento estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "• Investimento estrangeiro produtivo com pesquisa, fornecedores locais e exportação associados."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "Desenvolvimento e proteção ambiental serão tratados como aliados."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "comércio exterior"
+        ],
+        "compromisso": true,
+        "texto": "A ambição é elevar progressivamente a taxa de investimento, reduzir o custo do capital, qualificar trabalhadores, modernizar infraestrutura e integrar indústria, agro, mineração, energia, ciência e comércio exterior."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "Elevar o investimento privado e público Organizar carteira de projetos, concluir obras paradas, ampliar concessões e parcerias, proteger manutenção e investimento no orçamento e mobilizar recursos privados nacionais e estrangeiros com segurança jurídica."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 50,
+        "termos": [
+          "licenciamento",
+          "clima",
+          "climát",
+          "carbono",
+          "saneamento",
+          "bioma"
+        ],
+        "compromisso": false,
+        "texto": "A agenda combinará segurança jurídica no licenciamento, cooperação federativa, ciência e tecnologia, mercado de carbono, pagamento por serviços ambientais, bioeconomia, proteção dos biomas, adaptação climática, segurança hídrica, saneamento e economia circular."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "clima",
+          "climát",
+          "emissões",
+          "bioma"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer o melhoramento genético vegetal e animal, com cultivares adaptadas às mudanças climáticas e resistentes a estresses hídricos, térmicos e fitossanitários, e apoiar a pesquisa em microbioma e aditivos que elevem a eficiência da pecuária e reduzam as emissões de metano entérico, organizando os centros de excelência em polos regionais segundo as vocações produtivas de cada região."
+      },
+      {
+        "pagina": 99,
+        "termos": [
+          "clima",
+          "climát",
+          "carbono",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "Integrar dados de fluxos, gasto, mobilidade, ocupação, água, resíduos, segurança e satisfação em observatórios interoperáveis, apoiar certificação de sustentabilidade e gerir capacidade, adaptação climática e metas de carbono, preservando o recurso que atrai o visitante."
+      },
+      {
+        "pagina": 51,
+        "termos": [
+          "ambiental",
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Diplomacia ambiental soberana Atuar nas negociações climáticas como fornecedor de soluções, defender reconhecimento da produção sustentável e responder a barreiras externas com ciência e rastreabilidade."
+      },
+      {
+        "pagina": 53,
+        "termos": [
+          "meio ambiente",
+          "licenciamento",
+          "mineraç"
+        ],
+        "compromisso": true,
+        "texto": "Licenciamento integrado e previsível Coordenar mineração, meio ambiente, patrimônio, água e uso do solo em processo único de gestão, sem reduzir exigências."
+      },
+      {
+        "pagina": 35,
+        "termos": [
+          "petróleo",
+          "eólica",
+          "hidrelétrica",
+          "bioma"
+        ],
+        "compromisso": false,
+        "texto": "A maior parte da nossa eletricidade vem de fontes limpas, das hidrelétricas às eólicas, ao sol e à biomassa, com participação renovável muito superior à média mundial, uma cultura inspirada na decisão tomada há cinquenta anos, quando o Proálcool transformou um país que importava a maior parte do seu petróleo no dono do maior programa de biocombustíveis do mundo."
+      },
+      {
+        "pagina": 71,
+        "termos": [
+          "mineraç",
+          "clima",
+          "climát",
+          "indígena"
+        ],
+        "compromisso": false,
+        "texto": "Integrar saúde indígena e ribeirinha, vigilância epidemiológica e cuidado relacionado a doenças tropicais, contaminação da água, fumaça, mineração e eventos climáticos."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "mineraç",
+          "agronegócio"
+        ],
+        "compromisso": true,
+        "texto": "O agronegócio, a indústria, a mineração responsável, a energia, a infraestrutura e a ciência serão articulados em uma estratégia nacional de desenvolvimento."
+      }
+    ]
+  }
+}

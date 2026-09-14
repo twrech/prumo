@@ -1,0 +1,126 @@
+{
+  "arquivo": "plano-pres-pablo-marcal.txt",
+  "identidade": "PABLO MARÇAL — PRTB — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 99,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 23,
+        "termos": [
+          "concessão"
+        ],
+        "compromisso": true,
+        "texto": "20 mil obras públicas federais inacabadas Modernizar modelo de concessão de infraestrutura"
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": false,
+        "texto": "A expansão contínua da burocracia, a crescente complexidade regulatória, a elevada carga tributária e a insegurança jurídica aumentaram os custos de produção e reduziram a velocidade de adaptação da economia brasileira às transformações do mundo moderno."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": false,
+        "texto": "• Redução progressiva da carga tributária sobre a produção, o investimento e a geração de empregos;"
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "bolsa família"
+        ],
+        "compromisso": false,
+        "texto": "• Proteção integral à vida e à dignidade da pessoa humana, mantendo o Programa Bolsa Família;"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "salário mínimo"
+        ],
+        "compromisso": false,
+        "texto": "Valorizamos o trabalhador brasileiro que se empenha em trazer o sustento para sua família através do seu suor, de modo que definiremos e manteremos o valor do salário mínimo como o melhor da América do Sul."
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "subsídio"
+        ],
+        "compromisso": false,
+        "texto": "• Fim dos subsídios e incentivos fiscais que não gerem retorno econômico ou social comprovado;"
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "tributár"
+        ],
+        "compromisso": false,
+        "texto": "Incentivar inovação aplicada a indústria Pesquisa e Desenvolvimento Proteger infraestrutura nacional Comando Nacional de Defesa Digital Cibersegurança Política de atração de investimentos globais Regime tributário competitivo Datacenters Energia dedicada para grandes datacenters Política nacional de computação em nuvem Incentivo e condições tecnológicas para a produção de jogos digitais Desenvolvimento de polo nacional de produção de games Tech Gamer"
+      }
+    ],
+    "soc": [],
+    "pod": [
+      {
+        "pagina": 25,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": true,
+        "texto": "Assegurar serviço de segurança pública eficiente para todos os brasileiros Estratégia:"
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "A verdadeira medida do desenvolvimento não está apenas na riqueza que uma nação possui, mas na capacidade de transformar essa riqueza em oportunidades para seus cidadãos."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "Mas o novo ciclo de prosperidade não será construído apenas sobre recursos naturais."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 22,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": false,
+        "texto": "Transformar tecnologia em soberania Estratégia:"
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 12,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": false,
+        "texto": "• Respeito aos direitos constitucionais dos povos indígenas, comunidades quilombolas e povos tradicionais;"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "sustentab"
+        ],
+        "compromisso": false,
+        "texto": "O Governo terá como princípio o respeito ao dinheiro do contribuinte, a sustentabilidade das contas públicas e a construção de um ambiente econômico estável capaz de gerar crescimento, empregos, investimentos e aumento do poder de compra das famílias brasileiras."
+      }
+    ]
+  }
+}

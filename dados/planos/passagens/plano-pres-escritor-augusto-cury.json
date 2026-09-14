@@ -1,0 +1,364 @@
+{
+  "arquivo": "plano-pres-escritor-augusto-cury.txt",
+  "identidade": "ESCRITOR AUGUSTO CURY — AVANTE — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 2705,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 37,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": true,
+        "texto": "Iremos avaliar os impactos da reforma tributária sobre os diferentes setores da economia, com especial atenção às micro e pequenas empresas e aos segmentos estratégicos para o desenvolvimento e a geração de empregos."
+      },
+      {
+        "pagina": 38,
+        "termos": [
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": true,
+        "texto": "g) Compromisso com uma carga tributária menor ao fim da transição A simplificação do sistema tributário já está em curso e será conduzida com responsabilidade até sua implantação plena."
+      },
+      {
+        "pagina": 37,
+        "termos": [
+          "reforma administrativa"
+        ],
+        "compromisso": true,
+        "texto": "Uma ampla reforma administrativa buscará simplificar estruturas, eliminar sobreposições de funções, estudos para redução de ministérios e criação do ministério da segurança para reduzir a criminalidade."
+      },
+      {
+        "pagina": 40,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": true,
+        "texto": "Nosso plano prevê apoio técnico, crédito, desburocratização e incentivo à inovação para criar milhões de novos empreendedores capazes de impulsionar o crescimento econômico."
+      },
+      {
+        "pagina": 50,
+        "termos": [
+          "concessões"
+        ],
+        "compromisso": true,
+        "texto": "Por isso, ampliaremos as concessões e as parcerias público-privadas, sempre com regras claras, segurança jurídica e rigorosa fiscalização."
+      },
+      {
+        "pagina": 55,
+        "termos": [
+          "imposto"
+        ],
+        "compromisso": true,
+        "texto": "É fundamental dar visibilidade ao custo imposto pelo sistema financeiro às mulheres e criar mecanismos capazes de enfrentar essa desigualdade."
+      },
+      {
+        "pagina": 55,
+        "termos": [
+          "concessão"
+        ],
+        "compromisso": true,
+        "texto": "Também vamos propor mudanças nos critérios e nas matrizes de risco utilizados na concessão de crédito ao público feminino, de modo que a análise considere outros fatores além daqueles tradicionalmente utilizados pelas instituições financeiras."
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "regulação"
+        ],
+        "compromisso": true,
+        "texto": "Criaremos uma política nacional para desenvolvimento, regulação e aplicação da IA em serviços públicos, educação, saúde, segurança e gestão governamental, garantindo soberania tecnológica e competitividade global."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 34,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Precisamos formar pessoas lúcidas, generosas, críticas, resilientes e capazes de amar a cultura da paz poderosamente e construir pontes."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": true,
+        "texto": "De forma integrada e respeitando as competências constitucionais de cada instituição, fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais, intensificando a presença do Exército nas fronteiras terrestres, da Marinha nos portos e vias navegáveis estratégicas e da Força Aérea Brasileira no monitoramento e repressão ao uso de pistas clandestinas e rotas aéreas ilícitas, especialmente para combater o tráfico internacional de drogas, armas e o contrabando."
+      },
+      {
+        "pagina": 157,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": true,
+        "texto": "UMA QUESTÃO MORAL, NÃO ECONÔMICA O Brasil como o maior exportador mundial de alimentos deve ter um líder que não apenas se preocupa com o combate da fome em nosso país, mas deve ter o dever moral de propor soluções para combater a fome mundial."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "religios"
+        ],
+        "compromisso": false,
+        "texto": "Observei pacientes, líderes, empresários, jovens, educadores, religiosos, pobres e ricos."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": false,
+        "texto": "O opositor deixa de ser alguém com ideias diferentes e passa a ser visto como ameaça moral."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "droga"
+        ],
+        "compromisso": false,
+        "texto": "Jovens sem perspectivas tornam-se vulneráveis ao crime, às drogas e ao desespero."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": false,
+        "texto": "Existem empresários cruéis, mas existem também empreendedores extraordinariamente generosos."
+      },
+      {
+        "pagina": 13,
+        "termos": [
+          "moral"
+        ],
+        "compromisso": false,
+        "texto": "Em alguns ambientes, pensar diferente tornou-se crime moral."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 53,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "judiciário"
+        ],
+        "compromisso": true,
+        "texto": "O programa também fortalecerá o policiamento comunitário e a atuação das Guardas Municipais, com estratégias de acompanhamento preventivo e visitas comunitárias às residências de mulheres em situação de risco, além de promover maior integração com os Juizados Especializados de Violência Doméstica e Familiar contra a Mulher, garantindo atuação coordenada entre segurança pública e Poder Judiciário."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "forças armadas",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "De forma integrada e respeitando as competências constitucionais de cada instituição, fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais, intensificando a presença do Exército nas fronteiras terrestres, da Marinha nos portos e vias navegáveis estratégicas e da Força Aérea Brasileira no monitoramento e repressão ao uso de pistas clandestinas e rotas aéreas ilícitas, especialmente para combater o tráfico internacional de drogas, armas e o contrabando."
+      },
+      {
+        "pagina": 56,
+        "termos": [
+          "judiciário",
+          "supremo tribunal"
+        ],
+        "compromisso": true,
+        "texto": "A presença de mulheres no Supremo Tribunal Federal contribui para ampliar a representatividade nas mais altas instâncias do Poder Judiciário e funciona como referência para que mais mulheres possam ocupar espaços de liderança e decisão em diferentes áreas da vida pública e profissional."
+      },
+      {
+        "pagina": 45,
+        "termos": [
+          "polícia",
+          "militar",
+          "judiciário"
+        ],
+        "compromisso": false,
+        "texto": "Promoveremos integração plena entre Polícia Federal, Polícias Civis, Polícias Militares, Guardas Municipais (polícia FOCO - Força de Combate Preventivo), onde 5% dos colaboradores dos municípios devem ser convertidos na polícia FOCO, sem aumento, portanto, do efetivo municipal), Ministério Público, Poder Judiciário e órgãos de inteligência, compartilhando informações em tempo real e fortalecendo operações conjuntas."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "segurança pública",
+          "câmeras",
+          "monitorament"
+        ],
+        "compromisso": false,
+        "texto": "c) Tecnologia e Inteligência Artificial A segurança pública será fortalecida pelo uso de câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones, monitoramento integrado e inteligência artificial."
+      },
+      {
+        "pagina": 38,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Nosso compromisso não será apenas administrar a transição, mas trabalhar para que ela resulte em carga menor para o cidadão e para o setor produtivo."
+      },
+      {
+        "pagina": 42,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "A meta será elevar a participação brasileira no comércio mundial e ampliar o valor agregado das exportações, deixando de exportar apenas matéria-prima."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "f) Tecnologia aplicada à segurança Utilizaremos inteligência artificial, sistemas de monitoramento, análise de dados e integração de bancos de informações para aumentar a eficiência das forças de segurança e antecipar ações criminosas."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 60,
+        "termos": [
+          "soberania",
+          "política externa"
+        ],
+        "compromisso": true,
+        "texto": "f) Proteção de interesses estratégicos nacionais A política externa brasileira será guiada pela defesa da soberania, da segurança econômica e dos interesses estratégicos do país, com atuação firme em temas como comércio internacional, energia, tecnologia e recursos naturais, com diálogo e sem manifestações agressivas, sem sentido estratégico, que possam aumentar o custo de vida dos brasileiros."
+      },
+      {
+        "pagina": 158,
+        "termos": [
+          "organismos internacionais",
+          "onu",
+          "banco mundial"
+        ],
+        "compromisso": false,
+        "texto": "UMA GOVERNANÇA GLOBAL BASEADA NA COOPERAÇÃO Esse fundo deverá ser administrado com transparência e responsabilidade, reunindo organismos internacionais como a ONU, a FAO, o Programa Mundial de Alimentos, o Banco Mundial e os países do G20."
+      },
+      {
+        "pagina": 41,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": true,
+        "texto": "f) Cinco Corredores Estratégicos de Exportação Criaremos cinco Corredores Estratégicos de Exportação, distribuídos pelas macrorregiões brasileiras, por exemplo, no Ceará, na Bahia, no Rio de Janeiro, em São Paulo e no Rio Grande do Sul, e articulados a portos, aeroportos, ferrovias e centros de armazenagem."
+      },
+      {
+        "pagina": 42,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": true,
+        "texto": "Ampliaremos e simplificaremos as linhas de financiamento à exportação, com condições compatíveis com as praticadas nos mercados com que competimos, alcançando efetivamente as pequenas e médias empresas, que hoje raramente conseguem acessá-las."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "organismos internacionais"
+        ],
+        "compromisso": true,
+        "texto": "Fortaleceremos a cooperação com organismos internacionais e países vizinhos para combater o tráfico internacional, crimes financeiros, terrorismo, lavagem de dinheiro e organizações criminosas transnacionais."
+      },
+      {
+        "pagina": 46,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "De forma integrada e respeitando as competências constitucionais de cada instituição, fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais, intensificando a presença do Exército nas fronteiras terrestres, da Marinha nos portos e vias navegáveis estratégicas e da Força Aérea Brasileira no monitoramento e repressão ao uso de pistas clandestinas e rotas aéreas ilícitas, especialmente para combater o tráfico internacional de drogas, armas e o contrabando."
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Criaremos uma política nacional para desenvolvimento, regulação e aplicação da IA em serviços públicos, educação, saúde, segurança e gestão governamental, garantindo soberania tecnológica e competitividade global."
+      },
+      {
+        "pagina": 62,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": true,
+        "texto": "Com tecnologia, assistência técnica, crédito adequado e integração logística, milhões de hectares hoje subaproveitados serão convertidos em renda, emprego e exportação."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 51,
+        "termos": [
+          "eólica",
+          "solar",
+          "hidrelétrica",
+          "sustentab",
+          "bioma"
+        ],
+        "compromisso": true,
+        "texto": "Ampliaremos investimentos em energia solar, eólica, biomassa, pequenas centrais hidrelétricas e outras fontes renováveis, transformando o país em referência internacional em sustentabilidade e segurança energética."
+      },
+      {
+        "pagina": 59,
+        "termos": [
+          "ambiental",
+          "meio ambiente",
+          "amazônia",
+          "clima",
+          "climát"
+        ],
+        "compromisso": false,
+        "texto": "d) Diplomacia climática e ambiental O Brasil terá papel central nas negociações globais sobre clima e meio ambiente, defendendo um modelo de desenvolvimento sustentável que reconheça a importância da Amazônia e da biodiversidade como ativos estratégicos do país."
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "ambiental",
+          "sustentab"
+        ],
+        "compromisso": true,
+        "texto": "Investiremos em tecnologia, pesquisa, irrigação, logística e inovação para ampliar significativamente a produção agrícola, garantindo sustentabilidade ambiental e geração de riqueza."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Ampliaremos significativamente a cobertura do Programa de Subvenção ao Prêmio do Seguro Rural (PSR), garantindo que o produtor tenha um antídoto contra eventos climáticos extremos."
+      },
+      {
+        "pagina": 133,
+        "termos": [
+          "energia renovável",
+          "bioma"
+        ],
+        "compromisso": true,
+        "texto": "COOPERATIVAS DE BIOENERGIA Serão estimuladas cooperativas voltadas à produção de energia renovável, etanol de milho, biogás, biomassa e outras fontes sustentáveis."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "ambiental"
+        ],
+        "compromisso": true,
+        "texto": "O objetivo é assegurar ao produtor uma resposta clara em tempo razoável, eliminando a insegurança que hoje paralisa investimentos legítimos sem enfraquecer a proteção ambiental."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "ambiental"
+        ],
+        "compromisso": true,
+        "texto": "b) Inovação Integral A utilização de satélites, drones, sensores, inteligência artificial e análise de dados permitirá maior produtividade com menor impacto ambiental."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "ambiental"
+        ],
+        "compromisso": true,
+        "texto": "c) Agricultura de precisão A utilização de satélites, drones, sensores, inteligência artificial e análise de dados permitirá maior produtividade com menor impacto ambiental."
+      }
+    ]
+  }
+}

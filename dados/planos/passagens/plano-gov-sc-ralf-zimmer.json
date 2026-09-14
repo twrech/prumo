@@ -1,0 +1,241 @@
+{
+  "arquivo": "plano-gov-sc-ralf-zimmer.txt",
+  "identidade": "RALF ZIMMER — PRD — Governador SC",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 196,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 12,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "ampliar integração logística; acelerar estudos e projetos ferroviários; estimular terminais intermodais; melhorar acessos terrestres aos portos; fortalecer conexões aéreas regionais; e utilizar concessões e PPPs quando houver benefício comprovado."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "PROPOSTAS apoiar a regionalização do saneamento; ampliar capacidade técnica e financeira dos municípios; estimular concessões e PPPs quando adequadas; acelerar investimentos em água, esgoto e resíduos; melhorar drenagem e gestão de águas urbanas;"
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "gasto público"
+        ],
+        "compromisso": true,
+        "texto": "COMPROMISSO responsabilidade fiscal, transparência e foco permanente na qualidade do gasto público."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "ppp"
+        ],
+        "compromisso": true,
+        "texto": "Integrar os modais de transporte criando a Secretaria de Logística, viabilizar a implantação da Ferrovia do Frango para ligação logística do Oeste aos portos; ampliar os aeroportos de Chapecó e Navegantes; e estruturar PPP para aquisição de aeronaves de carga de grande porte dedicadas ao escoamento de produtos perecíveis catarinenses."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "concessão",
+          "parceria público-privada"
+        ],
+        "compromisso": false,
+        "texto": "PROPOSTAS Assumir a duplicação da BR-282 como prioridade número um e obsessão de gestão, realizando concessão e/ou parceria público-privada por edital de concorrência nacional/internacional com pedágio como fonte compensatória de custeio."
+      },
+      {
+        "pagina": 6,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": false,
+        "texto": "6GOVERNO DIGITAL E DESBUROCRATIZAÇÃO OBJETIVO fazer o Estado funcionar de maneira mais rápida, simples e acessível."
+      }
+    ],
+    "soc": [],
+    "pod": [
+      {
+        "pagina": 7,
+        "termos": [
+          "polícia",
+          "policial",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "PROPOSTAS ampliar o uso de inteligência policial; integrar informações entre as forças; expandir videomonitoramento e leitura de placas conforme a legislação; modernizar equipamentos; recompor efetivos por concursos e gestão eficiente de pessoal;"
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "segurança pública",
+          "crime organizado"
+        ],
+        "compromisso": true,
+        "texto": "7SEGURANÇA PÚBLICA E CIDADANIA OBJETIVO proteger as famílias catarinenses, combater o crime organizado e fortalecer a capacidade operacional das forças de segurança."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "pena",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "Polícia Militar, Polícia Civil, Polícia Científica, Polícia Penal, Corpo de Bombeiros, inteligência e Defesa Civil deverão trabalhar com protocolos e tecnologia compartilhados."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "PROPOSTAS modernizar monitoramento hidrológico e meteorológico; ampliar sistemas de alerta;"
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "COMPROMISSO Santa Catarina preparada antes da emergência, não apenas depois dela."
+      },
+      {
+        "pagina": 5,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "A gestão pública deve deixar de ser medida apenas pelo quanto gasta e passar a ser avaliada pelo que entrega."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": false,
+        "texto": "DIRETRIZ E EXECUÇÃO Barragens e estruturas de contenção deverão contar com acompanhamento técnico, monitoramento e planos de emergência atualizados."
+      },
+      {
+        "pagina": 25,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "25COMPROMISSOS FINAIS DIRETRIZ E EXECUÇÃO Santa Catarina em primeiro lugar não é apenas um slogan."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 7,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": true,
+        "texto": "fortalecer ações nas fronteiras, portos e aeroportos; aprimorar investigação e prevenção;"
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "COMPROMISSO nenhum catarinense será tratado como cidadão de segunda classe por viver em uma determinada região."
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": false,
+        "texto": "21TECNOLOGIA, INOVAÇÃO E CIÊNCIA OBJETIVO posicionar Santa Catarina na fronteira da inovação e usar tecnologiapara melhorar serviços e produtividade."
+      },
+      {
+        "pagina": 22,
+        "termos": [
+          "fronteira"
+        ],
+        "compromisso": false,
+        "texto": "Por isso, o Estado deve respeitar sua autonomia e, ao mesmo tempo, cooperar para resolver problemas que ultrapassam fronteiras municipais."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 16,
+        "termos": [
+          "ambiental",
+          "meio ambiente",
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "16SANEAMENTO, ÁGUA E MEIO AMBIENTE OBJETIVO ampliar investimentos em saneamento e conciliar proteção ambiental com desenvolvimento."
+      },
+      {
+        "pagina": 4,
+        "termos": [
+          "ambiental",
+          "clima",
+          "climát",
+          "saneamento"
+        ],
+        "compromisso": false,
+        "texto": "Desenvolvimento com responsabilidade ambiental — prevenção de riscos, saneamento e resiliência climática."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "8DEFESA CIVIL E RESILIÊNCIA CLIMÁTICA OBJETIVO proteger vidas, reduzir perdas e preparar Santa Catarina para eventos climáticos extremos."
+      },
+      {
+        "pagina": 3,
+        "termos": [
+          "meio ambiente"
+        ],
+        "compromisso": true,
+        "texto": "serviços públicos eficientes; valorização do trabalho; inovação; respeito ao meio ambiente; integração com os municípios; transparência e compromisso com resultados."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "PROPOSTAS apoiar a regionalização do saneamento; ampliar capacidade técnica e financeira dos municípios; estimular concessões e PPPs quando adequadas; acelerar investimentos em água, esgoto e resíduos; melhorar drenagem e gestão de águas urbanas;"
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "energia renovável"
+        ],
+        "compromisso": true,
+        "texto": "simplificar processos ambientais sem reduzir proteção; definir competências com clareza; ampliar segurança jurídica; e incentivar energia renovável e eficiência energética."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "COMPROMISSO água de qualidade, saneamento e desenvolvimento responsável."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "A expansão do saneamento básico garantirá água potável e coleta de esgoto como direito básico para promover dignidade e saúde preventiva a todos os catarinenses."
+      }
+    ]
+  }
+}

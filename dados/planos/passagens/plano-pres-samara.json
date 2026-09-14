@@ -1,0 +1,379 @@
+{
+  "arquivo": "plano-pres-samara.txt",
+  "identidade": "SAMARA — UP — Presidente",
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 826,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 7,
+        "termos": [
+          "salário mínimo",
+          "reforma agrária"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos o fim da escala 6x1, a redução da jornada com aumento salarial, a elevação em 100% do salário mínimo, a reindustrialização, a reforma agrária, a soberania nacional, o fortalecimento da ciência e a recuperação do controle público dos setores estratégicos."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "arcabouço fiscal",
+          "trabalhista",
+          "terceiriz"
+        ],
+        "compromisso": false,
+        "texto": "REVO GA R AS RE F O RM AS TRABALHISTA E PREVIDENCIÁRIA, A TERCEIRIZAÇÃO IRRESTRITA E O ARCABOUÇO FISCAL"
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "POR UMA REFORMA TRIBUTÁRIA QUE SEJA A FAVOR DOS TRABALHADORES O Estado arrecada dinheiro com os impostos que cobra."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "imposto",
+          "tributár",
+          "carga tributária"
+        ],
+        "compromisso": false,
+        "texto": "Como a carga tributária brasileira é concentrada nos impostos indiretos, é o cidadão quem paga imposto toda vez que compra uma mercadoria."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "imposto",
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "Mesmo com a aprovação de uma “Reforma tributária” no atual Governo Federal, a previsão é que a alíquota média no Imposto sobre Valor Agregado (IVA, que substituirá o antigo ICMS) ficará em torno de 28% para os produtos que compramos no nosso dia a dia."
+      },
+      {
+        "pagina": 17,
+        "termos": [
+          "tributár",
+          "isenção",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "- que taxa por igual ricos e pobres, com uma redução imediata da alíquota para todos os produtos e isenção para todos os produtos de higiene pessoal, medicamentos e roupas (que não está previsto na atual Reforma Tributária)."
+      },
+      {
+        "pagina": 59,
+        "termos": [
+          "privatiz",
+          "concessões",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "O atual governo Lula seguiu a política de concessões e parcerias público-privadas (PPPs) e Programa de Parcerias de Investimentos” (PPI), que, de fato, entregam a interesses privados o grosso da infraestrutura do país, como privatização de rodovias, e a tentativa de privatização dos sistemas de trens urbanos e metrôs nas regiões metropolitanas de Porto Alegre e Recife."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "salário mínimo"
+        ],
+        "compromisso": true,
+        "texto": "EMPREGO, RENDA E TRABALHOE TRABALHO O que chamamos de salário mínimo (valor mínimo da força de trabalho) deveria em tese ser o suficiente para garantir o custo mínimo de vida de trabalhadores para que na lógica do sistema capitalista eles seguissem produzindo lucros aos burgueses."
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 7,
+        "termos": [
+          "lgbt",
+          "racismo"
+        ],
+        "compromisso": true,
+        "texto": "Vamos combater todas as formas de exploração, racismo, machismo, LGBTfobia, capacitismo e opressão; defender os povos indígenas, quilombolas e comunidades tradicionais; e garantir soberania diante dos interesses do grande capital nacional estrangeiro."
+      },
+      {
+        "pagina": 32,
+        "termos": [
+          "religios",
+          "liberdade religiosa"
+        ],
+        "compromisso": true,
+        "texto": "• Assegurar a liberdade religiosa, especialmente a promoção do respeito às religiões de matriz afro-brasileira (candomblé e umbanda)."
+      },
+      {
+        "pagina": 28,
+        "termos": [
+          "aborto",
+          "descriminaliz",
+          "legalização"
+        ],
+        "compromisso": false,
+        "texto": "Descriminalização e legalização do aborto, primando pela vida das mulheres, tratando a saúde da mulher como questão de saúde pública."
+      },
+      {
+        "pagina": 32,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "COMBATE À LGBTFOBIA A burguesia trabalha para manter a estrutura capitalista e aumentar o nível de exploração da classe trabalhadora."
+      },
+      {
+        "pagina": 33,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer o enfrentamento institucional à LGBTfobia, com acompanhamento regular dos dados sobre a violência LGBTfóbica, além de canais seguros de denúncia e mecanismos de apuração e responsabilização de servidores que pratiquem LGBTfobia."
+      },
+      {
+        "pagina": 33,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "• Garantir uma educação pública livre de LGBTfobia, com protocolos de prevenção e enfrentamento à discriminação e à violência, acolhimento e acompanhamento pedagógico e psicossocial de estudantes LGBT."
+      },
+      {
+        "pagina": 36,
+        "termos": [
+          "religios"
+        ],
+        "compromisso": true,
+        "texto": "Por isso, defendemos a ampla liberdade de expressão e religiosa e a livre organização dos trabalhadores e do povo, ao mesmo tempo em que defendemos eleições livres da interferência do grande capital."
+      },
+      {
+        "pagina": 37,
+        "termos": [
+          "religios"
+        ],
+        "compromisso": true,
+        "texto": "• Combater a intolerância religiosa, ataque a templos e local de culto, em especial às religiões de matriz africana."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 48,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "militar",
+          "tortura"
+        ],
+        "compromisso": false,
+        "texto": "A Comissão Nacional da Verdade recomendou a desmilitarização das polícias militares estaduais, a extinção da Justiça Militar estadual e mudanças nos mecanismos de prevenção e combate à tortura, mas o modelo de segurança pública brasileiro segue sendo aquele que promove o genocídio do povo preto e pobre nas favelas."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "Em vez de enfrentar as causas sociais da violência e fortalecer a inteligência policial, sucessivos governos escolheram transformar a chamada “guerra ao crime” em uma guerra contra a população pobre."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "polícia",
+          "militar"
+        ],
+        "compromisso": true,
+        "texto": "As polícias militares são uma herança do período colonial e foram estruturadas para defender a ordem estabelecida, e não para garantir direitos."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "segurança pública",
+          "direitos humanos"
+        ],
+        "compromisso": true,
+        "texto": "Significa construir uma segurança pública orientada pela proteção da vida e pelos direitos humanos, e não por uma lógica de guerra contra determinados territórios e grupos sociais."
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "polícia",
+          "militar"
+        ],
+        "compromisso": true,
+        "texto": "Por isso, defendemos a desmilitarização da polícia, que deve proteger a população, respeitar direitos fundamentais e estar submetida a mecanismos efetivos de controle e responsabilização."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "penitenciár",
+          "judiciário"
+        ],
+        "compromisso": true,
+        "texto": "• Debater a reforma do Sistema de Justiça e do Sistema Penitenciário a fim de promover a democratização do acesso à justiça, debater a ampliação de cotas para os cargos do Poder Judiciário;"
+      },
+      {
+        "pagina": 47,
+        "termos": [
+          "armament",
+          "polícia",
+          "crime organizado"
+        ],
+        "compromisso": false,
+        "texto": "Apesar do aumento constante dos investimentos em policiamento ostensivo, armamentos e operações policiais, o crime organizado se fortaleceu, a violência continua atingindo milhares de famílias e a sensação de insegurança permanece"
+      },
+      {
+        "pagina": 48,
+        "termos": [
+          "segurança pública",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "A lógica militar permanece presente nas polícias e na própria concepção de segurança pública."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 7,
+        "termos": [
+          "soberania",
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "Vamos combater todas as formas de exploração, racismo, machismo, LGBTfobia, capacitismo e opressão; defender os povos indígenas, quilombolas e comunidades tradicionais; e garantir soberania diante dos interesses do grande capital nacional estrangeiro."
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos o fim da escala 6x1, a redução da jornada com aumento salarial, a elevação em 100% do salário mínimo, a reindustrialização, a reforma agrária, a soberania nacional, o fortalecimento da ciência e a recuperação do controle público dos setores estratégicos."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "Defender o SUS é defender a vida, a ciência e a soberania nacional."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "soberania"
+        ],
+        "compromisso": true,
+        "texto": "• Investir em ciência e tecnologia com vistas a fortalecer a soberania econômica, criando mecanismos de maior participação e controle popular na agenda de pesquisa e nos seus resultados."
+      },
+      {
+        "pagina": 27,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos que o cuidado deve ser tratado como uma responsabilidade coletiva da sociedade e assumido pelo poder público por meio de políticas universais, como oferta de creches públicas, lavanderias coletivas, restaurantes populares, casas de convivência para idosos, escolas em tempo integral."
+      },
+      {
+        "pagina": 57,
+        "termos": [
+          "dívida externa"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos o imediato estancamento da sangria de nossos recursos para o exterior, pondo fim às remessas de lucros, dividendos, pagamento de royalties e pagamentos da dívida externa."
+      },
+      {
+        "pagina": 65,
+        "termos": [
+          "estrangeir"
+        ],
+        "compromisso": true,
+        "texto": "Cada povo deve ter o direito de decidir livremente seu sistema político, econômico e social, controlar suas riquezas e construir seu próprio caminho de desenvolvimento, sem intervenções estrangeiras, ocupações militares, bloqueios ou imposições das grandes potências e dos monopólios internacionais."
+      },
+      {
+        "pagina": 56,
+        "termos": [
+          "capital estrangeiro",
+          "estrangeir"
+        ],
+        "compromisso": false,
+        "texto": "FIM DA ESPOLIAÇÃO IMPERIALISTA SOBRE A ECONOMIA NACIONAL Os defensores da dominação do capital estrangeiro dizem que é muito"
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 7,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "Vamos combater todas as formas de exploração, racismo, machismo, LGBTfobia, capacitismo e opressão; defender os povos indígenas, quilombolas e comunidades tradicionais; e garantir soberania diante dos interesses do grande capital nacional estrangeiro."
+      },
+      {
+        "pagina": 59,
+        "termos": [
+          "amazônia",
+          "indígena"
+        ],
+        "compromisso": true,
+        "texto": "Até os rios da Amazônia, o governo federal tentou privatizar com o decreto nº 12.600/2025 de 28 de agosto de 2025, mas, foi obrigado a revogar integralmente o decreto após mais de 30 dias de ocupação feita pelos povos indígenas no terminal portuário Cargill em Santarém-PA."
+      },
+      {
+        "pagina": 63,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos um modelo de produção que possibilite desenvolvimento econômico, social, humano, tecnológico e biotecnológico, mas mantendo a floresta em pé, garantindo que os recursos minerais e toda biodiversidade ainda existente permitam ao povo o usufruto dos seus benefícios climáticos, medicinais, culturais e etc."
+      },
+      {
+        "pagina": 63,
+        "termos": [
+          "indígena",
+          "quilombola"
+        ],
+        "compromisso": true,
+        "texto": "• Demarcação e posse imediata de todas as terras indígenas e quilombolas; garantir aos indígenas escolas diferenciadas, incentivar e apoiar às línguas indígenas; defender a cultura e os direitos dos povos originários e tradicionais."
+      },
+      {
+        "pagina": 62,
+        "termos": [
+          "clima",
+          "climát",
+          "emissões"
+        ],
+        "compromisso": false,
+        "texto": "Dessa maneira, apesar das inúmeras conferências climáticas e promessas de redução de emissões, os dados mostram um cenário alarmante: a concentração de gás carbônico (CO²) na atmosfera já ultrapassou 420 ppm (número de moléculas de CO² em um milhão de moléculas de ar), e a temperatura global já ultrapassou 1,5° C acima do período pré-industrial."
+      },
+      {
+        "pagina": 63,
+        "termos": [
+          "amazônia",
+          "mata atlântica",
+          "bioma"
+        ],
+        "compromisso": false,
+        "texto": "• Proteger Amazônia, Cerrado, Caatinga, Mata Atlântica, Pantanal e Pampa, reconhecendo que cada bioma exige políticas próprias e participação das populações que nele vivem;"
+      },
+      {
+        "pagina": 7,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Defendemos que saúde, educação, água, energia, saneamento, moradia, transporte, cultura e comunicação sejam direitos, e não mercadorias."
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Por isso, defendemos a criação de Frentes Emergenciais de Trabalho, empregos públicos com contratações diretas voltados para um grande plano nacional de construção de moradias populares, saneamento, creches, postos de saúde e infraestrutura nas periferias e no interior."
+      }
+    ]
+  }
+}
