@@ -108,6 +108,18 @@ function similaridade(posPessoa, confPessoa, posPartido) {
 }
 
 /**
+ * Compatibilidade entre a pessoa e QUALQUER outro vetor medido — partido ou
+ * candidato —, na mesma escala de 0 a 100 do ranking da etapa 2.
+ *
+ * Exportada porque a etapa 3 precisa dela para candidatos com voto medido. A
+ * conta é a mesma; muda só o que está do outro lado da comparação. Candidato
+ * SEM voto medido não passa por aqui: não recebe número nenhum.
+ */
+export function compatibilidade(posPessoa, confPessoa, posOutro) {
+  return Math.round(50 * (1 + similaridade(posPessoa, confPessoa, posOutro)));
+}
+
+/**
  * Acordo em um eixo, em linguagem que não depende de escala.
  * Comparar "−34 contra −72" em número enganaria, porque os dois vetores vivem
  * em escalas diferentes. O que é honesto dizer é o lado, e quão firme é cada um.

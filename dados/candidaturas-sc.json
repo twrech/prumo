@@ -1,0 +1,28 @@
+{
+ "versao": "0.1",
+ "uf": "SC",
+ "consultado_em": "2026-09-14",
+ "fonte": "DivulgaCandContas do TSE, eleição 20322002026, cargos 3/5/6/7 de SC",
+ "metodo": "Cruzamento por nome entre os deputados federais de SC da legislatura 57 e as 665 candidaturas de SC em 2026. O casamento foi conferido um a um: 'Cobalchini' casa com dois candidatos diferentes (VALDIR, federal, e JOÃO, estadual), que são pessoas distintas — por isso o cruzamento automático não basta e esta tabela é escrita, não gerada.",
+ "nota": "O partido pelo qual a pessoa concorre em 2026 nem sempre é aquele sob o qual ela votou nesta legislatura. Cinco dos dezessete trocaram. A ficha é obrigada a dizer isso: o histórico de voto foi feito sob outra legenda.",
+ "candidaturas": {
+  "Gilson Marques": { "cargo": "Deputado Federal", "partido": "NOVO", "nome_urna": "GILSON MARQUES" },
+  "Zé Trovão": { "cargo": "Deputado Federal", "partido": "PL", "nome_urna": "ZÉ TROVÃO" },
+  "Pezenti": { "cargo": "Deputado Federal", "partido": "MDB", "nome_urna": "PEZENTI" },
+  "Daniel Freitas": { "cargo": "Deputado Federal", "partido": "PL", "nome_urna": "DANIEL FREITAS" },
+  "Pedro Uczai": { "cargo": "Deputado Federal", "partido": "PT", "nome_urna": "PROFESSOR PEDRO UCZAI" },
+  "Ana Paula Lima": { "cargo": "Deputado Federal", "partido": "PT", "nome_urna": "ANA PAULA LIMA" },
+  "Cobalchini": { "cargo": "Deputado Federal", "partido": "MDB", "nome_urna": "VALDIR COBALCHINI" },
+  "Fabio Schiochet": { "cargo": "Deputado Federal", "partido": "UNIÃO", "nome_urna": "FABIO SCHIOCHET" },
+  "Ismael": { "cargo": "Deputado Federal", "partido": "PL", "nome_urna": "ISMAEL DOS SANTOS" },
+  "Geovania de Sá": { "cargo": "Deputado Federal", "partido": "REPUBLICANOS", "nome_urna": "GEOVANIA DE SÁ" },
+  "Caroline de Toni": { "cargo": "Senador", "partido": "PL", "nome_urna": "CAROL DE TONI" },
+  "Daniela Reinehr": { "cargo": "Deputado Federal", "partido": "PL", "nome_urna": "DANIELA REINEHR" },
+  "Julia Zanatta": { "cargo": "Deputado Federal", "partido": "PL", "nome_urna": "JULIA ZANATTA" },
+  "Jorge Goetten": { "cargo": "Deputado Federal", "partido": "REPUBLICANOS", "nome_urna": "JORGE GOETTEN" },
+  "Ricardo Guidi": { "cargo": "Deputado Federal", "partido": "PL", "nome_urna": "RICARDO GUIDI" },
+  "Darci de Matos": { "cargo": "Deputado Federal", "partido": "REPUBLICANOS", "nome_urna": "DARCI DE MATOS" },
+  "Coronel Armando": { "cargo": "Deputado Federal", "partido": "PP", "nome_urna": "CORONEL ARMANDO" }
+ },
+ "nao_concorrem": ["Carlos Chiodini", "Luiz Fernando Vampiro"]
+}

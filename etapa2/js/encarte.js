@@ -22,7 +22,7 @@
 import { EIXOS, faixaConfianca } from '../../js/motor.js';
 import { decodificar } from '../../js/perfil.js';
 import { radar } from '../../js/grafico.js';
-import { alinhar, confiancaDoPartido, CONFIANCA_MINIMA } from '../../js/alinhamento.js';
+import { alinhar, confiancaDoPartido, compatibilidade, CONFIANCA_MINIMA } from '../../js/alinhamento.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -32,6 +32,8 @@ const estado = {
   nomes: null,
   catalogo: null,
   votos: null,
+  candidatos: null, // etapa 3: candidatos da UF, com escada de evidência
+  partidoAberto: null,
   perfil: null,     // { posicao, confianca } vindo do código na URL
   alinhamento: null,
 };
@@ -51,6 +53,13 @@ async function carregar() {
   estado.nomes = nomes.partidos;
   estado.catalogo = catalogo;
   estado.votos = votos;
+
+  // Etapa 3 é opcional: um estado sem arquivo de candidatos continua tendo as
+  // etapas 1 e 2 inteiras. Nunca derruba a página por falta dele.
+  try {
+    const r = await fetch('../dados/candidatos-sc.json');
+    if (r.ok) estado.candidatos = await r.json();
+  } catch { /* segue sem a etapa 3 */ }
 }
 
 function lerPerfilDaUrl() {
@@ -82,7 +91,7 @@ function coresDoTema() {
 /* ---------------------------------------------------------------- galeria */
 
 function mostrar(tela) {
-  for (const id of ['tela-galeria', 'tela-ficha']) $(id).classList.toggle('oculto', id !== tela);
+  for (const id of ['tela-galeria', 'tela-ficha', 'tela-candidato']) $(id).classList.toggle('oculto', id !== tela);
   window.scrollTo({ top: 0 });
 }
 
@@ -286,6 +295,8 @@ function abrirFicha(sigla) {
 
   desenharEixosDaFicha(partido);
   desenharVotacoesDaFicha(sigla);
+  desenharCandidatosDoPartido(sigla);
+  estado.partidoAberto = sigla;
   mostrar('tela-ficha');
 }
 
@@ -399,6 +410,7 @@ function desenharVotacoesDaFicha(sigla) {
 
 (async function iniciar() {
   $('botao-voltar-galeria').addEventListener('click', () => { desenharGaleria(); mostrar('tela-galeria'); });
+  $('botao-voltar-partido').addEventListener('click', () => { if (estado.partidoAberto) abrirFicha(estado.partidoAberto); });
   $('botao-teste').addEventListener('click', () => { window.location.href = '../index.html'; });
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (!$('tela-ficha').classList.contains('oculto')) $('botao-voltar-galeria').click();
@@ -416,3 +428,246 @@ function desenharVotacoesDaFicha(sigla) {
     $('intro-galeria').textContent = `Não foi possível carregar os dados: ${e.message}`;
   }
 }());
+
+/* ------------------------------------------------- etapa 3: candidatos */
+
+const ROTULO_EVIDENCIA = {
+  medido: 'com voto medido',
+  'medido-fraco': 'esteve na Câmara, faltou demais',
+  'com-mandato': 'já exerceu mandato',
+  tentou: 'já concorreu, nunca eleito',
+  estreante: 'primeira candidatura',
+};
+
+/** Ordem da escada: quem tem mais evidência aparece primeiro. */
+const ORDEM_EVIDENCIA = ['medido', 'medido-fraco', 'com-mandato', 'tentou', 'estreante'];
+
+const dinheiro = (n) => (typeof n === 'number'
+  ? n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 })
+  : null);
+
+function candidatosDoPartido(sigla) {
+  if (!estado.candidatos) return [];
+  // O partido do candidato em 2026 é o que vale para a urna. Quem votou por
+  // outra legenda aparece na aba do partido ATUAL, com o aviso na ficha.
+  return estado.candidatos.candidatos.filter((c) => c.partido === sigla);
+}
+
+function cartaoCandidato(c) {
+  const cartao = document.createElement('article');
+  cartao.className = 'cartao-eixo';
+  cartao.style.cursor = 'pointer';
+  cartao.tabIndex = 0;
+  cartao.setAttribute('role', 'button');
+
+  const cabeca = document.createElement('header');
+  const titulo = document.createElement('h3');
+  titulo.textContent = c.nome;
+  cabeca.append(titulo);
+
+  // Só quem tem voto medido recebe número. Ninguém mais.
+  if (c.evidencia === 'medido' && estado.perfil) {
+    const valor = document.createElement('span');
+    valor.className = 'valor';
+    valor.textContent = `${compatibilidade(estado.perfil.posicao, estado.perfil.confianca, c.medicao.posicao)}%`;
+    cabeca.append(valor);
+  }
+  cartao.append(cabeca);
+
+  const linha = document.createElement('p');
+  linha.className = 'discreto';
+  linha.style.margin = '0';
+  linha.textContent = `${c.numero} · ${c.cargo}${c.ocupacao ? ` · ${c.ocupacao.toLowerCase()}` : ''}`;
+  cartao.append(linha);
+
+  const selo = document.createElement('p');
+  selo.className = 'discreto confianca';
+  selo.textContent = ROTULO_EVIDENCIA[c.evidencia] || c.evidencia;
+  cartao.append(selo);
+
+  if (c.situacao_do_registro !== 'Deferido') {
+    const aviso = document.createElement('p');
+    aviso.className = 'discreto confianca';
+    aviso.style.color = 'var(--cobre)';
+    aviso.textContent = `registro: ${c.situacao_do_registro.toLowerCase()}`;
+    cartao.append(aviso);
+  }
+
+  const abrir = () => abrirCandidato(c.id);
+  cartao.addEventListener('click', abrir);
+  cartao.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); abrir(); } });
+  return cartao;
+}
+
+function desenharCandidatosDoPartido(sigla) {
+  const secao = $('secao-candidatos');
+  const lista = $('lista-candidatos');
+  lista.textContent = '';
+
+  const cands = candidatosDoPartido(sigla);
+  if (!cands.length) { secao.classList.add('oculto'); return; }
+  secao.classList.remove('oculto');
+
+  const uf = estado.candidatos.uf;
+  $('titulo-candidatos') .textContent = `Quem concorre por este partido em ${uf}`;
+
+  const medidos = cands.filter((c) => c.evidencia === 'medido').length;
+  $('intro-candidatos').textContent =
+    `${cands.length} ${cands.length === 1 ? 'candidato' : 'candidatos'}. `
+    + (medidos
+      ? `${medidos} ${medidos === 1 ? 'tem' : 'têm'} voto nominal na Câmara e por isso ${medidos === 1 ? 'recebe' : 'recebem'} posição própria — `
+      : 'Nenhum tem voto nominal na Câmara para medir — ')
+    + 'os demais aparecem com o que existe sobre eles, sem posição inventada. '
+    + 'A posição do partido nunca é atribuída à pessoa.';
+
+  cands.sort((a, b) => ORDEM_EVIDENCIA.indexOf(a.evidencia) - ORDEM_EVIDENCIA.indexOf(b.evidencia)
+    || a.nome.localeCompare(b.nome));
+  for (const c of cands) lista.append(cartaoCandidato(c));
+}
+
+function abrirCandidato(id) {
+  const c = estado.candidatos?.candidatos.find((x) => x.id === id);
+  if (!c) return;
+
+  $('cand-nome').textContent = c.nome;
+  $('cand-linha').textContent = `${c.cargo} · ${c.partido} · número ${c.numero}`
+    + (c.coligacao ? ` · ${c.coligacao}` : '');
+  $('cand-evidencia').textContent = c.evidencia_texto;
+
+  const avisoReg = $('cand-aviso-registro');
+  avisoReg.textContent = c.situacao_do_registro !== 'Deferido'
+    ? `Atenção: o registro desta candidatura está como "${c.situacao_do_registro}" no TSE. Pode não ir à urna.`
+    : '';
+
+  // ---------------------------------------------------------- medição
+  const alvoMed = $('cand-medicao');
+  alvoMed.textContent = '';
+  if (c.evidencia === 'medido') {
+    const h = document.createElement('h2');
+    h.textContent = 'A posição que os votos revelam';
+    alvoMed.append(h);
+
+    if (c.medicao.mudou_de_partido) {
+      const p = document.createElement('p');
+      p.className = 'discreto confianca';
+      p.textContent = `Este histórico foi feito pelo ${c.medicao.partido_na_epoca}. A pessoa concorre em 2026 pelo ${c.partido}.`;
+      alvoMed.append(p);
+    }
+
+    const g = document.createElement('div');
+    g.className = 'grafico';
+    g.innerHTML = radar(
+      c.medicao.posicao,
+      c.medicao.confianca,
+      estado.eixos,
+      { ...coresDoTema(), ...(estado.perfil ? { comparacao: { posicao: estado.perfil.posicao } } : {}) }
+    );
+    alvoMed.append(g);
+
+    if (estado.perfil) {
+      const leg = document.createElement('p');
+      leg.className = 'discreto';
+      const pct = compatibilidade(estado.perfil.posicao, estado.perfil.confianca, c.medicao.posicao);
+      leg.textContent = `Linha cheia: ${c.nome}. Linha tracejada: você. Compatibilidade de ${pct}%, `
+        + 'calculada do mesmo jeito que a dos partidos — e sujeita à mesma margem de erro.';
+      alvoMed.append(leg);
+    }
+
+    const tab = document.createElement('div');
+    tab.className = 'cartoes';
+    for (const k of EIXOS) {
+      const eixo = estado.eixos.find((e) => e.codigo === k);
+      const v = c.medicao.posicao[k];
+      const cart = document.createElement('article');
+      cart.className = 'cartao-eixo';
+      const hh = document.createElement('header');
+      const t3 = document.createElement('h3');
+      t3.textContent = eixo?.nome || k;
+      const val = document.createElement('span');
+      val.className = 'valor';
+      val.textContent = `${Math.abs(v)}%`;
+      hh.append(t3, val);
+      const pol = document.createElement('p');
+      pol.className = 'discreto';
+      pol.style.margin = '0';
+      pol.textContent = v === 0 ? 'no meio' : (v < 0 ? eixo?.polo_negativo?.nome : eixo?.polo_positivo?.nome) || '';
+      cart.append(hh, pol);
+      tab.append(cart);
+    }
+    alvoMed.append(tab);
+
+    const rod = document.createElement('p');
+    rod.className = 'discreto confianca';
+    rod.textContent = `Baseado em ${c.medicao.votacoes_com_posicao} das ${c.medicao.votacoes_do_catalogo} votações do catálogo · confiança média ${c.medicao.confianca_media}%.`;
+    alvoMed.append(rod);
+  }
+
+  // -------------------------------------------------------- histórico
+  const alvoHist = $('cand-historico');
+  alvoHist.textContent = '';
+  if (c.candidaturas_anteriores?.length) {
+    const h = document.createElement('h2');
+    h.textContent = 'Candidaturas anteriores';
+    const p = document.createElement('p');
+    p.className = 'discreto';
+    p.textContent = 'Do registro do TSE. Não diz como a pessoa votou nem o que fez no mandato — '
+      + 'diz onde ela esteve, e onde você pode procurar o resto.';
+    alvoHist.append(h, p);
+
+    const ul = document.createElement('div');
+    for (const e of c.candidaturas_anteriores) {
+      const linha = document.createElement('p');
+      linha.style.margin = '.35rem 0';
+      const eleito = /^Eleito/i.test(e.resultado || '');
+      linha.innerHTML = `<b>${e.ano}</b> · ${e.cargo} por ${e.partido} em ${e.local.toLowerCase()} — `;
+      const res = document.createElement('span');
+      res.textContent = e.resultado;
+      if (eleito) { res.style.color = 'var(--cobre)'; res.style.fontWeight = '600'; }
+      linha.append(res);
+      ul.append(linha);
+    }
+    alvoHist.append(ul);
+  }
+
+  // ------------------------------------------------ o que o TSE registra
+  const alvoReg = $('cand-registro');
+  alvoReg.textContent = '';
+  const h2 = document.createElement('h2');
+  h2.textContent = 'O que consta no registro';
+  alvoReg.append(h2);
+
+  const itens = [
+    ['Ocupação declarada', c.ocupacao],
+    ['Patrimônio declarado', dinheiro(c.patrimonio_declarado)],
+    ['Situação do registro', c.situacao_do_registro],
+    ['Coligação ou federação', c.coligacao],
+  ].filter(([, v]) => v);
+
+  for (const [rot, val] of itens) {
+    const p = document.createElement('p');
+    p.style.margin = '.3rem 0';
+    p.innerHTML = `<span class="discreto">${rot}:</span> `;
+    p.append(document.createTextNode(String(val)));
+    alvoReg.append(p);
+  }
+
+  if (c.site_declarado && /^https?:\/\/\S+\.\S+/i.test(c.site_declarado)) {
+    const p = document.createElement('p');
+    p.style.margin = '.6rem 0 0';
+    const a = document.createElement('a');
+    a.href = c.site_declarado;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = 'Link que a própria pessoa registrou no TSE';
+    p.append(a);
+    alvoReg.append(p);
+  }
+
+  const fonte = document.createElement('p');
+  fonte.className = 'discreto confianca';
+  fonte.style.marginTop = '1rem';
+  fonte.textContent = `Fonte: ${estado.candidatos.fonte}.`;
+  alvoReg.append(fonte);
+
+  mostrar('tela-candidato');
+}

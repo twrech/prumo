@@ -1,0 +1,593 @@
+{
+ "versao": "0.1",
+ "uf": "SC",
+ "calculado_em": "2026-09-14",
+ "base": "23 votações nominais do plenário da Câmara, legislatura 2023-2027",
+ "metodo": "Ver o cabeçalho de ferramentas/calcular_deputados.js",
+ "confianca_minima": 60,
+ "nota_ausencia": "Abstenção e obstrução contam como ausência, não como posição de centro.",
+ "nota_candidatura": "O partido pelo qual a pessoa concorre em 2026 nem sempre é aquele sob o qual ela votou nesta legislatura. Cinco dos dezessete trocaram. A ficha é obrigada a dizer isso: o histórico de voto foi feito sob outra legenda.",
+ "fonte_candidatura": "DivulgaCandContas do TSE, eleição 20322002026, cargos 3/5/6/7 de SC",
+ "deputados": [
+  {
+   "id": "220556",
+   "nome": "Ana Paula Lima",
+   "partido": "PT",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PT",
+    "nome_urna": "ANA PAULA LIMA",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": -100,
+    "soc": -100,
+    "pod": -20,
+    "sob": 17,
+    "amb": -60
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 60
+   },
+   "votacoes_com_posicao": 21,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 92
+  },
+  {
+   "id": "160604",
+   "nome": "Pedro Uczai",
+   "partido": "PT",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PT",
+    "nome_urna": "PROFESSOR PEDRO UCZAI",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": -90,
+    "soc": -75,
+    "pod": -60,
+    "sob": 17,
+    "amb": -60
+   },
+   "confianca": {
+    "eco": 90,
+    "soc": 75,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "votacoes_com_posicao": 21,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 93
+  },
+  {
+   "id": "204361",
+   "nome": "Carlos Chiodini",
+   "partido": "MDB",
+   "candidatura_2026": null,
+   "posicao": {
+    "eco": -19,
+    "soc": -25,
+    "pod": 20,
+    "sob": 17,
+    "amb": 67
+   },
+   "confianca": {
+    "eco": 38,
+    "soc": 50,
+    "pod": 20,
+    "sob": 67,
+    "amb": 67
+   },
+   "votacoes_com_posicao": 10,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": false,
+   "confianca_media": 48
+  },
+  {
+   "id": "116379",
+   "nome": "Darci de Matos",
+   "partido": "PSD",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "REPUBLICANOS",
+    "nome_urna": "DARCI DE MATOS",
+    "mudou_de_partido": true
+   },
+   "posicao": {
+    "eco": -5,
+    "soc": 0,
+    "pod": 20,
+    "sob": 0,
+    "amb": 20
+   },
+   "confianca": {
+    "eco": 43,
+    "soc": 0,
+    "pod": 20,
+    "sob": 0,
+    "amb": 20
+   },
+   "votacoes_com_posicao": 5,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": false,
+   "confianca_media": 17
+  },
+  {
+   "id": "204376",
+   "nome": "Coronel Armando",
+   "partido": "PL",
+   "partidos_na_legislatura": [
+    "PP",
+    "PL"
+   ],
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PP",
+    "nome_urna": "CORONEL ARMANDO",
+    "mudou_de_partido": true
+   },
+   "posicao": {
+    "eco": 0,
+    "soc": 25,
+    "pod": -20,
+    "sob": 17,
+    "amb": 27
+   },
+   "confianca": {
+    "eco": 19,
+    "soc": 25,
+    "pod": 20,
+    "sob": 17,
+    "amb": 27
+   },
+   "votacoes_com_posicao": 5,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": false,
+   "confianca_media": 22
+  },
+  {
+   "id": "214694",
+   "nome": "Jorge Goetten",
+   "partido": "PL",
+   "partidos_na_legislatura": [
+    "PL",
+    "REPUBLICANOS"
+   ],
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "REPUBLICANOS",
+    "nome_urna": "JORGE GOETTEN",
+    "mudou_de_partido": true
+   },
+   "posicao": {
+    "eco": 5,
+    "soc": 63,
+    "pod": 40,
+    "sob": 0,
+    "amb": 27
+   },
+   "confianca": {
+    "eco": 71,
+    "soc": 63,
+    "pod": 80,
+    "sob": 83,
+    "amb": 53
+   },
+   "votacoes_com_posicao": 16,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 70
+  },
+  {
+   "id": "98148",
+   "nome": "Cobalchini",
+   "partido": "MDB",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "MDB",
+    "nome_urna": "VALDIR COBALCHINI",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 24,
+    "soc": 100,
+    "pod": 20,
+    "sob": -50,
+    "amb": 93
+   },
+   "confianca": {
+    "eco": 71,
+    "soc": 100,
+    "pod": 100,
+    "sob": 83,
+    "amb": 93
+   },
+   "votacoes_com_posicao": 20,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 89
+  },
+  {
+   "id": "98615",
+   "nome": "Ismael",
+   "partido": "PSD",
+   "partidos_na_legislatura": [
+    "PSD",
+    "PL"
+   ],
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PL",
+    "nome_urna": "ISMAEL DOS SANTOS",
+    "mudou_de_partido": true
+   },
+   "posicao": {
+    "eco": 24,
+    "soc": 63,
+    "pod": 40,
+    "sob": -17,
+    "amb": 67
+   },
+   "confianca": {
+    "eco": 81,
+    "soc": 63,
+    "pod": 80,
+    "sob": 83,
+    "amb": 67
+   },
+   "votacoes_com_posicao": 17,
+   "votacoes_sem_posicao": 2,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 75
+  },
+  {
+   "id": "229432",
+   "nome": "Luiz Fernando Vampiro",
+   "partido": "MDB",
+   "candidatura_2026": null,
+   "posicao": {
+    "eco": 33,
+    "soc": 50,
+    "pod": 0,
+    "sob": -17,
+    "amb": 27
+   },
+   "confianca": {
+    "eco": 33,
+    "soc": 50,
+    "pod": 80,
+    "sob": 17,
+    "amb": 27
+   },
+   "votacoes_com_posicao": 10,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": false,
+   "confianca_media": 41
+  },
+  {
+   "id": "204362",
+   "nome": "Ricardo Guidi",
+   "partido": "PL",
+   "partidos_na_legislatura": [
+    "PSD",
+    "PL"
+   ],
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PL",
+    "nome_urna": "RICARDO GUIDI",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 52,
+    "soc": 63,
+    "pod": 20,
+    "sob": -17,
+    "amb": 40
+   },
+   "confianca": {
+    "eco": 52,
+    "soc": 63,
+    "pod": 60,
+    "sob": 50,
+    "amb": 40
+   },
+   "votacoes_com_posicao": 12,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": false,
+   "confianca_media": 53
+  },
+  {
+   "id": "178966",
+   "nome": "Geovania de Sá",
+   "partido": "PSDB",
+   "partidos_na_legislatura": [
+    "PSDB",
+    "REPUBLICANOS"
+   ],
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "REPUBLICANOS",
+    "nome_urna": "GEOVANIA DE SÁ",
+    "mudou_de_partido": true
+   },
+   "posicao": {
+    "eco": 57,
+    "soc": 100,
+    "pod": 60,
+    "sob": -50,
+    "amb": 93
+   },
+   "confianca": {
+    "eco": 76,
+    "soc": 100,
+    "pod": 60,
+    "sob": 83,
+    "amb": 93
+   },
+   "votacoes_com_posicao": 18,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 82
+  },
+  {
+   "id": "204368",
+   "nome": "Fabio Schiochet",
+   "partido": "UNIÃO",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "UNIÃO",
+    "nome_urna": "FABIO SCHIOCHET",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 67,
+    "soc": 63,
+    "pod": 20,
+    "sob": -42,
+    "amb": 100
+   },
+   "confianca": {
+    "eco": 86,
+    "soc": 63,
+    "pod": 100,
+    "sob": 75,
+    "amb": 100
+   },
+   "votacoes_com_posicao": 20,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 85
+  },
+  {
+   "id": "220559",
+   "nome": "Julia Zanatta",
+   "partido": "PL",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PL",
+    "nome_urna": "JULIA ZANATTA",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 71,
+    "soc": 75,
+    "pod": 40,
+    "sob": 0,
+    "amb": 73
+   },
+   "confianca": {
+    "eco": 71,
+    "soc": 75,
+    "pod": 80,
+    "sob": 83,
+    "amb": 73
+   },
+   "votacoes_com_posicao": 17,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 76
+  },
+  {
+   "id": "204369",
+   "nome": "Caroline de Toni",
+   "partido": "PL",
+   "candidatura_2026": {
+    "cargo": "Senador",
+    "partido": "PL",
+    "nome_urna": "CAROL DE TONI",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 86,
+    "soc": 100,
+    "pod": 10,
+    "sob": -8,
+    "amb": 87
+   },
+   "confianca": {
+    "eco": 86,
+    "soc": 100,
+    "pod": 50,
+    "sob": 58,
+    "amb": 87
+   },
+   "votacoes_com_posicao": 18,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 76
+  },
+  {
+   "id": "204367",
+   "nome": "Daniel Freitas",
+   "partido": "PL",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PL",
+    "nome_urna": "DANIEL FREITAS",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 90,
+    "soc": 100,
+    "pod": 20,
+    "sob": 0,
+    "amb": 100
+   },
+   "confianca": {
+    "eco": 90,
+    "soc": 100,
+    "pod": 100,
+    "sob": 83,
+    "amb": 100
+   },
+   "votacoes_com_posicao": 22,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 95
+  },
+  {
+   "id": "220557",
+   "nome": "Daniela Reinehr",
+   "partido": "PL",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PL",
+    "nome_urna": "DANIELA REINEHR",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 90,
+    "soc": 75,
+    "pod": 10,
+    "sob": 25,
+    "amb": 80
+   },
+   "confianca": {
+    "eco": 90,
+    "soc": 75,
+    "pod": 90,
+    "sob": 58,
+    "amb": 80
+   },
+   "votacoes_com_posicao": 19,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 79
+  },
+  {
+   "id": "204365",
+   "nome": "Gilson Marques",
+   "partido": "NOVO",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "NOVO",
+    "nome_urna": "GILSON MARQUES",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 20,
+    "sob": -17,
+    "amb": 100
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "votacoes_com_posicao": 23,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 100
+  },
+  {
+   "id": "220558",
+   "nome": "Zé Trovão",
+   "partido": "PL",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "PL",
+    "nome_urna": "ZÉ TROVÃO",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 20,
+    "sob": -17,
+    "amb": 100
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "votacoes_com_posicao": 23,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 100
+  },
+  {
+   "id": "161440",
+   "nome": "Pezenti",
+   "partido": "MDB",
+   "candidatura_2026": {
+    "cargo": "Deputado Federal",
+    "partido": "MDB",
+    "nome_urna": "PEZENTI",
+    "mudou_de_partido": false
+   },
+   "posicao": {
+    "eco": 100,
+    "soc": 88,
+    "pod": 20,
+    "sob": -17,
+    "amb": 80
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 88,
+    "pod": 100,
+    "sob": 100,
+    "amb": 80
+   },
+   "votacoes_com_posicao": 22,
+   "votacoes_sem_posicao": 0,
+   "votacoes_do_catalogo": 23,
+   "medivel": true,
+   "confianca_media": 94
+  }
+ ]
+}
