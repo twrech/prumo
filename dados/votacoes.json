@@ -1,0 +1,649 @@
+{
+ "versao": "1.0",
+ "nota": "Catálogo de votações-chave da legislatura 57 (2023-2027) da Câmara dos Deputados, com vetor de cinco eixos. Os vetores passaram pela revisão adversarial do item 2j em 13/09/2026: ver revisao_adversarial abaixo.",
+ "convencao": "SIM da bancada aponta para o sinal do vetor, exatamente como no banco de perguntas. Peso inteiro de −3 a +3 por eixo. A posição revelada de um partido é a média dos vetores ponderada pela proporção (SIM−NÃO)/(SIM+NÃO) da bancada em cada votação.",
+ "votacoes": [
+  {
+   "id": "2345368-78",
+   "materia": "MPV 1150/2022",
+   "data": "2023-05-24",
+   "titulo": "Proteção da Mata Atlântica",
+   "resumo": "O Congresso derrubou a emenda do Senado que preservava as regras da Mata Atlântica e restabeleceu o texto que as afrouxava.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": -3
+   },
+   "placar": {
+    "sim": 66,
+    "nao": 364
+   },
+   "sinal": "Votavam-se as emendas supressivas do Senado 'na parte que suprime a alteração aprovada por esta Câmara'. SIM preservava a proteção; NÃO restabeleceu o afrouxamento. É a votação mais polarizada da legislatura."
+  },
+  {
+   "id": "345311-270",
+   "materia": "PL 490/2007",
+   "data": "2023-05-30",
+   "titulo": "Marco temporal das terras indígenas",
+   "resumo": "Só pode ser reconhecida como terra indígena a área que já estava ocupada por eles em outubro de 1988.",
+   "vetor": {
+    "eco": 0,
+    "soc": 1,
+    "pod": 0,
+    "sob": 0,
+    "amb": 3
+   },
+   "placar": {
+    "sim": 283,
+    "nao": 155
+   }
+  },
+  {
+   "id": "2367064-82",
+   "materia": "PL 2920/2023",
+   "data": "2023-07-07",
+   "titulo": "Programa de Aquisição de Alimentos",
+   "resumo": "O governo volta a comprar comida direto do pequeno agricultor para distribuir a quem precisa.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 251,
+    "nao": 206
+   }
+  },
+  {
+   "id": "2149303-50",
+   "materia": "PDC 745/2017",
+   "data": "2023-10-18",
+   "titulo": "Entrada da Bolívia no Mercosul",
+   "resumo": "Aprovou a entrada de mais um país vizinho no bloco comercial do qual o Brasil faz parte.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": -3,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 323,
+    "nao": 98
+   }
+  },
+  {
+   "id": "2383287-43",
+   "materia": "PL 4173/2023",
+   "data": "2023-10-25",
+   "titulo": "Tributação de fundos no exterior e de super-ricos",
+   "resumo": "Passou a cobrar imposto todo ano de quem tem dinheiro aplicado fora do país, em vez de só na hora de trazer de volta.",
+   "vetor": {
+    "eco": -3,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 323,
+    "nao": 119
+   }
+  },
+  {
+   "id": "2299903-53",
+   "materia": "PL 3268/2021",
+   "data": "2023-11-29",
+   "titulo": "Feriado nacional da Consciência Negra",
+   "resumo": "Transformou o 20 de novembro em feriado nacional.",
+   "vetor": {
+    "eco": 0,
+    "soc": -3,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 286,
+    "nao": 121
+   }
+  },
+  {
+   "id": "2167882-83",
+   "materia": "PL 9543/2018",
+   "data": "2024-02-28",
+   "titulo": "Tarifa social de água e esgoto",
+   "resumo": "Criou conta de água mais barata para família de baixa renda, paga pelo conjunto dos outros consumidores.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 325,
+    "nao": 97
+   }
+  },
+  {
+   "id": "2324721-94",
+   "materia": "PL 1366/2022",
+   "data": "2024-05-08",
+   "titulo": "Silvicultura fora da lista de atividade poluidora",
+   "resumo": "Tirou o plantio de florestas para corte da lista de atividades que precisam de controle ambiental.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 2
+   },
+   "placar": {
+    "sim": 309,
+    "nao": 131
+   }
+  },
+  {
+   "id": "2349493-82",
+   "materia": "PL 709/2023",
+   "data": "2024-05-21",
+   "titulo": "Punições a quem ocupa propriedade alheia",
+   "resumo": "Quem participa de invasão de terra ou de prédio passa a ficar impedido de receber alguns benefícios do governo.",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 336,
+    "nao": 120
+   }
+  },
+  {
+   "id": "2422697-69",
+   "materia": "PL 914/2024",
+   "data": "2024-05-28",
+   "titulo": "Multa para quem vende carro sem assumir metas de emissão",
+   "resumo": "Manteve no texto a multa de 20% sobre a venda para a montadora ou a importadora que colocar carro novo no mercado sem registrar os compromissos de eficiência e de emissão.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": -1
+   },
+   "placar": {
+    "sim": 266,
+    "nao": 139
+   },
+   "dispositivo_destacado": "Art. 5º do texto do Programa Mover: a importação ou comercialização de veículos sem o registro dos compromissos do art. 2º acarreta multa compensatória de 20% sobre a receita da venda; em veículo importado, a multa incide na nacionalização.",
+   "fonte_do_dispositivo": "Redação Final do PL 914-A/2024 (codteor 2430982), aprovada na mesma sessão. O substitutivo votado (codteor 2430563) é PDF sem camada de texto."
+  },
+  {
+   "id": "2497993-33",
+   "materia": "PL 1708/2025",
+   "data": "2025-05-26",
+   "titulo": "Expansão do Banco do Nordeste",
+   "resumo": "Autorizou um banco do governo a criar empresas próprias para atuar em novos negócios.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 289,
+    "nao": 136
+   }
+  },
+  {
+   "id": "2233324-100",
+   "materia": "PL 6366/2019",
+   "data": "2025-05-26",
+   "titulo": "Dia das defensoras e defensores de direitos humanos",
+   "resumo": "Criou uma data nacional em homenagem a quem trabalha com direitos humanos.",
+   "vetor": {
+    "eco": 0,
+    "soc": -2,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 231,
+    "nao": 202
+   }
+  },
+  {
+   "id": "2471177-56",
+   "materia": "PL 4497/2024",
+   "data": "2025-06-10",
+   "titulo": "Títulos de terra na faixa de fronteira",
+   "resumo": "Validou registros de terras públicas vendidas ou cedidas perto da fronteira cuja titulação era questionada.",
+   "vetor": {
+    "eco": 2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 1
+   },
+   "placar": {
+    "sim": 328,
+    "nao": 100
+   }
+  },
+  {
+   "id": "264726-144",
+   "materia": "PL 2876/2025",
+   "data": "2025-06-11",
+   "titulo": "Aumento da pena por disparo de arma de fogo",
+   "resumo": "Aumentou a pena de prisão de quem atira com arma de fogo em lugar público, ainda mais se a arma for de uso restrito.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 2,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 273,
+    "nao": 153
+   }
+  },
+  {
+   "id": "2252295-130",
+   "materia": "PL 2583/2020",
+   "data": "2025-07-08",
+   "titulo": "Compra pública reservada a fabricante brasileiro de saúde",
+   "resumo": "Manteve no texto a regra que deixa o governo abrir licitação só para remédio, equipamento e insumo feitos por empresa brasileira considerada estratégica para a saúde.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 2,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 316,
+    "nao": 110
+   },
+   "dispositivo_destacado": "Art. 26 do substitutivo: a Administração Pública poderá realizar procedimento licitatório destinado exclusivamente à aquisição de produto estratégico para a saúde produzido ou desenvolvido por empresa estratégica de saúde.",
+   "fonte_do_dispositivo": "Substitutivo votado (codteor 2951335), lido diretamente."
+  },
+  {
+   "id": "257161-483",
+   "materia": "PL 2159/2021",
+   "data": "2025-07-16",
+   "titulo": "Lei geral do licenciamento ambiental",
+   "resumo": "Simplificou a licença ambiental: muitas obras passam a poder ser liberadas com autodeclaração, sem análise prévia.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 3
+   },
+   "placar": {
+    "sim": 231,
+    "nao": 87
+   },
+   "conferido": "extração validada: PT 42 não, PSOL 9 não + 1 obstrução, PL 66 sim, NOVO 4 sim"
+  },
+  {
+   "id": "2279186-104",
+   "materia": "PL 458/2021",
+   "data": "2025-10-29",
+   "titulo": "Fechamento de brechas no abatimento de impostos",
+   "resumo": "Manteve no texto a regra que impede a empresa de abater imposto usando crédito baseado em documento que não existe ou crédito sem ligação com o que ela faz.",
+   "vetor": {
+    "eco": -2,
+    "soc": 0,
+    "pod": 0,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 293,
+    "nao": 143
+   },
+   "dispositivo_destacado": "Art. 37 do substitutivo: altera o art. 74, § 12, II, da Lei 9.430/1996 para acrescentar hipóteses de compensação não declarada — crédito decorrente de pagamento indevido com base em documento de arrecadação inexistente, e crédito de PIS/Cofins não cumulativo sem relação com a atividade econômica do contribuinte.",
+   "fonte_do_dispositivo": "Substitutivo votado (codteor 3034350), lido diretamente."
+  },
+  {
+   "id": "2157806-137",
+   "materia": "PL 8889/2017",
+   "data": "2025-11-04",
+   "titulo": "Regras para o streaming estrangeiro",
+   "resumo": "Impôs regras e cobrança às plataformas de vídeo de fora do país, com espaço obrigatório para produção brasileira.",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 2,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 330,
+    "nao": 118
+   }
+  },
+  {
+   "id": "2482078-57",
+   "materia": "PDL 3/2025",
+   "data": "2025-11-05",
+   "titulo": "Derrubada da resolução do Conanda",
+   "resumo": "O Congresso derrubou uma norma do conselho nacional que tratava do atendimento a crianças e adolescentes vítimas de violência sexual.",
+   "vetor": {
+    "eco": 0,
+    "soc": 2,
+    "pod": 1,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 317,
+    "nao": 111
+   }
+  },
+  {
+   "id": "2579832-62",
+   "materia": "PL 5582/2025",
+   "data": "2025-11-18",
+   "titulo": "Pacote antifacção",
+   "resumo": "Aumentou penas para quem participa de facção criminosa e ampliou os poderes de investigação da polícia.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 3,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 370,
+    "nao": 110
+   }
+  },
+  {
+   "id": "2358548-81",
+   "materia": "PL 2162/2023",
+   "data": "2025-12-09",
+   "titulo": "Penas dos condenados pelo 8 de janeiro",
+   "resumo": "Manteve no texto a regra que abranda o cumprimento de pena de quem foi condenado pelos atos de 8 de janeiro de 2023.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": -2,
+    "sob": 0,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 218,
+    "nao": 136
+   },
+   "sinal": "Destaque do PSB para suprimir o art. 112 da Lei de Execução Penal na redação do substitutivo de anistia; o texto foi mantido. SIM preservou o abrandamento.",
+   "ressalva": "Único item do catálogo cujo sinal depende de interpretação: abrandar pena é menos coerção estatal (pod−), mas o eixo pod inclui expressamente confiança nas instituições, e a matéria é anistia a um ataque à ordem democrática. Pesado +2, não +3, e marcado para a revisão adversarial."
+  },
+  {
+   "id": "2603342-42",
+   "materia": "MSC 112/2026",
+   "data": "2026-02-25",
+   "titulo": "Acordo internacional sobre espécies migratórias",
+   "resumo": "O Brasil assumiu compromissos de um acordo entre países para proteger animais que cruzam fronteiras.",
+   "vetor": {
+    "eco": 0,
+    "soc": 0,
+    "pod": 0,
+    "sob": -2,
+    "amb": -2
+   },
+   "placar": {
+    "sim": 307,
+    "nao": 136
+   }
+  },
+  {
+   "id": "2447259-99",
+   "materia": "PL 2780/2024",
+   "data": "2026-05-06",
+   "titulo": "Controle do governo sobre a mineração estratégica",
+   "resumo": "Manteve no texto a regra que submete a mineração de minerais estratégicos à soberania nacional e exige autorização do governo para vender mineradora ou para empresa estrangeira entrar nesse setor.",
+   "vetor": {
+    "eco": -1,
+    "soc": 0,
+    "pod": 0,
+    "sob": 3,
+    "amb": 0
+   },
+   "placar": {
+    "sim": 343,
+    "nao": 97
+   },
+   "dispositivo_destacado": "§ 2º do art. 3º: as atividades da Política Nacional de Minerais Críticos e Estratégicos subordinam-se aos princípios da soberania nacional e da supremacia do interesse público, com mecanismo de triagem pelo qual o Poder Público homologa mudança de controle societário de titular de direitos minerários, acesso estrangeiro a informação geológica estratégica ou participação relevante de estrangeiro, e contratos internacionais do setor.",
+   "fonte_do_dispositivo": "Redação Final do PL 2.780-A/2024 (codteor 3131056). A Subemenda Substitutiva votada (codteor 3125328) é PDF sem camada de texto."
+  }
+ ],
+ "sobre_o_sinal": {
+  "campo_decisivo": "descUltimaAberturaVotacao. Quando ele descreve a SUBSTÂNCIA do que se votava ('pela manutenção dos efeitos da decisão judicial', 'art. 112 da Lei de Execução Penal', 'na parte que suprime a alteração aprovada por esta Câmara'), o sinal é recuperável mesmo em destaque.",
+  "armadilha_recusada": "Em muitas votações esse campo só informa QUAL PARTIDO pediu o destaque ('DTQ 7: Bloco Fdr PSOL-REDE: Emenda nº 8'). Seria fácil inferir a direção daí — emenda do PSOL puxa para a esquerda — e é exatamente o que não se pode fazer: o instrumento passaria a medir os partidos pela identidade que já lhes atribuímos, e depois encontraria essa identidade de volta nos dados. Toda votação em que só se sabe quem pediu o destaque ficou de fora."
+ },
+ "calibracao": {
+  "nota": "Catálogo de 23 votações após a revisão adversarial (duas fases, 13 e 14/09/2026). Peso por eixo: eco 31,8% (11 votações), soc 12,1% (4 votações), pod 15,2% (5 votações), sob 18,2% (5 votações), amb 22,7% (7 votações).",
+  "piso_por_eixo": "15%",
+  "eixos_com_confianca_reduzida": {
+   "soc": {
+    "peso_no_catalogo": "12,1%",
+    "votacoes": 4,
+    "piso_padrao": "15%",
+    "motivo": "Esta legislatura quase não levou questão de costumes a voto nominal em plenário. Aborto, drogas e identidade de gênero foram resolvidos por urgência, por acordo simbólico ou não chegaram ao plenário. É um fato sobre a Câmara desta legislatura, não uma falha de busca. Sobraram o marco temporal (componente secundário), a resolução do Conanda, o feriado da Consciência Negra e o dia dos defensores de direitos humanos.",
+    "o_que_o_derrubou": "Perdeu na revisão adversarial as duas votações de armas que a declaração anterior citava como parte do que o sustentava: uma media saneamento e não armas, e a outra trata de pena por disparo e foi para o eixo Poder.",
+    "texto_do_selo": "Nesta legislatura a Câmara quase não votou temas de costumes em votação aberta. Com poucas votações, a posição dos partidos neste eixo é menos firme que nos outros.",
+    "alternativas_descartadas": [
+     "Senado: varridas 423 votações nominais da legislatura, 72 úteis depois dos filtros. Nenhuma de costumes — a pauta nominal do Senado é dominada por matéria tributária e fiscal.",
+     "Aumentar o peso de um item para clarear a barra: seria falsificar o instrumento com a desculpa de validá-lo."
+    ],
+    "efeito_exigido_na_interface": "A ficha do partido e o ranking de alinhamento devem exibir a posição neste eixo com selo de confiança baixa e a frase de texto_do_selo. O eixo NÃO deve ser omitido nem pesar igual aos demais no ranking sem aviso."
+   }
+  },
+  "eixos_no_piso": {
+   "eco": "31,8%",
+   "pod": "15,2%",
+   "sob": "18,2%",
+   "amb": "22,7%"
+  },
+  "observacao_sobre_eco": "O eixo Economia concentra 31,8% do peso. Não é escolha de projeto: as votações nominais de plenário desta legislatura são, em grande parte, matéria tributária e fiscal. A concentração está declarada aqui para que ninguém leia o radar como se os cinco eixos tivessem o mesmo lastro."
+ },
+ "revisao_adversarial": {
+  "data": "2026-09-13",
+  "metodo": "Quatro revisores independentes receberam apenas o registro primário da Câmara (ementa, descrição da votação, objeto do destaque, placar) e as definições dos eixos, e atribuíram os vetores do zero. Não viram os vetores do catálogo nem os resumos. O partido autor de cada destaque foi apagado do texto, pela razão registrada em sobre_o_sinal. Os prompts e as respostas estão em dados/revisao-2j/.",
+  "resultado": "28 votações revisadas: 17 com vetor equivalente, 2 com o sinal corrigido, 5 removidas de vez e 4 recuperadas na segunda fase, depois de lido o dispositivo destacado.",
+  "efeito_medido": "Aplicar estas decisões deslocou a posição dos partidos em 54 pontos no pior eixo de cada um, em média, e até 86 pontos num caso. O catálogo anterior não media o que dizia medir. Rode ferramentas/revisao-2j/simular-correcao.js para reproduzir a comparação.",
+  "licao": "Sete dos nove problemas têm a mesma origem: o vetor foi atribuído ao ASSUNTO DA LEI e não ao que estava efetivamente em votação. Em Destaque para Votação em Separado, o que se vota é um dispositivo, e a regra do catálogo sempre disse isso — mas a regra não foi seguida na hora de atribuir os pesos. Nenhuma votação nova deve entrar sem que o dispositivo em jogo esteja lido e descrito.",
+  "removidas": {
+   "2494408-43": {
+    "materia": "PL 1466/2025",
+    "titulo_antigo": "Novas carreiras de servidor federal",
+    "vetor_antigo": {
+     "eco": -2,
+     "soc": 0,
+     "pod": 0,
+     "sob": 0,
+     "amb": 0
+    },
+    "motivo": "dispositivo lido, não mede nenhum dos cinco eixos",
+    "detalhe": "Transformar cargo efetivo vago em cargo de livre nomeação é matéria de organização da administração pública. Não é mercado contra Estado, não é coerção do Estado sobre o indivíduo, e não é nenhum dos outros três eixos. O catálogo tinha eco -2 por medir a lei (criação de carreiras públicas), quando o dispositivo destacado vai em sentido quase oposto: troca cargo de concurso por cargo de indicação.",
+    "dispositivo_destacado": "Inciso II do art. 193: dos 14.989 cargos efetivos vagos transformados, 1.955 viram cargos em comissão e funções de confiança no Executivo federal.",
+    "fonte_do_dispositivo": "Parecer do relator com o texto do substitutivo (codteor 2915591), lido diretamente."
+   },
+   "2398530-73": {
+    "materia": "PL 5122/2023",
+    "titulo_antigo": "Perdão de dívidas do crédito rural",
+    "vetor_antigo": {
+     "eco": 1,
+     "soc": 0,
+     "pod": 0,
+     "sob": 0,
+     "amb": 2
+    },
+    "motivo": "sinal não recuperável",
+    "detalhe": "Perdão e renegociação de dívidas de crédito rural. O catálogo marcava eco +1 e amb +2; a revisão cega chegou a eco -1 e amb 0. Os dois sinais em eco são defensáveis (o Estado assume custo de dívida privada, mas o beneficiário é o produtor), o que significa que o sinal não é recuperável. O amb +2 não tem base no texto: veio de associar o setor a uma posição ambiental, que é a inferência por identidade que o projeto proíbe."
+   },
+   "2355135-49": {
+    "materia": "PDL 98/2023",
+    "titulo_antigo": "Derrubada do decreto que restringiu armas",
+    "vetor_antigo": {
+     "eco": 0,
+     "soc": 2,
+     "pod": -1,
+     "sob": 0,
+     "amb": 0
+    },
+    "motivo": "assunto errado",
+    "detalhe": "O catálogo descrevia esta votação como a derrubada do decreto que restringiu armas. O PDL 98/2023 susta dispositivos dos Decretos 11.466 e 11.467/2023, que regulamentam o marco legal do SANEAMENTO BÁSICO. Os PDLs de armas de 2023 são outros (3, 12, 13, 15, 16, 17, 18, 20, 25, 39, 47, 79, 187-196). O vetor soc +2 / pod -1 media política de armas e estava colado numa votação de saneamento."
+   },
+   "2270800-175": {
+    "materia": "PEC 3/2021",
+    "titulo_antigo": "PEC da blindagem",
+    "vetor_antigo": {
+     "eco": 0,
+     "soc": 0,
+     "pod": 3,
+     "sob": 0,
+     "amb": 0
+    },
+    "motivo": "não mede o eixo",
+    "detalhe": "A PEC das prerrogativas parlamentares cria privilégio para uma classe de agentes públicos. O eixo Poder é definido por garantias que valem para TODOS (ver eixos.json). A clivagem observável aqui é Legislativo contra Judiciário, que atravessa os campos ideológicos: o item mede corporativismo, não posição sobre o poder de coerção do Estado."
+   },
+   "2423268-40": {
+    "materia": "CMC 1/2024",
+    "titulo_antigo": "Manutenção da prisão de um deputado",
+    "vetor_antigo": {
+     "eco": 0,
+     "soc": 0,
+     "pod": -3,
+     "sob": 0,
+     "amb": 0
+    },
+    "motivo": "caso individual",
+    "detalhe": "Deliberação sobre a prisão de um parlamentar determinado, sem norma geral em votação. O voto mistura julgamento do caso concreto, lealdade partidária e defesa corporativa da imunidade. Mesmo problema do item anterior, e com o agravante de o catálogo ter atribuído pod -3 a um voto que mantém alguém preso."
+   }
+  },
+  "corrigidas": {
+   "2358548-81": {
+    "vetor_novo": {
+     "eco": 0,
+     "soc": 0,
+     "pod": -2,
+     "sob": 0,
+     "amb": 0
+    },
+    "detalhe": "Estava pod +2. O DVS manteve a nova redação do art. 112 da Lei de Execução Penal, que ABRANDA a progressão de regime — o próprio resumo do catálogo dizia \"abranda\" enquanto o vetor apontava para Ordem. Voto pela pena mais branda é o polo Liberdade."
+   },
+   "264726-144": {
+    "vetor_novo": {
+     "eco": 0,
+     "soc": 0,
+     "pod": 2,
+     "sob": 0,
+     "amb": 0
+    },
+    "detalhe": "Estava soc +2 / pod -1, com o resumo dizendo que a lei \"ampliou quem pode andar armado\". O art. 15 do Estatuto do Desarmamento não trata de porte: tipifica o disparo de arma de fogo. A ementa e as palavras-chave da Câmara dizem \"aumento, pena de reclusão, disparo, arma de fogo de uso restrito\". É agravamento de pena, ou seja, polo Ordem — e não é item de costumes."
+   }
+  },
+  "recuperadas": {
+   "2422697-69": {
+    "materia": "PL 914/2024",
+    "vetor_antigo": {
+     "eco": 1,
+     "soc": 0,
+     "pod": 0,
+     "sob": 2,
+     "amb": -1
+    },
+    "vetor_novo": {
+     "eco": -2,
+     "soc": 0,
+     "pod": 0,
+     "sob": 0,
+     "amb": -1
+    },
+    "dispositivo": "Art. 5º do texto do Programa Mover: a importação ou comercialização de veículos sem o registro dos compromissos do art. 2º acarreta multa compensatória de 20% sobre a receita da venda; em veículo importado, a multa incide na nacionalização.",
+    "fonte_do_dispositivo": "Redação Final do PL 914-A/2024 (codteor 2430982), aprovada na mesma sessão. O substitutivo votado (codteor 2430563) é PDF sem camada de texto.",
+    "por_que_este_vetor": "eco -2 porque é o Estado impondo sanção pesada a fabricante e importador para fazer valer obrigação de política industrial. amb -1 porque os compromissos cuja falta se pune são metas de eficiência e emissão, mas o artigo trata do registro, não da meta — componente secundário."
+   },
+   "2252295-130": {
+    "materia": "PL 2583/2020",
+    "vetor_antigo": {
+     "eco": -2,
+     "soc": 0,
+     "pod": 0,
+     "sob": 2,
+     "amb": 0
+    },
+    "vetor_novo": {
+     "eco": -2,
+     "soc": 0,
+     "pod": 0,
+     "sob": 2,
+     "amb": 0
+    },
+    "dispositivo": "Art. 26 do substitutivo: a Administração Pública poderá realizar procedimento licitatório destinado exclusivamente à aquisição de produto estratégico para a saúde produzido ou desenvolvido por empresa estratégica de saúde.",
+    "fonte_do_dispositivo": "Substitutivo votado (codteor 2951335), lido diretamente.",
+    "por_que_este_vetor": "eco -2 porque usa o poder de compra do Estado como política industrial, restringindo a concorrência. sob +2 porque reserva o mercado público à produção nacional. O vetor bate com o que o catálogo já tinha — neste caso o dispositivo destacado carregava mesmo a política da lei inteira."
+   },
+   "2279186-104": {
+    "materia": "PL 458/2021",
+    "vetor_antigo": {
+     "eco": 2,
+     "soc": 0,
+     "pod": 0,
+     "sob": 0,
+     "amb": 0
+    },
+    "vetor_novo": {
+     "eco": -2,
+     "soc": 0,
+     "pod": 0,
+     "sob": 0,
+     "amb": 0
+    },
+    "dispositivo": "Art. 37 do substitutivo: altera o art. 74, § 12, II, da Lei 9.430/1996 para acrescentar hipóteses de compensação não declarada — crédito decorrente de pagamento indevido com base em documento de arrecadação inexistente, e crédito de PIS/Cofins não cumulativo sem relação com a atividade econômica do contribuinte.",
+    "fonte_do_dispositivo": "Substitutivo votado (codteor 3034350), lido diretamente.",
+    "por_que_este_vetor": "eco -2 porque fecha brecha de compensação tributária e reforça a arrecadação sobre a empresa. Atenção: o catálogo tinha eco +2, o sinal oposto, porque media a lei (atualização de patrimônio com alíquota reduzida, favorável ao contribuinte) em vez do dispositivo destacado, que vai na direção contrária."
+   },
+   "2447259-99": {
+    "materia": "PL 2780/2024",
+    "vetor_antigo": {
+     "eco": 0,
+     "soc": 0,
+     "pod": 0,
+     "sob": 2,
+     "amb": 2
+    },
+    "vetor_novo": {
+     "eco": -1,
+     "soc": 0,
+     "pod": 0,
+     "sob": 3,
+     "amb": 0
+    },
+    "dispositivo": "§ 2º do art. 3º: as atividades da Política Nacional de Minerais Críticos e Estratégicos subordinam-se aos princípios da soberania nacional e da supremacia do interesse público, com mecanismo de triagem pelo qual o Poder Público homologa mudança de controle societário de titular de direitos minerários, acesso estrangeiro a informação geológica estratégica ou participação relevante de estrangeiro, e contratos internacionais do setor.",
+    "fonte_do_dispositivo": "Redação Final do PL 2.780-A/2024 (codteor 3131056). A Subemenda Substitutiva votada (codteor 3125328) é PDF sem camada de texto.",
+    "por_que_este_vetor": "sob +3 porque é um regime de triagem de investimento estrangeiro fundado expressamente na soberania nacional, e isso é o núcleo do dispositivo. eco -1 porque o poder público ganha veto sobre negócio privado, componente real mas secundário. O amb +2 que o catálogo trazia não tem base nenhuma neste texto."
+   }
+  },
+  "segunda_fase": {
+   "data": "2026-09-14",
+   "o_que_foi_feito": "Os cinco destaques removidos por \"dispositivo não lido\" foram atrás do texto na Câmara. Quatro voltaram ao catálogo com vetor derivado do dispositivo; um continua fora, agora porque o dispositivo foi lido e não mede nenhum dos cinco eixos.",
+   "obstaculo_tecnico": "Parte dos PDFs da Câmara não tem camada de texto — são imagem, e nem o pdf.js extrai. Nesses casos o dispositivo veio da redação final aprovada na mesma sessão, o que está declarado em fonte_do_dispositivo de cada votação, com o risco de renumeração assumido.",
+   "achado": "Dos quatro recuperados, um confirmou o vetor antigo (saúde), um teve o sinal invertido (o destaque do Rearp fecha brecha tributária, enquanto a lei favorece o contribuinte) e dois trocaram de eixo. Ou seja: ler o dispositivo mudou a resposta em três de quatro casos."
+  }
+ }
+}

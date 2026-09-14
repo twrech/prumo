@@ -1,0 +1,95 @@
+{
+  "2603342-42": {
+    "o_que_o_sim_faz": "SIM aprova o decreto legislativo que referenda um acordo internacional ligado à 15ª Conferência das Partes da Convenção sobre Conservação das Espécies Migratórias, assumindo o compromisso do Brasil com esse tratado de conservação.",
+    "dispositivo_em_jogo": "Projeto de Decreto Legislativo nº 50/2026, que aprova o texto do acordo firmado em Nairóbi em 21/12/2025 relativo à 15ª Reunião da COP da Convenção sobre a Conservação das Espécies Migratórias de Animais Silvestres (CMS).",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": -1, "amb": -2 },
+    "justificativa": {
+      "sob": "Aprovar um instrumento decorrente de convenção multilateral vincula o país a um regime internacional e a decisões tomadas em foro coletivo; aponta para o polo Abertura, com peso baixo porque o registro não permite dizer se o acordo cria obrigações materiais ou apenas operacionais.",
+      "amb": "A matéria é a conservação de espécies migratórias de fauna silvestre, isto é, proteção ambiental como finalidade explícita do texto; aponta para o polo Preservação. Peso 2 e não 3 porque o registro descreve um acordo referente a uma reunião da Conferência das Partes, cujo conteúdo substantivo não está detalhado."
+    },
+    "confianca": "media",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  },
+  "2579832-62": {
+    "o_que_o_sim_faz": "SIM aprova o texto do relator que endurece o combate a organizações criminosas: aumenta penas, amplia hipóteses de tratamento como crime hediondo, alarga medidas de apreensão e constrição de bens e altera regras de prisão e de execução penal.",
+    "dispositivo_em_jogo": "Substitutivo ao PL 5.582/2025, adotado pelo relator da Comissão de Segurança Pública, alterando a Lei 12.850/2013, o Código Penal, o Código de Processo Penal, a Lei dos Crimes Hediondos, a Lei da Prisão Temporária e a Lei de Execução Penal.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": 3, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "pod": "A votação é central e inequivocamente sobre ampliar o poder punitivo do Estado — mais pena, regime mais severo, mais instrumentos de prisão e de constrição patrimonial — em troca de menor margem de garantias processuais e de execução; polo Ordem, peso máximo."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  },
+  "2355135-49": {
+    "o_que_o_sim_faz": "SIM derruba os dispositivos de decretos do Executivo que regulamentaram o marco legal do saneamento, retirando a via pela qual a prestação regionalizada podia ser entregue a empresas estatais sem licitação e pela qual o repasse de recursos federais ficava condicionado por critérios do decreto.",
+    "dispositivo_em_jogo": "Substitutivo ao PDL 98/2023, que susta os §§ 1º, 2º e 3º do art. 1º e o art. 10 do Decreto 11.466/2023 e os §§ 13 a 17 do art. 6º do Decreto 11.467/2023, regulamentos do marco legal do saneamento básico, apontados como criadores de dispensa de licitação na prestação regionalizada.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "Derrubar os dispositivos restabelece a exigência de disputa competitiva para a prestação do serviço e fecha o caminho de contratação direta de empresas públicas; o efeito prático é favorecer a entrada de operadores privados por licitação em vez da reserva de mercado para estatais — polo Mercado, componente forte, embora a votação também tenha uma camada de conflito entre Legislativo e Executivo que não é o objeto medido."
+    },
+    "confianca": "media",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  },
+  "264726-144": {
+    "o_que_o_sim_faz": "SIM aprova o texto do relator que dá nova redação ao art. 15 do Estatuto do Desarmamento, agravando a pena de reclusão para o disparo de arma de fogo, em especial de uso restrito.",
+    "dispositivo_em_jogo": "Subemenda Substitutiva Global ao PL 4.149/2004 (e apensados), adotada pelo relator da CCJC, alterando o art. 15 da Lei 10.826/2003, que tipifica o disparo de arma de fogo, com aumento de pena para arma de uso restrito.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": 2, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "pod": "Pelo que o registro descreve, o núcleo do texto é agravamento de pena para uma conduta já criminalizada, isto é, ampliação da resposta penal do Estado — polo Ordem. Peso 2 e não 3 porque a subemenda substitutiva global não está reproduzida no registro e pode conter dispositivos adicionais sobre posse e porte que deslocariam parte do sinal."
+    },
+    "confianca": "baixa",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  },
+  "2482078-57": {
+    "o_que_o_sim_faz": "SIM derruba a resolução do conselho nacional que fixava o protocolo de atendimento a crianças e adolescentes vítimas de violência sexual, incluindo o acesso ao procedimento de interrupção da gestação já previsto em lei sem exigências adicionais de autorização.",
+    "dispositivo_em_jogo": "PDL 3/2025, que susta integralmente a Resolução 258/2024 do CONANDA, questionada por extrapolar a competência regulamentar do conselho ao disciplinar o atendimento a vítimas de violência sexual nessa faixa etária.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 3, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "soc": "A controvérsia da resolução sustada é o acesso de meninas vítimas de estupro ao procedimento de interrupção da gestação e a dispensa de barreiras prévias para chegar a ele; derrubá-la restringe esse acesso e devolve a decisão ao crivo de autorização externa — polo Conservador, de forma central e inequívoca."
+    },
+    "confianca": "media",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  },
+  "2299903-53": {
+    "o_que_o_sim_faz": "SIM transforma o 20 de novembro, Dia de Zumbi e da Consciência Negra, em feriado nacional, com efeito jurídico de suspensão de atividades em todo o país.",
+    "dispositivo_em_jogo": "PL 3.268/2021, que declara feriado nacional o Dia Nacional de Zumbi e da Consciência Negra.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": -2, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "soc": "Elevar a feriado nacional uma data de memória da população negra e da resistência à escravidão é reconhecimento estatal de pauta de minoria racial e alteração deliberada do calendário tradicional; polo Progressista, componente forte. O custo do dia parado para o setor produtivo foi argumento no debate, mas é efeito colateral e não define o eixo econômico."
+    },
+    "confianca": "media",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  },
+  "2233324-100": {
+    "o_que_o_sim_faz": "SIM mantém no texto a expressão que dá à data o nome de uma vereadora assassinada por sua atuação em direitos humanos, rejeitando a supressão pedida no destaque.",
+    "dispositivo_em_jogo": "Expressão 'Dia Marielle Franco' no art. 1º do substitutivo ao PL 6.366/2019, que institui o Dia Nacional das Defensoras e Defensores de Direitos Humanos. Em jogo apenas a nomeação da data, não a criação da data em si.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": -2, "pod": -1, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "soc": "Manter a homenagem nominal vincula a data a uma figura identificada com a defesa de minorias raciais, de gênero e de periferias; o reconhecimento simbólico dessa agenda aponta para o polo Progressista, componente forte porque é exatamente o conteúdo do dispositivo destacado.",
+      "pod": "A data homenageada é a dos defensores de direitos humanos, campo que se define pela contenção do abuso estatal e pela proteção de quem denuncia violência institucional; componente secundário, no polo Liberdade."
+    },
+    "confianca": "media",
+    "recomendacao": "manter",
+    "motivo_recomendacao": ""
+  }
+}

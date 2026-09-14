@@ -1,0 +1,29 @@
+{
+ "versao": "1.0",
+ "fonte": "API de dados abertos da Câmara dos Deputados, /partidos/{id}, legislatura 57",
+ "pendencia": "O número eleitoral não vem na API da Câmara (campo numeroEleitoral vazio para todos). Precisa ser confirmado no TSE antes de exibir — não foi preenchido de memória.",
+ "partidos": {
+  "AVANTE": { "nome": "Avante", "numero": null },
+  "CIDADANIA": { "nome": "Cidadania", "numero": null },
+  "MDB": { "nome": "Movimento Democrático Brasileiro", "numero": null },
+  "NOVO": { "nome": "Partido Novo", "numero": null },
+  "PATRIOTA": { "nome": "Patriota", "numero": null },
+  "PCdoB": { "nome": "Partido Comunista do Brasil", "numero": null },
+  "PDT": { "nome": "Partido Democrático Trabalhista", "numero": null },
+  "PL": { "nome": "Partido Liberal", "numero": null },
+  "PODE": { "nome": "Podemos", "numero": null },
+  "PP": { "nome": "Progressistas", "numero": null },
+  "PRD": { "nome": "Partido Renovação Democrática", "numero": null },
+  "PSB": { "nome": "Partido Socialista Brasileiro", "numero": null },
+  "PSC": { "nome": "Partido Social Cristão", "numero": null },
+  "PSD": { "nome": "Partido Social Democrático", "numero": null },
+  "PSDB": { "nome": "Partido da Social Democracia Brasileira", "numero": null },
+  "PSOL": { "nome": "Partido Socialismo e Liberdade", "numero": null },
+  "PT": { "nome": "Partido dos Trabalhadores", "numero": null },
+  "PV": { "nome": "Partido Verde", "numero": null },
+  "REDE": { "nome": "Rede Sustentabilidade", "numero": null },
+  "REPUBLICANOS": { "nome": "Republicanos", "numero": null },
+  "SOLIDARIEDADE": { "nome": "Solidariedade", "numero": null },
+  "UNIÃO": { "nome": "União Brasil", "numero": null }
+ }
+}

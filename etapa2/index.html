@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prumo — encarte das legendas</title>
+<meta name="description" content="Onde cada partido brasileiro está, medido pelo que votou na Câmara dos Deputados. Gratuito, anônimo e sem lado.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="../css/prumo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>⚖</text></svg>">
+</head>
+<body>
+
+<div class="envelope">
+
+  <header class="marca">
+    <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+      <line x1="14" y1="2" x2="14" y2="18" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M14 18 L19 26 L9 26 Z" fill="#9c5a24"/>
+      <circle cx="14" cy="2.5" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </svg>
+    <div>
+      <b>Prumo</b>
+      <span>encarte das legendas</span>
+    </div>
+  </header>
+
+  <!-- ===================== GALERIA ===================== -->
+  <main id="tela-galeria">
+    <h1 id="titulo-galeria">Os partidos, pelo que votaram</h1>
+    <p id="intro-galeria">
+      A posição de cada partido aqui não vem do que ele diz sobre si: vem de como
+      a bancada dele votou, uma a uma, nas votações mais importantes desta
+      legislatura na Câmara dos Deputados.
+    </p>
+
+    <div id="caixa-perfil" class="sintese oculto">
+      <p class="rotulo-grande" id="perfil-rotulo"></p>
+      <p class="discreto" id="perfil-detalhe"></p>
+    </div>
+
+    <div class="acoes" id="acoes-galeria">
+      <button class="principal" id="botao-teste">Fazer o teste primeiro</button>
+    </div>
+
+    <p id="aviso-alinhamento" class="oculto" style="background:var(--cobre-fundo);border-radius:var(--raio);padding:1rem 1.1rem"></p>
+
+    <div class="cartoes" id="lista-partidos"></div>
+
+    <section id="secao-sem-posicao" class="oculto">
+      <h2>Sem posição medida</h2>
+      <p class="discreto">
+        Estes partidos faltaram à maior parte das votações do catálogo. Ficar perto
+        do centro por ausência não é o mesmo que ser moderado, então eles não entram
+        na comparação — apareceriam parecidos com todo mundo.
+      </p>
+      <div class="cartoes" id="lista-sem-posicao"></div>
+    </section>
+
+    <p class="discreto" id="nota-dimensao" style="margin-top:2rem"></p>
+  </main>
+
+  <!-- ===================== FICHA ===================== -->
+  <main id="tela-ficha" class="oculto">
+    <button class="discreta" id="botao-voltar-galeria">← Todos os partidos</button>
+
+    <h1 id="ficha-sigla"></h1>
+    <p class="discreto" id="ficha-nome"></p>
+
+    <section class="sintese">
+      <p id="ficha-sintese"></p>
+      <p class="discreto" id="ficha-base"></p>
+    </section>
+
+    <div class="grafico" id="ficha-grafico"></div>
+    <div class="legenda-grafico" id="ficha-legenda"></div>
+
+    <h2>Eixo por eixo</h2>
+    <div class="cartoes" id="ficha-eixos"></div>
+
+    <h2>Como a bancada votou</h2>
+    <p class="discreto">
+      As votações que compõem a posição acima. O resumo de cada uma está em
+      linguagem simples; o placar é o da bancada, não o do plenário.
+    </p>
+    <div id="ficha-votacoes"></div>
+  </main>
+
+</div>
+
+<script type="module" src="js/encarte.js"></script>
+</body>
+</html>

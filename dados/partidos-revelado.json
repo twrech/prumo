@@ -1,0 +1,481 @@
+{
+ "versao": "1.0",
+ "calculado_em": "2026-09-14",
+ "base": "23 votações nominais do plenário da Câmara, legislatura 2023-2027",
+ "metodo": "Ver o cabeçalho de ferramentas/calcular_revelado.js",
+ "eixos_com_confianca_reduzida": {
+  "soc": {
+   "texto_do_selo": "Nesta legislatura a Câmara quase não votou temas de costumes em votação aberta. Com poucas votações, a posição dos partidos neste eixo é menos firme que nos outros.",
+   "peso_no_catalogo": "12,1%",
+   "votacoes": 4
+  }
+ },
+ "bancada_minima": 3,
+ "confianca_minima_para_ranking": 60,
+ "nota_confianca": "Partido com confiança média abaixo deste valor não entra no ranking de alinhamento: sua posição está perto da origem por falta de voto, não por moderação, e perto da origem é perto de todo mundo. Ele aparece em lista à parte, com selo e número de votações. Ver js/alinhamento.js.",
+ "amplitude_por_eixo": {
+  "eco": 200,
+  "soc": 200,
+  "pod": 86,
+  "sob": 37,
+  "amb": 200
+ },
+ "amplitude_minima": 60,
+ "eixos_que_separam_pouco": {
+  "sob": {
+   "amplitude": 37,
+   "texto_do_selo": "Neste eixo os partidos brasileiros quase não se diferenciam: as bancadas votaram parecido tanto nas propostas de um lado quanto nas do outro. A posição aqui separa pouco, e por isso pesa pouco na comparação com você.",
+   "diagnostico": "Amplitude de apenas 37 pontos entre o partido mais extremo de cada lado, contra 200 nos eixos que separam. Não é falta de peso no catálogo — é ausência de divergência partidária. Rode ferramentas/discriminacao.js para ver votação por votação."
+  }
+ },
+ "estrutura_do_espaco": {
+  "correlacao_entre_eixos": {
+   "eco": {
+    "eco": 1,
+    "soc": 0.94,
+    "pod": 0.29,
+    "sob": -0.71,
+    "amb": 0.83
+   },
+   "soc": {
+    "eco": 0.94,
+    "soc": 1,
+    "pod": 0.47,
+    "sob": -0.64,
+    "amb": 0.89
+   },
+   "pod": {
+    "eco": 0.29,
+    "soc": 0.47,
+    "pod": 1,
+    "sob": 0.11,
+    "amb": 0.6
+   },
+   "sob": {
+    "eco": -0.71,
+    "soc": -0.64,
+    "pod": 0.11,
+    "sob": 1,
+    "amb": -0.35
+   },
+   "amb": {
+    "eco": 0.83,
+    "soc": 0.89,
+    "pod": 0.6,
+    "sob": -0.35,
+    "amb": 1
+   }
+  },
+  "fracao_no_primeiro_componente": 0.87,
+  "reta_dos_partidos": {
+   "eco": 0.52,
+   "soc": 0.57,
+   "pod": 0.14,
+   "sob": -0.07,
+   "amb": 0.62
+  },
+  "achado": "Economia, costumes e natureza andam quase juntos nos partidos: quem é pró-Estado também é progressista e preservacionista, e o inverso. Um componente só explica a maior parte da variação, e a reta em que os partidos se organizam é feita basicamente desses três eixos.",
+  "ressalva_pod": "Poder é a exceção: correlaciona 0,40 com economia na conta cheia e -0,65 na conta só com votações de eixo único. Um eixo que troca de sinal assim não tem relação estável com os demais — o que para o instrumento é boa notícia (mede coisa própria), mas desaconselha qualquer leitura do tipo \"a direita é punitivista\". Nesta legislatura, com estas votações, não é.",
+  "verificacao": "Refeito com as votações de eixo único, que não compartilham item nenhum entre eixos, o núcleo da correlação sobrevive — logo ele está nos dados, não na atribuição de vetores. Rode ferramentas/estrutura.js.",
+  "consequencia_para_os_arquetipos": "Os arquétipos NÃO devem ser aproximados dos partidos. Eles descrevem eleitores, e eleitor não é obrigado a caber na reta em que os partidos se organizaram. Colapsá-los sobre essa reta destruiria a informação mais útil do Prumo: a de que uma certa combinação de posições não é oferecida por partido brasileiro nenhum.",
+  "efeito_exigido_na_interface": "A ficha do partido precisa dizer, em uma frase, que nos partidos brasileiros esses eixos andam quase juntos, e que por isso o alinhamento é na prática uma posição só, numa reta da esquerda à direita. Sem isso o radar promete cinco informações independentes que não existem."
+ },
+ "partidos": {
+  "UNIÃO": {
+   "posicao": {
+    "eco": 3,
+    "soc": 22,
+    "pod": 50,
+    "sob": 19,
+    "amb": 63
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 55,
+   "votacoes": 23
+  },
+  "PSD": {
+   "posicao": {
+    "eco": -39,
+    "soc": 1,
+    "pod": 65,
+    "sob": 11,
+    "amb": 49
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 42,
+   "votacoes": 23
+  },
+  "MDB": {
+   "posicao": {
+    "eco": -34,
+    "soc": 8,
+    "pod": 44,
+    "sob": 16,
+    "amb": 56
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 39,
+   "votacoes": 23
+  },
+  "PP": {
+   "posicao": {
+    "eco": -9,
+    "soc": 8,
+    "pod": 45,
+    "sob": 15,
+    "amb": 66
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 48,
+   "votacoes": 23
+  },
+  "REPUBLICANOS": {
+   "posicao": {
+    "eco": -45,
+    "soc": 29,
+    "pod": 55,
+    "sob": 13,
+    "amb": 61
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 40,
+   "votacoes": 23
+  },
+  "PL": {
+   "posicao": {
+    "eco": 80,
+    "soc": 83,
+    "pod": 22,
+    "sob": -8,
+    "amb": 96
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 90,
+   "votacoes": 23
+  },
+  "PSDB": {
+   "posicao": {
+    "eco": -8,
+    "soc": 49,
+    "pod": 54,
+    "sob": 11,
+    "amb": 57
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 17,
+   "votacoes": 23
+  },
+  "PV": {
+   "posicao": {
+    "eco": -100,
+    "soc": -83,
+    "pod": 0,
+    "sob": 17,
+    "amb": -93
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 6,
+   "votacoes": 23
+  },
+  "PATRIOTA": {
+   "posicao": {
+    "eco": -7,
+    "soc": -12,
+    "pod": 0,
+    "sob": -12,
+    "amb": 10
+   },
+   "confianca": {
+    "eco": 24,
+    "soc": 50,
+    "pod": 0,
+    "sob": 25,
+    "amb": 40
+   },
+   "bancada": 4,
+   "votacoes": 6
+  },
+  "PT": {
+   "posicao": {
+    "eco": -99,
+    "soc": -97,
+    "pod": -20,
+    "sob": 17,
+    "amb": -71
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 66,
+   "votacoes": 23
+  },
+  "SOLIDARIEDADE": {
+   "posicao": {
+    "eco": -68,
+    "soc": -58,
+    "pod": 28,
+    "sob": 17,
+    "amb": -29
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 6,
+   "votacoes": 23
+  },
+  "PDT": {
+   "posicao": {
+    "eco": -80,
+    "soc": -70,
+    "pod": 66,
+    "sob": 17,
+    "amb": -56
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 17,
+   "votacoes": 23
+  },
+  "PSB": {
+   "posicao": {
+    "eco": -90,
+    "soc": -80,
+    "pod": 14,
+    "sob": 10,
+    "amb": -70
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 15,
+   "votacoes": 23
+  },
+  "CIDADANIA": {
+   "posicao": {
+    "eco": -2,
+    "soc": 38,
+    "pod": 47,
+    "sob": -11,
+    "amb": -11
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 4,
+   "votacoes": 23
+  },
+  "PCdoB": {
+   "posicao": {
+    "eco": -100,
+    "soc": -100,
+    "pod": -13,
+    "sob": 20,
+    "amb": -97
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 11,
+   "votacoes": 23
+  },
+  "PODE": {
+   "posicao": {
+    "eco": -44,
+    "soc": -14,
+    "pod": 50,
+    "sob": 7,
+    "amb": 35
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 23,
+   "votacoes": 23
+  },
+  "AVANTE": {
+   "posicao": {
+    "eco": -49,
+    "soc": -17,
+    "pod": 29,
+    "sob": 8,
+    "amb": 25
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 7,
+   "votacoes": 23
+  },
+  "NOVO": {
+   "posicao": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 20,
+    "sob": -17,
+    "amb": 100
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 5,
+   "votacoes": 23
+  },
+  "PSOL": {
+   "posicao": {
+    "eco": -98,
+    "soc": -100,
+    "pod": -20,
+    "sob": 14,
+    "amb": -100
+   },
+   "confianca": {
+    "eco": 100,
+    "soc": 100,
+    "pod": 100,
+    "sob": 100,
+    "amb": 100
+   },
+   "bancada": 13,
+   "votacoes": 23
+  },
+  "REDE": {
+   "posicao": {
+    "eco": -81,
+    "soc": -37,
+    "pod": -10,
+    "sob": 0,
+    "amb": -80
+   },
+   "confianca": {
+    "eco": 81,
+    "soc": 38,
+    "pod": 80,
+    "sob": 83,
+    "amb": 80
+   },
+   "bancada": 3,
+   "votacoes": 17
+  },
+  "PRD": {
+   "posicao": {
+    "eco": 21,
+    "soc": 50,
+    "pod": 20,
+    "sob": -17,
+    "amb": 15
+   },
+   "confianca": {
+    "eco": 76,
+    "soc": 50,
+    "pod": 100,
+    "sob": 75,
+    "amb": 60
+   },
+   "bancada": 5,
+   "votacoes": 17
+  },
+  "PSC": {
+   "posicao": {
+    "eco": -3,
+    "soc": 13,
+    "pod": 0,
+    "sob": 0,
+    "amb": 27
+   },
+   "confianca": {
+    "eco": 10,
+    "soc": 13,
+    "pod": 0,
+    "sob": 0,
+    "amb": 40
+   },
+   "bancada": 3,
+   "votacoes": 3
+  }
+ }
+}

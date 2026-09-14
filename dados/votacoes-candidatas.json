@@ -1,0 +1,87 @@
+{
+ "versao": "0.2-rascunho",
+ "nota": "Trabalho em andamento da etapa 2. Levantamento feito na API de dados abertos da Câmara em 13/09/2026, varrendo toda a legislatura 57 (2023-02-01 a 2026-09-13). AINDA SEM VETOR: o eixo indicado é uma hipótese de trabalho; os pesos de −3 a +3 e a conferência de polaridade são o próximo passo, sob o mesmo checklist das perguntas.",
+
+ "levantamento": {
+  "votacoes_nominais_plenario": 887,
+  "substantivas_e_discriminantes": 297,
+  "proposicoes_distintas": 144,
+  "selecionadas_abaixo": 40
+ },
+
+ "criterios": [
+  "Só Plenário da Câmara, só votação nominal (a descrição traz 'Sim: N').",
+  "Fora as procedimentais: requerimento, urgência, adiamento, redação final, preferência, retirada de pauta. Elas medem base aliada contra oposição, não ideologia.",
+  "Fora as quase unânimes: o lado minoritário precisa de pelo menos 15% dos votos sim+não, e o quórum de pelo menos 250. Votação em que todo mundo vota igual não distingue partido nenhum.",
+  "Entre as que sobram na mesma matéria, prefere-se o destaque que isola o ponto em disputa, não a aprovação do texto por acordo."
+ ],
+
+ "quirks_da_api": [
+  "/votacoes aceita no máximo 3 meses entre dataInicio e dataFim, e itens=100 no máximo.",
+  "/votacoes/{id}/votos não aceita paginação nenhuma: devolve todos os votos de uma vez.",
+  "/proposicoes/{id}/votacoes não aceita parâmetro nenhum, nem itens.",
+  "As orientações vêm por bloco ('Bl PlFdrPtUniPp...', 'Governo', 'Oposição'), não por partido: usar os votos nominais agregados."
+ ],
+
+ "selecionadas": [
+  { "id": "2357053-122", "materia": "PLP 93/2023", "rotulo": "arcabouço fiscal", "data": "2023-08-22", "sim": 153, "nao": 270, "eixo_hipotese": "eco" },
+  { "id": "2196833-395", "materia": "PEC 45/2019", "rotulo": "reforma tributária", "data": "2023-07-07", "sim": 307, "nao": 166, "eixo_hipotese": "eco" },
+  { "id": "2430143-72", "materia": "PLP 68/2024", "rotulo": "IBS e CBS — regulamentação do novo imposto", "data": "2024-07-10", "sim": 336, "nao": 142, "eixo_hipotese": "eco" },
+  { "id": "2438459-146", "materia": "PLP 108/2024", "rotulo": "comitê gestor do IBS", "data": "2025-12-16", "sim": 221, "nao": 242, "eixo_hipotese": "eco" },
+  { "id": "2349947-42", "materia": "MPV 1164/2023", "rotulo": "Bolsa Família", "data": "2023-05-30", "sim": 159, "nao": 270, "eixo_hipotese": "eco" },
+  { "id": "2383287-43", "materia": "PL 4173/2023", "rotulo": "tributação de fundos offshore e super-ricos", "data": "2023-10-25", "sim": 323, "nao": 119, "eixo_hipotese": "eco" },
+  { "id": "2350586-73", "materia": "PL 1016/2023", "rotulo": "desoneração da folha", "data": "2023-08-30", "sim": 116, "nao": 325, "eixo_hipotese": "eco" },
+  { "id": "2355104-126", "materia": "PL 1663/2023", "rotulo": "revogação de dispositivos da CLT", "data": "2025-06-10", "sim": 318, "nao": 116, "eixo_hipotese": "eco" },
+  { "id": "2454495-171", "materia": "PEC 66/2023", "rotulo": "precatórios e dívida dos municípios", "data": "2025-07-15", "sim": 342, "nao": 126, "eixo_hipotese": "eco" },
+  { "id": "2309053-179", "materia": "PL 4188/2021", "rotulo": "marco legal das garantias de crédito", "data": "2023-10-03", "sim": 159, "nao": 251, "eixo_hipotese": "eco" },
+  { "id": "2234260-164", "materia": "PL 6461/2019", "rotulo": "Estatuto do Aprendiz", "data": "2026-04-22", "sim": 252, "nao": 161, "eixo_hipotese": "eco" },
+
+  { "id": "345311-276", "materia": "PL 490/2007", "rotulo": "marco temporal das terras indígenas", "data": "2023-05-30", "sim": 288, "nao": 148, "eixo_hipotese": "amb/soc" },
+  { "id": "2345368-78", "materia": "MPV 1150/2022", "rotulo": "prazo da Mata Atlântica no Código Florestal", "data": "2023-05-24", "sim": 66, "nao": 364, "eixo_hipotese": "amb" },
+  { "id": "257161-483", "materia": "PL 2159/2021", "rotulo": "lei geral do licenciamento ambiental", "data": "2025-07-16", "sim": 231, "nao": 87, "eixo_hipotese": "amb",
+    "conferido": "extração completa validada: PT 42 não, PSOL 9 não + 1 obstrução, PL 66 sim, NOVO 4 sim" },
+  { "id": "2238434-99", "materia": "PL 528/2020", "rotulo": "combustível do futuro", "data": "2024-03-13", "sim": 152, "nao": 279, "eixo_hipotese": "amb/eco" },
+  { "id": "1548579-144", "materia": "PL 2148/2015", "rotulo": "mercado regulado de carbono", "data": "2023-12-21", "sim": 301, "nao": 81, "eixo_hipotese": "amb" },
+  { "id": "2269745-93", "materia": "PL 327/2021", "rotulo": "política de transição energética", "data": "2024-03-20", "sim": 306, "nao": 121, "eixo_hipotese": "amb/eco" },
+  { "id": "106701-227", "materia": "PL 5809/2025", "rotulo": "mudança na lei de crimes ambientais", "data": "2025-11-05", "sim": 269, "nao": 154, "eixo_hipotese": "amb" },
+  { "id": "545304-154", "materia": "PL 3899/2012", "rotulo": "produção e consumo sustentáveis", "data": "2025-10-29", "sim": 173, "nao": 238, "eixo_hipotese": "amb" },
+  { "id": "2398530-73", "materia": "PL 5122/2023", "rotulo": "anistia de dívidas do crédito rural", "data": "2025-07-16", "sim": 346, "nao": 93, "eixo_hipotese": "eco/amb" },
+  { "id": "2344909-63", "materia": "PL 2757/2022", "rotulo": "regularização fundiária na Amazônia", "data": "2023-11-07", "sim": 311, "nao": 107, "eixo_hipotese": "amb/eco" },
+
+  { "id": "2270800-175", "materia": "PEC 3/2021", "rotulo": "PEC da blindagem", "data": "2025-09-17", "sim": 314, "nao": 168, "eixo_hipotese": "pod" },
+  { "id": "2358548-81", "materia": "PL 2162/2023", "rotulo": "dosimetria das penas do 8 de janeiro", "data": "2025-12-09", "sim": 218, "nao": 136, "eixo_hipotese": "pod" },
+  { "id": "2579832-95", "materia": "PL 5582/2025", "rotulo": "pacote antifacção", "data": "2025-11-18", "sim": 142, "nao": 298, "eixo_hipotese": "pod" },
+  { "id": "2423268-40", "materia": "CMC 1/2024", "rotulo": "manutenção da prisão de deputado (art. 53 §2º)", "data": "2024-04-10", "sim": 277, "nao": 129, "eixo_hipotese": "pod" },
+  { "id": "2355135-49", "materia": "PDL 98/2023", "rotulo": "sustação do decreto que restringiu armas", "data": "2023-05-03", "sim": 295, "nao": 136, "eixo_hipotese": "pod/soc" },
+  { "id": "264726-144", "materia": "PL 2876/2025", "rotulo": "posse e porte de arma (art. 15 do Estatuto do Desarmamento)", "data": "2025-06-11", "sim": 273, "nao": 153, "eixo_hipotese": "soc/pod" },
+  { "id": "2387066-63", "materia": "PL 4438/2023", "rotulo": "novo Código Eleitoral", "data": "2023-09-13", "sim": 367, "nao": 86, "eixo_hipotese": "pod" },
+  { "id": "2349493-82", "materia": "PL 709/2023", "rotulo": "impedimentos a ocupantes e invasores de propriedade", "data": "2024-05-21", "sim": 336, "nao": 120, "eixo_hipotese": "pod/eco" },
+
+  { "id": "2374400-121", "materia": "PL 3626/2023", "rotulo": "regulamentação das apostas (bets)", "data": "2023-12-21", "sim": 120, "nao": 261, "eixo_hipotese": "soc/eco" },
+  { "id": "2299903-53", "materia": "PL 3268/2021", "rotulo": "feriado nacional da Consciência Negra", "data": "2023-11-29", "sim": 286, "nao": 121, "eixo_hipotese": "soc" },
+  { "id": "2399598-108", "materia": "PL 5230/2023", "rotulo": "mudança nas diretrizes da educação (LDB)", "data": "2024-07-09", "sim": 126, "nao": 302, "eixo_hipotese": "soc" },
+  { "id": "2462009-73", "materia": "PL 3880/2024", "rotulo": "ampliação da Lei Maria da Penha", "data": "2026-03-18", "sim": 152, "nao": 254, "eixo_hipotese": "soc" },
+  { "id": "2125189-176", "materia": "PL 7082/2017", "rotulo": "pesquisa clínica com seres humanos", "data": "2023-11-29", "sim": 305, "nao": 101, "eixo_hipotese": "soc" },
+
+  { "id": "2149303-50", "materia": "PDC 745/2017", "rotulo": "adesão da Bolívia ao Mercosul", "data": "2023-10-18", "sim": 323, "nao": 98, "eixo_hipotese": "sob" },
+  { "id": "2422697-69", "materia": "PL 914/2024", "rotulo": "Programa Mover e taxação das compras internacionais", "data": "2024-05-28", "sim": 266, "nao": 139, "eixo_hipotese": "sob/eco" },
+  { "id": "2157806-137", "materia": "PL 8889/2017", "rotulo": "regulação do streaming estrangeiro (CAvD)", "data": "2025-11-04", "sim": 330, "nao": 118, "eixo_hipotese": "sob/eco" },
+  { "id": "2447259-99", "materia": "PL 2780/2024", "rotulo": "política nacional de minerais críticos", "data": "2026-05-06", "sim": 343, "nao": 97, "eixo_hipotese": "sob/amb" },
+  { "id": "2543171-49", "materia": "PL 6139/2023", "rotulo": "apoio oficial ao crédito à exportação", "data": "2026-03-02", "sim": 340, "nao": 108, "eixo_hipotese": "sob/eco" },
+  { "id": "2603342-42", "materia": "MSC 112/2026", "rotulo": "acordo internacional sobre espécies migratórias", "data": "2026-02-25", "sim": 307, "nao": 136, "eixo_hipotese": "sob/amb" }
+ ],
+
+ "descartadas": [
+  { "materia": "PEC 18/2025", "rotulo": "PEC da segurança pública", "motivo": "quase unânime: 461 a 14 no segundo turno." },
+  { "materia": "PL 1087/2025", "rotulo": "isenção do IR até R$ 5 mil", "motivo": "aprovada sem divergência relevante. Assunto grande no noticiário, poder de discriminação nulo." },
+  { "materia": "PL 2088/2023", "rotulo": "lei da reciprocidade econômica", "motivo": "nenhuma votação nominal substantiva no plenário." },
+  { "materia": "PL 2628/2022", "rotulo": "proteção de crianças na internet", "motivo": "sem votação nominal registrada no plenário." }
+ ],
+
+ "pendencias": [
+  "Atribuir vetor de −3 a +3 por eixo a cada votação, sob o checklist da seção 7 da spec principal.",
+  "Conferir a polaridade por eixo entre 40% e 60% e o peso mínimo de 15% por eixo, como em validar.js.",
+  "Ler a ementa completa e o contexto de cada matéria antes de fixar o sinal: em várias delas o SIM aprova um destaque supressivo, e o sinal se inverte.",
+  "Escrever o resumo em linguagem simples de cada votação."
+ ]
+}

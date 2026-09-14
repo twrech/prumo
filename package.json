@@ -1,0 +1,12 @@
+{
+  "name": "prumo",
+  "version": "1.0.0",
+  "description": "Prumo — perfil político em cinco eixos. Site estático, sem servidor e sem rastreamento.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node testes/motor.test.js",
+    "validar": "node ferramentas/validar.js",
+    "simular": "node ferramentas/simular.js"
+  }
+}

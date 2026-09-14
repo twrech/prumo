@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prumo — seu perfil político</title>
+<meta name="description" content="Descubra seu posicionamento político em cinco eixos respondendo sim, não ou pular. Gratuito, anônimo e sem lado.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="css/prumo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>⚖</text></svg>">
+</head>
+<body>
+
+<div class="envelope">
+
+  <header class="marca">
+    <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+      <line x1="14" y1="2" x2="14" y2="18" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M14 18 L19 26 L9 26 Z" fill="#9c5a24"/>
+      <circle cx="14" cy="2.5" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </svg>
+    <div>
+      <b>Prumo</b>
+      <span>seu perfil político</span>
+    </div>
+  </header>
+
+  <!-- ===================== ABERTURA ===================== -->
+  <main id="tela-abertura">
+    <h1>Onde você está, de verdade?</h1>
+    <p>
+      Um prumo é a ferramenta que o pedreiro usa para achar a vertical. Este aqui
+      faz o mesmo com a sua opinião: você responde <b>sim</b>, <b>não</b> ou
+      <b>pular</b> para uma pergunta por vez, e no fim vê sua posição em cinco
+      eixos — economia, costumes, poder, soberania e ambiente.
+    </p>
+
+    <ul class="garantias">
+      <li><span class="selo" aria-hidden="true">●</span><div><b>Anônimo de verdade</b><span class="discreto"> — suas respostas nunca saem do seu aparelho. Sem cadastro, sem cookies, sem rastreamento. Fechou a página, sumiu tudo.</span></div></li>
+      <li><span class="selo" aria-hidden="true">●</span><div><b>Sem lado</b><span class="discreto"> — cada pergunta passa por uma revisão para não puxar para a esquerda nem para a direita. A conta é a mesma para todo mundo, e está explicada.</span></div></li>
+      <li><span class="selo" aria-hidden="true">●</span><div><b>De graça</b><span class="discreto"> — e sem anúncio.</span></div></li>
+    </ul>
+
+    <p class="discreto" id="resumo-banco">Carregando as perguntas…</p>
+
+    <div class="acoes">
+      <button class="principal" id="botao-comecar" disabled>Começar</button>
+      <button class="discreta" id="botao-como">Como funciona</button>
+    </div>
+  </main>
+
+  <!-- ===================== PERGUNTAS ===================== -->
+  <main id="tela-perguntas" class="oculto">
+    <div class="barra"><i id="progresso" style="width:0%"></i></div>
+    <p class="discreto" id="contador">Pergunta 1 de 114</p>
+
+    <div class="cartao-pergunta">
+      <p class="enunciado" id="enunciado"></p>
+      <p class="contexto oculto" id="contexto"></p>
+    </div>
+
+    <div class="respostas">
+      <button class="sim" id="botao-sim">Sim</button>
+      <button class="nao" id="botao-nao">Não</button>
+      <button class="pular" id="botao-pular">Pular</button>
+    </div>
+
+    <div class="rodape-pergunta">
+      <button class="discreta" id="botao-voltar">← Voltar</button>
+      <button class="discreta" id="botao-terminar">Ver meu resultado agora</button>
+    </div>
+  </main>
+
+  <!-- ===================== RESULTADO ===================== -->
+  <main id="tela-resultado" class="oculto">
+    <h1>Seu prumo</h1>
+
+    <section class="sintese">
+      <p class="rotulo-grande" id="rotulo"></p>
+      <p id="sintese-texto"></p>
+      <p class="discreto" id="sintese-confianca"></p>
+    </section>
+
+    <div class="grafico" id="grafico"></div>
+    <div class="legenda-grafico">
+      <span><i></i> sua posição</span>
+      <span><i class="faixa"></i> margem de dúvida (perguntas puladas)</span>
+    </div>
+
+    <h2>Eixo por eixo</h2>
+    <div class="cartoes" id="cartoes"></div>
+
+    <section class="caixa-ia">
+      <label>
+        <input type="checkbox" id="ia-ligar">
+        Explicar meu resultado com IA (opcional)
+      </label>
+      <div id="ia-campos" class="oculto">
+        <input type="password" id="ia-chave" placeholder="Cole aqui sua chave da API da Anthropic" autocomplete="off" spellcheck="false">
+        <p class="aviso">
+          A chave é sua e fica só na memória desta aba: some quando você fechar a página,
+          e nunca é gravada nem enviada para este site. Vai direto do seu navegador para a
+          Anthropic, junto apenas com as cinco posições — <b>nunca com suas respostas</b>.
+          A IA só redige o texto: ela não muda nenhum número, nem o seu rótulo.
+        </p>
+        <button id="ia-gerar">Gerar explicação</button>
+        <div class="texto-ia oculto" id="ia-texto"></div>
+      </div>
+    </section>
+
+    <div class="acoes">
+      <button class="principal" id="botao-pdf">Baixar minha colinha (PDF)</button>
+      <button id="botao-etapa2">Ir para os partidos</button>
+      <button class="discreta" id="botao-refazer">Refazer</button>
+    </div>
+
+    <p class="discreto">
+      Seu código de perfil é <span class="codigo-perfil" id="codigo-perfil"></span>.
+      Ele guarda só as suas cinco posições, nunca as respostas, e serve para levar
+      o resultado às próximas etapas. Anote se quiser voltar depois.
+    </p>
+  </main>
+
+  <!-- ===================== COMO FUNCIONA ===================== -->
+  <dialog id="dialogo-como">
+    <div class="corpo">
+      <h2>Como funciona</h2>
+      <p>
+        Cada pergunta vale pontos em um ou mais dos cinco eixos, com pesos diferentes.
+        Responder <b>sim</b> soma esses pontos; responder <b>não</b> subtrai.
+      </p>
+      <p>
+        <b>Pular</b> conta pouco: vale 30% dos pontos, na direção de como as coisas
+        são hoje no Brasil. A ideia é que quem não tem opinião formada tende a
+        acompanhar o que já está posto. Pular também diminui a certeza daquele eixo —
+        por isso o resultado mostra quanto cada posição sua é firme.
+      </p>
+      <p>
+        No fim, cada eixo vira um número de −100% a +100%, e a combinação dos cinco
+        é comparada com dez perfis típicos. O mais parecido vira seu rótulo.
+      </p>
+      <h3>Por que confiar</h3>
+      <ul>
+        <li>Nenhuma pergunta cita nome de político vivo nem de partido.</li>
+        <li>Em cada eixo, o "sim" puxa para um lado em metade do peso e para o outro na outra metade, para não premiar quem responde sempre igual.</li>
+        <li>A ordem das perguntas muda a cada sessão.</li>
+        <li>O código e o banco de perguntas são abertos: dá para conferir cada peso.</li>
+      </ul>
+      <h3>O que acontece com suas respostas</h3>
+      <p>
+        Nada. Elas existem só na memória desta aba, e o site não tem servidor para
+        onde mandá-las. O PDF e o código de perfil levam apenas as posições
+        finais — a partir deles ninguém consegue reconstruir o que você respondeu.
+      </p>
+      <div class="acoes"><button class="principal" id="fechar-como">Entendi</button></div>
+    </div>
+  </dialog>
+
+  <p class="discreto" style="margin-top:3rem">
+    Prumo é software livre. Código e metodologia em
+    <a href="https://github.com/twrech/prumo">github.com/twrech/prumo</a>.
+  </p>
+
+</div>
+
+<script type="module" src="js/ui.js"></script>
+</body>
+</html>

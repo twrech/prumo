@@ -124,6 +124,26 @@ Coordenadas iniciais (provisórias; **a fonte da verdade é `dados/arquetipos.js
 
 Regra: se `intensidade < 15%`, o rótulo é "Centrista" independentemente do arquétipo mais próximo.
 
+**Ganho de rótulo (decisão de 13/09/2026).** A simulação com respondentes
+sintéticos realistas mostrou que o vetor recuperado sai comprimido em ~⅔ em
+relação às coordenadas dos arquétipos, e na mesma proporção nos cinco eixos
+(inclinações de 0,64 a 0,69). A causa é estrutural: em itens multieixo a
+concordância do respondente é a média ponderada dos eixos afetados, o que dilui
+cada eixo isoladamente. Em consequência, os arquétipos de coordenada alta
+ficavam fora do alcance prático e quem pertencia a eles caía no vizinho
+moderado.
+
+Correção adotada: a posição é multiplicada por `config.ganho_rotulo` **antes**
+de comparar com os arquétipos, e só para isso. A posição exibida ao usuário, a
+confiança, a intensidade e o código de perfil não mudam. Valor em vigor: **1,5**
+(o ótimo é chato entre 1,4 e 1,6). Efeito medido, com 500 respondentes por
+arquétipo e 8% de ruído: acerto do rótulo em 1º lugar sobe de 71,5% para 86,3%,
+e em 1º ou 2º de 94,4% para 97,6%.
+
+Esse ganho é uma correção de escala provisória. Quando os partidos forem
+posicionados na etapa 2 e as coordenadas dos arquétipos forem revalidadas
+contra o espaço real, reavaliar se ele ainda é necessário.
+
 ### 4.7 Ordem das perguntas
 - Cada pergunta tem `nivel ∈ {1, 2, 3}` (fácil, médio, difícil).
 - Apresentação: bloco 1 inteiro, depois bloco 2, depois bloco 3 — **embaralhado dentro de cada bloco** a cada sessão. Isso escalona a dificuldade e impede que o respondente perceba qual eixo está sendo medido.
@@ -329,6 +349,32 @@ Estimativa em turnos (não em créditos, que não são visíveis ao modelo): 1b 
 | 09/09/2026 | Banco revisado (v1.1, 113 itens); regras 'sem continuar/voltar/manter' e 'sem nome-gatilho' em 7.1; `validar.js` deve checar ambas | Claude |
 | 09/09/2026 | Simulação: todos os arquétipos alcançáveis ≥94%; social-democrata e conservador reposicionados; 6 itens adicionados para desacoplar amb de eco e pod de eco | Claude |
 | 09/09/2026 | Status quo de todos os 113 itens conferido em fontes primárias; banco v1.2, zero pendências. Reformulados q010 (imposto sobre grandes fortunas), q063 (livre comércio genérico), q079 (maconha) para não envelhecerem | Claude |
+| 13/09/2026 | Ganho de rótulo `config.ganho_rotulo = 1,5`, aplicado só na comparação com arquétipos (ver 4.6). Motivo: compressão uniforme de ⅔ medida na simulação | Claude, por delegação expressa do Talyz |
+| 13/09/2026 | Item q114 (câmera corporal em policial, `pod` −3) acrescentado para tirar o eixo `pod` dos 60,2% de polaridade; banco passa a v1.3 com 114 itens | Claude, por delegação expressa do Talyz |
+| 13/09/2026 | Respondente sintético passa a ser probabilístico (SIM com probabilidade (1+a)/2, a = concordância latente). O modo determinístico anterior descreve um fanático e dava arquétipos moderados como inalcançáveis | Claude |
+| 13/09/2026 | Etapa 2: a regra de polaridade 40–60% NÃO se aplica ao catálogo de votações. Partido não tem viés de concordância; o que se confere é peso mínimo por eixo | Claude, por delegação |
+| 13/09/2026 | Etapa 2: só entram votações cujo sinal é recuperável — pela descrição ou por descUltimaAberturaVotacao. Recusado o atalho de inferir a direção pelo partido que pediu o destaque, por ser circular | Claude, por delegação |
+| 13/09/2026 | Eixo `soc` assumido com confiança reduzida no catálogo de votações (14,6%): a legislatura quase não votou costumes nominalmente. Interface obrigada a exibir o selo | Talyz |
+| 13/09/2026 | Alinhamento (seção 6 da spec da etapa 2) passa de distância euclidiana para similaridade de direção (cosseno). Motivo: os vetores da pessoa e do partido vivem em escalas diferentes, e tanto a distância crua quanto a correção por ganho produziam viés — primeiro para o centro, depois para o extremo | Talyz |
+| 13/09/2026 | Partido com confiança média abaixo de 60% sai do ranking e vai para lista à parte com selo. Motivo: quem falta a votação fica perto da origem e casava com arquétipos opostos | Talyz |
+| 13/09/2026 | Ranking exibe aviso quando a pessoa está no centro (intensidade < 12) ou quando nem o topo passa de 70 de alinhamento — há perfis sem partido correspondente no Brasil | Claude, por delegação |
+| 13/09/2026 | Arquétipos NÃO serão aproximados dos partidos, apesar da previsão de revalidação na seção 4.6. Motivo: os partidos são quase unidimensionais (89% da variação num componente; 74% mesmo usando só votações de eixo único) e os eleitores não. Aproximar destruiria a capacidade de dizer que um perfil não tem partido correspondente | Talyz |
+| 13/09/2026 | A ficha do partido é obrigada a informar que, nos partidos brasileiros, os cinco eixos andam quase juntos — o radar sugere cinco informações independentes que não existem | Claude, por delegação |
+| 13/09/2026 | **Item 2j executado: revisão adversarial cega dos vetores do catálogo.** Quatro revisores independentes receberam só o registro primário da Câmara (ementa, descrição da votação, objeto do destaque, placar) e as definições dos eixos, sem ver os vetores nem os resumos, e atribuíram tudo do zero. O partido autor de cada destaque foi apagado do texto. Prompts e respostas em `dados/revisao-2j/` | Talyz |
+| 13/09/2026 | Catálogo da etapa 2 cai de 28 para 19 votações. Saíram 9: cinco destaques cujo dispositivo nunca foi lido (o vetor era o da lei inteira), duas que medem Legislativo × Judiciário e não o eixo Poder, uma com o assunto errado (PDL 98/2023 é saneamento básico, estava descrito como o decreto das armas) e uma sem sinal recuperável | Claude, por delegação expressa do Talyz |
+| 13/09/2026 | Dois vetores com o sinal corrigido: 8 de janeiro (o art. 112 da LEP abranda a pena, logo `pod` −2, estava +2) e art. 15 do Estatuto do Desarmamento (é pena por disparo, não porte, logo `pod` +2, estava `soc` +2 / `pod` −1) | Claude, por delegação |
+| 13/09/2026 | Efeito medido da revisão: a posição dos partidos se deslocou 54 pontos no pior eixo de cada um, em média, e até 86 pontos num caso. O catálogo anterior não media o que dizia medir | — |
+| 13/09/2026 | Regra nova, decorrente da revisão: nenhuma votação entra no catálogo sem que o dispositivo efetivamente em votação esteja lido e descrito. Em destaque, o que se vota é o dispositivo, não a lei | Talyz |
+| 13/09/2026 | Eixo `sob` passa a ser declarado com confiança reduzida (13,2%, três votações) ao lado de `soc` (15,1%). O `soc` continua declarado mesmo acima do piso porque subiu por encolhimento do catálogo, não por votação nova. Selo por eixo, com texto próprio | Claude, por delegação |
+| 13/09/2026 | Números de dimensionalidade atualizados: um componente explica 87% (75% só com votações de eixo único), e o `pod` deixa de acompanhar os demais (0,40 com `eco` na conta cheia, −0,65 na restrita). A decisão de não aproximar os arquétipos dos partidos permanece | Claude, por delegação |
+| 14/09/2026 | **Segunda fase do item 2j.** Os cinco destaques removidos por "dispositivo não lido" foram atrás do texto na Câmara. Quatro voltaram ao catálogo, que sobe de 19 para 23 votações, com vetor derivado do dispositivo destacado e não do assunto da lei | Talyz |
+| 14/09/2026 | Ler o dispositivo mudou a resposta em três dos quatro casos recuperados: Mover passa de `eco +1 sob +2 amb −1` para `eco −2 amb −1`; Rearp inverte de `eco +2` para `eco −2` (a lei favorece o contribuinte, o artigo destacado fecha brecha de compensação); minerais críticos passa de `sob +2 amb +2` para `eco −1 sob +3`. Só a Estratégia Nacional de Saúde confirmou o vetor antigo | Claude, por delegação |
+| 14/09/2026 | O inciso II do art. 193 do PL 1466/2025 continua fora, agora por motivo lido: transforma 1.955 cargos efetivos vagos em cargos em comissão, matéria de organização administrativa que não mede nenhum dos cinco eixos | Claude, por delegação |
+| 14/09/2026 | Limite técnico registrado: parte dos PDFs da Câmara não tem camada de texto (são imagem). Em duas votações o dispositivo veio da redação final aprovada na mesma sessão, e não do substitutivo votado; o risco de renumeração fica declarado em `fonte_do_dispositivo` de cada votação | — |
+| 14/09/2026 | **Regra nova: peso no catálogo não é poder de separação.** As duas votações recuperadas em `sob` aumentaram o peso do eixo e reduziram sua amplitude, porque acrescentaram peso sem acrescentar divergência partidária. Passa a haver uma segunda conferência, por amplitude, em `calcular_revelado.js`, e a ferramenta `discriminacao.js` para inspecionar votação por votação | Talyz |
+| 14/09/2026 | Passam a existir DOIS selos distintos na ficha do partido, porque são dois defeitos diferentes: `eixos_com_confianca_reduzida` (poucas votações no catálogo — hoje só `soc`, com 12,1%) e `eixos_que_separam_pouco` (amplitude abaixo de 60 pontos — hoje só `sob`, com 37 contra 200 dos demais) | Claude, por delegação |
+| 14/09/2026 | A lista de eixos declarados deixa de ser fixa e passa a sair do cálculo, em `atualizar-calibracao.js`, para que a declaração nunca descreva um catálogo que não existe mais | Claude, por delegação |
+| 14/09/2026 | Declarada também a concentração do eixo Economia (31,8% do peso): não é escolha de projeto, é o perfil da pauta nominal desta legislatura, e o radar não deve sugerir que os cinco eixos têm o mesmo lastro | Claude, por delegação |
 
 ---
 

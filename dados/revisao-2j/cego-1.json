@@ -1,0 +1,83 @@
+{
+  "2383287-43": {
+    "o_que_o_sim_faz": "Aprova o texto do relator que passa a cobrar imposto de renda sobre os ganhos de fundos de investimento fechados e sobre os rendimentos que pessoas ricas mantêm em empresas e trusts fora do país.",
+    "dispositivo_em_jogo": "Subemenda Substitutiva Global ao PL 4.173/2023: institui a tributação periódica dos fundos de investimento no País e a tributação anual da renda de aplicações financeiras, entidades controladas e trusts no exterior de pessoas físicas residentes no Brasil.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -3, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "A matéria é central e inequivocamente tributária: o SIM cria e amplia cobrança de imposto sobre patrimônio e renda financeira concentrados no topo da distribuição, aumentando a arrecadação do Estado sobre quem tem mais. Isso aponta para o polo Estado, com peso máximo por ser o objeto único da votação."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "2167882-83": {
+    "o_que_o_sim_faz": "Aprova a criação de uma tarifa social de água e esgoto, com desconto obrigatório na conta para famílias de baixa renda inscritas no CadÚnico.",
+    "dispositivo_em_jogo": "Subemenda Substitutiva Global ao PL 9.543/2018: institui diretrizes nacionais para a Tarifa Social de Água e Esgoto, definindo o público beneficiário e o desconto tarifário no serviço de saneamento.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "O SIM obriga desconto tarifário para famílias pobres em serviço essencial, ou seja, usa regulação estatal para garantir acesso e transferir renda por meio do preço, custo que recai sobre o restante da estrutura tarifária. Aponta para o polo Estado; peso 2 e não 3 porque o alcance é setorial e não redefine o papel geral do Estado na economia."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "2367064-82": {
+    "o_que_o_sim_faz": "Mantém no texto o dispositivo que permite ao poder público comprar alimentos da agricultura familiar sem licitação, dentro do Programa de Aquisição de Alimentos.",
+    "dispositivo_em_jogo": "Inciso XVII do art. 75 da Lei 14.133/2021 (Lei de Licitações), acrescido pelo art. 25 da Subemenda Substitutiva: nova hipótese de dispensa de licitação para a aquisição de gêneros alimentícios de agricultores familiares, pescadores artesanais e suas organizações no âmbito do PAA, por União, Estados, Distrito Federal e Municípios.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "O SIM preserva um instrumento de compra pública dirigida: o Estado adquire diretamente de um grupo de produtores escolhido por política pública, sustentando renda desse grupo em vez de contratar pelo procedimento competitivo geral. Isso aponta para o polo Estado. Peso 2 porque o dispositivo é um instrumento de política de renda e abastecimento, não uma redefinição ampla do regime econômico; há um componente em sentido contrário (menos exigência procedimental) que é formal e não de mercado."
+    },
+    "confianca": "media",
+    "recomendacao": "manter"
+  },
+  "2497993-33": {
+    "o_que_o_sim_faz": "Aprova a autorização para que um banco público federal crie subsidiárias e amplie sua área de atuação para atividades ligadas ao seu objeto social.",
+    "dispositivo_em_jogo": "PL 1.708/2025: autoriza o Banco do Nordeste do Brasil S.A., instituição financeira oficial controlada pela União, a constituir subsidiárias integrais ou controladas para atuar em atividades correlatas ao seu objeto social.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "O SIM amplia o alcance de uma empresa estatal no sistema financeiro, permitindo que o banco público crie braços próprios e ocupe mais mercados. Aponta para o polo Estado, que inclui expressamente ter empresas próprias. Peso 2 porque a decisão é uma autorização societária sobre uma instituição específica, não uma mudança geral no papel do Estado na economia."
+    },
+    "confianca": "media",
+    "recomendacao": "manter"
+  },
+  "2252295-130": {
+    "o_que_o_sim_faz": "Mantém no texto o art. 26 do substitutivo, cujo conteúdo não é descrito no registro.",
+    "dispositivo_em_jogo": "Art. 26 do substitutivo ao PL 2.583/2020 (Estratégia Nacional de Saúde). O registro identifica apenas o número do artigo; a proposição trata de regime especial de tributação e incentivos para empresas estratégicas de saúde e de pesquisa e desenvolvimento de insumos e medicamentos, mas não é possível saber qual desses conteúdos está no artigo destacado.",
+    "origem_da_informacao": "desconhecido",
+    "sinal_recuperavel": false,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {},
+    "confianca": "baixa",
+    "recomendacao": "manter",
+    "motivo_recomendacao": "A votação é disputada e trata de matéria substantiva, mas só pode ser pontuada depois que o texto do art. 26 for recuperado; sem ele não há vetor."
+  },
+  "2494408-43": {
+    "o_que_o_sim_faz": "Mantém no texto o inciso II do art. 193 do projeto, cujo conteúdo não é descrito no registro.",
+    "dispositivo_em_jogo": "Inciso II do art. 193 do PL 1.466/2025, projeto que cria carreiras e reestrutura remunerações, cargos e gratificações do Poder Executivo federal e altera a designação de membros de conselhos de entidades fechadas de previdência complementar. O registro não informa o que o inciso destacado dispõe, e o projeto é extenso e heterogêneo demais para inferir o conteúdo a partir da ementa.",
+    "origem_da_informacao": "desconhecido",
+    "sinal_recuperavel": false,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {},
+    "confianca": "baixa",
+    "recomendacao": "manter",
+    "motivo_recomendacao": "Votação disputada e sobre matéria com conteúdo de política pública, mas o dispositivo destacado precisa ser recuperado antes de qualquer atribuição de vetor."
+  },
+  "2279186-104": {
+    "o_que_o_sim_faz": "Mantém no texto o art. 37 do substitutivo, cujo conteúdo não é descrito no registro.",
+    "dispositivo_em_jogo": "Art. 37 do substitutivo ao PL 458/2021, que institui o Regime Especial de Atualização e Regularização Patrimonial. A matéria geral envolve atualização do valor de bens com pagamento de imposto de renda em condições especiais e regularização de bens não declarados, mas o registro não diz o que o artigo destacado contém, e a regra de leitura do DVS exige a direção do dispositivo, não a da lei inteira.",
+    "origem_da_informacao": "desconhecido",
+    "sinal_recuperavel": false,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {},
+    "confianca": "baixa",
+    "recomendacao": "manter",
+    "motivo_recomendacao": "Votação disputada em matéria tributária relevante, mas sem o texto do art. 37 não é possível saber o que o SIM manteve nem em que direção aponta."
+  }
+}

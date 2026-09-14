@@ -1,27 +1,49 @@
 # PRUMO — Começar aqui
 
-Documento de retomada. Escrito em 09/09/2026, ao fim da sessão de planejamento e produção da etapa 1.
+Documento de retomada. Escrito em 09/09/2026, atualizado em 13/09/2026 ao fim da implementação das Frentes A e B.
 Leia este arquivo primeiro; ele diz onde o projeto está e qual é o próximo movimento.
 
 ---
 
 ## 1. Estado atual
 
-**Etapa 1 (Prumo — perfil político): concluída no que depende de julgamento.**
+**Etapa 1 (Prumo — perfil político): implementada e testada. Falta publicar.**
 
 | Arquivo | Versão | O que é |
 |---|---|---|
-| `PRUMO-spec-v1.md` | v1 (com registro de decisões atualizado) | Contrato do projeto: eixos, modelo de pontuação, esquema de dados, arquitetura, checklist de neutralidade |
-| `perguntas.json` | **v1.2-verificado** | 113 perguntas com vetor multieixo, nível, tema, status quo e fonte primária |
-| `eixos.json` | v1.0 | Nomes, polos e textos explicativos dos 5 eixos em linguagem simples |
-| `arquetipos.json` | v1.0-provisorio | 10 arquétipos com coordenadas validadas por simulação |
-| `PRUMO-etapa2-spec-v1.md` | v1 | Planejamento da etapa 2 (encarte das legendas) |
+| `PRUMO-spec-v1.md` | v1 (decisões de 13/09 registradas) | Contrato do projeto |
+| `dados/perguntas.json` | **v1.3** | 114 perguntas; `config.ganho_rotulo = 1.5` |
+| `dados/eixos.json` | v1.0 | Textos dos 5 eixos e das faixas |
+| `dados/arquetipos.json` | v1.0-provisorio | 10 arquétipos |
+| `js/motor.js` | — | Pontuação pura, rótulo, ordem de apresentação |
+| `js/perfil.js` | — | Código de perfil de 16 caracteres |
+| `js/grafico.js` | — | Radar de 5 eixos em SVG, sem dependência |
+| `js/ui.js` | — | Fluxo das três telas |
+| `js/pdf.js` | — | A colinha, montada no navegador com jsPDF |
+| `js/ia.js` | — | Camada opcional de IA, desligada por padrão |
+| `index.html`, `css/prumo.css` | — | Interface |
+| `ferramentas/validar.js` | — | Reprova o banco fora das regras |
+| `ferramentas/simular.js` | — | Respondentes sintéticos por arquétipo |
+| `testes/motor.test.js` | — | 23 testes |
+| `PRUMO-etapa2-spec-v1.md` | v1 | Planejamento da etapa 2 |
 
-**O que já foi feito:** decisão dos 5 eixos; modelo de pontuação com PULAR ponderado; banco completo em 3 níveis; revisão adversarial de neutralidade dos 113 itens em 6 lotes; verificação factual do status quo de todos os itens em fontes primárias; simulação com respondentes sintéticos (todos os arquétipos alcançáveis entre 90% e 100%).
+Comandos: `npm test`, `npm run validar`, `npm run simular`.
 
-**O que falta na etapa 1:** só implementação. Nenhuma linha de código foi escrita ainda.
+**Medições em 13/09/2026** (500 respondentes por arquétipo, 8% de ruído, ganho 1,5):
+acerto do rótulo em 1º lugar 86,3%, em 1º ou 2º 97,6%. Polaridade dentro da faixa
+nos cinco eixos. Erro médio por eixo entre 0,155 e 0,211; inclinação entre 0,64 e 0,69.
 
----
+**Verificado no navegador**: fluxo completo das 114 perguntas, voltar, sair no meio,
+resultado, PDF de uma página com 99 KB, tema claro e escuro, largura de 390px e de
+1100px. `localStorage`, `sessionStorage` e cookies ficam vazios do começo ao fim.
+
+**O que falta na etapa 1:**
+
+1. Publicar no GitHub Pages (nada foi commitado ainda; o repositório local está com tudo).
+2. `README.md` com a metodologia pública.
+3. Testar com pessoas reais (item 1h) e ajustar o que não fizer sentido.
+4. Decidir os oito avisos de redação do validador: cinco enunciados com "não"
+   (q050, q068, q086, q095, q105) e três com vários "e" (q039, q086, q103).
 
 ## 2. Instruções do projeto (colar no campo de instruções)
 
@@ -77,27 +99,9 @@ são cópias de conveniência: quando o banco mudar, atualize os dois.
 
 Escolha uma frente e cole a mensagem correspondente numa conversa nova dentro do projeto.
 
-### Frente A — Implementar o motor (recomendada; Claude Code, Opus)
-```
-Leia PRUMO-spec-v1.md inteiro. Implemente o item 1d do roteiro:
-- js/motor.js: pontuação pura, sem DOM, conforme seções 4.1 a 4.6.
-- js/perfil.js: codificação e decodificação do código de perfil (seção 5.5).
-- ferramentas/validar.js: valida schema (5.1), polaridade 40-60% por eixo,
-  ausência de status_quo "verificar" e de "conferir" nas fontes, e a proibição
-  de "continuar/voltar a/manter" nos enunciados.
-- ferramentas/simular.js: respondentes sintéticos por arquétipo.
-- testes/motor.test.js: tudo SIM, tudo NÃO, tudo PULAR e um respondente por arquétipo.
-Rode o simulador e me mostre a taxa de acerto por arquétipo e quais eixos ficam
-mal definidos.
-```
-
-### Frente B — Interface (depois do motor; Claude Code, Opus)
-```
-Com motor.js e perfil.js prontos, implemente os itens 1e e 1f: index.html, js/ui.js,
-js/grafico.js (radar SVG sem dependência externa), css/prumo.css, js/pdf.js e
-js/ia.js. Mobile-first, paleta neutra (grafite + cobre), sem localStorage, sem
-analytics. Siga a seção 6 da spec para o fluxo de telas.
-```
+### Frentes A e B — concluídas em 13/09/2026
+Motor, perfil, validador, simulador, testes, interface, radar, PDF e camada de IA
+estão escritos e testados. Ver a seção 1 e o relatório `PRUMO-etapa1-motor-relatorio.md`.
 
 ### Frente C — Começar a etapa 2 (Opus com busca)
 ```
@@ -129,12 +133,16 @@ q106 (ADI 5527/ADPF 403), q110 (Lei 15.190/2025 e ADIs 7913/7916/7919).
 
 ## 6. Pendências e decisões em aberto
 
+- **Publicar.** É o próximo movimento. Commitar, ligar o GitHub Pages, conferir que
+  os caminhos relativos funcionam sob `/prumo/`.
 - Quatro perguntas em aberto na seção 10 da spec da etapa 2 (profundidade das fichas,
   votações pré-1991, apoio a governos como sinal, partidos nanicos sem histórico).
-  Cada uma tem uma recomendação minha; basta confirmar ou corrigir.
 - `arquetipos.json` é provisório: revalidar as coordenadas quando os partidos forem
-  posicionados na etapa 2.
-- Eixos `sob` (13% do peso) e `amb` (13%) são os mais magros do banco. Se a simulação
-  com pessoas reais mostrar que ficam mal definidos, acrescentar itens neles.
-- `pod` está em 60% de polaridade, no limite superior. O próximo item acrescentado
-  nesse eixo deve ter SIM apontando para "liberdade".
+  posicionados na etapa 2 — e, junto com elas, reavaliar se o `ganho_rotulo` de 1,5
+  ainda é necessário.
+- Eixos `sob` (12,9% do peso) e `amb` (13,1%) continuam os mais magros do banco.
+  `amb` é o de maior erro médio na simulação (0,211). Se o teste com pessoas reais
+  mostrar que ficam mal definidos, acrescentar itens neles.
+- `pod` está em 58,7% de polaridade, com 30,6% do peso do banco. Qualquer item novo
+  nesse eixo com SIM apontando para "ordem" volta a estourar o teto de 60%.
+- Os oito avisos de redação do validador seguem sem decisão.

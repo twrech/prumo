@@ -1,0 +1,11 @@
+# Entregas do Claude na conversa — não fazem parte do projeto
+Claude outputs/
+
+# Dependências e lixo de ferramenta
+node_modules/
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

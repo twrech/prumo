@@ -1,0 +1,90 @@
+{
+  "2149303-50": {
+    "o_que_o_sim_faz": "Aprova a entrada da Bolívia como membro pleno do Mercosul, ratificando o protocolo de adesão assinado em 2015.",
+    "dispositivo_em_jogo": "Projeto de decreto legislativo que aprova o texto de um ato internacional: o protocolo que admite a Bolívia no bloco econômico regional, com as obrigações de integração comercial e tarifária daí decorrentes.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": -3, "amb": 0 },
+    "justificativa": {
+      "sob": "A votação é inteiramente sobre integração regional: o SIM amplia o bloco e aprofunda compromissos de abertura comercial e de cooperação com vizinhos, cedendo margem de decisão unilateral. Aponta de forma central e inequívoca para o polo Abertura."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "2157806-137": {
+    "o_que_o_sim_faz": "Aprova o texto do relator que cria um marco regulatório para os serviços de vídeo por demanda (streaming), com obrigações de oferta e destaque de conteúdo nacional e com cobrança sobre o setor.",
+    "dispositivo_em_jogo": "Subemenda substitutiva global ao projeto que regula a provisão de conteúdo audiovisual por demanda: define provedores, impõe cotas e visibilidade de conteúdo brasileiro e independente no catálogo, e submete as plataformas a regulação e contribuição setorial.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -2, "soc": 0, "pod": 0, "sob": 2, "amb": 0 },
+    "justificativa": {
+      "eco": "O SIM submete um setor até então livre a regras de oferta, obrigações de catálogo e cobrança setorial; é regulação e tributação de atividade privada, componente forte no polo Estado, ainda que não seja o único conteúdo do texto.",
+      "sob": "As cotas e o destaque obrigatório a conteúdo nacional e independente são proteção da produção do país diante de operadores estrangeiros, componente forte no polo Soberania."
+    },
+    "confianca": "media",
+    "recomendacao": "manter"
+  },
+  "2422697-69": {
+    "o_que_o_sim_faz": "Mantém no texto do Programa Mover o artigo que condiciona a venda de veículos novos ao cumprimento de requisitos obrigatórios, entre eles eficiência energética, rotulagem e reciclagem.",
+    "dispositivo_em_jogo": "Artigo 5º do substitutivo, que fixa requisitos de caráter obrigatório para a comercialização de veículos novos no país (rotulagem veicular, desempenho de eficiência energética e emissões, sistema de reciclagem). O registro não descreve o artigo; a identificação vem do meu conhecimento do texto aprovado e é coerente com as palavras-chave da Câmara.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -1, "soc": 0, "pod": 0, "sob": 0, "amb": -2 },
+    "justificativa": {
+      "eco": "Manter o dispositivo preserva exigência obrigatória imposta a fabricantes e importadores como condição de venda, componente secundário no polo Estado.",
+      "amb": "O núcleo do artigo mantido são metas de eficiência energética, controle de emissões e reciclagem como condição de mercado, ou seja, limites ambientais impostos à produção: componente forte no polo Preservação."
+    },
+    "confianca": "baixa",
+    "recomendacao": "manter"
+  },
+  "2270800-175": {
+    "o_que_o_sim_faz": "Aprova a emenda que amplia as prerrogativas de deputados e senadores, condicionando o processamento criminal e a prisão de parlamentares a decisão da própria Casa.",
+    "dispositivo_em_jogo": "Emenda aglutinativa que altera os arts. 53 e 102 da Constituição para exigir licença da Casa legislativa para a abertura ou o prosseguimento de ação penal contra parlamentar, restringir prisão em flagrante por crime inafiançável e limitar medidas cautelares de afastamento decididas pelo Judiciário.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": -2, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "pod": "Pela substância do dispositivo, o SIM reduz o alcance do poder punitivo estatal e do controle judicial sobre pessoas investigadas, o que pelo enunciado do eixo cai no polo Liberdade. O peso fica em 2, e não 3, porque a restrição vale apenas para uma categoria de agentes públicos e não é uma garantia geral."
+    },
+    "confianca": "baixa",
+    "recomendacao": "excluir",
+    "motivo_recomendacao": "O eixo Liberdade–Ordem é definido por garantias que valem para todos, e aqui o dispositivo cria prerrogativa restrita a uma classe. A clivagem observável é institucional e corporativa (Legislativo contra Judiciário), atravessando os campos ideológicos, de modo que o item tende a medir corporativismo e não posição sobre poder punitivo; risco alto de sinal invertido em relação ao que o eixo pretende captar."
+  },
+  "2423268-40": {
+    "o_que_o_sim_faz": "Segue o parecer e mantém em vigor a prisão preventiva de um deputado federal decretada pelo Supremo Tribunal Federal.",
+    "dispositivo_em_jogo": "Parecer da Comissão de Constituição e Justiça sobre comunicação de medida cautelar, pela manutenção dos efeitos da decisão judicial que prendeu preventivamente um parlamentar por obstrução de justiça em organização criminosa. Não há norma geral em votação, apenas a deliberação sobre um caso individual.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": 2, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "pod": "O SIM referenda a prisão cautelar e faz prevalecer a atuação do aparato penal sobre a imunidade invocada pelo investigado, componente forte no polo Ordem. Não chega a 3 porque não há política de segurança pública em jogo, apenas a chancela de uma decisão pontual."
+    },
+    "confianca": "media",
+    "recomendacao": "excluir",
+    "motivo_recomendacao": "Deliberação sobre caso concreto e pessoa determinada, sem conteúdo de política pública geral. A escolha de cada parlamentar mistura julgamento do caso específico, lealdade partidária e defesa corporativa da imunidade, o que a torna pouco interpretável como posição estável no eixo Liberdade–Ordem."
+  },
+  "2358548-81": {
+    "o_que_o_sim_faz": "Mantém no texto o dispositivo que abranda as regras de progressão de regime na execução da pena para os condenados alcançados pelo projeto.",
+    "dispositivo_em_jogo": "Nova redação dada ao art. 112 da Lei de Execução Penal pelo art. 1º do substitutivo, reduzindo os percentuais de pena exigidos para a progressão de regime no caso dos crimes tratados pelo projeto, dentro de um texto que também reduz penas de crimes contra o Estado Democrático de Direito. O registro não descreve o conteúdo; a identificação vem do meu conhecimento do substitutivo.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": -2, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "pod": "Manter o dispositivo significa exigir menos cumprimento de pena antes da progressão, isto é, resposta penal mais branda e mais garantias a quem foi condenado, componente forte no polo Liberdade. Fica em 2 porque o dispositivo é parte instrumental de um texto cujo objeto principal é a extinção de punibilidade e porque o alcance da regra é restrito."
+    },
+    "confianca": "baixa",
+    "recomendacao": "manter"
+  },
+  "2345368-78": {
+    "o_que_o_sim_faz": "Aprova a supressão, feita pelo Senado, dos trechos que a Câmara havia inserido para flexibilizar regras do Código Florestal e da lei da Mata Atlântica.",
+    "dispositivo_em_jogo": "Emenda e emendas supressivas do Senado aos dispositivos do projeto de lei de conversão que alteravam os arts. 4º e 78-B do Código Florestal e os arts. 14, 17, 25 e 31 da Lei da Mata Atlântica, além da alteração ao §4º do art. 59 do Código Florestal, que afastava sanções e autuações de quem aderisse ao programa de regularização ambiental. O SIM suprime essas alterações e deixa em pé o regime de proteção anterior.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": -3 },
+    "justificativa": {
+      "amb": "Toda a matéria em disputa é o grau de proteção da vegetação nativa e da Mata Atlântica e a suspensão de sanções a proprietários rurais. O SIM retira a flexibilização e preserva os limites ambientais, apontando de forma central para o polo Preservação."
+    },
+    "confianca": "media",
+    "recomendacao": "manter"
+  }
+}

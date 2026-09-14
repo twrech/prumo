@@ -1,0 +1,90 @@
+{
+  "2349493-82": {
+    "o_que_o_sim_faz": "Aprova o texto que proíbe quem ocupa ou invade propriedade de receber benefícios de programas sociais e de tomar posse em cargo ou função pública.",
+    "dispositivo_em_jogo": "Subemenda Substitutiva Global ao PL 709/2023, que altera a Lei 8.629/1993 para criar impedimentos administrativos (perda de acesso a programas sociais e a cargos públicos) a ocupantes e invasores de imóveis, atingindo participantes de ocupações de terra.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 2, "soc": 0, "pod": 3, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "Reforça a propriedade privada frente à ocupação e corta o acesso desse grupo a programas de transferência de renda, reduzindo a proteção estatal a quem é atingido pela regra; componente forte, mas não é o núcleo da matéria.",
+      "pod": "O núcleo do texto é sanção e dissuasão: impõe punição administrativa ampla e permanente a quem participa de ocupação, privilegiando a ordem e a repressão sobre garantias individuais e sobre a liberdade de protesto e de ação coletiva."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "2398530-73": {
+    "o_que_o_sim_faz": "Aprova o texto que autoriza liquidar, anistiar, renegociar e dar rebate em dívidas de crédito rural de agricultores, pecuaristas, pescadores, piscicultores e carcinicultores.",
+    "dispositivo_em_jogo": "Substitutivo Reformulado ao PL 5122/2023, que abre renegociação extraordinária e perdão parcial de dívidas de crédito rural, inclusive com recursos de fundos constitucionais, para devedores atingidos por seca, estiagem e calamidade.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": -1, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {
+      "eco": "O Estado assume o custo de dívidas contratadas, socorrendo devedores em vez de deixar o resultado ao contrato e ao risco de crédito; é uso do poder público para transferir recursos a um setor, componente secundário e ambíguo porque o beneficiário é o produtor privado e não a população de menor renda."
+    },
+    "confianca": "baixa",
+    "recomendacao": "manter"
+  },
+  "345311-270": {
+    "o_que_o_sim_faz": "Aprova o texto que fixa a data da promulgação da Constituição como condição para reconhecer terra indígena e restringe novas demarcações, abrindo terras indígenas a atividades econômicas.",
+    "dispositivo_em_jogo": "Subemenda Substitutiva Global ao PL 490/2007, que regulamenta o art. 231 da Constituição: cria o critério temporal de ocupação para a demarcação, dificulta a ampliação e a revisão de terras já demarcadas e permite empreendimentos, exploração e contato com terras indígenas.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 0, "soc": 2, "pod": 0, "sob": 0, "amb": 3 },
+    "justificativa": {
+      "soc": "Reduz a proteção legal conferida a um grupo minoritário e submete seu modo de vida ao interesse geral e à segurança jurídica da propriedade; componente forte, mas secundário ao conteúdo territorial e ambiental.",
+      "amb": "A matéria é central e inequívoca sobre terras de povos tradicionais e sobre o uso econômico delas: restringe a área protegida por demarcação e autoriza exploração e obras onde hoje há vedação, colocando produção e ocupação à frente da preservação."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "257161-483": {
+    "o_que_o_sim_faz": "Aprova o texto final da lei geral do licenciamento ambiental, que simplifica e dispensa licença para várias atividades e cria licença por adesão e compromisso e licenciamento especial acelerado.",
+    "dispositivo_em_jogo": "Redação Final do PL 2159/2021, que consolida o marco do licenciamento ambiental: amplia hipóteses de licença autodeclaratória, encurta prazos e etapas, limita exigências de estudo de impacto e altera as Leis 9.605/1998 e 9.985/2000.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 1, "soc": 0, "pod": 0, "sob": 0, "amb": 3 },
+    "justificativa": {
+      "eco": "Menos exigências e menos etapas administrativas para empreender significam menos regulação sobre a atividade econômica; componente secundário, derivado do conteúdo ambiental.",
+      "amb": "A votação é sobre isso de forma central: reduz o controle prévio do Estado sobre impactos ambientais para acelerar obras e produção, colocando empreendimentos à frente da cautela ambiental."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "2324721-94": {
+    "o_que_o_sim_faz": "Aprova a retirada da silvicultura da lista de atividades potencialmente poluidoras, dispensando o setor do controle e da taxa ambiental correspondentes.",
+    "dispositivo_em_jogo": "PL 1366/2022, que altera o Código 20 do Anexo VIII da Lei 6.938/1981 para excluir a silvicultura do rol de atividades potencialmente poluidoras e utilizadoras de recursos ambientais.",
+    "origem_da_informacao": "registro",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 1, "soc": 0, "pod": 0, "sob": 0, "amb": 3 },
+    "justificativa": {
+      "eco": "Tira do setor o registro e a taxa de controle ambiental, reduzindo custo e obrigação regulatória sobre a atividade produtiva; componente secundário.",
+      "amb": "A votação trata exclusivamente de retirar uma atividade de cultivo em larga escala da lista de atividades sujeitas a controle ambiental, afrouxando a fiscalização em favor da produção."
+    },
+    "confianca": "alta",
+    "recomendacao": "manter"
+  },
+  "2471177-56": {
+    "o_que_o_sim_faz": "Aprova o texto que convalida registros imobiliários de terras públicas vendidas ou concedidas na faixa de fronteira, transformando títulos precários em propriedade definitiva.",
+    "dispositivo_em_jogo": "Substitutivo ao PL 4497/2024, que ratifica os registros decorrentes de alienações e concessões de terras públicas situadas na faixa de fronteira e flexibiliza requisitos e prazos da Lei 13.178/2015.",
+    "origem_da_informacao": "conhecimento",
+    "sinal_recuperavel": true,
+    "vetor": { "eco": 2, "soc": 0, "pod": 0, "sob": -1, "amb": 0 },
+    "justificativa": {
+      "eco": "Transfere em definitivo ao domínio privado terras que eram públicas e prioriza a segurança jurídica do titular sobre o patrimônio do Estado, ampliando o espaço da propriedade privada; componente forte da matéria.",
+      "sob": "Reduz o controle do Estado sobre a faixa de fronteira, área tratada em lei como de interesse de defesa e de domínio público; componente secundário e de leitura incerta, já que o argumento oposto é o de consolidar a ocupação nacional da fronteira."
+    },
+    "confianca": "media",
+    "recomendacao": "manter"
+  },
+  "2447259-99": {
+    "o_que_o_sim_faz": "Mantém no texto o § 2º do art. 3º do substitutivo, dispositivo cujo conteúdo não é descrito no registro.",
+    "dispositivo_em_jogo": "Destaque supressivo (DTQ 3) ao § 2º do art. 3º do Substitutivo ao PL 2780/2024, que institui a Política Nacional de Minerais Críticos e Estratégicos; o registro não informa o que esse parágrafo dispõe e não tenho conhecimento confirmado do seu texto.",
+    "origem_da_informacao": "desconhecido",
+    "sinal_recuperavel": false,
+    "vetor": { "eco": 0, "soc": 0, "pod": 0, "sob": 0, "amb": 0 },
+    "justificativa": {},
+    "confianca": "baixa",
+    "recomendacao": "excluir",
+    "motivo_recomendacao": "O dispositivo destacado não é identificável a partir do registro e não é recuperável pelo meu conhecimento; sem saber o que o SIM mantém, a votação não pode funcionar como item discriminante."
+  }
+}
