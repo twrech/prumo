@@ -8,7 +8,8 @@ O Prumo faz três coisas, nesta ordem:
    você em cinco eixos.
 2. **Onde os partidos estão** — não pelo que dizem de si, mas pelo que suas
    bancadas votaram, voto a voto, na Câmara dos Deputados.
-3. **Os candidatos** — etapa ainda não construída.
+3. **Os candidatos** — quem concorre por cada partido, com a evidência que existe
+   sobre cada um: voto medido, mandato anterior, ou nada além do registro.
 
 É um site estático: HTML, CSS e JavaScript, sem servidor, sem banco de dados e
 sem build. Abrir o `index.html` já funciona.
@@ -417,6 +418,92 @@ informações independentes que não existem.
 
 ---
 
+---
+
+## Etapa 3 — os candidatos
+
+Da aba de um partido, o eleitor abre a lista de quem concorre por ele no seu
+estado. Cada candidato recebe a ficha que a evidência sobre ele permite — e só
+essa.
+
+### Por que a etapa 3 precisa existir
+
+A etapa 2 mede partidos. Medindo os deputados federais de Santa Catarina um a
+um, com a mesma conta, aparece o motivo de isso não bastar:
+
+| | amplitude interna no eixo Economia | bancada nacional |
+|---|---:|---:|
+| **PL em SC** | 95 pontos (Goetten +5 · Zé Trovão +100) | +80 |
+| **MDB em SC** | 76 pontos (Cobalchini +24 · Pezenti +100) | **−34** |
+| PT em SC | 10 pontos | −99 |
+
+O caso do MDB é o mais eloquente: a bancada nacional está do lado do Estado, e
+os dois deputados catarinenses mensuráveis estão do lado do mercado. Um eleitor
+de SC que chegasse ao MDB pelo ranking de partidos receberia, sobre os seus
+próprios deputados, a informação trocada.
+
+Medindo todos os deputados de SC, a amplitude no eixo econômico é **200** — a
+mesma dos vinte partidos nacionais. O rótulo partidário carrega muito menos
+informação do que a etapa 2 sugere, e a etapa 3 existe para dizer isso.
+
+### A escada de evidência
+
+A evidência sobre um candidato é desigual, e a ficha diz **qual** evidência
+existe em vez de fingir que é a mesma para todos. Com os 244 candidatos de SC a
+deputado federal e ao Senado:
+
+| Nível | Quantos | O que a ficha mostra |
+|---|---:|---|
+| **medido** | 14 | posição nos cinco eixos e índice de compatibilidade com o eleitor |
+| medido-fraco | 3 | esteve na Câmara mas faltou demais; sem posição |
+| **com mandato** | 66 | os mandatos exercidos e onde procurar o registro |
+| já concorreu | 88 | as candidaturas anteriores |
+| estreante | 73 | o que o TSE registra e o link que a própria pessoa declarou |
+
+Só 30% são estreantes absolutos. Dois terços deixaram algum rastro público, e
+34% já exerceram mandato — o registro deles existe, apenas não na Câmara.
+
+### A regra inviolável da etapa 3
+
+> **A posição do partido nunca é atribuída ao candidato.**
+
+Aqui a tentação é máxima, porque o eleitor chega pela aba do partido: seria fácil
+escrever "o PL está em +80, logo este candidato do PL está em +80". Seria também
+a inferência por identidade que a revisão adversarial tirou da etapa 2 — a mesma
+que colou um vetor de armas numa votação de saneamento. Quem não tem voto medido
+não recebe posição. A regra está no cabeçalho de
+`ferramentas/montar_candidatos.js` e no próprio arquivo de dados.
+
+Três consequências visíveis na interface:
+
+- **Só quem tem voto medido mostra um número.** Os demais mostram fatos, não
+  índices.
+- **Troca de legenda é declarada.** Cinco dos dezessete deputados de SC que
+  buscam reeleição votaram sob outro partido; a ficha diz "este histórico foi
+  feito pelo PSD, a pessoa concorre pelo PL".
+- **Registro pendente é marcado.** Dezesseis das 244 candidaturas de SC estão
+  como renúncia, indeferida ou aguardando julgamento. Quem pode não ir à urna
+  aparece sinalizado.
+
+### O que a etapa 3 não cobre
+
+- **Deputado estadual.** A ALESC não entrou no projeto; se publicar votação
+  nominal, o mesmo método serve.
+- **Presidente e governador.** São os únicos cargos cujos candidatos registram
+  plano de governo no TSE — 13 e 8, todos entregues. Ler esses planos é a
+  próxima etapa, e ela mede o que a pessoa **diz**, nunca o que ela fez.
+- **A comparação "diz × fez"** não existe hoje, e não por descuido: quem tem
+  plano registrado (executivo) não tem voto nominal nosso, e quem tem voto
+  nominal (deputado federal) não registra plano. As duas bases não se cruzam.
+
+### Fontes da etapa 3
+
+Voto individual: API de Dados Abertos da Câmara, `/votacoes/{id}/votos`, as
+mesmas 23 votações do catálogo. Registro de candidatura: DivulgaCandContas do
+TSE, eleição 20322002026. O cruzamento entre as duas bases é conferido nome a
+nome em `dados/candidaturas-sc.json`, e não automático: "Cobalchini" casa com
+dois candidatos que são pessoas diferentes, um federal e um estadual.
+
 ## O que o Prumo não faz
 
 - **Não recomenda voto.** Diz onde você está e onde os partidos estão. A
@@ -460,6 +547,8 @@ node ferramentas/calcular_revelado.js  # recalcula as posições dos partidos do
 node ferramentas/estrutura.js          # a análise de dimensionalidade acima
 node ferramentas/discriminacao.js      # o quanto cada votação separa os partidos
 node ferramentas/empate.js             # jackknife: o ranking distingue mesmo os primeiros?
+node ferramentas/calcular_deputados.js SC   # posição individual dos deputados da UF
+node ferramentas/montar_candidatos.js SC    # catálogo de candidatos com a escada de evidência
 node ferramentas/revisao-2j/comparar.js          # revisão cega x catálogo, item a item
 node ferramentas/revisao-2j/simular-correcao.js  # o efeito das decisões da revisão
 ```
@@ -488,6 +577,8 @@ dados/eixos.json      os cinco eixos e seus polos
 dados/arquetipos.json os dez arquétipos e suas coordenadas
 dados/votacoes.json   as 23 votações, seus vetores e o registro metodológico
 dados/revisao-2j/     os prompts cegos e as respostas da revisão adversarial
+dados/deputados-revelado-sc.json  posição individual de cada deputado de SC
+dados/candidatos-sc.json         os 244 candidatos de SC e sua escada de evidência
 dados/votos-partidos.json    como cada bancada votou em cada uma
 dados/partidos-revelado.json posições calculadas (gerado, não editado)
 PRUMO-spec-v1.md      o contrato do projeto; a seção 12 registra cada decisão
