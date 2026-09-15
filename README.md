@@ -476,6 +476,37 @@ do partido passa a ser separada por cargo — na ordem em que o eleitor preenche
 urna, não em ordem alfabética. Uma lista corrida de 57 nomes em três cargos, que
 é o tamanho do PL em SC, não é uma lista: é um monte.
 
+### O registro muda de hora em hora, e o site não
+
+O TSE atualiza o registro de candidatura **de hora em hora**. O catálogo do Prumo
+é um retrato: entre o dia em que ele é montado e o dia em que alguém abre o site,
+uma candidatura pode ter sido deferida, indeferida ou renunciada.
+
+`ferramentas/rechecar_candidaturas.js` responde a uma pergunta só, em três
+requisições: o que está publicado ainda bate com o TSE de agora? Ele compara a
+listagem dos três cargos com o `candidatos-sc.json` que está no ar e diz o que
+mudou. Não conserta nada — dispara a remontagem, que é manual e continua sendo.
+
+Na primeira rodada, horas depois da publicação, ele já achou uma mudança real:
+um registro que estava "aguardando julgamento" passou a deferido.
+
+**Dois campos que enganam, e como eles foram descobertos.**
+
+O primeiro é `descricaoTotalizacao`. Ele parece dizer se o voto na pessoa conta,
+e a tentação era escrever "ainda concorrendo" na ficha de quem está indeferido
+com recurso. Conferido no TSE em 14/09/2026: os **39 registros não deferidos de
+SC estavam todos como "Concorrendo" — inclusive as nove renúncias**. Antes do fim
+do prazo de registro o campo não distingue nada. Usá-lo teria dito ao eleitor que
+alguém que desistiu segue na disputa. A ficha exibe a palavra do TSE sobre o
+registro e não conclui nada por cima dela.
+
+O segundo era corte de texto no próprio extrator. "Indeferido em prazo recursal
+ou com recurso" tem 43 caracteres e era cortado em 28, virando "Indeferido em
+prazo recursal" — que é **outro estado**, sem o recurso. Dois candidatos estavam
+publicados assim. Só apareceu porque a rechecagem acusou uma mudança que não
+existia: o TSE dizia uma coisa, o arquivo dizia outra, e a diferença era a metade
+que faltava. O corte agora é 48.
+
 ### A regra inviolável da etapa 3
 
 > **A posição do partido nunca é atribuída ao candidato.**
@@ -494,7 +525,7 @@ Três consequências visíveis na interface:
 - **Troca de legenda é declarada.** Cinco dos dezessete deputados de SC que
   buscam reeleição votaram sob outro partido; a ficha diz "este histórico foi
   feito pelo PSD, a pessoa concorre pelo PL".
-- **Registro pendente é marcado.** Quarenta das 657 candidaturas de SC estão
+- **Registro pendente é marcado.** Trinta e nove das 657 candidaturas de SC estão
   como renúncia, indeferida ou aguardando julgamento. Quem pode não ir à urna
   aparece sinalizado.
 
@@ -865,6 +896,10 @@ extratores do TSE, pela mesma razão e do mesmo jeito. O segundo guarda uma
 descoberta que custou caro: o plano de governo registrado não sai por nenhum
 caminho da API pública — o download é `/divulga/rest/arquivo/doc/{idArquivo}`,
 e o caminho físico que a própria API devolve responde 403.
+
+`ferramentas/rechecar_candidaturas.js` é o terceiro, e é o mais barato de rodar:
+três requisições, um minuto, e a resposta é sim ou não. Vale rodá-lo antes de
+divulgar o site para alguém.
 
 ## Os arquivos
 

@@ -106,7 +106,11 @@ async function extrairCandidatos(uf = 'SC', cargos = ['DF', 'SEN']) {
         d.numero ?? '',
         d.partido?.sigla ?? '',
         limpar(d.ocupacao, 40),
-        d.descricaoSituacao === 'Deferido' ? '' : limpar(d.descricaoSituacao, 28),
+        // 48, e não 28: "Indeferido em prazo recursal ou com recurso" tem 43
+        // caracteres e era CORTADO em "Indeferido em prazo recursal", que é
+        // outro estado. A rechecagem semanal acusava mudança onde não havia, e
+        // pior, a ficha dizia à pessoa que ela estava indeferida sem recurso.
+        d.descricaoSituacao === 'Deferido' ? '' : limpar(d.descricaoSituacao, 48),
         col === (d.partido?.sigla ?? '') ? '' : col,
         typeof d.totalDeBens === 'number' ? Math.round(d.totalDeBens) : '',
         limpar((d.sites || [])[0]?.url || '', 70),

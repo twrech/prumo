@@ -403,6 +403,10 @@ Estimativa em turnos (não em créditos, que não são visíveis ao modelo): 1b 
 | 14/09/2026 | O catálogo de SC passa de 244 para 657 candidatos. Escada de evidência: 14 medido, 29 medido-alesc, 3 medido-fraco, 188 com-mandato, 259 tentou, 164 estreante. Quarenta registros não deferidos, contra dezesseis antes | Claude, por delegação |
 | 14/09/2026 | A lista de candidatos do partido passa a ser separada por cargo, na ordem da urna (Senador, Deputado Federal, Deputado Estadual), porque com estadual o maior partido chega a 57 nomes numa lista corrida | Talyz |
 | 14/09/2026 | Correção de estilo: a regra que fazia o quinto cartão ocupar a linha inteira valia para qualquer `.cartoes` e sorteava um candidato qualquer da lista para ficar largo. Agora está restrita às grades dos cinco eixos (`#cartoes` e `#ficha-eixos`) | Claude, por delegação |
+| 14/09/2026 | **Criada a rechecagem de candidaturas (`ferramentas/rechecar_candidaturas.js`).** O TSE atualiza o registro de hora em hora; o script compara a listagem dos três cargos com o `candidatos-sc.json` publicado e diz o que mudou, em três requisições. Não conserta nada: dispara a remontagem, que segue manual | Talyz |
+| 14/09/2026 | **Regra nova: `descricaoTotalizacao` do TSE NÃO pode ser usado para dizer se alguém segue concorrendo.** Conferido em 14/09/2026: os 39 registros não deferidos de SC estavam todos como "Concorrendo", inclusive as nove renúncias. A ficha exibe a palavra do TSE sobre o registro e não conclui nada por cima | Talyz |
+| 14/09/2026 | Correção: o extrator cortava `descricaoSituacao` em 28 caracteres e gravava "Indeferido em prazo recursal" no lugar de "Indeferido em prazo recursal ou com recurso" — outro estado, sem o recurso. Dois candidatos estavam publicados assim. O corte passou a 48 e os arquivos foram corrigidos na fonte | Claude, por delegação |
+| 14/09/2026 | A tarefa semanal de rechecagem factual rodou pela primeira vez em 14/09/2026 (09h04 BRT) e concluiu com sucesso | Claude, por delegação |
 
 ---
 
