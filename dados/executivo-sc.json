@@ -18,6 +18,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 15,
+      "numero": 27,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -81,6 +82,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 16,
+      "numero": 21,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -260,6 +262,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 200,
+      "numero": 70,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -376,6 +379,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 76,
+      "numero": 22,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -544,6 +548,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 33,
+      "numero": 16,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -702,6 +707,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 84,
+      "numero": 13,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -825,6 +831,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 28,
+      "numero": 28,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -877,6 +884,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 51,
+      "numero": 14,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -992,6 +1000,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 100,
+      "numero": 55,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1139,6 +1148,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 7,
+      "numero": 29,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1296,6 +1306,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 67,
+      "numero": 80,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1409,6 +1420,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 58,
+      "numero": 35,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1506,6 +1518,7 @@
       "cargo_nome": "Presidente da República",
       "ue": "BR",
       "paginas": 81,
+      "numero": 30,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1675,6 +1688,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 7,
+      "numero": 29,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1832,6 +1846,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 74,
+      "numero": 40,
       "evidencia": "plano",
       "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
       "posicao": {
@@ -1924,6 +1939,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 25,
+      "numero": 55,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -1997,6 +2013,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 22,
+      "numero": 22,
       "evidencia": "plano",
       "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
       "posicao": {
@@ -2070,6 +2087,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 23,
+      "numero": 80,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -2162,6 +2180,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 21,
+      "numero": 14,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -2244,6 +2263,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 50,
+      "numero": 16,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {
@@ -2413,6 +2433,7 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 25,
+      "numero": 25,
       "evidencia": "plano",
       "leitura": null,
       "posicao": {

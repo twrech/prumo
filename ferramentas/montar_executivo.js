@@ -46,6 +46,9 @@ const porTema = new Map(temas.map((t) => [t.id, t]));
 const CARGO = { pres: 'Presidente da República', gov: 'Governador de Santa Catarina' };
 
 const lidos = new Map(revelado.candidatos.map((c) => [c.id, c]));
+const numeros = new Map(readFileSync(caminho('executivo-numeros.psv'), 'utf8')
+  .trim().split('\n').filter(Boolean)
+  .map((l) => { const [id, n] = l.split('|'); return [id, Number(n)]; }));
 const ilegiveis = new Map((revelado.sem_camada_de_texto || []).map((c) => [c.id, c]));
 
 const candidatos = indice.map((reg) => {
@@ -57,6 +60,10 @@ const candidatos = indice.map((reg) => {
     cargo_nome: CARGO[reg.cargo] || reg.cargo,
     ue: reg.ue,
     paginas: reg.paginas ?? null,
+    // O número da urna. Presidente e governador são cargos MAJORITÁRIOS: o
+    // número do candidato é o número do partido, dois dígitos. Vem do registro
+    // do TSE (listar/.../candidatos), não é deduzido daqui.
+    numero: numeros.get(String(reg.id)) ?? null,
   };
 
   const lido = lidos.get(reg.id);

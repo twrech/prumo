@@ -1,0 +1,142 @@
+{
+ "versao": "1.0",
+ "gerado_em": "2026-09-15",
+ "o_que_e": "O número eleitoral de cada partido que tem candidato registrado em SC. É o número que o eleitor digita para votar só na legenda.",
+ "fonte": "TSE, DivulgaCandContas, eleição 20322002026. Derivado do registro, não de memória: por lei o número do candidato começa com o número do partido, então o prefixo comum a TODOS os candidatos de uma legenda é o número dela.",
+ "conferencia": "Os 657 candidatos registrados em SC foram agrupados por partido e o prefixo de dois dígitos conferido um a um. Nenhum partido apresentou mais de um prefixo — se apresentasse, a geração falharia em vez de escolher o mais frequente.",
+ "atencao": "Voto de legenda só existe nos cargos PROPORCIONAIS (deputado federal e deputado estadual). Digitar o número do partido em cargo majoritário (senador, governador, presidente) não é voto de legenda.",
+ "fonte_do_atencao": "TSE, Temas Selecionados, \"Voto nominal e de legenda\": o voto para mandato de representação proporcional pode ser dado à legenda.",
+ "total": 26,
+ "partidos": {
+  "AGIR": {
+   "numero": 36,
+   "nome": null,
+   "candidatos_conferidos": 6
+  },
+  "AVANTE": {
+   "numero": 70,
+   "nome": "Avante",
+   "candidatos_conferidos": 28
+  },
+  "CIDADANIA": {
+   "numero": 23,
+   "nome": "Cidadania",
+   "candidatos_conferidos": 6
+  },
+  "DC": {
+   "numero": 27,
+   "nome": null,
+   "candidatos_conferidos": 17
+  },
+  "MDB": {
+   "numero": 15,
+   "nome": "Movimento Democrático Brasileiro",
+   "candidatos_conferidos": 45
+  },
+  "MISSÃO": {
+   "numero": 14,
+   "nome": null,
+   "candidatos_conferidos": 35
+  },
+  "NOVO": {
+   "numero": 30,
+   "nome": "Partido Novo",
+   "candidatos_conferidos": 54
+  },
+  "PCDOB": {
+   "numero": 65,
+   "nome": "Partido Comunista do Brasil",
+   "candidatos_conferidos": 4
+  },
+  "PCO": {
+   "numero": 29,
+   "nome": null,
+   "candidatos_conferidos": 3
+  },
+  "PDT": {
+   "numero": 12,
+   "nome": "Partido Democrático Trabalhista",
+   "candidatos_conferidos": 43
+  },
+  "PL": {
+   "numero": 22,
+   "nome": "Partido Liberal",
+   "candidatos_conferidos": 57
+  },
+  "PODE": {
+   "numero": 20,
+   "nome": "Podemos",
+   "candidatos_conferidos": 57
+  },
+  "PP": {
+   "numero": 11,
+   "nome": "Progressistas",
+   "candidatos_conferidos": 30
+  },
+  "PRD": {
+   "numero": 25,
+   "nome": "Partido Renovação Democrática",
+   "candidatos_conferidos": 35
+  },
+  "PSB": {
+   "numero": 40,
+   "nome": "Partido Socialista Brasileiro",
+   "candidatos_conferidos": 2
+  },
+  "PSD": {
+   "numero": 55,
+   "nome": "Partido Social Democrático",
+   "candidatos_conferidos": 35
+  },
+  "PSDB": {
+   "numero": 45,
+   "nome": "Partido da Social Democracia Brasileira",
+   "candidatos_conferidos": 16
+  },
+  "PSOL": {
+   "numero": 50,
+   "nome": "Partido Socialismo e Liberdade",
+   "candidatos_conferidos": 42
+  },
+  "PSTU": {
+   "numero": 16,
+   "nome": null,
+   "candidatos_conferidos": 4
+  },
+  "PT": {
+   "numero": 13,
+   "nome": "Partido dos Trabalhadores",
+   "candidatos_conferidos": 44
+  },
+  "PV": {
+   "numero": 43,
+   "nome": "Partido Verde",
+   "candidatos_conferidos": 2
+  },
+  "REDE": {
+   "numero": 18,
+   "nome": "Rede Sustentabilidade",
+   "candidatos_conferidos": 4
+  },
+  "REPUBLICANOS": {
+   "numero": 10,
+   "nome": "Republicanos",
+   "candidatos_conferidos": 45
+  },
+  "SOLIDARIEDADE": {
+   "numero": 77,
+   "nome": "Solidariedade",
+   "candidatos_conferidos": 12
+  },
+  "UNIÃO": {
+   "numero": 44,
+   "nome": "União Brasil",
+   "candidatos_conferidos": 27
+  },
+  "UP": {
+   "numero": 80,
+   "nome": null,
+   "candidatos_conferidos": 4
+  }
+ }
+}

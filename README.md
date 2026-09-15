@@ -10,6 +10,8 @@ O Prumo faz três coisas, nesta ordem:
    bancadas votaram, voto a voto, na Câmara dos Deputados.
 3. **Os candidatos** — quem concorre por cada partido, com a evidência que existe
    sobre cada um: voto medido, mandato anterior, ou nada além do registro.
+4. **A colinha** — opcional: você escolhe os seis votos e leva a lista impressa,
+   na ordem em que a urna pede. O Prumo organiza; a escolha é sua.
 
 É um site estático: HTML, CSS e JavaScript, sem servidor, sem banco de dados e
 sem build. Abrir o `index.html` já funciona.
@@ -26,7 +28,11 @@ Não é promessa de política de uso, é propriedade do código:
 
 - **Nenhuma resposta sai do seu aparelho.** Não há servidor para onde enviar.
 - **Nada é armazenado.** Nem `localStorage`, nem `sessionStorage`, nem cookie.
-  Fechou a aba, acabou.
+  Fechou a aba, acabou — inclusive as respostas e a colinha.
+- **Você pode guardar o que é seu.** O relatório e a colinha são montados no seu
+  navegador e salvos no seu computador, por clique seu. São dois arquivos
+  diferentes: o relatório traz as respostas, a colinha traz os números. Ninguém
+  os vê além de você, a menos que você decida compartilhá-los.
 - **Sem analytics, sem rastreador, sem fonte externa.** A única coisa que o site
   busca na rede são os próprios arquivos de dados dele.
 - **O código do perfil** (`?p=...` na URL entre a etapa 1 e a 2) carrega só as
@@ -834,6 +840,62 @@ dois candidatos que são pessoas diferentes, um federal e um estadual.
 
 ---
 
+## Etapa 4 — a colinha do dia da eleição
+
+Papel de anotação, não conselho. O eleitor escolhe; a colinha organiza na ordem
+em que a urna pede o voto e imprime nome, partido e número. **Nenhum nome entra
+nela por conta do Prumo** — nem por afinidade calculada, nem por posição no
+ranking. Entra porque a pessoa clicou. A diferença entre uma agenda e um
+conselheiro é toda a diferença que este projeto tem.
+
+São **seis votos**, nesta ordem: deputado federal, deputado estadual, senador
+(1ª vaga), senador (2ª vaga), governador, presidente. Duas vagas de senador
+porque 2026 renova dois terços da Casa.
+
+### Voto de legenda, só onde ele existe
+
+Quem não se decidiu por nenhum nome pode votar só no partido — e isso vale
+**exclusivamente para deputado federal e estadual**, os cargos proporcionais. Em
+cargo majoritário não existe voto de legenda: o voto é sempre em pessoa. Por
+isso a opção só aparece nesses dois cargos, e a ficha diz o porquê em vez de
+simplesmente omitir.
+
+### O número do partido, que era a última pendência
+
+Para oferecer voto de legenda é preciso o número da legenda — e ele era o único
+campo do projeto ainda marcado como `null`, porque a API da Câmara não o traz e
+não valia preencher de memória.
+
+Ele saiu do próprio registro do TSE, sem chute: por lei o número do candidato
+começa com o número do partido, então o prefixo comum a **todos** os candidatos
+de uma legenda é o número dela. Os 657 candidatos de SC foram agrupados e o
+prefixo conferido um a um: **26 partidos, nenhum com mais de um prefixo**. Se
+algum tivesse, a geração falharia em vez de escolher o mais frequente.
+
+Presidente e governador são majoritários e o número do candidato é o do partido,
+dois dígitos — esses vieram direto da listagem do TSE.
+
+### Dois arquivos, de propósito
+
+O **relatório** traz o perfil e as 114 respostas: coisa íntima, para guardar. A
+**colinha** traz nome, partido e número: feita para ir à seção. Quem leva a
+colinha para votar não quer levar junto as próprias posições políticas
+impressas.
+
+Nenhum dos dois é guardado. As escolhas vivem em memória como as respostas: se a
+aba fechar, a colinha some junto. O arquivo só existe se a pessoa clicar.
+
+### Por que guardar as respostas não quebra a regra de privacidade
+
+A regra é que **o site** não guarda nada: não há servidor, storage, cookie nem
+envio, e quem não clicar continua com o "fechou a aba, acabou" intacto. Isso é
+diferente de impedir a **pessoa** de guardar o que é dela.
+
+O incômodo é real e está dito na interface, não em letra miúda: um arquivo com
+as próprias posições políticas dormindo na pasta de downloads é achável por quem
+usa a máquina. A tela avisa que ninguém vê aquele arquivo além de quem o baixou
+— a menos que ele próprio decida compartilhá-lo — e sugere pensar onde salvar.
+
 ## Licença
 
 Duas licenças, porque há duas coisas no repositório. O arquivo `LICENSE` traz o
@@ -878,8 +940,6 @@ defesa não é o fechamento, é a obrigação de mostrar a conta.
   geral sobre progressão de pena, e por isso ficou; mas boa parte do que ela
   separa pode ser posição sobre aquele episódio, e não punitivismo em geral. Fica
   registrado como limite conhecido.
-- `dados/partidos-nomes.json` traz o número eleitoral de cada partido como
-  `null`. É dado do TSE e será preenchido da fonte, não de memória.
 
 ---
 

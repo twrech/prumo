@@ -1,12 +1,26 @@
 /**
- * Prumo — geração do PDF no próprio navegador ("a colinha").
+ * Prumo — geração do RELATÓRIO em PDF, no próprio navegador.
+ *
+ * Não confundir com a colinha do dia da eleição (`etapa2/js/colinha.js`): são
+ * dois arquivos diferentes, de propósito. Este traz o perfil e as respostas —
+ * coisa íntima, para guardar ou compartilhar por decisão própria. A colinha
+ * traz nome, partido e número dos escolhidos, e é feita para ir à seção.
  *
  * jsPDF entra sob demanda por CDN: quem não clica no botão não baixa a
  * biblioteca. Nada é enviado para lugar nenhum — o PDF é montado na máquina
  * de quem responde.
  *
  * O PDF contém gráfico, posições, confianças, rótulo, síntese, código de
- * perfil e data. Nunca contém as respostas.
+ * perfil, data e — desde 15/09/2026 — as respostas, uma a uma.
+ *
+ * AS RESPOSTAS NO ARQUIVO NÃO QUEBRAM A REGRA DE PRIVACIDADE, e vale dizer por
+ * quê. A regra é que o SITE não guarda nada: não há servidor, storage, cookie
+ * nem envio, e quem não clicar continua com o "fechou a aba, acabou" intacto.
+ * Isso é diferente de impedir a PESSOA de guardar o que é dela. O arquivo é
+ * montado nesta aba, salvo no computador de quem respondeu, e ninguém mais o
+ * vê a menos que ela própria decida compartilhá-lo. A interface diz isso na
+ * hora do clique, inclusive o incômodo: um arquivo com as próprias posições
+ * políticas dormindo na pasta de downloads é achável por quem usa a máquina.
  */
 
 import { EIXOS, faixaIntensidade, faixaConfianca } from './motor.js';
@@ -44,7 +58,7 @@ function dataPorExtenso(iso) {
   return `${Number(dia)} de ${meses[Number(mes) - 1]} de ${ano}`;
 }
 
-export async function gerarPdf({ perfil, eixos, arquetipos, codigo, textoIa = '' }) {
+export async function gerarPdf({ perfil, eixos, arquetipos, codigo, textoIa = '', perguntas = null, respostas = null }) {
   const jsPDF = await carregarJsPdf();
 
   const svg = radar(perfil.posicao, perfil.confianca, eixos, {
@@ -152,6 +166,43 @@ export async function gerarPdf({ perfil, eixos, arquetipos, codigo, textoIa = ''
     y += 4;
   }
 
+  // ------------------------------------------------- as respostas, uma a uma
+  //
+  // Vai em página própria, depois de tudo: quem só quer o resultado para na
+  // primeira página, e quem quer conferir item a item tem onde.
+  if (perguntas?.length && respostas) {
+    const ROTULO = { sim: 'SIM', nao: 'NÃO', pular: 'PULOU' };
+    doc.addPage();
+    y = M;
+
+    doc.setFont('helvetica', 'bold').setFontSize(13).setTextColor(...grafite);
+    doc.text('Suas respostas, uma a uma', M, y);
+    y += 6;
+    doc.setFont('helvetica', 'normal').setFontSize(8.5).setTextColor(...suave);
+    const explica = doc.splitTextToSize(
+      'Esta lista existe para você poder conferir o resultado contra o que de fato respondeu — '
+      + 'e para discordar dele com argumento, se for o caso. "PULOU" não conta como zero: pular é '
+      + 'tratado como adesão fraca à regra que vale hoje, porque não decidir, na prática, deixa as '
+      + 'coisas como estão.', L);
+    doc.text(explica, M, y);
+    y += explica.length * 3.8 + 4;
+
+    let n = 0;
+    for (const q of perguntas) {
+      const r = respostas[q.id];
+      if (!r) continue;
+      n += 1;
+      const texto = doc.splitTextToSize(`${n}. ${q.texto}`, L - 20);
+      if (y + texto.length * 3.9 > 278) { doc.addPage(); y = M; }
+      doc.setFont('helvetica', 'normal').setFontSize(8.5).setTextColor(...grafite);
+      doc.text(texto, M, y);
+      doc.setFont('helvetica', 'bold').setFontSize(8.5)
+        .setTextColor(...(r === 'pular' ? suave : cobre));
+      doc.text(ROTULO[r] || r, 210 - M, y, { align: 'right' });
+      y += texto.length * 3.9 + 2.4;
+    }
+  }
+
   // Rodapé
   if (y > 255) { doc.addPage(); y = M; }
   y = Math.max(y, 262);
@@ -167,7 +218,9 @@ export async function gerarPdf({ perfil, eixos, arquetipos, codigo, textoIa = ''
 
   doc.setFont('helvetica', 'normal').setFontSize(7.5).setTextColor(...suave);
   const nota = 'Este código guarda apenas as cinco posições acima, nunca as suas respostas: a partir dele ninguém consegue '
-    + 'reconstruir o que você respondeu. Nenhuma resposta foi transmitida ou gravada em lugar algum. '
+    + 'reconstruir o que você respondeu. Nada foi transmitido nem gravado em servidor algum — este arquivo foi '
+    + 'montado no seu próprio navegador, e só existe porque você pediu. Ninguém o vê além de você, a menos que '
+    + 'você decida compartilhá-lo. '
     + `Gerado em ${dataPorExtenso(perfil.data)} · github.com/twrech/prumo`;
   doc.text(doc.splitTextToSize(nota, L), M, y);
 

@@ -236,9 +236,14 @@ async function baixarPdf() {
       arquetipos: estado.arquetipos,
       codigo: codificar(estado.perfil),
       textoIa: $('ia-texto').textContent || '',
+      // O relatório passa a trazer as respostas, uma a uma. Elas continuam sem
+      // sair daqui: o PDF é montado nesta aba e salvo no computador de quem
+      // respondeu. O que muda é que a pessoa PODE guardar o que é dela.
+      perguntas: estado.ordem,
+      respostas: estado.respostas,
     });
   } catch (e) {
-    alert(`Não deu para gerar o PDF: ${e.message}\n\nVocê pode usar a impressão do navegador (Ctrl+P) como alternativa.`);
+    alert(`Não deu para gerar o relatório: ${e.message}\n\nVocê pode usar a impressão do navegador (Ctrl+P) como alternativa.`);
   } finally {
     botao.disabled = false;
     botao.textContent = original;

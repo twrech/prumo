@@ -23,6 +23,7 @@ import { EIXOS, faixaConfianca } from '../../js/motor.js';
 import { decodificar } from '../../js/perfil.js';
 import { radar } from '../../js/grafico.js';
 import { alinhar, confiancaDoPartido, compatibilidade, CONFIANCA_MINIMA } from '../../js/alinhamento.js';
+import * as colinha from './colinha.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -34,6 +35,7 @@ const estado = {
   votos: null,
   candidatos: null, // etapa 3: candidatos da UF, com escada de evidência
   executivo: null,  // etapa 3: presidente e governador, lidos pelo plano de governo
+  numerosPartido: null, // etapa 4: o número da legenda, para quem vota só no partido
   partidoAberto: null,
   perfil: null,     // { posicao, confianca } vindo do código na URL
   alinhamento: null,
@@ -68,6 +70,13 @@ async function carregar() {
     const r = await fetch('../dados/executivo-sc.json');
     if (r.ok) estado.executivo = await r.json();
   } catch { /* segue sem os candidatos ao Executivo */ }
+
+  // Os números de legenda. Sem eles a colinha ainda funciona para candidato,
+  // só não oferece voto de legenda — que é melhor do que oferecer sem o número.
+  try {
+    const r = await fetch('../dados/partidos-numeros.json');
+    if (r.ok) estado.numerosPartido = (await r.json()).partidos;
+  } catch { /* segue sem voto de legenda */ }
 }
 
 function lerPerfilDaUrl() {
@@ -99,7 +108,7 @@ function coresDoTema() {
 /* ---------------------------------------------------------------- galeria */
 
 function mostrar(tela) {
-  for (const id of ['tela-galeria', 'tela-ficha', 'tela-candidato', 'tela-executivo']) $(id).classList.toggle('oculto', id !== tela);
+  for (const id of ['tela-galeria', 'tela-ficha', 'tela-candidato', 'tela-executivo', 'tela-colinha']) $(id).classList.toggle('oculto', id !== tela);
   window.scrollTo({ top: 0 });
 }
 
@@ -306,6 +315,14 @@ function abrirFicha(sigla) {
   desenharEixosDaFicha(partido);
   desenharVotacoesDaFicha(sigla);
   desenharCandidatosDoPartido(sigla);
+
+  // Voto de legenda, logo abaixo da lista de nomes: é ali que a pessoa que não
+  // se decidiu por nenhum deles está olhando.
+  const secaoCand = $('secao-candidatos');
+  secaoCand.querySelector('.bloco-legenda')?.remove();
+  const bl = blocoLegenda(sigla);
+  if (bl && !secaoCand.classList.contains('oculto')) { bl.classList.add('bloco-legenda'); secaoCand.append(bl); }
+
   estado.partidoAberto = sigla;
   mostrar('tela-ficha');
 }
@@ -416,6 +433,160 @@ function desenharVotacoesDaFicha(sigla) {
   }
 }
 
+
+/* ------------------------------------------------- etapa 4: a colinha */
+
+/**
+ * O botão que põe alguém na colinha. Ele NUNCA diz "recomendado" nem sugere:
+ * diz "pôr na colinha" e, quando já está lá, "tirar". O verbo é do eleitor.
+ */
+function botaoColinha(candidato, cargo) {
+  const b = document.createElement('button');
+  b.className = 'discreta';
+  b.style.marginTop = '1rem';
+
+  const pintar = () => {
+    const vaga = colinha.vagaOcupadaPor(candidato.id);
+    b.textContent = vaga ? '✓ na sua colinha — clique para tirar' : 'Pôr na minha colinha';
+    b.classList.toggle('principal', !vaga);
+    b.classList.toggle('discreta', !!vaga);
+  };
+
+  b.addEventListener('click', () => {
+    const r = colinha.escolher(candidato, cargo);
+    if (r.acao === 'sem-vaga') {
+      avisar(b, `As duas vagas de ${r.vagas[0].split(' —')[0].toLowerCase()} já estão ocupadas. `
+        + 'Tire uma na tela da colinha antes de pôr outra — não troco por você.');
+      return;
+    }
+    if (r.acao === 'cargo-desconhecido') { avisar(b, 'Este cargo não entra na colinha.'); return; }
+    pintar();
+    avisar(b, r.acao === 'removido' ? 'Tirado da colinha.' : `Posto em ${r.rotulo}.`);
+  });
+
+  pintar();
+  return b;
+}
+
+/** Recado curto logo abaixo do botão, para a ação nunca ser silenciosa. */
+function avisar(botao, texto) {
+  let p = botao.nextElementSibling;
+  if (!p || !p.classList.contains('recado-colinha')) {
+    p = document.createElement('p');
+    p.className = 'discreto confianca recado-colinha';
+    botao.after(p);
+  }
+  p.textContent = texto;
+}
+
+/**
+ * Voto de legenda, oferecido na ficha do partido. Só aparece nos dois cargos
+ * proporcionais, porque é só neles que ele existe.
+ */
+function blocoLegenda(sigla) {
+  if (!estado.numerosPartido?.[sigla]) return null;
+  const numero = estado.numerosPartido[sigla].numero;
+
+  const caixa = document.createElement('section');
+  caixa.className = 'sintese';
+
+  const t = document.createElement('p');
+  t.innerHTML = `<b>Não se decidiu por nenhum nome?</b> Você pode votar só no partido. `
+    + `O número da legenda ${sigla} é <b>${numero}</b>.`;
+  caixa.append(t);
+
+  const nota = document.createElement('p');
+  nota.className = 'discreto';
+  nota.textContent = 'O voto de legenda conta para a bancada do partido, e só existe para deputado '
+    + 'federal e deputado estadual. Senador, governador e presidente são cargos majoritários: '
+    + 'ali o voto é sempre em uma pessoa, e digitar o número do partido não é voto de legenda.';
+  caixa.append(nota);
+
+  const acoes = document.createElement('div');
+  acoes.className = 'acoes';
+  for (const vaga of colinha.vagas().filter((v) => v.legenda)) {
+    const b = document.createElement('button');
+    b.className = 'discreta';
+    const pintar = () => {
+      const e = colinha.ler(vaga.id);
+      const posto = e?.tipo === 'legenda' && e.partido === sigla;
+      b.textContent = posto ? `✓ legenda ${sigla} em ${vaga.rotulo} — clique para tirar`
+        : `Votar na legenda para ${vaga.rotulo}`;
+    };
+    b.addEventListener('click', () => { colinha.escolherLegenda(sigla, vaga.id); pintar(); });
+    pintar();
+    acoes.append(b);
+  }
+  caixa.append(acoes);
+  return caixa;
+}
+
+function desenharColinha() {
+  const alvo = $('lista-colinha');
+  alvo.textContent = '';
+
+  for (const { vaga, escolha } of colinha.linhas()) {
+    const bloco = document.createElement('article');
+    bloco.className = 'cartao-eixo';
+
+    const cabeca = document.createElement('header');
+    const h = document.createElement('h3');
+    h.textContent = vaga.rotulo;
+    cabeca.append(h);
+
+    const num = colinha.numeroFormatado(escolha);
+    if (num) {
+      const v = document.createElement('span');
+      v.className = 'valor';
+      v.style.fontFamily = 'ui-monospace, Menlo, Consolas, monospace';
+      v.style.fontSize = '1.4rem';
+      v.textContent = num;
+      cabeca.append(v);
+    }
+    bloco.append(cabeca);
+
+    const linha = document.createElement('p');
+    linha.style.margin = '0';
+    if (!escolha) {
+      linha.className = 'discreto';
+      linha.textContent = 'em branco — você não escolheu ninguém para esta vaga';
+    } else if (escolha.tipo === 'legenda') {
+      linha.textContent = `Legenda ${escolha.partido} — voto no partido, sem nome`;
+    } else {
+      linha.textContent = `${escolha.nome} · ${escolha.partido}`;
+    }
+    bloco.append(linha);
+
+    // Número com tamanho errado é erro visível. Melhor a colinha reclamar aqui
+    // do que a pessoa descobrir na urna.
+    const problema = escolha ? colinha.conferirNumero(vaga, escolha) : null;
+    if (problema) {
+      const alerta = document.createElement('p');
+      alerta.className = 'discreto confianca';
+      alerta.style.color = 'var(--cobre)';
+      alerta.textContent = `confira este número: ${problema}`;
+      bloco.append(alerta);
+    }
+
+    if (escolha) {
+      const tirar = document.createElement('button');
+      tirar.className = 'discreta';
+      tirar.style.marginTop = '.6rem';
+      tirar.textContent = 'Tirar';
+      tirar.addEventListener('click', () => { colinha.limparVaga(vaga.id); desenharColinha(); });
+      bloco.append(tirar);
+    }
+
+    alvo.append(bloco);
+  }
+
+  const vazias = colinha.total() - colinha.quantas();
+  $('aviso-colinha').textContent = vazias
+    ? `${vazias} ${vazias === 1 ? 'vaga está vazia' : 'vagas estão vazias'}. Você pode baixar assim mesmo — `
+      + 'em branco é uma decisão, e a colinha não vai preencher nada por você.'
+    : 'As seis vagas estão preenchidas.';
+}
+
 /* ---------------------------------------------------------------- início */
 
 (async function iniciar() {
@@ -423,12 +594,28 @@ function desenharVotacoesDaFicha(sigla) {
   $('botao-voltar-partido').addEventListener('click', () => { if (estado.partidoAberto) abrirFicha(estado.partidoAberto); });
   $('botao-voltar-executivo').addEventListener('click', () => { desenharGaleria(); mostrar('tela-galeria'); });
   $('botao-teste').addEventListener('click', () => { window.location.href = '../index.html'; });
+  $('botao-abrir-colinha').addEventListener('click', () => { desenharColinha(); mostrar('tela-colinha'); });
+  $('botao-voltar-colinha').addEventListener('click', () => { desenharGaleria(); mostrar('tela-galeria'); });
+  $('botao-limpar-colinha').addEventListener('click', () => { colinha.limparTudo(); desenharColinha(); });
+  $('botao-baixar-colinha').addEventListener('click', async () => {
+    const b = $('botao-baixar-colinha');
+    const antes = b.textContent;
+    b.disabled = true; b.textContent = 'montando…';
+    try { await colinha.baixarPdf(); b.textContent = antes; }
+    catch (e) { b.textContent = antes; $('aviso-colinha').textContent = `Não deu para montar o arquivo: ${e.message}`; }
+    finally { b.disabled = false; }
+  });
+
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (!$('tela-ficha').classList.contains('oculto')) $('botao-voltar-galeria').click();
   });
 
   try {
     await carregar();
+    colinha.configurar({
+      partidos: estado.numerosPartido || {},
+      aoMudar: () => { const n = colinha.quantas(); $('botao-abrir-colinha').textContent = n ? `Minha colinha (${n})` : 'Minha colinha'; },
+    });
     estado.perfil = lerPerfilDaUrl();
     if (estado.perfil) {
       estado.alinhamento = alinhar(estado.perfil, estado.revelado);
@@ -777,6 +964,8 @@ function abrirCandidato(id) {
   fonte.textContent = `Fonte: ${estado.candidatos.fonte}.`;
   alvoReg.append(fonte);
 
+  alvoReg.append(botaoColinha(c, c.cargo));
+
   mostrar('tela-candidato');
 }
 
@@ -1018,6 +1207,8 @@ function abrirExecutivo(id) {
     bloco.append(cabeca, cita, rodape);
     alvoPass.append(bloco);
   }
+
+  alvoPass.append(botaoColinha(c, c.cargo));
 
   mostrar('tela-executivo');
 }
