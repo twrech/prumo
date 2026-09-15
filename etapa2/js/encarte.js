@@ -516,9 +516,18 @@ function cartaoCandidato(c) {
 
 /**
  * Ordem dos cargos na lista do partido. Não é alfabética nem por tamanho: é a
- * ordem em que o eleitor preenche a urna, de cima para baixo.
+ * ordem em que a urna pede o voto, de cima para baixo.
+ *
+ * A urna de 2026 pede SEIS votos, nesta ordem: deputado federal, deputado
+ * estadual, senador (primeira vaga), senador (segunda vaga), governador e
+ * presidente. Fonte: TSE, "Eleições 2026: conheça a ordem de votação na urna
+ * eletrônica".
+ *
+ * Esta lista já esteve errada, começando por Senador — foi escrita de memória,
+ * com a justificativa de que seguia a urna, que era exatamente o que ela não
+ * fazia. Quem confere a colinha contra a tela da urna repara na hora.
  */
-const ORDEM_CARGO = ['Senador', 'Deputado Federal', 'Deputado Estadual'];
+const ORDEM_CARGO = ['Deputado Federal', 'Deputado Estadual', 'Senador'];
 
 function desenharCandidatosDoPartido(sigla) {
   const secao = $('secao-candidatos');
