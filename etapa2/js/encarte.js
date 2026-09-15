@@ -952,7 +952,17 @@ function abrirExecutivo(id) {
   $('exec-sintese').textContent =
     'O que está abaixo é o que esta pessoa escreveu no plano de governo entregue ao TSE. '
     + 'É o que ela diz que vai fazer — não é o que ela fez. '
-    + 'Toda posição vem acompanhada da passagem que a originou e da página, para você conferir no documento original.';
+    + 'Toda posição vem acompanhada da passagem que a originou e da página, para você conferir no documento original.'
+    // O plano lido por OCR não é igual aos outros, e quem vai conferir precisa
+    // saber disso ANTES de comparar a passagem com o PDF: o texto aqui foi lido
+    // por máquina a partir de uma imagem, e máquina troca letra e some com
+    // palavra. Cada passagem foi conferida contra a imagem da página, mas o
+    // leitor tem direito de saber que existiu esse passo a mais.
+    + (c.leitura
+      ? ' Atenção: este plano foi registrado como imagem, sem texto dentro. '
+        + 'O texto foi obtido por leitura automática (OCR) das páginas, e cada passagem citada '
+        + 'foi conferida contra a imagem da página original antes de virar posição.'
+      : '');
   $('exec-base').textContent =
     `${c.temas_respondidos} dos ${c.temas_no_catalogo} temas do catálogo · `
     + `confiança média ${c.confianca_media}% · `

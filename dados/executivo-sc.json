@@ -1,6 +1,6 @@
 {
   "versao": "1.0",
-  "gerado_em": "2026-09-14",
+  "gerado_em": "2026-09-15",
   "fonte": "Plano de governo registrado no TSE, eleição 20322002026, lido contra o catálogo de temas-planos.json",
   "o_que_isto_mede": "o que a pessoa diz que fará — não o que ela fez",
   "confianca_minima": 60,
@@ -19,6 +19,7 @@
       "ue": "BR",
       "paginas": 15,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 11,
         "soc": 0,
@@ -81,6 +82,7 @@
       "ue": "BR",
       "paginas": 16,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -63,
         "soc": -62,
@@ -259,6 +261,7 @@
       "ue": "BR",
       "paginas": 200,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 16,
         "soc": 0,
@@ -374,6 +377,7 @@
       "ue": "BR",
       "paginas": 76,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 53,
         "soc": 38,
@@ -541,6 +545,7 @@
       "ue": "BR",
       "paginas": 33,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -37,
         "soc": -75,
@@ -698,6 +703,7 @@
       "ue": "BR",
       "paginas": 84,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -37,
         "soc": -31,
@@ -820,6 +826,7 @@
       "ue": "BR",
       "paginas": 28,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 26,
         "soc": 0,
@@ -871,6 +878,7 @@
       "ue": "BR",
       "paginas": 51,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 11,
         "soc": 13,
@@ -985,6 +993,7 @@
       "ue": "BR",
       "paginas": 100,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 21,
         "soc": -12,
@@ -1131,6 +1140,7 @@
       "ue": "BR",
       "paginas": 7,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -68,
         "soc": 6,
@@ -1287,6 +1297,7 @@
       "ue": "BR",
       "paginas": 67,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -32,
         "soc": -37,
@@ -1399,6 +1410,7 @@
       "ue": "BR",
       "paginas": 58,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 0,
         "soc": 0,
@@ -1495,6 +1507,7 @@
       "ue": "BR",
       "paginas": 81,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 53,
         "soc": 19,
@@ -1663,6 +1676,7 @@
       "ue": "SC",
       "paginas": 7,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -68,
         "soc": 6,
@@ -1818,7 +1832,89 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 74,
-      "evidencia": "plano-ilegivel"
+      "evidencia": "plano",
+      "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
+      "posicao": {
+        "eco": -21,
+        "soc": -31,
+        "pod": 0,
+        "sob": 0,
+        "amb": -43
+      },
+      "confianca": {
+        "eco": 21,
+        "soc": 31,
+        "pod": 0,
+        "sob": 0,
+        "amb": 43
+      },
+      "confianca_media": 19,
+      "temas_respondidos": 6,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg03",
+          "titulo": "Transferência de renda como política permanente",
+          "valor": "favor",
+          "pagina": 14,
+          "passagem": "Instituir uma estratégia estadual integrada para erradicar a pobreza extrema, articulando políticas de transferência de renda, inclusão produtiva e acesso aos serviços públicos",
+          "eixos": [
+            "eco"
+          ]
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 58,
+          "passagem": "Criar o Conselho Estadual das Pessoas LGBTQIA+ e aderir à Política Nacional das Pessoas LGBTQIA+.",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "favor",
+          "pagina": 30,
+          "passagem": "realização regular de concurso para professores efetivos, com garantia de cotas para pessoas negras, indígenas, egressas da rede pública de ensino e pessoas com deficiência",
+          "eixos": [
+            "soc"
+          ]
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 51,
+          "passagem": "Programa Transição Energética e Economia de Baixo Carbono — Apoiar a modernização da economia catarinense por meio da redução das emissões de gases de efeito estufa.",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg25",
+          "titulo": "Terras indígenas e áreas protegidas",
+          "valor": "favor",
+          "pagina": 55,
+          "passagem": "Programa Povos Indígenas, Quilombolas e Comunidades Tradicionais [...] proteção dos territórios tradicionais",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 30,
+          "passagem": "valorização salarial e profissional, com fortalecimento do plano de carreira",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
     },
     {
       "id": 240002551001,
@@ -1829,6 +1925,7 @@
       "ue": "SC",
       "paginas": 25,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 0,
         "soc": -12,
@@ -1900,7 +1997,70 @@
       "cargo_nome": "Governador de Santa Catarina",
       "ue": "SC",
       "paginas": 22,
-      "evidencia": "plano-ilegivel"
+      "evidencia": "plano",
+      "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
+      "posicao": {
+        "eco": -5,
+        "soc": 0,
+        "pod": 13,
+        "sob": 0,
+        "amb": 36
+      },
+      "confianca": {
+        "eco": 16,
+        "soc": 0,
+        "pod": 13,
+        "sob": 0,
+        "amb": 36
+      },
+      "confianca_media": 13,
+      "temas_respondidos": 4,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "Cerco eletrônico e inteligência total: expandir o Sistema Integrado de Videomonitoramento Inteligente com reconhecimento facial e leitura de placas para as maiores cidades catarinenses.",
+          "eixos": [
+            "pod"
+          ]
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 15,
+          "passagem": "Corredores Ferroviários e intermodais: acelerar a elaboração de projetos e licenciamentos de ferrovias estaduais conectando as regiões catarinenses",
+          "eixos": [
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg26",
+          "titulo": "Agronegócio como motor, com regras mais leves",
+          "valor": "favor",
+          "pagina": 19,
+          "passagem": "valorizar o homem e a mulher do campo, incentivar a sucessão familiar, modernizar a produção agropecuária e pesqueira e garantir segurança hídrica e ambiental sem sufocar quem produz.",
+          "eixos": [
+            "eco",
+            "amb"
+          ]
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "Valorização e recomposição do efetivo policial: dar continuidade aos concursos públicos, garantindo efetivo qualificado, formação continuada",
+          "eixos": [
+            "eco"
+          ]
+        }
+      ]
     },
     {
       "id": 240002550544,
@@ -1911,6 +2071,7 @@
       "ue": "SC",
       "paginas": 23,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -47,
         "soc": -19,
@@ -2002,6 +2163,7 @@
       "ue": "SC",
       "paginas": 21,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 37,
         "soc": 0,
@@ -2083,6 +2245,7 @@
       "ue": "SC",
       "paginas": 50,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": -63,
         "soc": -50,
@@ -2251,6 +2414,7 @@
       "ue": "SC",
       "paginas": 25,
       "evidencia": "plano",
+      "leitura": null,
       "posicao": {
         "eco": 0,
         "soc": 0,

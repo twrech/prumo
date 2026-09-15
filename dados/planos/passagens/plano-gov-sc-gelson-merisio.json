@@ -1,7 +1,313 @@
 {
   "arquivo": "plano-gov-sc-gelson-merisio.txt",
   "identidade": "GELSON MERÍSIO — PSB — Governador SC",
-  "legivel": false,
-  "motivo": "PDF sem camada de texto; não há o que citar",
-  "por_eixo": null
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 1080,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 7,
+        "termos": [
+          "estado mínimo",
+          "regulação"
+        ],
+        "compromisso": false,
+        "texto": "De um lado, a ideia de um Estado minimo, limitado à prestação de serviços essenciais e à regulação da economia."
+      },
+      {
+        "pagina": 60,
+        "termos": [
+          "tributár",
+          "reforma tributária"
+        ],
+        "compromisso": false,
+        "texto": "- adequação do financiamento público da cultura à reforma tributária;"
+      },
+      {
+        "pagina": 14,
+        "termos": [
+          "transferência de renda"
+        ],
+        "compromisso": false,
+        "texto": "Instituir uma estratégia estadual integrada para erradicar a pobreza extrema, articulando políticas de transferência de renda, inclusão produtiva e acesso aos serviços públicos,"
+      },
+      {
+        "pagina": 21,
+        "termos": [
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "- articulação de parcerias público privadas (PPP) com manutenção e ampliação dos espaços públicos;"
+      },
+      {
+        "pagina": 34,
+        "termos": [
+          "regulação"
+        ],
+        "compromisso": false,
+        "texto": "« Mecanismos ágeis e eficazes de regulação das filas de espera, especialmente as cirurgias."
+      },
+      {
+        "pagina": 68,
+        "termos": [
+          "transferência de renda"
+        ],
+        "compromisso": false,
+        "texto": "Integração com os programas habitacionais, de transferência de renda e de inclusão produtiva"
+      }
+    ],
+    "soc": [
+      {
+        "pagina": 39,
+        "termos": [
+          "lgbt",
+          "transex"
+        ],
+        "compromisso": true,
+        "texto": "* Implantar a Política Nacional de Saúde Integral de Lésbicas, Gays, Bissexuais, Travestis e Transexuais (LGBT) em âmbito estadual,"
+      },
+      {
+        "pagina": 55,
+        "termos": [
+          "gênero",
+          "racial"
+        ],
+        "compromisso": true,
+        "texto": "O programa apoiará ações de promoção da igualdade racial, equidade de gênero, respeito à diversidade sexual e de identidade de gênero, inclusão das pessoas com deficiência, valorização da população idosa, proteção das crianças e adolescentes e fortalecimento das políticas para a juventude,"
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "gênero",
+          "racial"
+        ],
+        "compromisso": true,
+        "texto": "- Fortalecer políticas de promoção da igualdade racial, de gênero e de respeito à diversidade,"
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "- Criar o Conselho Estadual das Pessoas LGBTQIA+ e aderir à Política Nacional das Pessoas LGBTQIA+."
+      },
+      {
+        "pagina": 58,
+        "termos": [
+          "lgbt"
+        ],
+        "compromisso": true,
+        "texto": "- Criar um órgão estadual de promoção de políticas públicas para a população LGBTQIA+, aos moldes da Secretaria Nacional dos Direitos das Pessoas LGBTOIA+."
+      },
+      {
+        "pagina": 67,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "COMBATER A VIOLÊNCIA CONTRA A MULHER E PROMOVER A IGUALDADE DE GENERO"
+      },
+      {
+        "pagina": 69,
+        "termos": [
+          "gênero"
+        ],
+        "compromisso": true,
+        "texto": "Cidades Seguras para as Mulheres Criação de um programa estadual de cooperação com os municípios para fortalecer políticas locais de enfrentamento à violência de gênero."
+      },
+      {
+        "pagina": 54,
+        "termos": [
+          "gênero",
+          "racial"
+        ],
+        "compromisso": false,
+        "texto": "Esta missão reúne as políticas estaduais de direitos humanos, igualdade racial, equidade de gênero, diversidade, juventude, envelhecimento ativo, acessibilidade, povos indígenas, comunidades quilombolas, comunidades tradicionais, proteção animal e inclusão social."
+      }
+    ],
+    "pod": [
+      {
+        "pagina": 40,
+        "termos": [
+          "segurança pública",
+          "polícia"
+        ],
+        "compromisso": true,
+        "texto": "Fortalecer o Sistema Estadual de Segurança Pública por meio da integração entre prevenção, inteligência, investigação, policiamento e participação social,"
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "polícia",
+          "militar"
+        ],
+        "compromisso": true,
+        "texto": "« Ampliar a integração operacional entre as instituições policiais, Defesa Civil e Corpo de Bombeiros Militar."
+      },
+      {
+        "pagina": 43,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": true,
+        "texto": "- Modernizar os sistemas estaduais de inteligência policial."
+      },
+      {
+        "pagina": 44,
+        "termos": [
+          "segurança pública",
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "- Implantar um sistema estadual de indicadores e monitoramento da segurança pública."
+      },
+      {
+        "pagina": 40,
+        "termos": [
+          "pena",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "- Integração operacional entre Polícia Militar, Polícia Civil, Polícia Científica, Corpo de Bombeiros Militar e Polícia Penal;"
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "O território deixa de ser apenas o espaço onde as políticas são executadas e passa a orientar sua formulação, implementação e avaliação, Essa perspectiva permitirá fortalecer as cidades médias, integrar áreas metropolitanas, apoiar os pequenos municípios e reduzir desigualdades regionais."
+      },
+      {
+        "pagina": 18,
+        "termos": [
+          "monitorament"
+        ],
+        "compromisso": true,
+        "texto": "- Implantar um sistema estadual de monitoramento da pobreza multidimensional."
+      },
+      {
+        "pagina": 29,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": true,
+        "texto": "Ciência, tecnologia e inovação serão tratadas como políticas de desenvolvimento e não apenas como políticas educacionais."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 18,
+        "termos": [
+          "tratado"
+        ],
+        "compromisso": true,
+        "texto": "O desenvolvimento econômico será tratado como instrumento para ampliar oportunidades e reduzir desigualdades entre as regiões."
+      },
+      {
+        "pagina": 25,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": false,
+        "texto": "-« Implantação da tarifa zero nos municípios;"
+      },
+      {
+        "pagina": 72,
+        "termos": [
+          "exportação"
+        ],
+        "compromisso": false,
+        "texto": "* corredores estratégicos de exportação."
+      },
+      {
+        "pagina": 73,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": false,
+        "texto": "- Viabilizar à implantação da tarifa zero o transporte."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 47,
+        "termos": [
+          "agropecuár",
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Programa Inovação e Pesquisa Agropecuária Fortalecer a pesquisa e a inovação como instrumentos de aumento da produtividade e adaptação às mudanças climáticas."
+      },
+      {
+        "pagina": 23,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "* Elaborar políticas públicas para apoiar as iniciativas da área do turismo rural que reconheçam e promovam a diversidade geográfica, climática e cultural de Santa Catarina,"
+      },
+      {
+        "pagina": 39,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "- Fortalecer a capacidade de resposta a epidemias, pandemias e eventos climáticos com impacto na saúde pública."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "As prioridades serão definidas com base em mapas de risco, vulnerabilidade climática e capacidade de adaptação dos territórios."
+      },
+      {
+        "pagina": 49,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Programa Municípios Resilientes Apoiar tecnicamente os municípios na incorporação da adaptação climática aos instrumentos de planejamento territorial,"
+      },
+      {
+        "pagina": 50,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Programa Infraestrutura Verde e Soluções Baseadas na Natureza Promover investimentos em infraestrutura natural como estratégia permanente de adaptação climática."
+      },
+      {
+        "pagina": 51,
+        "termos": [
+          "carbono",
+          "emissões"
+        ],
+        "compromisso": true,
+        "texto": "Programa Transição Energética e Economia de Baixo Carbono Apoiar a modernização da economia catarinense por meio da redução das emissões de gases de efeito estufa."
+      },
+      {
+        "pagina": 51,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "Programa Agricultura Resiliente Fortalecer a adaptação da agricultura catarinense as mudanças climáticas."
+      }
+    ]
+  }
 }

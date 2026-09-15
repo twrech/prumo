@@ -1,6 +1,6 @@
 {
   "versao": "1.0",
-  "gerado_em": "2026-09-14",
+  "gerado_em": "2026-09-15",
   "catalogo": {
     "versao": "1.0",
     "temas": 27
@@ -45,6 +45,7 @@
       "arquivo": "plano-gov-sc-bruno-pedreiro-do-pco.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 12,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -162,6 +163,7 @@
       "arquivo": "plano-gov-sc-joao-rodrigues.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 4,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -226,6 +228,7 @@
       "arquivo": "plano-gov-sc-lais-chaud.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 6,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -303,6 +306,7 @@
       "arquivo": "plano-gov-sc-marcelo-brigadeiro.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 5,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -374,6 +378,7 @@
       "arquivo": "plano-gov-sc-professor-marcus-sodre.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 13,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -497,6 +502,7 @@
       "arquivo": "plano-gov-sc-ralf-zimmer.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 5,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -567,6 +573,7 @@
       "arquivo": "plano-pres-clariana-barao.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 3,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -624,6 +631,7 @@
       "arquivo": "plano-pres-edmilson-costa.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 14,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -754,6 +762,7 @@
       "arquivo": "plano-pres-escritor-augusto-cury.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 8,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -844,6 +853,7 @@
       "arquivo": "plano-pres-flavio-bolsonaro.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 13,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -967,6 +977,7 @@
       "arquivo": "plano-pres-hertz-dias.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 12,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1085,6 +1096,7 @@
       "arquivo": "plano-pres-lula.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 9,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1182,6 +1194,7 @@
       "arquivo": "plano-pres-pablo-marcal.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 2,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1232,6 +1245,7 @@
       "arquivo": "plano-pres-renan-santos.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 8,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1321,6 +1335,7 @@
       "arquivo": "plano-pres-ronaldo-caiado.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 11,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1431,6 +1446,7 @@
       "arquivo": "plano-pres-rui-costa-pimenta.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 12,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1548,6 +1564,7 @@
       "arquivo": "plano-pres-samara.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 8,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1640,6 +1657,7 @@
       "arquivo": "plano-pres-veterinario-wilson-grassi.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 6,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1716,6 +1734,7 @@
       "arquivo": "plano-pres-zema.txt",
       "tipo_de_evidencia": "plano",
       "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": null,
       "temas_respondidos": 13,
       "temas_no_catalogo": 27,
       "posicao": {
@@ -1830,9 +1849,7 @@
           "passagem": "Enxugar o custo do Legislativo e do Judiciário, atacando o excesso de pessoal e os salários acima da média que sustentam essas estruturas"
         }
       ]
-    }
-  ],
-  "sem_camada_de_texto": [
+    },
     {
       "id": 240002548628,
       "nome": "GELSON MERÍSIO",
@@ -1840,9 +1857,76 @@
       "cargo": "gov",
       "ue": "SC",
       "arquivo": "plano-gov-sc-gelson-merisio.txt",
-      "paginas": 74,
-      "tipo_de_evidencia": "plano-ilegivel",
-      "o_que_isto_mede": "nada: o plano foi registrado como imagem e não há texto a citar"
+      "tipo_de_evidencia": "plano",
+      "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
+      "temas_respondidos": 6,
+      "temas_no_catalogo": 27,
+      "posicao": {
+        "eco": -21,
+        "soc": -31,
+        "pod": 0,
+        "sob": 0,
+        "amb": -43
+      },
+      "confianca": {
+        "eco": 21,
+        "soc": 31,
+        "pod": 0,
+        "sob": 0,
+        "amb": 43
+      },
+      "confianca_media": 19,
+      "eixos_sem_base": [
+        "eco",
+        "soc",
+        "pod",
+        "sob"
+      ],
+      "passagens": [
+        {
+          "tema": "pg03",
+          "titulo": "Transferência de renda como política permanente",
+          "valor": "favor",
+          "pagina": 14,
+          "passagem": "Instituir uma estratégia estadual integrada para erradicar a pobreza extrema, articulando políticas de transferência de renda, inclusão produtiva e acesso aos serviços públicos"
+        },
+        {
+          "tema": "pg08",
+          "titulo": "Direitos de pessoas LGBT",
+          "valor": "favor",
+          "pagina": 58,
+          "passagem": "Criar o Conselho Estadual das Pessoas LGBTQIA+ e aderir à Política Nacional das Pessoas LGBTQIA+."
+        },
+        {
+          "tema": "pg10",
+          "titulo": "Cotas e ação afirmativa racial",
+          "valor": "favor",
+          "pagina": 30,
+          "passagem": "realização regular de concurso para professores efetivos, com garantia de cotas para pessoas negras, indígenas, egressas da rede pública de ensino e pessoas com deficiência"
+        },
+        {
+          "tema": "pg24",
+          "titulo": "Metas de emissão e transição energética",
+          "valor": "favor",
+          "pagina": 51,
+          "passagem": "Programa Transição Energética e Economia de Baixo Carbono — Apoiar a modernização da economia catarinense por meio da redução das emissões de gases de efeito estufa."
+        },
+        {
+          "tema": "pg25",
+          "titulo": "Terras indígenas e áreas protegidas",
+          "valor": "favor",
+          "pagina": 55,
+          "passagem": "Programa Povos Indígenas, Quilombolas e Comunidades Tradicionais [...] proteção dos territórios tradicionais"
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 30,
+          "passagem": "valorização salarial e profissional, com fortalecimento do plano de carreira"
+        }
+      ]
     },
     {
       "id": 240002537073,
@@ -1851,9 +1935,64 @@
       "cargo": "gov",
       "ue": "SC",
       "arquivo": "plano-gov-sc-jorginho-mello.txt",
-      "paginas": 22,
-      "tipo_de_evidencia": "plano-ilegivel",
-      "o_que_isto_mede": "nada: o plano foi registrado como imagem e não há texto a citar"
+      "tipo_de_evidencia": "plano",
+      "o_que_isto_mede": "o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez",
+      "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
+      "temas_respondidos": 4,
+      "temas_no_catalogo": 27,
+      "posicao": {
+        "eco": -5,
+        "soc": 0,
+        "pod": 13,
+        "sob": 0,
+        "amb": 36
+      },
+      "confianca": {
+        "eco": 16,
+        "soc": 0,
+        "pod": 13,
+        "sob": 0,
+        "amb": 36
+      },
+      "confianca_media": 13,
+      "eixos_sem_base": [
+        "eco",
+        "soc",
+        "pod",
+        "sob",
+        "amb"
+      ],
+      "passagens": [
+        {
+          "tema": "pg16",
+          "titulo": "Vigilância eletrônica em larga escala",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "Cerco eletrônico e inteligência total: expandir o Sistema Integrado de Videomonitoramento Inteligente com reconhecimento facial e leitura de placas para as maiores cidades catarinenses."
+        },
+        {
+          "tema": "pg22",
+          "titulo": "Flexibilização do licenciamento ambiental",
+          "valor": "favor",
+          "pagina": 15,
+          "passagem": "Corredores Ferroviários e intermodais: acelerar a elaboração de projetos e licenciamentos de ferrovias estaduais conectando as regiões catarinenses"
+        },
+        {
+          "tema": "pg26",
+          "titulo": "Agronegócio como motor, com regras mais leves",
+          "valor": "favor",
+          "pagina": 19,
+          "passagem": "valorizar o homem e a mulher do campo, incentivar a sucessão familiar, modernizar a produção agropecuária e pesqueira e garantir segurança hídrica e ambiental sem sufocar quem produz."
+        },
+        {
+          "tema": "pg27",
+          "titulo": "Serviço público de carreira",
+          "valor": "favor",
+          "pagina": 16,
+          "passagem": "Valorização e recomposição do efetivo policial: dar continuidade aos concursos públicos, garantindo efetivo qualificado, formação continuada"
+        }
+      ]
     }
-  ]
+  ],
+  "sem_camada_de_texto": []
 }

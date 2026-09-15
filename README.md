@@ -577,11 +577,34 @@ declarada. Os planos que mais se posicionam são os dos partidos pequenos de
 esquerda e os das candidaturas ideológicas — justamente os de menor chance
 eleitoral.
 
-O caso extremo está no governo de Santa Catarina: dos oito candidatos, os dois
-com plano ilegível são **Gelson Merísio** (PSB) e **Jorginho Mello** (PL), os
-dois nomes mais visíveis da disputa, e o terceiro mais visível, **João
-Rodrigues** (PSD), responde 4 dos 27 temas. O eleitor catarinense não tem, pelo
-plano registrado, como saber o que qualquer um dos três defende.
+O caso extremo está no governo de Santa Catarina. Dois dos oito candidatos —
+**Gelson Merísio** (PSB) e **Jorginho Mello** (PL), os dois nomes mais visíveis
+da disputa — registraram o plano como **PDF-imagem**, sem texto dentro. Ficaram
+ilegíveis até serem lidos por OCR em 15/09/2026. Lidos, dizem pouco: Merísio
+responde 6 dos 27 temas em 74 páginas, Jorginho Mello 4 em 22, e o terceiro mais
+visível, **João Rodrigues** (PSD), 4 em 25. Nenhum dos três alcança os 60% de
+confiança que o Prumo exige para comparar com o perfil do eleitor.
+
+O achado, portanto, não mudou de natureza — mudou de causa. Antes o eleitor
+catarinense não sabia o que os favoritos defendem porque o arquivo não abria.
+Agora sabe que o arquivo abre e quase não diz.
+
+### Ler o que foi registrado como imagem
+
+Passar OCR num plano de governo não é o mesmo que ler o PDF, e a diferença
+importa o bastante para virar regra. Páginas renderizadas a 300 dpi com
+`pdftoppm` e lidas com `tesseract 5` em português. A qualidade é boa, mas **não é
+o texto**: o OCR troca letra, funde palavra e — o caso perigoso — **omite
+palavra**. Numa das páginas de Merísio ele produziu "O Estado deve atuar como
+para construir soluções permanentes": falta uma palavra, e é justamente a
+palavra que diria o que o Estado deve ser.
+
+Por isso a regra: **toda passagem citada a partir de um plano lido por OCR é
+conferida contra a imagem da página antes de virar posição.** Das dez passagens
+citadas nos dois planos, as oito que sustentam posição foram abertas e lidas na
+imagem original, uma a uma. A ficha do candidato declara, ao eleitor, que aquela
+leitura veio de OCR — quem for conferir no documento original precisa saber que
+houve um passo de máquina no meio.
 
 #### O que apareceu na leitura
 
@@ -790,10 +813,10 @@ partidos na etapa 2.
   registra. É por isso que a comparação "o que diz × o que fez" não existe no
   Prumo: quem tem plano não tem voto nominal nosso, e quem tem voto nominal não
   tem plano. As duas bases não se cruzam em nenhum nome.
-- **Os dois planos ilegíveis.** Gelson Merísio (PSB) e Jorginho Mello (PL)
-  registraram PDF sem camada de texto. Ficam com ficha de "plano registrado, não
-  legível" — que é diferente de não ter registrado e diferente de ter registrado
-  e não dizer nada.
+- **Os dois planos que eram ilegíveis.** Gelson Merísio (PSB) e Jorginho Mello
+  (PL) registraram PDF sem camada de texto e foram lidos por OCR em 15/09/2026.
+  Os 21 planos estão lidos; nenhum fica com ficha de "não legível". A ficha dos
+  dois declara a origem por OCR.
 - **A comparação "diz × fez"** não existe hoje, e não por descuido: quem tem
   plano registrado (executivo) não tem voto nominal nosso, e quem tem voto
   nominal (deputado federal) não registra plano. As duas bases não se cruzam.

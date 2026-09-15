@@ -1,2599 +1,2849 @@
 {
-  "versao": "1.0",
-  "gerado_em": "2026-09-14",
-  "metodo": "Leitura humana de cada plano contra o catálogo fixo de temas-planos.json. Favor e contra exigem página e passagem literal; o resto é silêncio.",
-  "conferencia": "Cada passagem foi conferida contra o .txt extraído do PDF antes de entrar aqui.",
-  "cobertura": "Presidente (13) e governador de SC (8): todos os 21 planos registrados em 2026.",
-  "respostas": [
+ "versao": "1.0",
+ "gerado_em": "2026-09-15",
+ "metodo": "Leitura humana de cada plano contra o catálogo fixo de temas-planos.json. Favor e contra exigem página e passagem literal; o resto é silêncio.",
+ "conferencia": "Cada passagem foi conferida contra o .txt extraído do PDF antes de entrar aqui.",
+ "cobertura": "Presidente (13) e governador de SC (8): todos os 21 planos registrados em 2026.",
+ "respostas": [
+  {
+   "id": 240002553718,
+   "nome": "BRUNO PEDREIRO DO PCO",
+   "partido": "PCO",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-bruno-pedreiro-do-pco.txt",
+   "itens": [
     {
-      "id": 240002553718,
-      "nome": "BRUNO PEDREIRO DO PCO",
-      "partido": "PCO",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-bruno-pedreiro-do-pco.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro"
-        },
-        {
-          "tema": "pg02",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões"
-        },
-        {
-          "tema": "pg03",
-          "valor": "favor",
-          "pagina": 2,
-          "passagem": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo"
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores"
-        },
-        {
-          "tema": "pg05",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "favor",
-          "pagina": 4,
-          "passagem": "Direito de autodefesa e armamento para os trabalhadores do campo e índios"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 5,
-          "passagem": "Dissolução da polícia militar e de todo o aparato repressivo"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 7,
-          "passagem": "Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico"
-        },
-        {
-          "tema": "pg20",
-          "valor": "contra",
-          "pagina": 7,
-          "passagem": "A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva."
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "favor",
-          "pagina": 3,
-          "passagem": "Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "favor",
-          "pagina": 4,
-          "passagem": "defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos"
-        }
-      ]
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro"
     },
     {
-      "id": 240002551001,
-      "nome": "JOÃO RODRIGUES",
-      "partido": "PSD",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-joao-rodrigues.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 20,
-          "passagem": "Parte substancial desses recursos deverá vir da iniciativa privada, por meio de parcerias público-privadas e concessões, sempre que se mostrarem vantajosas para o interesse público."
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "favor",
-          "pagina": 13,
-          "passagem": "Implementar ações voltadas ao diagnóstico e cuidado da saúde mental e à prevenção do uso de álcool e outras drogas"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 8,
-          "passagem": "Aperfeiçoar o programa de videomonitoramento, ampliando o número de câmeras com tecnologia de reconhecimento facial, leitura de placas de veículos, inteligência artificial e alertas em tempo real"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "favor",
-          "pagina": 23,
-          "passagem": "A valorização do servidor público é condição para a qualidade da gestão."
-        }
-      ]
+     "tema": "pg02",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões"
     },
     {
-      "id": 240002550544,
-      "nome": "LAÍS CHAUD",
-      "partido": "UP",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-lais-chaud.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 4,
-          "passagem": "Fortalecer a CASAN enquanto empresa pública estratégica, ampliando sua capacidade de investimento"
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 16,
-          "passagem": "garantindo igualdade salarial, enfrentamento ao assédio sexual e moral, proteção às trabalhadoras informais e redução da jornada de trabalho sem redução salarial"
-        },
-        {
-          "tema": "pg05",
-          "valor": "favor",
-          "pagina": 4,
-          "passagem": "Ampliar os investimentos públicos em saneamento, estabelecendo um plano estadual para universalizar o abastecimento de água, a coleta e o tratamento de esgoto."
-        },
-        {
-          "tema": "pg06",
-          "valor": "favor",
-          "pagina": 11,
-          "passagem": "Estabelecimento de uma rede estadual pública de mercados populares, que comercialize alimentos de qualidade à preço de custo, com subsídios do Governo de Santa Catarina"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "favor",
-          "pagina": 18,
-          "passagem": "Criar uma Política Estadual de Enfrentamento a LGBTfobia, com orçamento próprio e atuação conjunta das áreas de segurança, saúde, educação, assistência social e trabalho."
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 13,
-          "passagem": "Retomar imediatamente a obrigatoriedade do uso de câmeras corporais entre todos os policiais militares e civis de Santa Catarina"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg03",
+     "valor": "favor",
+     "pagina": 2,
+     "passagem": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo"
     },
     {
-      "id": 240002544118,
-      "nome": "MARCELO BRIGADEIRO",
-      "partido": "MISSÃO",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-marcelo-brigadeiro.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "favor",
-          "pagina": 11,
-          "passagem": "Privatizar empresas estatais eficientes, superavitárias ou ainda úteis, com metas estabelecidas e sistemas de avaliação de desempenho, tais como CELESC e CASAN"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 9,
-          "passagem": "Reduzir a carga tributária para aumentar a competitividade do setor produtivo catarinense"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "utilizaremos instrumentos modernos de gestão, incluindo parcerias com a iniciativa privada, privatizações, concessões e parcerias público-privadas capazes de ampliar investimentos"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "favor",
-          "pagina": 16,
-          "passagem": "Realizar parcerias público-privadas (PPPs) para a construção, a administração e a manutenção de presídios e penitenciárias no estado de Santa Catarina"
-        },
-        {
-          "tema": "pg15",
-          "valor": "contra",
-          "pagina": 16,
-          "passagem": "assegurando assistência jurídica pela PGE nos processos relacionados a atos praticados no exercício regular da função"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores"
     },
     {
-      "id": 240002541913,
-      "nome": "PROFESSOR MARCUS SODRÉ",
-      "partido": "PSTU",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-professor-marcus-sodre.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 23,
-          "passagem": "parar as privatizações e terceirizações que só servem para piorar o serviço público"
-        },
-        {
-          "tema": "pg02",
-          "valor": "contra",
-          "pagina": 47,
-          "passagem": "Defendemos também impostos sobre grandes fortunas e um modelo tributário com tributos progressivos e que tribute prioritariamente a renda e o patrimônio."
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 27,
-          "passagem": "revogação da reforma trabalhista, da lei das terceirizações, das restrições ao seguro desemprego"
-        },
-        {
-          "tema": "pg05",
-          "valor": "favor",
-          "pagina": 35,
-          "passagem": "Criar uma empresa estatal de obras para garantir a construção de moradias populares faltantes e obras de infraestrutura, a baixo custo."
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "favor",
-          "pagina": 30,
-          "passagem": "Abaixo à repressão policial LGBTfóbica!"
-        },
-        {
-          "tema": "pg09",
-          "valor": "favor",
-          "pagina": 42,
-          "passagem": "Por isso, defendemos a legalização das drogas e seu controle estatal para acabar com o narcotráfico."
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "contra",
-          "pagina": 28,
-          "passagem": "Em defesa do direito a decidir, legalização e descriminalização do aborto"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "contra",
-          "pagina": 43,
-          "passagem": "defendemos uma política de desencarceramento dos negros e pobres, que envolva “limpar a ficha” dos presos relacionados à lei antidrogas e o cumprimento de penas de maneira alternativa"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 44,
-          "passagem": "Punição a todos os torturadores da ditadura militar e aos que têm usado essa prática nas delegacias de polícia e sistema prisional!"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "contra",
-          "pagina": 18,
-          "passagem": "orientar a produção agrária nacional para o mercado interno, afastando as megas empresas, predominantemente estrangeiras, que hoje orientam toda produção nacional às exportações"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 18,
-          "passagem": "Soberania significa estatizar a produção nacional de metais preciosos"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "favor",
-          "pagina": 17,
-          "passagem": "parte do excedente de empresas que exploram combustíveis fósseis, como a Petrobras, pode ser sistematicamente redirecionada para a produção de energia renovável"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "contra",
-          "pagina": 37,
-          "passagem": "o peso do agronegócio e que vêm impondo a concentração das terras, destruição da natureza, aumento da violência e a utilização de grandes quantidades de agrotóxicos"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg05",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores"
     },
     {
-      "id": 240002552157,
-      "nome": "RALF ZIMMER",
-      "partido": "PRD",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-ralf-zimmer.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 11,
-          "passagem": "realizando concessão e/ou parceria público-privada por edital de concorrência nacional/internacional com pedágio como fonte compensatória de custeio"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 7,
-          "passagem": "expandir videomonitoramento e leitura de placas conforme a legislação"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "favor",
-          "pagina": 16,
-          "passagem": "simplificar processos ambientais sem reduzir proteção; definir competências com clareza; ampliar segurança jurídica"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "favor",
-          "pagina": 16,
-          "passagem": "incentivar energia renovável e eficiência energética"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "favor",
-          "pagina": 7,
-          "passagem": "recompor efetivos por concursos e gestão eficiente de pessoal"
-        }
-      ]
+     "tema": "pg06",
+     "valor": "silencio"
     },
     {
-      "id": 280002552484,
-      "nome": "CLARIANA BARAO",
-      "partido": "DC",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-clariana-barao.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 5,
-          "passagem": "Concessões, PPPs e planejamento de longo prazo"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 9,
-          "passagem": "Sensores, radares e monitoramento remoto"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 9,
-          "passagem": "Fronteiras inteligentes e integradas"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg07",
+     "valor": "silencio"
     },
     {
-      "id": 280002551975,
-      "nome": "EDMILSON COSTA",
-      "partido": "PCB",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-edmilson-costa.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 4,
-          "passagem": "As empresas estratégicas privatizadas serão retomadas para o patrimônio público"
-        },
-        {
-          "tema": "pg02",
-          "valor": "contra",
-          "pagina": 14,
-          "passagem": "além da criação de um imposto especial sobre lucros e dividendos, grandes fortunas"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 13,
-          "passagem": "Fim das terceirizações, das privatizações e de todas as flexibilizações legais e tributárias em favor dos grandes capitalistas."
-        },
-        {
-          "tema": "pg05",
-          "valor": "favor",
-          "pagina": 2,
-          "passagem": "a estatização das áreas estratégicas da economia e dos setores produtores de bens necessários à vida, como água, energia, saneamento"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "Serão adotadas políticas públicas de combate radical ao machismo, à misoginia, ao racismo, à lgbtfobia, ao capacitismo"
-        },
-        {
-          "tema": "pg09",
-          "valor": "favor",
-          "pagina": 12,
-          "passagem": "Descriminalização do uso de drogas, com legalização da maconha a curto prazo."
-        },
-        {
-          "tema": "pg10",
-          "valor": "favor",
-          "pagina": 7,
-          "passagem": "Promoveremos o fim do vestibular nas universidades federais e a ampliação das cotas (54% para a população negra"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "contra",
-          "pagina": 11,
-          "passagem": "Legalização do aborto, com garantia de atendimento na rede pública de saúde"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "contra",
-          "pagina": 12,
-          "passagem": "Contra a redução da maioridade penal e ampliação das medidas socioeducativas."
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "pondo fim à política de “guerra às drogas”, para o que se faz necessária a completa desmilitarização da segurança pública"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 14,
-          "passagem": "Transição para o regime de monopólio estatal da exploração, produção, refino, petroquímica e distribuição"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "contra",
-          "pagina": 14,
-          "passagem": "No lugar da exploração da Margem Equatorial, defendemos pesquisas e buscas em outras áreas e uma melhor exploração do Pré-Sal, reduzindo os lucros e a extração desenfreada"
-        },
-        {
-          "tema": "pg24",
-          "valor": "favor",
-          "pagina": 8,
-          "passagem": "Serão reforçadas as ações voltadas para a redução das emissões de gases do efeito estufa, o combate ao desmatamento"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "contra",
-          "pagina": 9,
-          "passagem": "Expropriação do agronegócio, não apenas para garantir comida na mesa do povo trabalhador brasileiro"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg08",
+     "valor": "silencio"
     },
     {
-      "id": 280002551547,
-      "nome": "ESCRITOR AUGUSTO CURY",
-      "partido": "AVANTE",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-escritor-augusto-cury.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 38,
-          "passagem": "Compromisso com uma carga tributária menor ao fim da transição"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 50,
-          "passagem": "Por isso, ampliaremos as concessões e as parcerias público-privadas, sempre com regras claras, segurança jurídica e rigorosa fiscalização."
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 46,
-          "passagem": "A segurança pública será fortalecida pelo uso de câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones, monitoramento integrado"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 60,
-          "passagem": "A política externa brasileira será guiada pela defesa da soberania, da segurança econômica e dos interesses estratégicos do país"
-        },
-        {
-          "tema": "pg20",
-          "valor": "favor",
-          "pagina": 46,
-          "passagem": "Fortaleceremos a cooperação com organismos internacionais e países vizinhos para combater o tráfico internacional"
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 46,
-          "passagem": "fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais"
-        },
-        {
-          "tema": "pg22",
-          "valor": "favor",
-          "pagina": 48,
-          "passagem": "O objetivo é assegurar ao produtor uma resposta clara em tempo razoável, eliminando a insegurança que hoje paralisa investimentos legítimos"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "favor",
-          "pagina": 51,
-          "passagem": "Ampliaremos investimentos em energia solar, eólica, biomassa, pequenas centrais hidrelétricas e outras fontes renováveis"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg09",
+     "valor": "silencio"
     },
     {
-      "id": 280002551544,
-      "nome": "FLAVIO BOLSONARO",
-      "partido": "PL",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-flavio-bolsonaro.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "favor",
-          "pagina": 70,
-          "passagem": "vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 31,
-          "passagem": "Vamos reduzir impostos sobre energia elétrica e combustíveis, buscar segurança energética ao menor preço possível para o consumidor"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 50,
-          "passagem": "adotar um novo modelo de financiamento para toda a infraestrutura, com fundo lastreado na securitização de ativos e imóveis da União, uso intensivo de PPPs e concessões"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "favor",
-          "pagina": 9,
-          "passagem": "Nossa forma de governar permanece fiel a valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "favor",
-          "pagina": 9,
-          "passagem": "valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção, à propriedade privada"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "favor",
-          "pagina": 13,
-          "passagem": "O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos."
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 15,
-          "passagem": "Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais"
-        },
-        {
-          "tema": "pg17",
-          "valor": "favor",
-          "pagina": 12,
-          "passagem": "um Tesouraço na Censura para garantir a liberdade de criticar sem medo"
-        },
-        {
-          "tema": "pg18",
-          "valor": "favor",
-          "pagina": 63,
-          "passagem": "vamos nos preparar para uma abertura comercial que dê ao setor produtivo acesso a bens de capital, tecnologia e insumos importados"
-        },
-        {
-          "tema": "pg19",
-          "valor": "contra",
-          "pagina": 55,
-          "passagem": "Vamos trabalhar para atrair o capital estrangeiro e a tecnologia que já existem no mundo, aplicando aqui o que outros países já dominam"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 13,
-          "passagem": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "favor",
-          "pagina": 53,
-          "passagem": "vamos estimular a modernização do refino rumo ao aproveitamento do petróleo nacional"
-        },
-        {
-          "tema": "pg24",
-          "valor": "favor",
-          "pagina": 63,
-          "passagem": "nossa meta para 2030 é posicionar o Brasil entre os principais destinos mundiais de investimento em transição energética"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg10",
+     "valor": "silencio"
     },
     {
-      "id": 280002541457,
-      "nome": "HERTZ DIAS",
-      "partido": "PSTU",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-hertz-dias.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 11,
-          "passagem": "Fim da privatização e da gestão privada da saúde (OS, Fundações e PPP)"
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "favor",
-          "pagina": 28,
-          "passagem": "A estatização do sistema financeiro e centralização do crédito em um banco único"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "favor",
-          "pagina": 24,
-          "passagem": "unificando a luta da população lgbti+"
-        },
-        {
-          "tema": "pg09",
-          "valor": "favor",
-          "pagina": 19,
-          "passagem": "Descriminalização das drogas e revogação da Lei Antidrogas, para efetivamente combater e acabar com o narcotráfico"
-        },
-        {
-          "tema": "pg10",
-          "valor": "favor",
-          "pagina": 21,
-          "passagem": "Manutenção e ampliação de cotas para negros nas universidades e serviços públicos"
-        },
-        {
-          "tema": "pg11",
-          "valor": "contra",
-          "pagina": 12,
-          "passagem": "Não à militarização das escolas e a projetos de controle ideológico, como Escola Sem Partido!"
-        },
-        {
-          "tema": "pg12",
-          "valor": "contra",
-          "pagina": 23,
-          "passagem": "Aborto legal, seguro e gratuito pelo sus"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "contra",
-          "pagina": 21,
-          "passagem": "Contra a redução da maioridade penal"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 21,
-          "passagem": "Desmilitarização da pm e unificação das polícias sob controle dos trabalhadores"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 5,
-          "passagem": "Defender a soberania do Brasil, neste marco, significa garantir que as riquezas produzidas no país permaneçam sob controle nacional"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "favor",
-          "pagina": 15,
-          "passagem": "Reparação e demarcação imediata das terras indígenas, titulação dos territórios quilombolas e proteção das comunidades tradicionais"
-        },
-        {
-          "tema": "pg26",
-          "valor": "contra",
-          "pagina": 22,
-          "passagem": "Que o Banco do Brasil destine suas verbas para a agricultura familiar, quilombola e indígena, e não para o agronegócio escravista."
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg11",
+     "valor": "silencio"
     },
     {
-      "id": 280002542548,
-      "nome": "LULA",
-      "partido": "PT",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-lula.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "contra",
-          "pagina": 19,
-          "passagem": "isentamos de imposto de renda todos os que ganham até R$ 5.000, compromisso assumido na campanha de 2022, marcos do início do processo de redução da regressividade do sistema tributário"
-        },
-        {
-          "tema": "pg03",
-          "valor": "favor",
-          "pagina": 18,
-          "passagem": "O combate às desigualdades requer justiça tributária, fortalecimento do Estado de bem-estar social, valorização do salário-mínimo, inclusão produtiva, educação, saúde, programas eficientes de transferência de renda."
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 75,
-          "passagem": "Vamos aprimorar a legislação trabalhista, alterando regras que induzem a precarização das condições de trabalho"
-        },
-        {
-          "tema": "pg05",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "favor",
-          "pagina": 23,
-          "passagem": "de modo a garantir capacidade de o Estado atender, de forma adequada, justa e inclusiva, às pessoas LGBTQIAP+ e todas as suas especificidades"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "favor",
-          "pagina": 19,
-          "passagem": "As políticas de fomento à participação da população negra no funcionalismo público, especialmente nos espaços superiores da gestão governamental, terão continuidade, alinhadas à política de cotas no serviço público"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 50,
-          "passagem": "elevar a produtividade, agregar valor às cadeias produtivas, fortalecer a soberania tecnológica, gerar empregos qualificados e descarbonizar a economia"
-        },
-        {
-          "tema": "pg20",
-          "valor": "favor",
-          "pagina": 81,
-          "passagem": "Defenderemos a reforma da arquitetura financeira internacional, com a democratização do FMI, do Banco Mundial e dos bancos multilaterais"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "favor",
-          "pagina": 70,
-          "passagem": "Promovemos uma das principais reformas da política climática nacional ao instituir o mercado regulado de carbono"
-        },
-        {
-          "tema": "pg25",
-          "valor": "favor",
-          "pagina": 19,
-          "passagem": "Voltamos a assegurar aos povos e comunidades tradicionais – indígenas, quilombolas e ribeirinhos – seus direitos, inclusive em relação a seus territórios."
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg12",
+     "valor": "silencio"
     },
     {
-      "id": 280002553884,
-      "nome": "PABLO MARÇAL",
-      "partido": "PRTB",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-pablo-marcal.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "favor",
-          "pagina": 20,
-          "passagem": "Desestatização Prioritária"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 14,
-          "passagem": "Redução progressiva da carga tributária sobre a produção, o investimento e a geração de empregos"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg13",
+     "valor": "favor",
+     "pagina": 4,
+     "passagem": "Direito de autodefesa e armamento para os trabalhadores do campo e índios"
     },
     {
-      "id": 280002540694,
-      "nome": "RENAN SANTOS",
-      "partido": "MISSÃO",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-renan-santos.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 43,
-          "passagem": "Suas medidas visam a reduzir impostos sobre empresas de tecnologia, facilitar a distribuição de stock options"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "contra",
-          "pagina": 32,
-          "passagem": "Abolir o sistema de cotas na educação brasileira e em geral."
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "com ênfase na aplicação do Direito Penal do Inimigo como arcabouço legal que permitirá o desmonte do crime organi"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "contra",
-          "pagina": 28,
-          "passagem": "propomos, alternativamente, a criação de um código de imprensa, que hoje não possui regulação"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 46,
-          "passagem": "Proposta de desdolarização da América do Sul busca reduzir a dependência do dólar americano"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 13,
-          "passagem": "vamos reconquistar o controle estatal sobre portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada"
-        },
-        {
-          "tema": "pg22",
-          "valor": "favor",
-          "pagina": 24,
-          "passagem": "implementação plena da Lei Geral do Licenciamento Ambiental (Lei nº 15.190/2025, oriunda do PL 2159/2021), com uso ostensivo da Licença Ambiental Especial"
-        },
-        {
-          "tema": "pg23",
-          "valor": "favor",
-          "pagina": 42,
-          "passagem": "sancionar e regulamentar o Projeto de Lei 2.780/2024, aprovado pela Câmara em 2026, que cria a Política Nacional de Minerais Críticos"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg14",
+     "valor": "silencio"
     },
     {
-      "id": 280002551932,
-      "nome": "RONALDO CAIADO",
-      "partido": "PSD",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-ronaldo-caiado.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 56,
-          "passagem": "Enviar ao Congresso proposta de financiamento plurianual, sem novo imposto geral e sem aumento da carga tributária."
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "A iniciativa privada será o principal motor da economia; ao Estado caberá garantir estabilidade, concorrência, infraestrutura, capital humano, regulação de qualidade"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "favor",
-          "pagina": 7,
-          "passagem": "Reduzir desigualdades raciais e de gênero por políticas mensuráveis de segurança, educação, saúde e oportunidades."
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "favor",
-          "pagina": 20,
-          "passagem": "Reduzir a maioridade penal e agravar o furto de celular"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 67,
-          "passagem": "Dados sobre uso da força serão auditados, e boas práticas de redução de letalidade e vitimização policial serão disseminadas."
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 67,
-          "passagem": "videomonitoramento com Inteligência Artificial (estratégias de reconhecimento facial e uso de câmeras deverão considerar toda a diversidade brasileira, com auditoria permanente"
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 53,
-          "passagem": "Minerais críticos e terras raras serão tratados como ativos estratégicos de soberania, transição energética, defesa e indústria digital."
-        },
-        {
-          "tema": "pg20",
-          "valor": "favor",
-          "pagina": 74,
-          "passagem": "Participar ativamente da ONU, da OMC, do G20 e do BRICS e retomar, com pragmatismo, o processo de aproximação com a OCDE."
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 18,
-          "passagem": "Implantar o Comando Nacional de Proteção de Fronteiras e Corredores Logísticos, reunindo Forças Armadas, Polícia Federal, Polícia Rodoviária Federal"
-        },
-        {
-          "tema": "pg22",
-          "valor": "contra",
-          "pagina": 53,
-          "passagem": "Coordenar mineração, meio ambiente, patrimônio, água e uso do solo em processo único de gestão, sem reduzir exigências."
-        },
-        {
-          "tema": "pg23",
-          "valor": "favor",
-          "pagina": 3,
-          "passagem": "O agronegócio, a indústria, a mineração responsável, a energia, a infraestrutura e a ciência serão articulados em uma estratégia nacional de desenvolvimento."
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 5,
+     "passagem": "Dissolução da polícia militar e de todo o aparato repressivo"
     },
     {
-      "id": 280002552487,
-      "nome": "RUI COSTA PIMENTA",
-      "partido": "PCO",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-rui-costa-pimenta.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro"
-        },
-        {
-          "tema": "pg02",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões"
-        },
-        {
-          "tema": "pg03",
-          "valor": "favor",
-          "pagina": 2,
-          "passagem": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo"
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 3,
-          "passagem": "imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores"
-        },
-        {
-          "tema": "pg05",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "favor",
-          "pagina": 4,
-          "passagem": "Direito de autodefesa e armamento para os trabalhadores do campo e índios"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 5,
-          "passagem": "Dissolução da polícia militar e de todo o aparato repressivo"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 7,
-          "passagem": "Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico"
-        },
-        {
-          "tema": "pg20",
-          "valor": "contra",
-          "pagina": 7,
-          "passagem": "A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva."
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "favor",
-          "pagina": 3,
-          "passagem": "Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "favor",
-          "pagina": 4,
-          "passagem": "defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos"
-        }
-      ]
+     "tema": "pg16",
+     "valor": "silencio"
     },
     {
-      "id": 280002538811,
-      "nome": "SAMARA",
-      "partido": "UP",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-samara.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "contra",
-          "pagina": 7,
-          "passagem": "Defendemos que saúde, educação, água, energia, saneamento, moradia, transporte, cultura e comunicação sejam direitos, e não mercadorias."
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "contra",
-          "pagina": 7,
-          "passagem": "Defendemos o fim da escala 6x1, a redução da jornada com aumento salarial, a elevação em 100% do salário mínimo"
-        },
-        {
-          "tema": "pg05",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "favor",
-          "pagina": 33,
-          "passagem": "Fortalecer o enfrentamento institucional à LGBTfobia, com acompanhamento regular dos dados sobre a violência LGBTfóbica"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "contra",
-          "pagina": 28,
-          "passagem": "Descriminalização e legalização do aborto, primando pela vida das mulheres, tratando a saúde da mulher como questão de saúde pública."
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "favor",
-          "pagina": 48,
-          "passagem": "Por isso, defendemos a desmilitarização da polícia, que deve proteger a população, respeitar direitos fundamentais"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "favor",
-          "pagina": 36,
-          "passagem": "Por isso, defendemos a ampla liberdade de expressão e religiosa e a livre organização dos trabalhadores"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 57,
-          "passagem": "Defendemos o imediato estancamento da sangria de nossos recursos para o exterior, pondo fim às remessas de lucros"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg22",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "favor",
-          "pagina": 63,
-          "passagem": "Demarcação e posse imediata de todas as terras indígenas e quilombolas"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg17",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas"
     },
     {
-      "id": 280002548139,
-      "nome": "VETERINÁRIO WILSON GRASSI",
-      "partido": "DEMOCRATA",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-veterinario-wilson-grassi.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg03",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg14",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg15",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg16",
-          "valor": "favor",
-          "pagina": 22,
-          "passagem": "Vigilância eletrônica contínua dos trechos críticos de fronteira, com sensoriamento remoto e apoio logístico das Forças Armadas."
-        },
-        {
-          "tema": "pg17",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg18",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg19",
-          "valor": "favor",
-          "pagina": 52,
-          "passagem": "Investimento estrangeiro em setor estratégico vem acompanhado de contrapartida em conteúdo nacional, transferência de tecnologia e emprego no Brasil."
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 50,
-          "passagem": "Emprego permanente das Forças Armadas na faixa de fronteira, com o poder de polícia da Lei Complementar nº 97/1999"
-        },
-        {
-          "tema": "pg22",
-          "valor": "favor",
-          "pagina": 47,
-          "passagem": "Licenciamento ambiental com prazo definido e análise técnica de qualidade."
-        },
-        {
-          "tema": "pg23",
-          "valor": "favor",
-          "pagina": 47,
-          "passagem": "Defendemos abrir o debate sobre um regime legal de aproveitamento mineral em terra indígena com participação econômica dos indígenas"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "contra",
-          "pagina": 47,
-          "passagem": "Mineração em terra indígena: sair da clandestinidade"
-        },
-        {
-          "tema": "pg26",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg27",
-          "valor": "silencio"
-        }
-      ]
+     "tema": "pg18",
+     "valor": "silencio"
     },
     {
-      "id": 280002539826,
-      "nome": "ZEMA",
-      "partido": "NOVO",
-      "cargo": "pres",
-      "ue": "BR",
-      "arquivo": "plano-pres-zema.txt",
-      "itens": [
-        {
-          "tema": "pg01",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg02",
-          "valor": "favor",
-          "pagina": 16,
-          "passagem": "Fixar metas progressivas de redução da carga tributária que imponham os cortes de gastos necessários para atingi-las"
-        },
-        {
-          "tema": "pg03",
-          "valor": "contra",
-          "pagina": 15,
-          "passagem": "integrando fontes alternativas de informação para evitar fraudes e duplicidade de benefícios, de modo que os esforços do governo sejam voltados para tirar as pessoas da pobreza de forma definitiva"
-        },
-        {
-          "tema": "pg04",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg05",
-          "valor": "contra",
-          "pagina": 31,
-          "passagem": "ampliar a estruturação de projetos de concessão e PPPs e promover soluções que ampliem a escala, a eficiência operacional e a capacidade de investimento dos prestadores"
-        },
-        {
-          "tema": "pg06",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg07",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg08",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg09",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg10",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg11",
-          "valor": "favor",
-          "pagina": 53,
-          "passagem": "avançando em uma agenda de parcerias com escolas conveniadas na educação, escolas cívico-militares e regulamentando o homeschooling"
-        },
-        {
-          "tema": "pg12",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg13",
-          "valor": "favor",
-          "pagina": 45,
-          "passagem": "Consolidar e ampliar o direito do produtor rural de portar arma em toda a extensão de sua propriedade, avançando para além da posse estendida já prevista em lei"
-        },
-        {
-          "tema": "pg14",
-          "valor": "favor",
-          "pagina": 6,
-          "passagem": "Reduzir a maioridade penal para 16 anos, assegurando a responsabilização criminal de adolescentes a partir dessa idade"
-        },
-        {
-          "tema": "pg15",
-          "valor": "contra",
-          "pagina": 7,
-          "passagem": "Fortalecer a atuação policial, garantindo proteção legal na legítima defesa contra criminosos armados, especialmente com fuzis"
-        },
-        {
-          "tema": "pg16",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg17",
-          "valor": "favor",
-          "pagina": 74,
-          "passagem": "Descriminalizar a opinião e punir quem censura"
-        },
-        {
-          "tema": "pg18",
-          "valor": "favor",
-          "pagina": 21,
-          "passagem": "Alinhar gradualmente as tarifas de importação brasileiras à média dos países em desenvolvimento à medida que o Custo Brasil for reduzido"
-        },
-        {
-          "tema": "pg19",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg20",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg21",
-          "valor": "favor",
-          "pagina": 38,
-          "passagem": "Ampliar a presença do Estado brasileiro nos postos de fronteira e na Amazônia, integrando inteligência, vigilância e forças de segurança"
-        },
-        {
-          "tema": "pg22",
-          "valor": "favor",
-          "pagina": 44,
-          "passagem": "simplificando o licenciamento de atividades de baixo risco, para atrair investimentos sem abrir mão da conservação ambiental"
-        },
-        {
-          "tema": "pg23",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg24",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg25",
-          "valor": "silencio"
-        },
-        {
-          "tema": "pg26",
-          "valor": "favor",
-          "pagina": 44,
-          "passagem": "Reduzir entraves do licenciamento ambiental à atividade agropecuária"
-        },
-        {
-          "tema": "pg27",
-          "valor": "contra",
-          "pagina": 76,
-          "passagem": "Enxugar o custo do Legislativo e do Judiciário, atacando o excesso de pessoal e os salários acima da média que sustentam essas estruturas"
-        }
-      ]
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 7,
+     "passagem": "Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico"
+    },
+    {
+     "tema": "pg20",
+     "valor": "contra",
+     "pagina": 7,
+     "passagem": "A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva."
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "favor",
+     "pagina": 3,
+     "passagem": "Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "favor",
+     "pagina": 4,
+     "passagem": "defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos"
     }
+   ]
+  },
+  {
+   "id": 240002551001,
+   "nome": "JOÃO RODRIGUES",
+   "partido": "PSD",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-joao-rodrigues.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 20,
+     "passagem": "Parte substancial desses recursos deverá vir da iniciativa privada, por meio de parcerias público-privadas e concessões, sempre que se mostrarem vantajosas para o interesse público."
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "favor",
+     "pagina": 13,
+     "passagem": "Implementar ações voltadas ao diagnóstico e cuidado da saúde mental e à prevenção do uso de álcool e outras drogas"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 8,
+     "passagem": "Aperfeiçoar o programa de videomonitoramento, ampliando o número de câmeras com tecnologia de reconhecimento facial, leitura de placas de veículos, inteligência artificial e alertas em tempo real"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "favor",
+     "pagina": 23,
+     "passagem": "A valorização do servidor público é condição para a qualidade da gestão."
+    }
+   ]
+  },
+  {
+   "id": 240002550544,
+   "nome": "LAÍS CHAUD",
+   "partido": "UP",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-lais-chaud.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 4,
+     "passagem": "Fortalecer a CASAN enquanto empresa pública estratégica, ampliando sua capacidade de investimento"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 16,
+     "passagem": "garantindo igualdade salarial, enfrentamento ao assédio sexual e moral, proteção às trabalhadoras informais e redução da jornada de trabalho sem redução salarial"
+    },
+    {
+     "tema": "pg05",
+     "valor": "favor",
+     "pagina": 4,
+     "passagem": "Ampliar os investimentos públicos em saneamento, estabelecendo um plano estadual para universalizar o abastecimento de água, a coleta e o tratamento de esgoto."
+    },
+    {
+     "tema": "pg06",
+     "valor": "favor",
+     "pagina": 11,
+     "passagem": "Estabelecimento de uma rede estadual pública de mercados populares, que comercialize alimentos de qualidade à preço de custo, com subsídios do Governo de Santa Catarina"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 18,
+     "passagem": "Criar uma Política Estadual de Enfrentamento a LGBTfobia, com orçamento próprio e atuação conjunta das áreas de segurança, saúde, educação, assistência social e trabalho."
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 13,
+     "passagem": "Retomar imediatamente a obrigatoriedade do uso de câmeras corporais entre todos os policiais militares e civis de Santa Catarina"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 240002544118,
+   "nome": "MARCELO BRIGADEIRO",
+   "partido": "MISSÃO",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-marcelo-brigadeiro.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "favor",
+     "pagina": 11,
+     "passagem": "Privatizar empresas estatais eficientes, superavitárias ou ainda úteis, com metas estabelecidas e sistemas de avaliação de desempenho, tais como CELESC e CASAN"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 9,
+     "passagem": "Reduzir a carga tributária para aumentar a competitividade do setor produtivo catarinense"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "utilizaremos instrumentos modernos de gestão, incluindo parcerias com a iniciativa privada, privatizações, concessões e parcerias público-privadas capazes de ampliar investimentos"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "favor",
+     "pagina": 16,
+     "passagem": "Realizar parcerias público-privadas (PPPs) para a construção, a administração e a manutenção de presídios e penitenciárias no estado de Santa Catarina"
+    },
+    {
+     "tema": "pg15",
+     "valor": "contra",
+     "pagina": 16,
+     "passagem": "assegurando assistência jurídica pela PGE nos processos relacionados a atos praticados no exercício regular da função"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 240002541913,
+   "nome": "PROFESSOR MARCUS SODRÉ",
+   "partido": "PSTU",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-professor-marcus-sodre.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 23,
+     "passagem": "parar as privatizações e terceirizações que só servem para piorar o serviço público"
+    },
+    {
+     "tema": "pg02",
+     "valor": "contra",
+     "pagina": 47,
+     "passagem": "Defendemos também impostos sobre grandes fortunas e um modelo tributário com tributos progressivos e que tribute prioritariamente a renda e o patrimônio."
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 27,
+     "passagem": "revogação da reforma trabalhista, da lei das terceirizações, das restrições ao seguro desemprego"
+    },
+    {
+     "tema": "pg05",
+     "valor": "favor",
+     "pagina": 35,
+     "passagem": "Criar uma empresa estatal de obras para garantir a construção de moradias populares faltantes e obras de infraestrutura, a baixo custo."
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 30,
+     "passagem": "Abaixo à repressão policial LGBTfóbica!"
+    },
+    {
+     "tema": "pg09",
+     "valor": "favor",
+     "pagina": 42,
+     "passagem": "Por isso, defendemos a legalização das drogas e seu controle estatal para acabar com o narcotráfico."
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "contra",
+     "pagina": 28,
+     "passagem": "Em defesa do direito a decidir, legalização e descriminalização do aborto"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "contra",
+     "pagina": 43,
+     "passagem": "defendemos uma política de desencarceramento dos negros e pobres, que envolva “limpar a ficha” dos presos relacionados à lei antidrogas e o cumprimento de penas de maneira alternativa"
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 44,
+     "passagem": "Punição a todos os torturadores da ditadura militar e aos que têm usado essa prática nas delegacias de polícia e sistema prisional!"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "contra",
+     "pagina": 18,
+     "passagem": "orientar a produção agrária nacional para o mercado interno, afastando as megas empresas, predominantemente estrangeiras, que hoje orientam toda produção nacional às exportações"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 18,
+     "passagem": "Soberania significa estatizar a produção nacional de metais preciosos"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 17,
+     "passagem": "parte do excedente de empresas que exploram combustíveis fósseis, como a Petrobras, pode ser sistematicamente redirecionada para a produção de energia renovável"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "contra",
+     "pagina": 37,
+     "passagem": "o peso do agronegócio e que vêm impondo a concentração das terras, destruição da natureza, aumento da violência e a utilização de grandes quantidades de agrotóxicos"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 240002552157,
+   "nome": "RALF ZIMMER",
+   "partido": "PRD",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-ralf-zimmer.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 11,
+     "passagem": "realizando concessão e/ou parceria público-privada por edital de concorrência nacional/internacional com pedágio como fonte compensatória de custeio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 7,
+     "passagem": "expandir videomonitoramento e leitura de placas conforme a legislação"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "favor",
+     "pagina": 16,
+     "passagem": "simplificar processos ambientais sem reduzir proteção; definir competências com clareza; ampliar segurança jurídica"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 16,
+     "passagem": "incentivar energia renovável e eficiência energética"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "favor",
+     "pagina": 7,
+     "passagem": "recompor efetivos por concursos e gestão eficiente de pessoal"
+    }
+   ]
+  },
+  {
+   "id": 280002552484,
+   "nome": "CLARIANA BARAO",
+   "partido": "DC",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-clariana-barao.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 5,
+     "passagem": "Concessões, PPPs e planejamento de longo prazo"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 9,
+     "passagem": "Sensores, radares e monitoramento remoto"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 9,
+     "passagem": "Fronteiras inteligentes e integradas"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002551975,
+   "nome": "EDMILSON COSTA",
+   "partido": "PCB",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-edmilson-costa.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 4,
+     "passagem": "As empresas estratégicas privatizadas serão retomadas para o patrimônio público"
+    },
+    {
+     "tema": "pg02",
+     "valor": "contra",
+     "pagina": 14,
+     "passagem": "além da criação de um imposto especial sobre lucros e dividendos, grandes fortunas"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 13,
+     "passagem": "Fim das terceirizações, das privatizações e de todas as flexibilizações legais e tributárias em favor dos grandes capitalistas."
+    },
+    {
+     "tema": "pg05",
+     "valor": "favor",
+     "pagina": 2,
+     "passagem": "a estatização das áreas estratégicas da economia e dos setores produtores de bens necessários à vida, como água, energia, saneamento"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "Serão adotadas políticas públicas de combate radical ao machismo, à misoginia, ao racismo, à lgbtfobia, ao capacitismo"
+    },
+    {
+     "tema": "pg09",
+     "valor": "favor",
+     "pagina": 12,
+     "passagem": "Descriminalização do uso de drogas, com legalização da maconha a curto prazo."
+    },
+    {
+     "tema": "pg10",
+     "valor": "favor",
+     "pagina": 7,
+     "passagem": "Promoveremos o fim do vestibular nas universidades federais e a ampliação das cotas (54% para a população negra"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "contra",
+     "pagina": 11,
+     "passagem": "Legalização do aborto, com garantia de atendimento na rede pública de saúde"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "contra",
+     "pagina": 12,
+     "passagem": "Contra a redução da maioridade penal e ampliação das medidas socioeducativas."
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "pondo fim à política de “guerra às drogas”, para o que se faz necessária a completa desmilitarização da segurança pública"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 14,
+     "passagem": "Transição para o regime de monopólio estatal da exploração, produção, refino, petroquímica e distribuição"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "contra",
+     "pagina": 14,
+     "passagem": "No lugar da exploração da Margem Equatorial, defendemos pesquisas e buscas em outras áreas e uma melhor exploração do Pré-Sal, reduzindo os lucros e a extração desenfreada"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 8,
+     "passagem": "Serão reforçadas as ações voltadas para a redução das emissões de gases do efeito estufa, o combate ao desmatamento"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "contra",
+     "pagina": 9,
+     "passagem": "Expropriação do agronegócio, não apenas para garantir comida na mesa do povo trabalhador brasileiro"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002551547,
+   "nome": "ESCRITOR AUGUSTO CURY",
+   "partido": "AVANTE",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-escritor-augusto-cury.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 38,
+     "passagem": "Compromisso com uma carga tributária menor ao fim da transição"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 50,
+     "passagem": "Por isso, ampliaremos as concessões e as parcerias público-privadas, sempre com regras claras, segurança jurídica e rigorosa fiscalização."
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 46,
+     "passagem": "A segurança pública será fortalecida pelo uso de câmeras inteligentes, reconhecimento de padrões, análise preditiva, drones, monitoramento integrado"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 60,
+     "passagem": "A política externa brasileira será guiada pela defesa da soberania, da segurança econômica e dos interesses estratégicos do país"
+    },
+    {
+     "tema": "pg20",
+     "valor": "favor",
+     "pagina": 46,
+     "passagem": "Fortaleceremos a cooperação com organismos internacionais e países vizinhos para combater o tráfico internacional"
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 46,
+     "passagem": "fortaleceremos a atuação das Forças Armadas no controle estratégico das fronteiras nacionais"
+    },
+    {
+     "tema": "pg22",
+     "valor": "favor",
+     "pagina": 48,
+     "passagem": "O objetivo é assegurar ao produtor uma resposta clara em tempo razoável, eliminando a insegurança que hoje paralisa investimentos legítimos"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 51,
+     "passagem": "Ampliaremos investimentos em energia solar, eólica, biomassa, pequenas centrais hidrelétricas e outras fontes renováveis"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002551544,
+   "nome": "FLAVIO BOLSONARO",
+   "partido": "PL",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-flavio-bolsonaro.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "favor",
+     "pagina": 70,
+     "passagem": "vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 31,
+     "passagem": "Vamos reduzir impostos sobre energia elétrica e combustíveis, buscar segurança energética ao menor preço possível para o consumidor"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 50,
+     "passagem": "adotar um novo modelo de financiamento para toda a infraestrutura, com fundo lastreado na securitização de ativos e imóveis da União, uso intensivo de PPPs e concessões"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "favor",
+     "pagina": 9,
+     "passagem": "Nossa forma de governar permanece fiel a valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "favor",
+     "pagina": 9,
+     "passagem": "valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção, à propriedade privada"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "favor",
+     "pagina": 13,
+     "passagem": "O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos."
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 15,
+     "passagem": "Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais"
+    },
+    {
+     "tema": "pg17",
+     "valor": "favor",
+     "pagina": 12,
+     "passagem": "um Tesouraço na Censura para garantir a liberdade de criticar sem medo"
+    },
+    {
+     "tema": "pg18",
+     "valor": "favor",
+     "pagina": 63,
+     "passagem": "vamos nos preparar para uma abertura comercial que dê ao setor produtivo acesso a bens de capital, tecnologia e insumos importados"
+    },
+    {
+     "tema": "pg19",
+     "valor": "contra",
+     "pagina": 55,
+     "passagem": "Vamos trabalhar para atrair o capital estrangeiro e a tecnologia que já existem no mundo, aplicando aqui o que outros países já dominam"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 13,
+     "passagem": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "favor",
+     "pagina": 53,
+     "passagem": "vamos estimular a modernização do refino rumo ao aproveitamento do petróleo nacional"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 63,
+     "passagem": "nossa meta para 2030 é posicionar o Brasil entre os principais destinos mundiais de investimento em transição energética"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002541457,
+   "nome": "HERTZ DIAS",
+   "partido": "PSTU",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-hertz-dias.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 11,
+     "passagem": "Fim da privatização e da gestão privada da saúde (OS, Fundações e PPP)"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "favor",
+     "pagina": 28,
+     "passagem": "A estatização do sistema financeiro e centralização do crédito em um banco único"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 24,
+     "passagem": "unificando a luta da população lgbti+"
+    },
+    {
+     "tema": "pg09",
+     "valor": "favor",
+     "pagina": 19,
+     "passagem": "Descriminalização das drogas e revogação da Lei Antidrogas, para efetivamente combater e acabar com o narcotráfico"
+    },
+    {
+     "tema": "pg10",
+     "valor": "favor",
+     "pagina": 21,
+     "passagem": "Manutenção e ampliação de cotas para negros nas universidades e serviços públicos"
+    },
+    {
+     "tema": "pg11",
+     "valor": "contra",
+     "pagina": 12,
+     "passagem": "Não à militarização das escolas e a projetos de controle ideológico, como Escola Sem Partido!"
+    },
+    {
+     "tema": "pg12",
+     "valor": "contra",
+     "pagina": 23,
+     "passagem": "Aborto legal, seguro e gratuito pelo sus"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "contra",
+     "pagina": 21,
+     "passagem": "Contra a redução da maioridade penal"
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 21,
+     "passagem": "Desmilitarização da pm e unificação das polícias sob controle dos trabalhadores"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 5,
+     "passagem": "Defender a soberania do Brasil, neste marco, significa garantir que as riquezas produzidas no país permaneçam sob controle nacional"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "favor",
+     "pagina": 15,
+     "passagem": "Reparação e demarcação imediata das terras indígenas, titulação dos territórios quilombolas e proteção das comunidades tradicionais"
+    },
+    {
+     "tema": "pg26",
+     "valor": "contra",
+     "pagina": 22,
+     "passagem": "Que o Banco do Brasil destine suas verbas para a agricultura familiar, quilombola e indígena, e não para o agronegócio escravista."
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002542548,
+   "nome": "LULA",
+   "partido": "PT",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-lula.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "contra",
+     "pagina": 19,
+     "passagem": "isentamos de imposto de renda todos os que ganham até R$ 5.000, compromisso assumido na campanha de 2022, marcos do início do processo de redução da regressividade do sistema tributário"
+    },
+    {
+     "tema": "pg03",
+     "valor": "favor",
+     "pagina": 18,
+     "passagem": "O combate às desigualdades requer justiça tributária, fortalecimento do Estado de bem-estar social, valorização do salário-mínimo, inclusão produtiva, educação, saúde, programas eficientes de transferência de renda."
+    },
+    {
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 75,
+     "passagem": "Vamos aprimorar a legislação trabalhista, alterando regras que induzem a precarização das condições de trabalho"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 23,
+     "passagem": "de modo a garantir capacidade de o Estado atender, de forma adequada, justa e inclusiva, às pessoas LGBTQIAP+ e todas as suas especificidades"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "favor",
+     "pagina": 19,
+     "passagem": "As políticas de fomento à participação da população negra no funcionalismo público, especialmente nos espaços superiores da gestão governamental, terão continuidade, alinhadas à política de cotas no serviço público"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 50,
+     "passagem": "elevar a produtividade, agregar valor às cadeias produtivas, fortalecer a soberania tecnológica, gerar empregos qualificados e descarbonizar a economia"
+    },
+    {
+     "tema": "pg20",
+     "valor": "favor",
+     "pagina": 81,
+     "passagem": "Defenderemos a reforma da arquitetura financeira internacional, com a democratização do FMI, do Banco Mundial e dos bancos multilaterais"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 70,
+     "passagem": "Promovemos uma das principais reformas da política climática nacional ao instituir o mercado regulado de carbono"
+    },
+    {
+     "tema": "pg25",
+     "valor": "favor",
+     "pagina": 19,
+     "passagem": "Voltamos a assegurar aos povos e comunidades tradicionais – indígenas, quilombolas e ribeirinhos – seus direitos, inclusive em relação a seus territórios."
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002553884,
+   "nome": "PABLO MARÇAL",
+   "partido": "PRTB",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-pablo-marcal.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "favor",
+     "pagina": 20,
+     "passagem": "Desestatização Prioritária"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 14,
+     "passagem": "Redução progressiva da carga tributária sobre a produção, o investimento e a geração de empregos"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002540694,
+   "nome": "RENAN SANTOS",
+   "partido": "MISSÃO",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-renan-santos.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 43,
+     "passagem": "Suas medidas visam a reduzir impostos sobre empresas de tecnologia, facilitar a distribuição de stock options"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "contra",
+     "pagina": 32,
+     "passagem": "Abolir o sistema de cotas na educação brasileira e em geral."
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "com ênfase na aplicação do Direito Penal do Inimigo como arcabouço legal que permitirá o desmonte do crime organi"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "contra",
+     "pagina": 28,
+     "passagem": "propomos, alternativamente, a criação de um código de imprensa, que hoje não possui regulação"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 46,
+     "passagem": "Proposta de desdolarização da América do Sul busca reduzir a dependência do dólar americano"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 13,
+     "passagem": "vamos reconquistar o controle estatal sobre portos, aeroportos e fronteiras secas com scanners tridimensionais e inteligência integrada"
+    },
+    {
+     "tema": "pg22",
+     "valor": "favor",
+     "pagina": 24,
+     "passagem": "implementação plena da Lei Geral do Licenciamento Ambiental (Lei nº 15.190/2025, oriunda do PL 2159/2021), com uso ostensivo da Licença Ambiental Especial"
+    },
+    {
+     "tema": "pg23",
+     "valor": "favor",
+     "pagina": 42,
+     "passagem": "sancionar e regulamentar o Projeto de Lei 2.780/2024, aprovado pela Câmara em 2026, que cria a Política Nacional de Minerais Críticos"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002551932,
+   "nome": "RONALDO CAIADO",
+   "partido": "PSD",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-ronaldo-caiado.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 56,
+     "passagem": "Enviar ao Congresso proposta de financiamento plurianual, sem novo imposto geral e sem aumento da carga tributária."
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "A iniciativa privada será o principal motor da economia; ao Estado caberá garantir estabilidade, concorrência, infraestrutura, capital humano, regulação de qualidade"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "favor",
+     "pagina": 7,
+     "passagem": "Reduzir desigualdades raciais e de gênero por políticas mensuráveis de segurança, educação, saúde e oportunidades."
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "favor",
+     "pagina": 20,
+     "passagem": "Reduzir a maioridade penal e agravar o furto de celular"
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 67,
+     "passagem": "Dados sobre uso da força serão auditados, e boas práticas de redução de letalidade e vitimização policial serão disseminadas."
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 67,
+     "passagem": "videomonitoramento com Inteligência Artificial (estratégias de reconhecimento facial e uso de câmeras deverão considerar toda a diversidade brasileira, com auditoria permanente"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 53,
+     "passagem": "Minerais críticos e terras raras serão tratados como ativos estratégicos de soberania, transição energética, defesa e indústria digital."
+    },
+    {
+     "tema": "pg20",
+     "valor": "favor",
+     "pagina": 74,
+     "passagem": "Participar ativamente da ONU, da OMC, do G20 e do BRICS e retomar, com pragmatismo, o processo de aproximação com a OCDE."
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 18,
+     "passagem": "Implantar o Comando Nacional de Proteção de Fronteiras e Corredores Logísticos, reunindo Forças Armadas, Polícia Federal, Polícia Rodoviária Federal"
+    },
+    {
+     "tema": "pg22",
+     "valor": "contra",
+     "pagina": 53,
+     "passagem": "Coordenar mineração, meio ambiente, patrimônio, água e uso do solo em processo único de gestão, sem reduzir exigências."
+    },
+    {
+     "tema": "pg23",
+     "valor": "favor",
+     "pagina": 3,
+     "passagem": "O agronegócio, a indústria, a mineração responsável, a energia, a infraestrutura e a ciência serão articulados em uma estratégia nacional de desenvolvimento."
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002552487,
+   "nome": "RUI COSTA PIMENTA",
+   "partido": "PCO",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-rui-costa-pimenta.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "É preciso cancelar a venda do patrimônio do povo brasileiro e reestatizar todas as empresas entregues ao capital estrangeiro"
+    },
+    {
+     "tema": "pg02",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "Imposto sobre as grandes fortunas para garantir os recursos necessários para as aposentadorias e pensões"
+    },
+    {
+     "tema": "pg03",
+     "valor": "favor",
+     "pagina": 2,
+     "passagem": "Auxílio emergencial de verdade, Bolsa Família de pelo menos um salário mínimo"
+    },
+    {
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 3,
+     "passagem": "imponha o imediato restabelecimento de toda a CLT e o fim da terceirização, com direitos iguais para todos os trabalhadores"
+    },
+    {
+     "tema": "pg05",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "Estatização do sistema financeiro; banco estatal único sob o controle dos trabalhadores"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "favor",
+     "pagina": 4,
+     "passagem": "Direito de autodefesa e armamento para os trabalhadores do campo e índios"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 5,
+     "passagem": "Dissolução da polícia militar e de todo o aparato repressivo"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "Fim de todo tipo de censura, liberdade irrestrita de expressão, na imprensa, na Internet, nas ruas"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 7,
+     "passagem": "Defesa da soberania e da unidade nacional, com o controle das organizações populares e dos índios sobre as riquezas do território amazônico"
+    },
+    {
+     "tema": "pg20",
+     "valor": "contra",
+     "pagina": 7,
+     "passagem": "A ingerência estrangeira na Amazônia deve ser veementemente combatida; é preciso que o próprio País defenda o seu território e o desenvolva."
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "favor",
+     "pagina": 3,
+     "passagem": "Não à entrega das terras raras: criação de empresa estatal que controle sua exploração, comandada pelos trabalhadores"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "favor",
+     "pagina": 4,
+     "passagem": "defender os direitos do funcionalismo, lutar contra a terceirização e o corte nos gastos públicos"
+    }
+   ]
+  },
+  {
+   "id": 280002538811,
+   "nome": "SAMARA",
+   "partido": "UP",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-samara.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "contra",
+     "pagina": 7,
+     "passagem": "Defendemos que saúde, educação, água, energia, saneamento, moradia, transporte, cultura e comunicação sejam direitos, e não mercadorias."
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "contra",
+     "pagina": 7,
+     "passagem": "Defendemos o fim da escala 6x1, a redução da jornada com aumento salarial, a elevação em 100% do salário mínimo"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 33,
+     "passagem": "Fortalecer o enfrentamento institucional à LGBTfobia, com acompanhamento regular dos dados sobre a violência LGBTfóbica"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "contra",
+     "pagina": 28,
+     "passagem": "Descriminalização e legalização do aborto, primando pela vida das mulheres, tratando a saúde da mulher como questão de saúde pública."
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "favor",
+     "pagina": 48,
+     "passagem": "Por isso, defendemos a desmilitarização da polícia, que deve proteger a população, respeitar direitos fundamentais"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "favor",
+     "pagina": 36,
+     "passagem": "Por isso, defendemos a ampla liberdade de expressão e religiosa e a livre organização dos trabalhadores"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 57,
+     "passagem": "Defendemos o imediato estancamento da sangria de nossos recursos para o exterior, pondo fim às remessas de lucros"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "favor",
+     "pagina": 63,
+     "passagem": "Demarcação e posse imediata de todas as terras indígenas e quilombolas"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002548139,
+   "nome": "VETERINÁRIO WILSON GRASSI",
+   "partido": "DEMOCRATA",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-veterinario-wilson-grassi.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 22,
+     "passagem": "Vigilância eletrônica contínua dos trechos críticos de fronteira, com sensoriamento remoto e apoio logístico das Forças Armadas."
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "favor",
+     "pagina": 52,
+     "passagem": "Investimento estrangeiro em setor estratégico vem acompanhado de contrapartida em conteúdo nacional, transferência de tecnologia e emprego no Brasil."
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 50,
+     "passagem": "Emprego permanente das Forças Armadas na faixa de fronteira, com o poder de polícia da Lei Complementar nº 97/1999"
+    },
+    {
+     "tema": "pg22",
+     "valor": "favor",
+     "pagina": 47,
+     "passagem": "Licenciamento ambiental com prazo definido e análise técnica de qualidade."
+    },
+    {
+     "tema": "pg23",
+     "valor": "favor",
+     "pagina": 47,
+     "passagem": "Defendemos abrir o debate sobre um regime legal de aproveitamento mineral em terra indígena com participação econômica dos indígenas"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "contra",
+     "pagina": 47,
+     "passagem": "Mineração em terra indígena: sair da clandestinidade"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "silencio"
+    }
+   ]
+  },
+  {
+   "id": 280002539826,
+   "nome": "ZEMA",
+   "partido": "NOVO",
+   "cargo": "pres",
+   "ue": "BR",
+   "arquivo": "plano-pres-zema.txt",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "favor",
+     "pagina": 16,
+     "passagem": "Fixar metas progressivas de redução da carga tributária que imponham os cortes de gastos necessários para atingi-las"
+    },
+    {
+     "tema": "pg03",
+     "valor": "contra",
+     "pagina": 15,
+     "passagem": "integrando fontes alternativas de informação para evitar fraudes e duplicidade de benefícios, de modo que os esforços do governo sejam voltados para tirar as pessoas da pobreza de forma definitiva"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "contra",
+     "pagina": 31,
+     "passagem": "ampliar a estruturação de projetos de concessão e PPPs e promover soluções que ampliem a escala, a eficiência operacional e a capacidade de investimento dos prestadores"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "favor",
+     "pagina": 53,
+     "passagem": "avançando em uma agenda de parcerias com escolas conveniadas na educação, escolas cívico-militares e regulamentando o homeschooling"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "favor",
+     "pagina": 45,
+     "passagem": "Consolidar e ampliar o direito do produtor rural de portar arma em toda a extensão de sua propriedade, avançando para além da posse estendida já prevista em lei"
+    },
+    {
+     "tema": "pg14",
+     "valor": "favor",
+     "pagina": 6,
+     "passagem": "Reduzir a maioridade penal para 16 anos, assegurando a responsabilização criminal de adolescentes a partir dessa idade"
+    },
+    {
+     "tema": "pg15",
+     "valor": "contra",
+     "pagina": 7,
+     "passagem": "Fortalecer a atuação policial, garantindo proteção legal na legítima defesa contra criminosos armados, especialmente com fuzis"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "favor",
+     "pagina": 74,
+     "passagem": "Descriminalizar a opinião e punir quem censura"
+    },
+    {
+     "tema": "pg18",
+     "valor": "favor",
+     "pagina": 21,
+     "passagem": "Alinhar gradualmente as tarifas de importação brasileiras à média dos países em desenvolvimento à medida que o Custo Brasil for reduzido"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "favor",
+     "pagina": 38,
+     "passagem": "Ampliar a presença do Estado brasileiro nos postos de fronteira e na Amazônia, integrando inteligência, vigilância e forças de segurança"
+    },
+    {
+     "tema": "pg22",
+     "valor": "favor",
+     "pagina": 44,
+     "passagem": "simplificando o licenciamento de atividades de baixo risco, para atrair investimentos sem abrir mão da conservação ambiental"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "favor",
+     "pagina": 44,
+     "passagem": "Reduzir entraves do licenciamento ambiental à atividade agropecuária"
+    },
+    {
+     "tema": "pg27",
+     "valor": "contra",
+     "pagina": 76,
+     "passagem": "Enxugar o custo do Legislativo e do Judiciário, atacando o excesso de pessoal e os salários acima da média que sustentam essas estruturas"
+    }
+   ]
+  },
+  {
+   "id": 240002548628,
+   "nome": "GELSON MERÍSIO",
+   "partido": "PSB",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-gelson-merisio.txt",
+   "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "favor",
+     "pagina": 14,
+     "passagem": "Instituir uma estratégia estadual integrada para erradicar a pobreza extrema, articulando políticas de transferência de renda, inclusão produtiva e acesso aos serviços públicos"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "favor",
+     "pagina": 58,
+     "passagem": "Criar o Conselho Estadual das Pessoas LGBTQIA+ e aderir à Política Nacional das Pessoas LGBTQIA+."
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "favor",
+     "pagina": 30,
+     "passagem": "realização regular de concurso para professores efetivos, com garantia de cotas para pessoas negras, indígenas, egressas da rede pública de ensino e pessoas com deficiência"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "favor",
+     "pagina": 51,
+     "passagem": "Programa Transição Energética e Economia de Baixo Carbono — Apoiar a modernização da economia catarinense por meio da redução das emissões de gases de efeito estufa."
+    },
+    {
+     "tema": "pg25",
+     "valor": "favor",
+     "pagina": 55,
+     "passagem": "Programa Povos Indígenas, Quilombolas e Comunidades Tradicionais [...] proteção dos territórios tradicionais"
+    },
+    {
+     "tema": "pg26",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg27",
+     "valor": "favor",
+     "pagina": 30,
+     "passagem": "valorização salarial e profissional, com fortalecimento do plano de carreira"
+    }
+   ],
+   "temas": []
+  },
+  {
+   "id": 240002537073,
+   "nome": "JORGINHO MELLO",
+   "partido": "PL",
+   "cargo": "gov",
+   "ue": "SC",
+   "arquivo": "plano-gov-sc-jorginho-mello.txt",
+   "leitura": "texto obtido por OCR do PDF-imagem registrado no TSE (pdftoppm 300 dpi + tesseract 5 por, 15/09/2026); cada passagem citada foi conferida contra a imagem da página",
+   "itens": [
+    {
+     "tema": "pg01",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg02",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg03",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg04",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg05",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg06",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg07",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg08",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg09",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg10",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg11",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg12",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg13",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg14",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg15",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg16",
+     "valor": "favor",
+     "pagina": 16,
+     "passagem": "Cerco eletrônico e inteligência total: expandir o Sistema Integrado de Videomonitoramento Inteligente com reconhecimento facial e leitura de placas para as maiores cidades catarinenses."
+    },
+    {
+     "tema": "pg17",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg18",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg19",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg20",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg21",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg22",
+     "valor": "favor",
+     "pagina": 15,
+     "passagem": "Corredores Ferroviários e intermodais: acelerar a elaboração de projetos e licenciamentos de ferrovias estaduais conectando as regiões catarinenses"
+    },
+    {
+     "tema": "pg23",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg24",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg25",
+     "valor": "silencio"
+    },
+    {
+     "tema": "pg26",
+     "valor": "favor",
+     "pagina": 19,
+     "passagem": "valorizar o homem e a mulher do campo, incentivar a sucessão familiar, modernizar a produção agropecuária e pesqueira e garantir segurança hídrica e ambiental sem sufocar quem produz."
+    },
+    {
+     "tema": "pg27",
+     "valor": "favor",
+     "pagina": 16,
+     "passagem": "Valorização e recomposição do efetivo policial: dar continuidade aos concursos públicos, garantindo efetivo qualificado, formação continuada"
+    }
+   ],
+   "temas": []
+  }
+ ],
+ "sem_camada_de_texto": [],
+ "ocr": {
+  "o_que_e": "Dois planos de governo foram registrados como PDF-imagem e ficaram sem texto até 15/09/2026. Foram lidos por OCR.",
+  "como": "pdftoppm a 300 dpi + tesseract 5, idioma por, --psm 1.",
+  "planos": [
+   "GELSON MERÍSIO (PSB)",
+   "JORGINHO MELLO (PL)"
   ],
-  "sem_camada_de_texto": [
-    {
-      "id": 240002548628,
-      "nome": "GELSON MERÍSIO",
-      "partido": "PSB",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-gelson-merisio.txt",
-      "paginas": 74
-    },
-    {
-      "id": 240002537073,
-      "nome": "JORGINHO MELLO",
-      "partido": "PL",
-      "cargo": "gov",
-      "ue": "SC",
-      "arquivo": "plano-gov-sc-jorginho-mello.txt",
-      "paginas": 22
-    }
-  ]
+  "ressalva": "OCR erra e pode OMITIR palavra. Toda passagem citada a partir desses dois planos foi conferida contra a imagem da página antes de virar posição, e a ficha declara que a leitura veio de OCR."
+ }
 }

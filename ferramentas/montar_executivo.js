@@ -65,6 +65,7 @@ const candidatos = indice.map((reg) => {
     return {
       ...base,
       evidencia: 'plano',
+      leitura: lido.leitura || null,
       posicao: lido.posicao,
       confianca: lido.confianca,
       confianca_media: lido.confianca_media,

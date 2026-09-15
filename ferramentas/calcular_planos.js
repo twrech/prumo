@@ -145,6 +145,10 @@ function main() {
       arquivo: r.arquivo,
       tipo_de_evidencia: 'plano',
       o_que_isto_mede: 'o que a pessoa diz que fará, registrado no plano entregue ao TSE — não o que ela fez',
+      // Dois planos foram registrados como PDF-imagem e só existem em texto
+      // porque passaram por OCR. Isso viaja até a ficha: quem lê o número tem
+      // direito de saber que a fonte foi lida por máquina, não pelo PDF.
+      leitura: r.leitura || null,
       temas_respondidos: respondidos.length,
       temas_no_catalogo: catalogo.temas.length,
       posicao,

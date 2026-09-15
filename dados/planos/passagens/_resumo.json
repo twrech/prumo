@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-14",
+  "gerado_em": "2026-09-15",
   "max_por_eixo": 8,
   "planos": [
     {
@@ -19,8 +19,16 @@
     {
       "arquivo": "plano-gov-sc-gelson-merisio.txt",
       "identidade": "GELSON MERÍSIO — PSB — Governador SC",
-      "legivel": false,
-      "achados": 0
+      "legivel": true,
+      "frases": 1080,
+      "achados": 34,
+      "por_eixo": {
+        "eco": 6,
+        "soc": 8,
+        "pod": 8,
+        "sob": 4,
+        "amb": 8
+      }
     },
     {
       "arquivo": "plano-gov-sc-joao-rodrigues.txt",
@@ -39,8 +47,16 @@
     {
       "arquivo": "plano-gov-sc-jorginho-mello.txt",
       "identidade": "JORGINHO MELLO — PL — Governador SC",
-      "legivel": false,
-      "achados": 0
+      "legivel": true,
+      "frases": 161,
+      "achados": 20,
+      "por_eixo": {
+        "eco": 7,
+        "soc": 0,
+        "pod": 8,
+        "sob": 1,
+        "amb": 4
+      }
     },
     {
       "arquivo": "plano-gov-sc-lais-chaud.txt",

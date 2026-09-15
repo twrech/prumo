@@ -1,7 +1,190 @@
 {
   "arquivo": "plano-gov-sc-jorginho-mello.txt",
   "identidade": "JORGINHO MELLO — PL — Governador SC",
-  "legivel": false,
-  "motivo": "PDF sem camada de texto; não há o que citar",
-  "por_eixo": null
+  "legivel": true,
+  "regra": "Toda posição tirada daqui carrega a passagem literal. Sem passagem citada, sem posição.",
+  "aviso": "Trecho localizado por termo NÃO é posição: o mesmo termo aparece nos dois lados da discussão. Ler antes de decidir.",
+  "total_frases": 161,
+  "por_eixo": {
+    "eco": [
+      {
+        "pagina": 20,
+        "termos": [
+          "crédito subsidiado"
+        ],
+        "compromisso": true,
+        "texto": "*Pronampe SC ampliado: ampliar as linhas de crédito subsidiado para micro e pequenas empresas, MEIs e agricultores, impulsionando a geração de emprego e renda nos bairros e cidades do interior."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": true,
+        "texto": "*Desburocratização e Governo Digital: eliminar exigências redundantes e burocráticas, simplificando a vida de quem deseja empreender, trabalhar e investir no Estado."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "estatal",
+          "ppp"
+        ],
+        "compromisso": false,
+        "texto": "Os recursos virão do reinvestimento da geração de caixa estatal da Casan, que lucrou R$ 1 bi, novos financiamentos e PPP's, com controle social pelo poder concedente e pelas agências reguladoras."
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "crédito subsidiado"
+        ],
+        "compromisso": false,
+        "texto": "Pronampe SC: maior programa de crédito subsidiado da história do estado já investiu mais de meio bilhão de reais para alavancar micro e pequenos negócios"
+      },
+      {
+        "pagina": 11,
+        "termos": [
+          "imposto"
+        ],
+        "compromisso": false,
+        "texto": "Quatro anos de gestão sem nenhum aumento de impostos"
+      },
+      {
+        "pagina": 12,
+        "termos": [
+          "estatal"
+        ],
+        "compromisso": false,
+        "texto": "A governança pública será orientada pela transparência, assegurando que a máquina estatal continue a operar com responsabilidade e respeito aos direitos fundamentais de todos os catarinenses."
+      },
+      {
+        "pagina": 20,
+        "termos": [
+          "desburocratiz"
+        ],
+        "compromisso": false,
+        "texto": "Diretriz Central: manter o ambiente de negócios mais próspero e livre do Brasil, pautado pelo respeito à propriedade privada, corte de privilégios, desburocratização e parceria direta com os 295 municípios."
+      }
+    ],
+    "soc": [],
+    "pod": [
+      {
+        "pagina": 16,
+        "termos": [
+          "pena",
+          "polícia",
+          "militar"
+        ],
+        "compromisso": false,
+        "texto": "Continuar a modernização tecnológica e renovação de equipamentos da Polícia Militar, Polícia Civil, Polícia Científica, Polícia Penal e Corpo de Bombeiros Militar."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "armament",
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "\"Valorização e recomposição do efetivo policial: dar continuidade aos concursos públicos, garantindo efetivo qualificado, formação continuada e equipamentos de alta precisão (armamento moderno, viaturas blindadas, drones e suporte aéreo)."
+      },
+      {
+        "pagina": 8,
+        "termos": [
+          "câmeras",
+          "reconhecimento facial"
+        ],
+        "compromisso": false,
+        "texto": "12 Estado Mais Seguro do País: menores níveis históricos de violência, com presos detidos até por câmeras de reconhecimento facial"
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "polícia",
+          "policial"
+        ],
+        "compromisso": false,
+        "texto": "Diretriz Central: manter Santa Catarina como o Estado mais seguro do Brasil por meio do combate firme à criminalidade, inteligência policial, valorização das forças de segurança, trabalho prisional e prevenção estruturante de desastres naturais."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "reconhecimento facial",
+          "monitorament"
+        ],
+        "compromisso": false,
+        "texto": "«Cerco eletrônico e inteligência total: expandir o Sistema Integrado de Videomonitoramento Inteligente com reconhecimento facial e leitura de placas para as maiores cidades catarinenses."
+      },
+      {
+        "pagina": 16,
+        "termos": [
+          "encarcer",
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "“Gestão Penal produtiva: expandir o modelo de ressocialização pelo trabalho, elevando o número de encarcerados que trabalhem em parceria com indústrias e prefeituras, arcando com seus próprios custos e ressarcindo a sociedade."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "segurança pública"
+        ],
+        "compromisso": false,
+        "texto": "Os resultados podem ser medidos em quilômetros de rodovias recuperadas, hospitais fortalecidos, escolas modernizadas, vagas criadas no ensino superior, investimentos em segurança pública, apoio aos municípios, expansão da infraestrutura logística, crescimento econômico e melhoria da qualidade dos serviços públicos."
+      },
+      {
+        "pagina": 2,
+        "termos": [
+          "pena"
+        ],
+        "compromisso": false,
+        "texto": "Mas os números contam apenas parte dessa história."
+      }
+    ],
+    "sob": [
+      {
+        "pagina": 15,
+        "termos": [
+          "tarifa"
+        ],
+        "compromisso": true,
+        "texto": "Para garantir a universalização do saneamento básico até 2033 por meio de um modelo regionalizado, o Governo do Estado consolidará a expansão em velocidade recorde, como nos últimos quatro anos, da coleta de esgoto nas cidades catarinenses, do atendimento nas áreas rurais com o programa \"Esgotamento Sobre Rodas\", do atendimento às famílias mais carentes com a Tarifa Social e integrará esses investimentos a ações estruturantes em drenagem para a prevenção de cheias."
+      }
+    ],
+    "amb": [
+      {
+        "pagina": 19,
+        "termos": [
+          "ambiental",
+          "agropecuár"
+        ],
+        "compromisso": true,
+        "texto": "Diretriz Central: valorizar o homem e a mulher do campo, incentivar a sucessão familiar, modernizar a produção agropecuária e pesqueira e garantir segurança hídrica e ambiental sem sufocar quem produz."
+      },
+      {
+        "pagina": 19,
+        "termos": [
+          "clima",
+          "climát"
+        ],
+        "compromisso": true,
+        "texto": "“Campo Competitivo: investir na inovação tecnológica, resiliência climática, conservação de solo e competitividade da agricultura familiar catarinense."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "saneamento"
+        ],
+        "compromisso": true,
+        "texto": "Para garantir a universalização do saneamento básico até 2033 por meio de um modelo regionalizado, o Governo do Estado consolidará a expansão em velocidade recorde, como nos últimos quatro anos, da coleta de esgoto nas cidades catarinenses, do atendimento nas áreas rurais com o programa \"Esgotamento Sobre Rodas\", do atendimento às famílias mais carentes com a Tarifa Social e integrará esses investimentos a ações estruturantes em drenagem para a prevenção de cheias."
+      },
+      {
+        "pagina": 15,
+        "termos": [
+          "licenciamento"
+        ],
+        "compromisso": false,
+        "texto": "«Corredores Ferroviários e intermodais: acelerar a elaboração de projetos e licenciamentos de ferrovias estaduais conectando as regiões catarinenses, viabilizando parcerias público-privadas para diversificar a matriz de transporte."
+      }
+    ]
+  }
 }
