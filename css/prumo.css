@@ -191,6 +191,158 @@ button:disabled:hover { border-color: var(--borda); }
   padding: .2rem .5rem; font-size: .95rem; letter-spacing: .05em;
 }
 
+/* ---------- por que você ficou aqui ---------- */
+
+.porque { margin: 0 0 1.5rem; }
+.porque h2 { margin: 0 0 .5rem; }
+.porque p { margin: .5rem 0 0; }
+.porque b { color: var(--cobre); font-weight: 600; }
+
+.balanca { margin-top: .8rem; border-top: 1px solid var(--borda); padding-top: .4rem; }
+.balanca summary {
+  cursor: pointer; font-weight: 600; font-size: .95rem; color: var(--cobre);
+  min-height: 44px; display: flex; align-items: center;
+}
+.pratos { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--superficie-2); margin: .5rem 0 .3rem; }
+.pratos i { background: var(--texto-suave); opacity: .45; }
+.pratos .lado-pos { margin-left: auto; }
+.pratos i.ganhou { background: var(--cobre); opacity: 1; }
+.pratos-legenda { display: flex; justify-content: space-between; font-size: .8rem; color: var(--texto-suave); }
+.balanca h4 { margin: 1rem 0 .3rem; font-size: .92rem; }
+.balanca ul { margin: 0; padding-left: 1.1rem; }
+.balanca li { font-size: .9rem; margin-bottom: .45rem; }
+.balanca li .resp { font-weight: 600; white-space: nowrap; }
+.balanca .nenhuma { font-size: .88rem; color: var(--texto-suave); margin: 0; }
+
+.proximo-passo {
+  background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio);
+  box-shadow: var(--sombra); padding: 1.2rem 1.3rem; margin-top: 2rem;
+}
+.proximo-passo h2 { margin: 0 0 .4rem; }
+.proximo-passo p { margin: 0; }
+.proximo-passo .acoes { margin: 1rem 0 0; }
+
+/* ---------- navegação entre etapas ---------- */
+
+.navegacao {
+  position: sticky; top: 0; z-index: 5;
+  display: flex; gap: .25rem; overflow-x: auto; scrollbar-width: none;
+  margin: -.5rem -1.25rem 1.5rem; padding: .5rem 1.25rem;
+  background: var(--fundo); border-bottom: 1px solid var(--borda);
+}
+.navegacao::-webkit-scrollbar { display: none; }
+.navegacao a {
+  flex: 0 0 auto; display: inline-flex; align-items: center; min-height: 44px;
+  padding: 0 .85rem; border-radius: 999px; font-size: .92rem;
+  color: var(--texto-suave); text-decoration: none; white-space: nowrap;
+}
+.navegacao a:hover { color: var(--texto); background: var(--superficie-2); }
+.navegacao a[aria-current="page"] { color: var(--texto); background: var(--cobre-fundo); font-weight: 600; }
+.navegacao a:focus-visible { outline: 3px solid var(--cobre); outline-offset: 1px; }
+
+a.voltar, a.botao { text-decoration: none; }
+a.voltar { display: inline-flex; align-items: center; min-height: 44px; color: var(--texto-suave); }
+a.voltar:hover { color: var(--texto); }
+a.botao {
+  flex: 1 1 12rem; display: inline-flex; align-items: center; justify-content: center; min-height: 48px;
+  padding: .7rem 1.2rem; border-radius: var(--raio); border: 1px solid var(--borda);
+  background: var(--superficie); color: var(--texto); font-weight: 600; text-align: center;
+}
+a.botao:hover { border-color: var(--cobre-claro); }
+a.botao.principal { background: var(--cobre); border-color: var(--cobre); color: #fff; }
+
+/* ---------- meus partidos ---------- */
+
+.aviso-destaque { background: var(--cobre-fundo); border-radius: var(--raio); padding: 1rem 1.1rem; }
+.lista-meus { display: grid; gap: 1.1rem; }
+.cartao-meu {
+  background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio);
+  box-shadow: var(--sombra); padding: 1.2rem 1.3rem;
+}
+.cartao-meu header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.cartao-meu h2 { margin: 0; font-size: 1.6rem; }
+.cartao-meu .valor { font-size: 1.5rem; font-weight: 600; color: var(--cobre); white-space: nowrap; }
+.cartao-meu .nome-partido { margin: .1rem 0 0; color: var(--texto-suave); }
+.cartao-meu h3 { font-size: .95rem; margin: 1.1rem 0 .3rem; }
+.cartao-meu p { margin: .3rem 0 0; }
+.cartao-meu .acoes { margin: 1.1rem 0 0; }
+.linha-siglas { display: flex; flex-wrap: wrap; gap: .5rem; }
+.linha-siglas a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 1rem;
+  border: 1px solid var(--borda); border-radius: 999px; background: var(--superficie);
+  color: var(--texto); text-decoration: none; font-weight: 600;
+}
+.linha-siglas a span { font-weight: 400; color: var(--texto-suave); margin-left: .4rem; }
+
+/* ---------- ficha do partido: abas ---------- */
+
+.abas {
+  display: flex; gap: .35rem; overflow-x: auto; scrollbar-width: none;
+  margin: 1rem 0 1.5rem; padding-bottom: .35rem; border-bottom: 1px solid var(--borda);
+}
+.abas::-webkit-scrollbar { display: none; }
+.abas button {
+  flex: 0 0 auto; min-height: 44px; padding: .4rem .9rem; border-radius: 999px;
+  border-color: transparent; background: transparent; color: var(--texto-suave); font-size: .95rem;
+}
+.abas button:hover { background: var(--superficie-2); color: var(--texto); }
+.abas button[aria-selected="true"] { background: var(--cobre-fundo); color: var(--texto); font-weight: 600; }
+.abas button:disabled { opacity: .35; }
+.titulo-aba { margin: 0 0 .6rem; font-size: 1.1rem; }
+.citacao {
+  margin: 0; padding: 0 0 0 1rem; border-left: 3px solid var(--cobre);
+  font-style: italic; font-size: 1.05rem; line-height: 1.5;
+}
+.marcos { list-style: none; padding: 0; margin: 0 0 1rem; }
+.marcos li { display: grid; grid-template-columns: 4rem 1fr; gap: .8rem; padding: .55rem 0; border-bottom: 1px solid var(--borda); }
+.marcos b { color: var(--cobre); font-variant-numeric: tabular-nums; }
+.marcos p { margin: 0; font-size: .95rem; }
+.cartao-eixo .numero-grande { font-size: 2rem; font-weight: 600; color: var(--cobre); line-height: 1; margin: .2rem 0 .3rem; }
+#hoje-governadores h2 { margin-top: 1.5rem; }
+#hoje-gov-lista { padding-left: 1.2rem; margin: 0; }
+#hoje-gov-lista li { margin-bottom: .35rem; }
+
+/* ---------- frases de campanha ---------- */
+
+.numero-urna { color: var(--texto); font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+.frase-cartao {
+  margin: .6rem 0 0; font-style: italic; font-size: .95rem; line-height: 1.4;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.frase-ficha { margin: 0 0 1.1rem; }
+#cand-campanha { margin: 1.5rem 0; }
+
+/* ---------- recuperador e código ---------- */
+
+.recuperador {
+  background: var(--superficie); border: 1px solid var(--borda);
+  border-radius: var(--raio); padding: 0 1.2rem; margin-top: 1rem;
+}
+.recuperador summary {
+  cursor: pointer; font-weight: 600; min-height: 48px;
+  display: flex; align-items: center; color: var(--cobre);
+}
+.recuperador[open] { padding-bottom: 1rem; }
+.recuperador label { display: block; font-size: .95rem; margin: .25rem 0 .75rem; }
+.linha-codigo { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.linha-codigo input {
+  flex: 1 1 12rem; min-width: 0; min-height: 48px; padding: .6rem .8rem;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 1.05rem; letter-spacing: .04em;
+  border: 1px solid var(--borda); border-radius: 8px; background: var(--fundo); color: var(--texto);
+}
+.linha-codigo input:focus { outline: 2px solid var(--cobre); outline-offset: 1px; }
+.linha-codigo button { flex: 0 0 auto; }
+.erro { color: var(--cobre); font-weight: 600; font-size: .95rem; margin: .75rem 0 0; }
+
+.caixa-codigo {
+  background: var(--cobre-fundo); border-radius: var(--raio);
+  padding: 1.1rem 1.2rem; margin-top: 1.5rem;
+}
+.caixa-codigo h2 { margin: 0 0 .6rem; font-size: 1.15rem; }
+.caixa-codigo .codigo-perfil { font-size: 1.25rem; padding: .35rem .7rem; background: var(--superficie); }
+.caixa-codigo p { margin: .5rem 0 0; }
+.caixa-codigo #copiado:empty { display: none; }
+
 /* ---------- caixa da IA ---------- */
 
 .caixa-ia { background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio); padding: 1.1rem 1.2rem; margin-top: 1.5rem; }
@@ -241,3 +393,9 @@ dialog li { margin-bottom: .5rem; }
   body { background: #fff; color: #000; }
   .acoes, .caixa-ia, .rodape-pergunta, .marca span { display: none; }
 }
+
+/* Sinais de força eleitoral: atrás de uma tarja que o eleitor retira */
+.tarja { background: repeating-linear-gradient(135deg, var(--cobre-fundo) 0 12px, transparent 12px 24px); border: 1px dashed var(--cobre); border-radius: var(--raio); padding: 1rem 1.1rem; }
+.tarja p { margin: 0 0 .8rem; }
+ul.forca { padding-left: 1.1rem; margin: 0 0 1rem; }
+ul.forca li { margin: 0 0 .5rem; }

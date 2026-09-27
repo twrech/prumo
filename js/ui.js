@@ -7,12 +7,13 @@
  */
 
 import {
-  EIXOS, pontuar, gerarPerfil, faixaIntensidade, faixaConfianca, ordenarPerguntas,
+  EIXOS, pontuar, gerarPerfil, perfilDoVetor, faixaIntensidade, faixaConfianca, ordenarPerguntas,
 } from './motor.js';
-import { codificar } from './perfil.js';
+import { codificar, recuperar } from './perfil.js';
 import { radar } from './grafico.js';
 import { gerarPdf } from './pdf.js';
 import { explicar } from './ia.js';
+import { balanca, decisaoDoRotulo } from './explicar.js';
 
 const $ = (id) => document.getElementById(id);
 
@@ -24,6 +25,9 @@ const estado = {
   respostas: {},   // id → 'sim' | 'nao' | 'pular'
   indice: 0,
   perfil: null,
+  // true quando o resultado veio de um código colado: não há respostas nesta
+  // aba, e tudo o que depende delas (a lista no relatório) fica de fora.
+  recuperado: false,
 };
 
 /* ------------------------------------------------------------------ dados */
@@ -102,8 +106,72 @@ function apresentadas() {
 function finalizar() {
   const lista = apresentadas();
   estado.perfil = gerarPerfil(lista, estado.respostas, estado.arquetipos, estado.banco.config);
+  estado.recuperado = false;
+  mostrarResultado();
+}
+
+/**
+ * Recuperador. O vetor vem do código; rótulo e intensidade são recalculados
+ * com os arquétipos desta versão, como no fim do questionário.
+ */
+function abrirPorCodigo(texto) {
+  const { perfil } = recuperar(texto);
+  estado.ordem = [];
+  estado.respostas = {};
+  estado.perfil = perfilDoVetor(perfil, estado.arquetipos, estado.banco.config);
+  estado.recuperado = true;
+  mostrarResultado();
+}
+
+function enviarCodigo(ev) {
+  ev.preventDefault();
+  const erro = $('erro-codigo');
+  erro.classList.add('oculto');
+  if (!estado.arquetipos) {
+    erro.textContent = 'Os dados ainda estão carregando. Tente de novo em alguns segundos.';
+    erro.classList.remove('oculto');
+    return;
+  }
+  try {
+    abrirPorCodigo($('campo-codigo').value);
+    $('campo-codigo').value = '';
+  } catch (e) {
+    erro.textContent = e.message;
+    erro.classList.remove('oculto');
+    $('campo-codigo').focus();
+  }
+}
+
+async function copiarCodigo() {
+  const codigo = $('codigo-perfil').textContent;
+  const aviso = $('copiado');
+  try {
+    await navigator.clipboard.writeText(codigo);
+    aviso.textContent = 'Copiado. Cole num lugar seu — uma nota, uma mensagem para você mesmo.';
+  } catch {
+    // Sem permissão de área de transferência (alguns navegadores em http, ou
+    // bloqueio do usuário): seleciona o texto para a pessoa copiar na mão.
+    const faixa = document.createRange();
+    faixa.selectNodeContents($('codigo-perfil'));
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(faixa);
+    aviso.textContent = 'Não deu para copiar sozinho: o código ficou selecionado, é só copiar.';
+  }
+}
+
+function mostrarResultado() {
+  $('copiado').textContent = '';
+  // Os links da barra levam o código junto; é ele que carrega o perfil lá.
+  const cod = encodeURIComponent(codificar(estado.perfil));
+  for (const a of document.querySelectorAll('#tela-resultado .navegacao a[data-rota]')) {
+    a.href = `etapa2/?p=${cod}#${a.dataset.rota}`;
+  }
+  $('aviso-recuperado').classList.toggle('oculto', !estado.recuperado);
+  $('nota-relatorio').classList.toggle('oculto', estado.recuperado);
 
   desenharSintese();
+  desenharPorqueRotulo();
   desenharGrafico();
   desenharCartoes();
   $('codigo-perfil').textContent = codificar(estado.perfil);
@@ -148,6 +216,155 @@ function desenharSintese() {
     `e mais marcada em ${marcados.join(' e ')}.`;
 }
 
+/* ------------------------------------------ por que você ficou aqui */
+
+const nomeEixo = (k) => estado.eixos.find((e) => e.codigo === k);
+
+/** Parágrafo com trechos em negrito: partes pares são texto, ímpares negrito. */
+function paragrafo(...partes) {
+  const p = document.createElement('p');
+  partes.forEach((t, i) => {
+    if (i % 2) { const b = document.createElement('b'); b.textContent = t; p.append(b); }
+    else p.append(t);
+  });
+  return p;
+}
+
+function desenharPorqueRotulo() {
+  const alvo = $('porque-rotulo-texto');
+  alvo.textContent = '';
+  const d = decisaoDoRotulo(estado.perfil, estado.arquetipos, estado.banco.config);
+  const nome1 = d.primeiro?.nome || estado.perfil.rotulo;
+  const nome2 = d.segundo?.nome;
+
+  if (d.centrista) {
+    alvo.append(paragrafo(
+      'Somando os cinco eixos, a sua posição ficou muito perto do meio: intensidade de ',
+      `${estado.perfil.intensidade}%`,
+      `, abaixo da linha de ${d.limiar}%. Nesse caso o Prumo não força um lado e chama o perfil de `,
+      'Centrista', '.',
+    ));
+    if (nome2) {
+      alvo.append(paragrafo(
+        'Isso não quer dizer que você não tenha opinião — quer dizer que, eixo a eixo, as suas respostas '
+        + 'se equilibraram. Se fosse para escolher um perfil com inclinação, o mais parecido seria ',
+        nome2, '.',
+      ));
+    }
+    return;
+  }
+
+  alvo.append(paragrafo(
+    'O Prumo compara a sua posição com dez perfis típicos. O mais parecido com o seu é ',
+    nome1, nome2 ? '; logo atrás vem ' : '.', nome2 || '', nome2 ? '.' : '',
+  ));
+
+  const decisivos = d.eixos.filter((e, i) => e.parcela > 0 && (i === 0 || e.parcela >= d.eixos[0].parcela / 2)).slice(0, 2);
+  const frases = decisivos.map((e) => {
+    const eixo = nomeEixo(e.eixo);
+    const faixa = (v) => faixaDoEixo(eixo, v).rotulo;
+    return [
+      `Em ${eixo.nome}, você ficou em `, `“${faixa(e.pessoa)}”`,
+      `. O perfil ${nome1.toLowerCase()} típico fica em “${faixa(e.primeiro)}”, e o ${nome2.toLowerCase()} em “${faixa(e.segundo)}”.`,
+    ];
+  });
+  if (frases.length) {
+    alvo.append(paragrafo(
+      'O que separou os dois foi ',
+      decisivos.map((e) => nomeEixo(e.eixo).nome).join(' e '),
+      decisivos.length > 1 ? '. ' : '. ',
+    ));
+    for (const f of frases) alvo.append(paragrafo(...f));
+  }
+  const p = document.createElement('p');
+  p.className = 'discreto';
+  p.textContent = 'Os perfis típicos são pontos de referência, não caixas: ninguém cabe inteiro em um. '
+    + 'O que vale é a sua posição em cada eixo, logo abaixo.';
+  alvo.append(p);
+}
+
+function textoResposta(r) {
+  return r === 'sim' ? 'você disse Sim' : 'você disse Não';
+}
+
+/** Bloco "O que pesou" de um eixo, montado a partir das respostas. */
+function blocoBalanca(k, eixo, dados) {
+  const det = document.createElement('details');
+  det.className = 'balanca';
+  const resumo = document.createElement('summary');
+  resumo.textContent = 'O que pesou neste eixo';
+  det.append(resumo);
+
+  if (!dados) {
+    const p = document.createElement('p');
+    p.className = 'nenhuma';
+    p.textContent = 'Este resultado foi aberto pelo código, que não guarda as respostas. '
+      + 'O detalhe do que pesou só aparece logo depois de responder às perguntas.';
+    det.append(p);
+    return det;
+  }
+
+  const neg = dados.negativo.pontos;
+  const pos = dados.positivo.pontos;
+  const soma = neg + pos || 1;
+  const barra = document.createElement('div');
+  barra.className = 'pratos';
+  barra.setAttribute('aria-hidden', 'true');
+  const bn = document.createElement('i'); bn.className = 'lado-neg'; bn.style.width = `${(100 * neg) / soma}%`;
+  const bp = document.createElement('i'); bp.className = 'lado-pos'; bp.style.width = `${(100 * pos) / soma}%`;
+  // O lado que ganhou fica em cobre; o outro, neutro. Cor por lado político
+  // seria tomar partido — cor pelo resultado não é.
+  (pos >= neg ? bp : bn).classList.add('ganhou');
+  barra.append(bn, bp);
+  const leg = document.createElement('div');
+  leg.className = 'pratos-legenda';
+  const ln = document.createElement('span'); ln.textContent = `${eixo.polo_negativo.nome}: ${neg} pontos`;
+  const lp = document.createElement('span'); lp.textContent = `${eixo.polo_positivo.nome}: ${pos} pontos`;
+  leg.append(ln, lp);
+  det.append(barra, leg);
+
+  // O lado que ganhou vem primeiro: é o que explica onde a pessoa parou.
+  const lados = pos >= neg ? ['positivo', 'negativo'] : ['negativo', 'positivo'];
+  for (const lado of lados) {
+    const prato = dados[lado];
+    const polo = lado === 'positivo' ? eixo.polo_positivo.nome : eixo.polo_negativo.nome;
+    const h = document.createElement('h4');
+    h.textContent = prato.quantidade
+      ? `Puxaram para ${polo} (${prato.quantidade} ${prato.quantidade === 1 ? 'resposta' : 'respostas'})`
+      : `Nada puxou para ${polo}`;
+    det.append(h);
+    if (!prato.quantidade) continue;
+    const ul = document.createElement('ul');
+    for (const r of prato.respostas) {
+      const li = document.createElement('li');
+      li.append(`“${r.texto}” — `);
+      const b = document.createElement('span'); b.className = 'resp'; b.textContent = textoResposta(r.resposta);
+      li.append(b);
+      ul.append(li);
+    }
+    det.append(ul);
+    if (prato.quantidade > prato.respostas.length) {
+      const mais = document.createElement('p');
+      mais.className = 'nenhuma';
+      mais.textContent = `…e mais ${prato.quantidade - prato.respostas.length}. Acima, as que mais pesaram.`;
+      det.append(mais);
+    }
+  }
+
+  if (dados.pulos.quantidade) {
+    const p = document.createElement('p');
+    p.className = 'nenhuma';
+    p.style.marginTop = '.8rem';
+    const n = dados.pulos.quantidade;
+    const pts = dados.pulos.pontos;
+    const para = pts > 0 ? eixo.polo_positivo.nome : eixo.polo_negativo.nome;
+    p.textContent = `Você pulou ${n} ${n === 1 ? 'pergunta' : 'perguntas'} deste eixo. Pular conta um pouco a favor de como as coisas são hoje`
+      + (pts ? `, e isso empurrou ${Math.abs(pts)} ${Math.abs(pts) === 1 ? 'ponto' : 'pontos'} para ${para}.` : ', e aqui os pulos se anularam.');
+    det.append(p);
+  }
+  return det;
+}
+
 function coresDoTema() {
   const css = getComputedStyle(document.body);
   const ler = (nome, padrao) => (css.getPropertyValue(nome) || '').trim() || padrao;
@@ -175,6 +392,9 @@ function desenharCartoes() {
   const p = estado.perfil;
   const alvo = $('cartoes');
   alvo.textContent = '';
+  const pesos = estado.recuperado
+    ? null
+    : balanca(apresentadas(), estado.respostas, estado.banco.config);
 
   for (const k of EIXOS) {
     const eixo = estado.eixos.find((e) => e.codigo === k);
@@ -217,7 +437,7 @@ function desenharCartoes() {
     confEl.className = 'discreto confianca';
     confEl.textContent = `Posição ${faixaConfianca(conf)} (${conf}% das perguntas deste eixo você respondeu).`;
 
-    cartao.append(cabeca, regua, polos, texto, confEl);
+    cartao.append(cabeca, regua, polos, texto, confEl, blocoBalanca(k, eixo, pesos?.[k]));
     alvo.append(cartao);
   }
 }
@@ -239,8 +459,8 @@ async function baixarPdf() {
       // O relatório passa a trazer as respostas, uma a uma. Elas continuam sem
       // sair daqui: o PDF é montado nesta aba e salvo no computador de quem
       // respondeu. O que muda é que a pessoa PODE guardar o que é dela.
-      perguntas: estado.ordem,
-      respostas: estado.respostas,
+      perguntas: estado.recuperado ? null : estado.ordem,
+      respostas: estado.recuperado ? null : estado.respostas,
     });
   } catch (e) {
     alert(`Não deu para gerar o relatório: ${e.message}\n\nVocê pode usar a impressão do navegador (Ctrl+P) como alternativa.`);
@@ -256,6 +476,7 @@ function irParaEtapa2() {
 
 function refazer() {
   estado.perfil = null;
+  estado.recuperado = false;
   estado.respostas = {};
   $('ia-chave').value = '';
   $('ia-ligar').checked = false;
@@ -297,6 +518,8 @@ function ligarEventos() {
   $('botao-pdf').addEventListener('click', baixarPdf);
   $('botao-etapa2').addEventListener('click', irParaEtapa2);
   $('botao-refazer').addEventListener('click', refazer);
+  $('form-recuperar').addEventListener('submit', enviarCodigo);
+  $('botao-copiar').addEventListener('click', copiarCodigo);
 
   $('botao-como').addEventListener('click', () => $('dialogo-como').showModal());
   $('fechar-como').addEventListener('click', () => $('dialogo-como').close());
@@ -335,6 +558,19 @@ function ligarEventos() {
     $('resumo-banco').textContent =
       `${n} perguntas, cerca de ${Math.round((n * 8) / 60)} minutos. Dá para parar no meio e ver o resultado do que já respondeu.`;
     $('botao-comecar').disabled = false;
+
+    // Endereço com ?p=CODIGO abre direto no resultado. É o caminho de volta
+    // das etapas seguintes ("meu resultado") e de quem guardou o link.
+    const doEndereco = new URLSearchParams(location.search).get('p');
+    if (doEndereco) {
+      try {
+        abrirPorCodigo(doEndereco);
+      } catch (e) {
+        $('recuperador').open = true;
+        $('erro-codigo').textContent = `O código que veio no endereço não pôde ser lido. ${e.message}`;
+        $('erro-codigo').classList.remove('oculto');
+      }
+    }
   } catch (e) {
     $('resumo-banco').textContent = `Não foi possível carregar as perguntas: ${e.message}`;
   }

@@ -232,3 +232,33 @@ export function alinhar(perfil, base, opcoes = {}) {
     aviso,
   };
 }
+
+/**
+ * Quem aparece na tela "Seus partidos" (decisão de Talyz, 27/09/2026).
+ *
+ * Regra: os partidos com alinhamento de pelo menos `corte` (80), até `maximo`
+ * (3) — o que ocorrer primeiro. Se nenhum chegar ao corte, mostram-se os três
+ * mais próximos, com aviso de que nenhum pensa de fato como a pessoa.
+ *
+ * O empate não amplia a lista: os partidos a menos de FAIXA_DE_EMPATE pontos do
+ * último mostrado vêm à parte, como "empatados na margem de erro", porque a
+ * diferença entre eles e o último da lista não se sustenta (ver jackknife).
+ *
+ * @param {Object} al  saída de `alinhar`
+ * @returns {{ mostrados, empatados, abaixoDoCorte, corte }}
+ */
+export function selecionarPartidos(al, opcoes = {}) {
+  const corte = opcoes.corte ?? 80;
+  const maximo = opcoes.maximo ?? 3;
+  const faixa = opcoes.faixaDeEmpate ?? al.faixaDeEmpate ?? FAIXA_DE_EMPATE;
+
+  let mostrados = al.ranking.filter((r) => r.alinhamento >= corte).slice(0, maximo);
+  const abaixoDoCorte = mostrados.length === 0;
+  if (abaixoDoCorte) mostrados = al.ranking.slice(0, maximo);
+
+  const ultimo = mostrados.length ? mostrados[mostrados.length - 1].alinhamento : 0;
+  const siglas = new Set(mostrados.map((r) => r.sigla));
+  const empatados = al.ranking.filter((r) => !siglas.has(r.sigla) && ultimo - r.alinhamento <= faixa);
+
+  return { mostrados, empatados, abaixoDoCorte, corte };
+}

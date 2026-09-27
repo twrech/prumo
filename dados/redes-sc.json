@@ -1,0 +1,4229 @@
+{
+"versao": "1.0",
+"uf": "SC",
+"lido_em": "2026-09-27",
+"fonte": "TSE, DivulgaCandContas, campo \"sites\" do registro de cada candidatura (o que a própria pessoa declarou)",
+"nota": "LinkedIn, X, TikTok, YouTube, Facebook e links quebrados ficam de fora; aqui só Instagram e site próprio, que são as duas fontes usadas para as frases de campanha.",
+"candidatos": {
+"240002552226": {
+"instagram": [
+"kerlykoch"
+],
+"sites": []
+},
+"240002552224": {
+"instagram": [],
+"sites": []
+},
+"240002552223": {
+"instagram": [],
+"sites": []
+},
+"240002552227": {
+"instagram": [
+"silvanawalger_"
+],
+"sites": []
+},
+"240002552225": {
+"instagram": [
+"agnaldo_artdesign"
+],
+"sites": []
+},
+"240002552228": {
+"instagram": [],
+"sites": []
+},
+"240002551679": {
+"instagram": [
+"sabrinadconceicao"
+],
+"sites": []
+},
+"240002551684": {
+"instagram": [
+"aneameric"
+],
+"sites": []
+},
+"240002551693": {
+"instagram": [
+"edilbertosantos.oficial"
+],
+"sites": []
+},
+"240002551677": {
+"instagram": [
+"cws_silva.1304"
+],
+"sites": []
+},
+"240002551690": {
+"instagram": [
+"davialmeida.70sc"
+],
+"sites": []
+},
+"240002551697": {
+"instagram": [
+"betaodoimposto"
+],
+"sites": [
+"https://www.betaodoimposto.com.br"
+]
+},
+"240002551685": {
+"instagram": [
+"levirioschi"
+],
+"sites": []
+},
+"240002551689": {
+"instagram": [
+"ivo_machado1"
+],
+"sites": []
+},
+"240002554410": {
+"instagram": [
+"lucasesmeraldino"
+],
+"sites": []
+},
+"240002551680": {
+"instagram": [
+"angetunes"
+],
+"sites": []
+},
+"240002551676": {
+"instagram": [
+"indio_fotograf"
+],
+"sites": []
+},
+"240002551694": {
+"instagram": [
+"aneraulino"
+],
+"sites": []
+},
+"240002551691": {
+"instagram": [
+"luizaochapeco70"
+],
+"sites": []
+},
+"240002551678": {
+"instagram": [
+"michellepaiva878"
+],
+"sites": []
+},
+"240002551700": {
+"instagram": [
+"deputado_mamede"
+],
+"sites": []
+},
+"240002551695": {
+"instagram": [
+"michelli7731"
+],
+"sites": []
+},
+"240002551687": {
+"instagram": [
+"mauridaslajotas"
+],
+"sites": []
+},
+"240002551696": {
+"instagram": [
+"idesiofer"
+],
+"sites": []
+},
+"240002551688": {
+"instagram": [
+"ricardorodrigues7044_"
+],
+"sites": []
+},
+"240002551686": {
+"instagram": [
+"alexrudniski"
+],
+"sites": []
+},
+"240002551681": {
+"instagram": [],
+"sites": []
+},
+"240002551682": {
+"instagram": [
+"rodrigosimao.sj"
+],
+"sites": [
+"https://www.rodrigosimao.com.br"
+]
+},
+"240002551692": {
+"instagram": [
+"prof_angelicahistoria"
+],
+"sites": []
+},
+"240002551698": {
+"instagram": [
+"nilsonjoseitajai"
+],
+"sites": []
+},
+"240002552192": {
+"instagram": [],
+"sites": []
+},
+"240002551683": {
+"instagram": [
+"sadiribeirobv"
+],
+"sites": []
+},
+"240002539634": {
+"instagram": [],
+"sites": []
+},
+"240002537087": {
+"instagram": [
+"brunocunhablu"
+],
+"sites": [
+"https://www.brunocunhablu.com"
+]
+},
+"240002551701": {
+"instagram": [
+"saamelo_"
+],
+"sites": []
+},
+"240002551699": {
+"instagram": [
+"willianesteves.70.sc"
+],
+"sites": []
+},
+"240002539635": {
+"instagram": [
+"barbarakawall_"
+],
+"sites": []
+},
+"240002537096": {
+"instagram": [
+"fahiper"
+],
+"sites": []
+},
+"240002539633": {
+"instagram": [
+"roseli_moraes23"
+],
+"sites": []
+},
+"240002543053": {
+"instagram": [
+"claudiomir_r"
+],
+"sites": [
+"https://www.depfederal-claudiomirramos-2739.com"
+]
+},
+"240002537093": {
+"instagram": [
+"mirnarubiacommandulli"
+],
+"sites": []
+},
+"240002543047": {
+"instagram": [
+"clerdasilva"
+],
+"sites": [
+"https://clerdasilva.com"
+]
+},
+"240002543052": {
+"instagram": [
+"eliasdelima1979"
+],
+"sites": []
+},
+"240002543054": {
+"instagram": [
+"fran_kruck"
+],
+"sites": []
+},
+"240002543060": {
+"instagram": [
+"jacksoneseusteclados"
+],
+"sites": []
+},
+"240002543045": {
+"instagram": [
+"prfrancisnetooficial"
+],
+"sites": []
+},
+"240002543048": {
+"instagram": [
+"giliardidorn_dc",
+"dr.giliardidorn"
+],
+"sites": []
+},
+"240002543049": {
+"instagram": [
+"djeiksson.p.s"
+],
+"sites": []
+},
+"240002543044": {
+"instagram": [],
+"sites": []
+},
+"240002543050": {
+"instagram": [
+"sergiodafarmacia_oficial"
+],
+"sites": []
+},
+"240002543057": {
+"instagram": [
+"mirodokantogaucho"
+],
+"sites": []
+},
+"240002543059": {
+"instagram": [
+"marcelobiagiotti_dep_fed_2707"
+],
+"sites": []
+},
+"240002543058": {
+"instagram": [
+"lucianalf45"
+],
+"sites": []
+},
+"240002543055": {
+"instagram": [
+"leticiapaloma_oficial"
+],
+"sites": []
+},
+"240002543056": {
+"instagram": [
+"tonyramos.2025"
+],
+"sites": []
+},
+"240002543051": {
+"instagram": [
+"simonexavier_betelfm"
+],
+"sites": []
+},
+"240002541399": {
+"instagram": [
+"ciroandrequintino"
+],
+"sites": []
+},
+"240002541403": {
+"instagram": [
+"angelarodriguesph"
+],
+"sites": [
+"https://angelacadunico.com.br"
+]
+},
+"240002543046": {
+"instagram": [
+"zagoneltaize"
+],
+"sites": []
+},
+"240002541381": {
+"instagram": [
+"adilson.girardi"
+],
+"sites": []
+},
+"240002541398": {
+"instagram": [
+"danisantannabr",
+"scdanisantanna"
+],
+"sites": [
+"https://scdanisantanna.com.br"
+]
+},
+"240002541376": {
+"instagram": [
+"jorgeluizkoch"
+],
+"sites": []
+},
+"240002541396": {
+"instagram": [
+"cleiton.fossa"
+],
+"sites": [
+"https://www.cleitonfossa.com.br"
+]
+},
+"240002541388": {
+"instagram": [
+"dr.elciokuhnen"
+],
+"sites": []
+},
+"240002541370": {
+"instagram": [
+"drnatel"
+],
+"sites": []
+},
+"240002541384": {
+"instagram": [
+"crisdasauude"
+],
+"sites": []
+},
+"240002541382": {
+"instagram": [
+"fernando.krelling"
+],
+"sites": []
+},
+"240002541378": {
+"instagram": [
+"inajara1971"
+],
+"sites": []
+},
+"240002541385": {
+"instagram": [
+"emersonmaasoficial"
+],
+"sites": []
+},
+"240002541374": {
+"instagram": [
+"emersonsteinpb"
+],
+"sites": []
+},
+"240002541372": {
+"instagram": [
+"elizeumattos_15"
+],
+"sites": []
+},
+"240002541405": {
+"instagram": [
+"dreloiquege"
+],
+"sites": []
+},
+"240002541379": {
+"instagram": [
+"deputadojerry"
+],
+"sites": [
+"https://www.jerrycomper.com.br"
+]
+},
+"240002541409": {
+"instagram": [
+"jomafretta"
+],
+"sites": []
+},
+"240002541407": {
+"instagram": [
+"joaomatos.sc"
+],
+"sites": []
+},
+"240002541387": {
+"instagram": [
+"isauraprovin"
+],
+"sites": []
+},
+"240002541375": {
+"instagram": [
+"josi_menestrina"
+],
+"sites": []
+},
+"240002541369": {
+"instagram": [
+"joaocobalchini"
+],
+"sites": []
+},
+"240002541404": {
+"instagram": [
+"maze_gatos"
+],
+"sites": []
+},
+"240002548630": {
+"instagram": [
+"antidiolunelli"
+],
+"sites": []
+},
+"240002541390": {
+"instagram": [
+"leatricebez"
+],
+"sites": [
+"https://www.leatricebez15104.com.br",
+"https://leatrice-bez.netlify.app"
+]
+},
+"240002541380": {
+"instagram": [
+"marceloachutti"
+],
+"sites": []
+},
+"240002541394": {
+"instagram": [
+"marcosboth_"
+],
+"sites": [
+"https://ww.marcosboth.com.br"
+]
+},
+"240002541371": {
+"instagram": [
+"luciane.cooper"
+],
+"sites": []
+},
+"240002541410": {
+"instagram": [
+"prof.edinaruas"
+],
+"sites": []
+},
+"240002541377": {
+"instagram": [
+"maurodenadal"
+],
+"sites": [
+"https://www.maurodenadal.com.br"
+]
+},
+"240002541406": {
+"instagram": [
+"deputadopezenti"
+],
+"sites": [
+"https://www.deputadopezenti.com.br"
+]
+},
+"240002541383": {
+"instagram": [
+"mmonsil40_"
+],
+"sites": []
+},
+"240002541389": {
+"instagram": [],
+"sites": []
+},
+"240002541386": {
+"instagram": [
+"paulocoelhosc"
+],
+"sites": []
+},
+"240002541402": {
+"instagram": [
+"raquelbachtold"
+],
+"sites": []
+},
+"240002541411": {
+"instagram": [
+"teodoro_adao"
+],
+"sites": []
+},
+"240002551491": {
+"instagram": [
+"robertosalumoficial"
+],
+"sites": []
+},
+"240002541401": {
+"instagram": [
+"coelho_rodrigo"
+],
+"sites": [
+"https://coelhorodrigo.com.br"
+]
+},
+"240002541400": {
+"instagram": [
+"natalialuciapetry"
+],
+"sites": []
+},
+"240002541391": {
+"instagram": [
+"sirleimuller15"
+],
+"sites": []
+},
+"240002541397": {
+"instagram": [
+"zagonel_ll"
+],
+"sites": []
+},
+"240002541408": {
+"instagram": [
+"valdircobalchini"
+],
+"sites": []
+},
+"240002541393": {
+"instagram": [
+"tiagozilli_"
+],
+"sites": []
+},
+"240002541392": {
+"instagram": [
+"tulio_veterinario"
+],
+"sites": []
+},
+"240002541373": {
+"instagram": [
+"tutasouza_"
+],
+"sites": []
+},
+"240002541395": {
+"instagram": [
+"vini.protetordeanimais"
+],
+"sites": [
+"https://viniamoranimal.com.br"
+]
+},
+"240002543542": {
+"instagram": [
+"margarethpratts"
+],
+"sites": []
+},
+"240002544675": {
+"instagram": [
+"adriana.custodiolino"
+],
+"sites": []
+},
+"240002544681": {
+"instagram": [
+"andiara.ferreiraadv"
+],
+"sites": []
+},
+"240002543550": {
+"instagram": [
+"ademir.anjos_ademir"
+],
+"sites": []
+},
+"240002544684": {
+"instagram": [
+"a._koerich"
+],
+"sites": []
+},
+"240002544683": {
+"instagram": [
+"andressaoliveira_sc",
+"andressa.o14"
+],
+"sites": []
+},
+"240002543554": {
+"instagram": [
+"carolformigoni.sc"
+],
+"sites": [
+"https://carolineformigoni.com.br"
+]
+},
+"240002544676": {
+"instagram": [
+"annavargas.sc"
+],
+"sites": []
+},
+"240002544686": {
+"instagram": [
+"brunodias.missao"
+],
+"sites": []
+},
+"240002543539": {
+"instagram": [
+"dolzanbyanca"
+],
+"sites": []
+},
+"240002554309": {
+"instagram": [
+"carlos_d_antunes",
+"carlosdauricao"
+],
+"sites": []
+},
+"240002543551": {
+"instagram": [
+"cleiton_siqueira1"
+],
+"sites": []
+},
+"240002544682": {
+"instagram": [
+"felipebarcellos.sc"
+],
+"sites": [
+"https://felipebarcellos.com.br"
+]
+},
+"240002544689": {
+"instagram": [
+"franklobodeputado"
+],
+"sites": []
+},
+"240002543552": {
+"instagram": [
+"franvillanisc"
+],
+"sites": []
+},
+"240002544690": {
+"instagram": [
+"jordambrito.sc",
+"jordambritosc.reserva"
+],
+"sites": []
+},
+"240002543553": {
+"instagram": [
+"gabrieloliveira_sc",
+"gabrieloliveiram"
+],
+"sites": []
+},
+"240002543544": {
+"instagram": [
+"jairo99x"
+],
+"sites": []
+},
+"240002544680": {
+"instagram": [
+"marcosboettchler77"
+],
+"sites": [
+"https://www.marcosboettcher.com.br"
+]
+},
+"240002544687": {
+"instagram": [
+"olucasfsilveira"
+],
+"sites": []
+},
+"240002544677": {
+"instagram": [
+"larissakamers"
+],
+"sites": []
+},
+"240002543549": {
+"instagram": [
+"correasc14"
+],
+"sites": []
+},
+"240002543545": {
+"instagram": [
+"marcodosuldomundo"
+],
+"sites": []
+},
+"240002543547": {
+"instagram": [
+"leolamerabr"
+],
+"sites": []
+},
+"240002544688": {
+"instagram": [
+"paulojosue14",
+"liberdade.ararangua",
+"1pjosue"
+],
+"sites": []
+},
+"240002544678": {
+"instagram": [
+"tessarisc"
+],
+"sites": []
+},
+"240002543548": {
+"instagram": [
+"ricardobecker14777"
+],
+"sites": []
+},
+"240002543540": {
+"instagram": [
+"nilson.vicenti"
+],
+"sites": []
+},
+"240002543543": {
+"instagram": [
+"orleicandidato"
+],
+"sites": [
+"https://orleicontraprivilegios.base44.app"
+]
+},
+"240002543546": {
+"instagram": [
+"mauriciocoutoadv",
+"mauricio.scouto"
+],
+"sites": []
+},
+"240002544094": {
+"instagram": [
+"tuliopfu"
+],
+"sites": []
+},
+"240002535422": {
+"instagram": [
+"amandateixeirahs"
+],
+"sites": []
+},
+"240002544685": {
+"instagram": [
+"vagner.visoli",
+"apoiadoresmissaobiguacu"
+],
+"sites": []
+},
+"240002544674": {
+"instagram": [
+"santiagocesarsc"
+],
+"sites": [
+"https://www.santiagocesar.com.br"
+]
+},
+"240002544679": {
+"instagram": [
+"tucofariassc"
+],
+"sites": []
+},
+"240002543541": {
+"instagram": [
+"yolandasilva_sc"
+],
+"sites": []
+},
+"240002535435": {
+"instagram": [
+"andreoliveira.sc"
+],
+"sites": []
+},
+"240002535474": {
+"instagram": [
+"carladaniellecorrea"
+],
+"sites": []
+},
+"240002535457": {
+"instagram": [
+"bernadetesouza.sc"
+],
+"sites": []
+},
+"240002535425": {
+"instagram": [
+"beatrizborbasc"
+],
+"sites": [
+"https://www.biaborba.com.br"
+]
+},
+"240002535443": {
+"instagram": [
+"novoportouniao"
+],
+"sites": []
+},
+"240002535432": {
+"instagram": [
+"annavalente.sc"
+],
+"sites": []
+},
+"240002535471": {
+"instagram": [
+"cesardamianioficial"
+],
+"sites": []
+},
+"240002535442": {
+"instagram": [
+"elysilveira"
+],
+"sites": [
+"https://www.elysilveira.com.br"
+]
+},
+"240002535467": {
+"instagram": [
+"ciliane_w_augustin"
+],
+"sites": []
+},
+"240002535468": {
+"instagram": [
+"cryslan"
+],
+"sites": [
+"https://cryslan.com.br"
+]
+},
+"240002535439": {
+"instagram": [
+"crismilli_"
+],
+"sites": []
+},
+"240002535440": {
+"instagram": [
+"carolmatos_ap"
+],
+"sites": []
+},
+"240002535431": {
+"instagram": [
+"ericoviniciusdonovo"
+],
+"sites": []
+},
+"240002535455": {
+"instagram": [
+"gilsonciconet"
+],
+"sites": []
+},
+"240002535453": {
+"instagram": [
+"isadorapiana.sc",
+"isaporsantacatarina",
+"meupaisantacatarina"
+],
+"sites": [
+"https://www.isadorapiana.com.br"
+]
+},
+"240002535451": {
+"instagram": [
+"guilhermemartins.sc"
+],
+"sites": []
+},
+"240002535436": {
+"instagram": [
+"glendagerber"
+],
+"sites": [
+"https://glendagerber.com.br"
+]
+},
+"240002535434": {
+"instagram": [
+"gilson.marques.novo"
+],
+"sites": [
+"https://www.gilsonmarques.com"
+]
+},
+"240002535426": {
+"instagram": [
+"kaueoliveiraa1",
+"kaueoliveira.sc"
+],
+"sites": []
+},
+"240002535446": {
+"instagram": [
+"jaironaarea"
+],
+"sites": [
+"https://jairoteixeira.life"
+]
+},
+"240002535447": {
+"instagram": [
+"juliailhaa"
+],
+"sites": [
+"https://juliailha.rf.gd"
+]
+},
+"240002535469": {
+"instagram": [
+"juliobolfe"
+],
+"sites": [
+"https://www.juliobolfe.com.br"
+]
+},
+"240002535456": {
+"instagram": [
+"lizandradadam"
+],
+"sites": []
+},
+"240002535427": {
+"instagram": [
+"jungleswegher"
+],
+"sites": [
+"https://www.jungleswegher.com.br"
+]
+},
+"240002535430": {
+"instagram": [
+"lucaswgotardo"
+],
+"sites": [
+"https://lucaswgotardo.com.br"
+]
+},
+"240002535466": {
+"instagram": [
+"lucasjean.sc"
+],
+"sites": [
+"https://lucasjean.com.br"
+]
+},
+"240002535458": {
+"instagram": [
+"mariabarros__2008"
+],
+"sites": []
+},
+"240002535433": {
+"instagram": [
+"luciovanderlinde"
+],
+"sites": [
+"https://luciovanderlinde.com.br"
+]
+},
+"240002535459": {
+"instagram": [
+"mariofelippi"
+],
+"sites": [
+"https://mariofelippi.com.br"
+]
+},
+"240002535463": {
+"instagram": [
+"lucianopereiraph"
+],
+"sites": [
+"https://lucianopereiraph.com.br"
+]
+},
+"240002535448": {
+"instagram": [
+"michelemarques.sc"
+],
+"sites": [
+"https://michelemarques.novosc.org"
+]
+},
+"240002535461": {
+"instagram": [
+"cadorin.matheus"
+],
+"sites": [
+"https://www.matheuscadorin.com.br"
+]
+},
+"240002535460": {
+"instagram": [
+"netopetters"
+],
+"sites": []
+},
+"240002535473": {
+"instagram": [
+"matheustestasc"
+],
+"sites": []
+},
+"240002535424": {
+"instagram": [
+"morganadaniel"
+],
+"sites": []
+},
+"240002535452": {
+"instagram": [
+"odairtramontin"
+],
+"sites": []
+},
+"240002535465": {
+"instagram": [
+"re_vieira_hipismo",
+"renataferreira_gba"
+],
+"sites": []
+},
+"240002535472": {
+"instagram": [
+"ramontartari"
+],
+"sites": []
+},
+"240002535437": {
+"instagram": [
+"nogueira.r"
+],
+"sites": [
+"https://rafaelnogueira.com.br"
+]
+},
+"240002535464": {
+"instagram": [
+"norma_rodrigues0574"
+],
+"sites": []
+},
+"240002535421": {
+"instagram": [
+"pamelys.adv"
+],
+"sites": []
+},
+"240002535423": {
+"instagram": [
+"claudiojacoski"
+],
+"sites": [
+"https://www.claudiojacoski.com"
+]
+},
+"240002535429": {
+"instagram": [
+"rodrigo__livramento"
+],
+"sites": [
+"https://rodrigolivramento.com.br"
+]
+},
+"240002535441": {
+"instagram": [
+"da_capital_para_o_interior",
+"robsoncalixtoreis"
+],
+"sites": []
+},
+"240002535444": {
+"instagram": [
+"roberto.cpereira"
+],
+"sites": [
+"https://www.robertopereira.net.br"
+]
+},
+"240002535450": {
+"instagram": [
+"rickzanata.bq"
+],
+"sites": []
+},
+"240002535428": {
+"instagram": [
+"ricardooliveira.novo"
+],
+"sites": []
+},
+"240002535438": {
+"instagram": [
+"tolerancia_zero_oficial",
+"revsouza02",
+"revsouza01"
+],
+"sites": [
+"https://toleranciazerooficial.com.br",
+"https://revsouza.com.br"
+]
+},
+"240002533831": {
+"instagram": [
+"gimondardo"
+],
+"sites": [
+"https://www.giovanamondardo.com.br"
+]
+},
+"240002535449": {
+"instagram": [
+"wilcidrao"
+],
+"sites": [
+"https://www.wilcidrao.com.br"
+]
+},
+"240002535454": {
+"instagram": [
+"titacn"
+],
+"sites": []
+},
+"240002535470": {
+"instagram": [
+"thayse_tubarao_sc"
+],
+"sites": []
+},
+"240002535445": {
+"instagram": [
+"tatiane_b_santana"
+],
+"sites": [
+"https://tatiane-santana-2026.vercel.app"
+]
+},
+"240002535462": {
+"instagram": [
+"viniciusnovolages"
+],
+"sites": []
+},
+"240002540095": {
+"instagram": [
+"laristephanie65"
+],
+"sites": []
+},
+"240002553005": {
+"instagram": [],
+"sites": [
+"https://candidatos.pco.org.br"
+]
+},
+"240002533837": {
+"instagram": [
+"jovino.goncalves65"
+],
+"sites": []
+},
+"240002540078": {
+"instagram": [
+"paulinhodasilvaadvogado"
+],
+"sites": [
+"https://paulinhodasilva.com.br"
+]
+},
+"240002553721": {
+"instagram": [],
+"sites": [
+"https://candidatos.pco.org.br"
+]
+},
+"240002553720": {
+"instagram": [],
+"sites": [
+"https://candidatos.pco.org.br"
+]
+},
+"240002533814": {
+"instagram": [
+"advogadomarcobuzzi"
+],
+"sites": []
+},
+"240002533284": {
+"instagram": [
+"alexandre.caminha"
+],
+"sites": [
+"https://caminhadeputado.com.br"
+]
+},
+"240002533285": {
+"instagram": [
+"andreguesser"
+],
+"sites": [
+"https://vereador.andreguesser.com.br"
+]
+},
+"240002533289": {
+"instagram": [
+"juliaopuski"
+],
+"sites": []
+},
+"240002533303": {
+"instagram": [
+"analizoficial.sc"
+],
+"sites": []
+},
+"240002533818": {
+"instagram": [
+"adilson90671",
+"adilsondesouza.souza"
+],
+"sites": []
+},
+"240002533277": {
+"instagram": [
+"cica.muller",
+"timecicamuller"
+],
+"sites": [
+"https://www.vereadoracicamuller.com.br"
+]
+},
+"240002533274": {
+"instagram": [
+"dorleiantunes"
+],
+"sites": []
+},
+"240002533275": {
+"instagram": [
+"dr.anibaldario"
+],
+"sites": []
+},
+"240002533300": {
+"instagram": [
+"castrodireito"
+],
+"sites": []
+},
+"240002533288": {
+"instagram": [
+"andre.sustentavel"
+],
+"sites": []
+},
+"240002533304": {
+"instagram": [
+"carolldarocha"
+],
+"sites": []
+},
+"240002533276": {
+"instagram": [
+"elianearaujo_sc",
+"lia.axe_elianearaujo"
+],
+"sites": []
+},
+"240002533287": {
+"instagram": [
+"guipereirasc"
+],
+"sites": []
+},
+"240002533821": {
+"instagram": [
+"indigena.adriana"
+],
+"sites": []
+},
+"240002533286": {
+"instagram": [
+"haneronmarcos"
+],
+"sites": []
+},
+"240002533282": {
+"instagram": [
+"hildadeola"
+],
+"sites": []
+},
+"240002533816": {
+"instagram": [
+"gracielawiemes"
+],
+"sites": []
+},
+"240002533306": {
+"instagram": [
+"joao.roque15"
+],
+"sites": []
+},
+"240002533280": {
+"instagram": [
+"janete.krueger"
+],
+"sites": []
+},
+"240002533815": {
+"instagram": [
+"jordanasanz"
+],
+"sites": []
+},
+"240002533298": {
+"instagram": [
+"jefinhochupel"
+],
+"sites": []
+},
+"240002533820": {
+"instagram": [
+"ivanmarquesxxe"
+],
+"sites": []
+},
+"240002533299": {
+"instagram": [
+"tvnavegaonline",
+"josecarlosjantsch"
+],
+"sites": []
+},
+"240002536965": {
+"instagram": [
+"juliano._lima"
+],
+"sites": []
+},
+"240002533279": {
+"instagram": [
+"lucianobuligon"
+],
+"sites": []
+},
+"240002533307": {
+"instagram": [
+"pdtesportesc",
+"jr_agenciaesportes",
+"pdt_itapemaoficial",
+"adalberto_vjunior"
+],
+"sites": []
+},
+"240002533296": {
+"instagram": [
+"magnojunior_sc"
+],
+"sites": []
+},
+"240002533291": {
+"instagram": [
+"josecarlossilvajr.adv"
+],
+"sites": []
+},
+"240002533302": {
+"instagram": [
+"ludias2107"
+],
+"sites": []
+},
+"240002533295": {
+"instagram": [
+"marianafrancosc"
+],
+"sites": []
+},
+"240002533817": {
+"instagram": [
+"aammartins2009"
+],
+"sites": []
+},
+"240002533301": {
+"instagram": [],
+"sites": [
+"https://professorevandro.com"
+]
+},
+"240002533292": {
+"instagram": [],
+"sites": []
+},
+"240002533297": {
+"instagram": [
+"ritacassialang"
+],
+"sites": []
+},
+"240002533281": {
+"instagram": [
+"fabriciodalcastagne"
+],
+"sites": []
+},
+"240002533293": {
+"instagram": [
+"rosenvaldojunior"
+],
+"sites": []
+},
+"240002533819": {
+"instagram": [
+"rodrigo.barzotto"
+],
+"sites": []
+},
+"240002533283": {
+"instagram": [
+"deputadorodrigominotto"
+],
+"sites": []
+},
+"240002533278": {
+"instagram": [
+"rodbarros77",
+"rodrigo.barros121"
+],
+"sites": []
+},
+"240002533290": {
+"instagram": [
+"selmada0"
+],
+"sites": []
+},
+"240002533294": {
+"instagram": [
+"victorpiccolisc"
+],
+"sites": []
+},
+"240002539824": {
+"instagram": [
+"adrianinhadasaude"
+],
+"sites": []
+},
+"240002539957": {
+"instagram": [
+"deputadoalexbrasil"
+],
+"sites": [
+"https://www.alexbrasil.com.br"
+]
+},
+"240002539977": {
+"instagram": [
+"anacampagnolo",
+"anacampagnolo_sc"
+],
+"sites": [
+"https://anacampagnolo.com"
+]
+},
+"240002539966": {
+"instagram": [
+"decobatisti"
+],
+"sites": [
+"https://decobatisti.com.br"
+]
+},
+"240002533305": {
+"instagram": [
+"victoriasalgadosc"
+],
+"sites": []
+},
+"240002539975": {
+"instagram": [
+"fabivenera"
+],
+"sites": [
+"https://fabivenera.com.br"
+]
+},
+"240002539973": {
+"instagram": [],
+"sites": []
+},
+"240002541935": {
+"instagram": [
+"carlosbolsonaro"
+],
+"sites": []
+},
+"240002539983": {
+"instagram": [
+"camilomartinssc"
+],
+"sites": [
+"https://camilomartins.com.br"
+]
+},
+"240002539383": {
+"instagram": [
+"rubensangioletti"
+],
+"sites": []
+},
+"240002539964": {
+"instagram": [
+"carloshumbertobc"
+],
+"sites": [
+"https://www.carloshumbertosc.com.br"
+]
+},
+"240002539984": {
+"instagram": [
+"carla.rudolf"
+],
+"sites": []
+},
+"240002539986": {
+"instagram": [
+"coronelmocellin"
+],
+"sites": [
+"https://www.coronelmocellin.com.br"
+]
+},
+"240002541931": {
+"instagram": [
+"carolinedetoni"
+],
+"sites": [
+"https://caroldetoni.com.br"
+]
+},
+"240002539376": {
+"instagram": [
+"danielcfreitas"
+],
+"sites": [
+"https://eutocomdanielfreitas.com.br"
+]
+},
+"240002539382": {
+"instagram": [
+"danielareinehr"
+],
+"sites": [
+"https://www.danielareinehr.com.br"
+]
+},
+"240002539980": {
+"instagram": [],
+"sites": []
+},
+"240002539987": {
+"instagram": [
+"chicadoeskudlark"
+],
+"sites": [
+"https://chicadoeskudlark.com.br"
+]
+},
+"240002539370": {
+"instagram": [
+"drmarceloreissc"
+],
+"sites": []
+},
+"240002539381": {
+"instagram": [
+"fernandacordovasc"
+],
+"sites": [
+"https://fernandacordovasc.com.br"
+]
+},
+"240002539990": {
+"instagram": [
+"delegadoulisses"
+],
+"sites": [
+"https://delegadoulisses.com.br"
+]
+},
+"240002539959": {
+"instagram": [],
+"sites": []
+},
+"240002539375": {
+"instagram": [
+"fernandocordeirosc"
+],
+"sites": [
+"https://fernandocordeirosc.com.br"
+]
+},
+"240002539978": {
+"instagram": [],
+"sites": []
+},
+"240002539965": {
+"instagram": [
+"deputadoivannaatz"
+],
+"sites": []
+},
+"240002539371": {
+"instagram": [
+"bolsonaro_jr"
+],
+"sites": [
+"https://www.bolsonarojr.com"
+]
+},
+"240002539972": {
+"instagram": [
+"guilhermecolombosc"
+],
+"sites": [
+"https://www.guilhermecolombosc.com.br"
+]
+},
+"240002539374": {
+"instagram": [
+"deputadoismael"
+],
+"sites": [
+"https://www.deputadoismael.com.br"
+]
+},
+"240002539985": {
+"instagram": [
+"jairmiotto"
+],
+"sites": [
+"https://www.jairmiotto.com.br"
+]
+},
+"240002539974": {
+"instagram": [
+"tiagobolanfrigo"
+],
+"sites": [
+"https://frigo22100.com.br"
+]
+},
+"240002539378": {
+"instagram": [
+"zanattajuliadeputada",
+"juliazanattasc"
+],
+"sites": [
+"https://www.juliazanatta.com.br"
+]
+},
+"240002539971": {
+"instagram": [
+"dep.jesseplsc",
+"deputadojesselopes"
+],
+"sites": []
+},
+"240002539373": {
+"instagram": [
+"juliethenitz"
+],
+"sites": []
+},
+"240002539968": {
+"instagram": [
+"juniorcardoso.sc"
+],
+"sites": [
+"https://www.juniorcardosoporsc.com.br"
+]
+},
+"240002539969": {
+"instagram": [
+"julianamaciel_oficial"
+],
+"sites": [
+"https://www.julianamaciel.com"
+]
+},
+"240002539380": {
+"instagram": [
+"jpkleinubing"
+],
+"sites": []
+},
+"240002539379": {
+"instagram": [
+"manuvieirasc"
+],
+"sites": [
+"https://www.manuvieira.com"
+]
+},
+"240002539958": {
+"instagram": [
+"lavinya_dealis"
+],
+"sites": []
+},
+"240002539963": {
+"instagram": [
+"marciusmachado"
+],
+"sites": [
+"https://deputadomarciusmachado.com.br"
+]
+},
+"240002539982": {
+"instagram": [
+"hildebrandtmario"
+],
+"sites": [
+"https://www.mariohildebrandt.com.br"
+]
+},
+"240002539981": {
+"instagram": [
+"deputadomarcosdarosa"
+],
+"sites": [
+"https://www.marcosdarosa.com.br"
+]
+},
+"240002539961": {
+"instagram": [
+"leticiamattossc",
+"leticiamattos_sc"
+],
+"sites": [
+"https://www.leticiamattos.com.br"
+]
+},
+"240002539369": {
+"instagram": [
+"luzmartaferreira"
+],
+"sites": [
+"https://www.martinhaferreira.com.br"
+]
+},
+"240002539970": {
+"instagram": [
+"edilsonmassocco"
+],
+"sites": []
+},
+"240002539988": {
+"instagram": [
+"deputadooscargutz"
+],
+"sites": []
+},
+"240002539976": {
+"instagram": [
+"mauriciopeixer"
+],
+"sites": [
+"https://mauriciopeixer.com.br"
+]
+},
+"240002539962": {
+"instagram": [
+"michelschlemper"
+],
+"sites": []
+},
+"240002539989": {
+"instagram": [
+"nilzasimas"
+],
+"sites": [
+"https://www.nilzasimas.com.br"
+]
+},
+"240002539377": {
+"instagram": [
+"ricardozguidi"
+],
+"sites": []
+},
+"240002539368": {
+"instagram": [
+"depsargentolima"
+],
+"sites": [
+"https://sargentolima.com.br"
+]
+},
+"240002551380": {
+"instagram": [
+"andreluizpacheco01081976"
+],
+"sites": []
+},
+"240002539979": {
+"instagram": [
+"pedrini.rodrigo"
+],
+"sites": []
+},
+"240002539967": {
+"instagram": [],
+"sites": []
+},
+"240002551379": {
+"instagram": [
+"professorabruni"
+],
+"sites": []
+},
+"240002539577": {
+"instagram": [
+"abialves.sc",
+"biaalves.sc"
+],
+"sites": [
+"https://www.biaalvessc.com"
+]
+},
+"240002539384": {
+"instagram": [
+"zetrovaodeputado"
+],
+"sites": [
+"https://zetrovao.com.br"
+]
+},
+"240002539372": {
+"instagram": [
+"valdircolatto"
+],
+"sites": [
+"https://valdircolatto.com.br"
+]
+},
+"240002539991": {
+"instagram": [
+"leandrosorgatto"
+],
+"sites": [
+"https://www.leandrosorgatto.com.br"
+]
+},
+"240002539578": {
+"instagram": [
+"alex.correa_10"
+],
+"sites": []
+},
+"240002539960": {
+"instagram": [
+"wtonezi"
+],
+"sites": [
+"https://tonezi.com.br"
+]
+},
+"240002539554": {
+"instagram": [
+"alexandrejosesc"
+],
+"sites": [
+"https://alexandrejose.com.br"
+]
+},
+"240002539563": {
+"instagram": [
+"carla.zpereira"
+],
+"sites": []
+},
+"240002538366": {
+"instagram": [
+"bibihipocritas1"
+],
+"sites": []
+},
+"240002539556": {
+"instagram": [
+"cacatavaresbrusque"
+],
+"sites": []
+},
+"240002539575": {
+"instagram": [],
+"sites": []
+},
+"240002539547": {
+"instagram": [
+"cristianeclaudinoquadros"
+],
+"sites": []
+},
+"240002538364": {
+"instagram": [
+"cristianeloureiro"
+],
+"sites": [
+"https://www.cristianeloureiro.com.br"
+]
+},
+"240002538367": {
+"instagram": [
+"jovenscomdanilo",
+"daniloviscontioficial"
+],
+"sites": [
+"https://danilovisconti.com.br"
+]
+},
+"240002553054": {
+"instagram": [
+"elainecasasfloriano"
+],
+"sites": []
+},
+"240002538362": {
+"instagram": [
+"drasandramfigueiredo"
+],
+"sites": []
+},
+"240002539585": {
+"instagram": [],
+"sites": []
+},
+"240002539549": {
+"instagram": [],
+"sites": []
+},
+"240002553053": {
+"instagram": [
+"fernandoferreira.sc"
+],
+"sites": []
+},
+"240002538371": {
+"instagram": [
+"vereadorgemada"
+],
+"sites": []
+},
+"240002539566": {
+"instagram": [
+"gilberto.lealjunior"
+],
+"sites": [
+"https://www.gilbertoleal20333.com.br"
+]
+},
+"240002539550": {
+"instagram": [
+"flaviana_falasaojoaodosul"
+],
+"sites": []
+},
+"240002539561": {
+"instagram": [
+"fabiobotelho_sc"
+],
+"sites": []
+},
+"240002552921": {
+"instagram": [
+"felipeferreira.sc"
+],
+"sites": []
+},
+"240002538365": {
+"instagram": [
+"itodesouza"
+],
+"sites": []
+},
+"240002539571": {
+"instagram": [
+"jessicapradoherber"
+],
+"sites": []
+},
+"240002539553": {
+"instagram": [
+"iarahausmann.oficial"
+],
+"sites": [
+"https://iarahausmann.com.br"
+]
+},
+"240002538373": {
+"instagram": [
+"joabdapesca"
+],
+"sites": []
+},
+"240002539569": {
+"instagram": [
+"jeancarloantigranizo"
+],
+"sites": []
+},
+"240002539572": {
+"instagram": [
+"joel_l_santos"
+],
+"sites": []
+},
+"240002539557": {
+"instagram": [
+"luindalecioo"
+],
+"sites": []
+},
+"240002539579": {
+"instagram": [
+"lucas.d.mello"
+],
+"sites": []
+},
+"240002539568": {
+"instagram": [
+"llucindov"
+],
+"sites": [
+"https://lucaslucindo.com.br"
+]
+},
+"240002538361": {
+"instagram": [
+"lilianedafrada"
+],
+"sites": []
+},
+"240002539548": {
+"instagram": [
+"lucas.d.mello"
+],
+"sites": []
+},
+"240002539576": {
+"instagram": [
+"jorgeakruger_"
+],
+"sites": [
+"https://www.jorgeaugustokruger.com.br"
+]
+},
+"240002538374": {
+"instagram": [
+"mel.melissa.medeiros",
+"melissamedeiros2030"
+],
+"sites": [
+"https://www.melissamedeiros.com.br"
+]
+},
+"240002538370": {
+"instagram": [
+"negahagrazi"
+],
+"sites": []
+},
+"240002539552": {
+"instagram": [
+"marielgrando"
+],
+"sites": []
+},
+"240002539565": {
+"instagram": [
+"osmarteixeiraitajai"
+],
+"sites": []
+},
+"240002539559": {
+"instagram": [
+"martina.domingues"
+],
+"sites": []
+},
+"240002539551": {
+"instagram": [
+"marquinhokurtzbc"
+],
+"sites": [
+"https://marquinhokurtz.com.br"
+]
+},
+"240002539582": {
+"instagram": [
+"pedrosantacannabis"
+],
+"sites": []
+},
+"240002538368": {
+"instagram": [
+"deputadapaulinha"
+],
+"sites": []
+},
+"240002539580": {
+"instagram": [
+"preta.biava"
+],
+"sites": [
+"https://adrianesuppibiava.com.br"
+]
+},
+"240002539581": {
+"instagram": [
+"renatocristopher"
+],
+"sites": []
+},
+"240002539555": {
+"instagram": [
+"professoracaterine"
+],
+"sites": []
+},
+"240002539573": {
+"instagram": [
+"rabuja.sc"
+],
+"sites": []
+},
+"240002538369": {
+"instagram": [
+"reginaaguzzi_"
+],
+"sites": []
+},
+"240002538375": {
+"instagram": [
+"ricardoganem.sc",
+"ricardoganem.fibromialgia",
+"ricardoganem.autismo"
+],
+"sites": [
+"https://materialganem.com.br"
+]
+},
+"240002538372": {
+"instagram": [
+"rosineyhoracio"
+],
+"sites": []
+},
+"240002539558": {
+"instagram": [
+"renata.aguiar86"
+],
+"sites": []
+},
+"240002539567": {
+"instagram": [
+"sargentofloriano"
+],
+"sites": []
+},
+"240002539583": {
+"instagram": [
+"raquel__afonso"
+],
+"sites": []
+},
+"240002538363": {
+"instagram": [
+"volmarbosquetti"
+],
+"sites": []
+},
+"240002539562": {
+"instagram": [
+"thiagovieirapm"
+],
+"sites": []
+},
+"240002539570": {
+"instagram": [
+"atanirantunes"
+],
+"sites": []
+},
+"240002539584": {
+"instagram": [
+"viniciusganem.sc",
+"viniciusganem.fibromialgia",
+"viniciusganem.autismo"
+],
+"sites": [
+"https://materialganem.com.br"
+]
+},
+"240002539574": {
+"instagram": [
+"zanintito"
+],
+"sites": []
+},
+"240002539560": {
+"instagram": [
+"tetesouzasj"
+],
+"sites": []
+},
+"240002541916": {
+"instagram": [
+"callaiandre"
+],
+"sites": []
+},
+"240002539564": {
+"instagram": [
+"wagner_araujosc"
+],
+"sites": []
+},
+"240002551731": {
+"instagram": [
+"adri_savi"
+],
+"sites": []
+},
+"240002543412": {
+"instagram": [
+"andre.l.livramento"
+],
+"sites": []
+},
+"240002543403": {
+"instagram": [],
+"sites": [
+"https://andersonbatata.com.br"
+]
+},
+"240002543410": {
+"instagram": [
+"deputadoaltairsilva"
+],
+"sites": []
+},
+"240002541929": {
+"instagram": [
+"dep.coronel.armando"
+],
+"sites": [
+"https://www.coronelarmando.com.br"
+]
+},
+"240002541926": {
+"instagram": [
+"angelaaminoficial",
+"profangelaamin"
+],
+"sites": []
+},
+"240002543386": {
+"instagram": [
+"crisbrilhante11011",
+"crisaniabrilhante"
+],
+"sites": [
+"https://crisbrilhante11011.com.br"
+]
+},
+"240002543408": {
+"instagram": [
+"claudiobianchini11022"
+],
+"sites": []
+},
+"240002543420": {
+"instagram": [
+"anelisioassessoritec",
+"campanhaanelisio"
+],
+"sites": [
+"https://www.anelisiodaassessoritec.com.br"
+]
+},
+"240002543406": {
+"instagram": [
+"dalton.dmsc",
+"dalton_pp11"
+],
+"sites": [
+"https://daltonlueders.com.br"
+]
+},
+"240002543390": {
+"instagram": [
+"evandroscaini"
+],
+"sites": []
+},
+"240002543411": {
+"instagram": [
+"iranialbertonjr"
+],
+"sites": [
+"https://www.iranialberton.com.br"
+]
+},
+"240002543404": {
+"instagram": [
+"manjuvacaminhoneiro11112"
+],
+"sites": [
+"https://manjuvacaminhoneiro.com.br"
+]
+},
+"240002541922": {
+"instagram": [
+"jeanpirola"
+],
+"sites": [
+"https://jeanpirola.com.br"
+]
+},
+"240002548632": {
+"instagram": [
+"esperidiaoamin"
+],
+"sites": [
+"https://tocomamin.com.br"
+]
+},
+"240002543419": {
+"instagram": [
+"lindomarferreira.oficial"
+],
+"sites": []
+},
+"240002541923": {
+"instagram": [
+"rosefreitas.blu"
+],
+"sites": []
+},
+"240002551732": {
+"instagram": [],
+"sites": []
+},
+"240002543405": {
+"instagram": [
+"maradasaudee"
+],
+"sites": []
+},
+"240002543397": {
+"instagram": [],
+"sites": [
+"https://www.celsomattiolo.com.br"
+]
+},
+"240002543387": {
+"instagram": [
+"marilisemartinez"
+],
+"sites": []
+},
+"240002543418": {
+"instagram": [
+"pepecollaco"
+],
+"sites": [
+"https://pepecollaco.com"
+]
+},
+"240002551730": {
+"instagram": [
+"simonekats"
+],
+"sites": []
+},
+"240002541927": {
+"instagram": [
+"serginho_advogado"
+],
+"sites": []
+},
+"240002543394": {
+"instagram": [
+"silviodreveck.sc"
+],
+"sites": [
+"https://www.silviodreveck.com.br"
+]
+},
+"240002543399": {
+"instagram": [
+"alemaoxc"
+],
+"sites": []
+},
+"240002543416": {
+"instagram": [
+"silveria_zanchi"
+],
+"sites": []
+},
+"240002543401": {
+"instagram": [
+"simoneandrade.sc"
+],
+"sites": []
+},
+"240002541919": {
+"instagram": [
+"deputadozemilton"
+],
+"sites": []
+},
+"240002552124": {
+"instagram": [
+"deputadoalba"
+],
+"sites": []
+},
+"240002552119": {
+"instagram": [
+"bombeiroalanmartins"
+],
+"sites": []
+},
+"240002551672": {
+"instagram": [
+"godinhocriciuma"
+],
+"sites": []
+},
+"240002551667": {
+"instagram": [
+"alex_burnier"
+],
+"sites": []
+},
+"240002552127": {
+"instagram": [],
+"sites": []
+},
+"240002551663": {
+"instagram": [
+"fabianobolsonaro"
+],
+"sites": []
+},
+"240002551671": {
+"instagram": [],
+"sites": []
+},
+"240002552925": {
+"instagram": [],
+"sites": []
+},
+"240002552928": {
+"instagram": [],
+"sites": [
+"https://www.adrianomachado.adv.br"
+]
+},
+"240002551668": {
+"instagram": [
+"moserdecio"
+],
+"sites": []
+},
+"240002552123": {
+"instagram": [],
+"sites": []
+},
+"240002551377": {
+"instagram": [
+"jefersonrocha.agro"
+],
+"sites": []
+},
+"240002551673": {
+"instagram": [
+"guilhermehenrique.sc"
+],
+"sites": [
+"https://www.guilhermehenriquesc.com.br"
+]
+},
+"240002552929": {
+"instagram": [
+"joelmaloirinha2017"
+],
+"sites": []
+},
+"240002552131": {
+"instagram": [
+"joaodopostonavega_prd.25"
+],
+"sites": []
+},
+"240002552135": {
+"instagram": [],
+"sites": []
+},
+"240002552122": {
+"instagram": [
+"eusouduarteee"
+],
+"sites": []
+},
+"240002551665": {
+"instagram": [],
+"sites": []
+},
+"240002552136": {
+"instagram": [],
+"sites": []
+},
+"240002552134": {
+"instagram": [
+"juliano_martinssc"
+],
+"sites": []
+},
+"240002552129": {
+"instagram": [],
+"sites": []
+},
+"240002552126": {
+"instagram": [
+"jucyeckart"
+],
+"sites": []
+},
+"240002552130": {
+"instagram": [],
+"sites": []
+},
+"240002552121": {
+"instagram": [
+"michelcosta_vozdomigrante"
+],
+"sites": []
+},
+"240002552125": {
+"instagram": [],
+"sites": []
+},
+"240002552133": {
+"instagram": [
+"prof__ozzy"
+],
+"sites": []
+},
+"240002551664": {
+"instagram": [
+"michelle.schwanke.arquiteta"
+],
+"sites": []
+},
+"240002554271": {
+"instagram": [
+"rkr_gomes"
+],
+"sites": []
+},
+"240002554036": {
+"instagram": [],
+"sites": []
+},
+"240002551670": {
+"instagram": [
+"vagnaodotextil"
+],
+"sites": []
+},
+"240002552941": {
+"instagram": [
+"rosangelacarminatti"
+],
+"sites": []
+},
+"240002552128": {
+"instagram": [],
+"sites": []
+},
+"240002552118": {
+"instagram": [
+"anfrisio_oficial"
+],
+"sites": []
+},
+"240002552120": {
+"instagram": [
+"ronansouza.oficial"
+],
+"sites": []
+},
+"240002552132": {
+"instagram": [],
+"sites": []
+},
+"240002543043": {
+"instagram": [],
+"sites": []
+},
+"240002548537": {
+"instagram": [
+"anapaula.indaial"
+],
+"sites": []
+},
+"240002543042": {
+"instagram": [
+"anasirino40"
+],
+"sites": []
+},
+"240002551471": {
+"instagram": [
+"cidemachado.sc"
+],
+"sites": [
+"https://www.cidemachado.com.br"
+]
+},
+"240002551462": {
+"instagram": [
+"betokmarcelino"
+],
+"sites": []
+},
+"240002551465": {
+"instagram": [
+"deputadoberlanda"
+],
+"sites": [
+"https://deputadoberlanda.com.br"
+]
+},
+"240002548540": {
+"instagram": [
+"deise.santacatarina"
+],
+"sites": []
+},
+"240002548529": {
+"instagram": [
+"edianefolle"
+],
+"sites": []
+},
+"240002548541": {
+"instagram": [
+"henrique.folster.jr",
+"folsterhenrique"
+],
+"sites": []
+},
+"240002551458": {
+"instagram": [
+"diegomachado.jlle_"
+],
+"sites": []
+},
+"240002548532": {
+"instagram": [
+"cristianosantosbc"
+],
+"sites": []
+},
+"240002551467": {
+"instagram": [
+"clesiosalvaro"
+],
+"sites": []
+},
+"240002548535": {
+"instagram": [
+"juliogarciasc"
+],
+"sites": []
+},
+"240002551473": {
+"instagram": [
+"josethomesc"
+],
+"sites": []
+},
+"240002548533": {
+"instagram": [
+"joaomartinsbrusque"
+],
+"sites": []
+},
+"240002554373": {
+"instagram": [],
+"sites": []
+},
+"240002551472": {
+"instagram": [
+"libafronza"
+],
+"sites": []
+},
+"240002551476": {
+"instagram": [
+"eolandaterezinhacosta"
+],
+"sites": []
+},
+"240002551461": {
+"instagram": [
+"napoleaobernardes"
+],
+"sites": []
+},
+"240002551460": {
+"instagram": [
+"rogeriolucianopacheco"
+],
+"sites": [
+"https://rogeriopacheco.com"
+]
+},
+"240002551466": {
+"instagram": [
+"neurimantelli"
+],
+"sites": []
+},
+"240002551463": {
+"instagram": [
+"mozara_schadeck"
+],
+"sites": []
+},
+"240002551469": {
+"instagram": [
+"marlenefengler"
+],
+"sites": [
+"https://marlenefengler.com.br"
+]
+},
+"240002551477": {
+"instagram": [
+"mariomottaoficial"
+],
+"sites": []
+},
+"240002548538": {
+"instagram": [
+"ascendino_batista"
+],
+"sites": []
+},
+"240002548539": {
+"instagram": [
+"raimundocolombo"
+],
+"sites": [
+"https://www.raimundocolombo.com.br"
+]
+},
+"240002551468": {
+"instagram": [
+"ricardopastrana"
+],
+"sites": [
+"https://www.ricardopastrana.com.br"
+]
+},
+"240002551459": {
+"instagram": [
+"prifernandesadote"
+],
+"sites": [
+"https://sc.prifernandes.com.br"
+]
+},
+"240002548542": {
+"instagram": [
+"patricialisboapl"
+],
+"sites": []
+},
+"240002551470": {
+"instagram": [
+"sheyla_chaves"
+],
+"sites": [
+"https://www.sheylachaves.com.br"
+]
+},
+"240002548534": {
+"instagram": [],
+"sites": []
+},
+"240002548530": {
+"instagram": [
+"terezinhamariadybas"
+],
+"sites": [
+"https://www.terezinhadybas.com.br"
+]
+},
+"240002548536": {
+"instagram": [
+"trevisan_wilson"
+],
+"sites": []
+},
+"240002551474": {
+"instagram": [
+"vivi_quiquiio"
+],
+"sites": []
+},
+"240002548531": {
+"instagram": [
+"vanessawitiuk"
+],
+"sites": []
+},
+"240002551464": {
+"instagram": [
+"valdemirstobe"
+],
+"sites": []
+},
+"240002537097": {
+"instagram": [
+"arildofernandesoficial"
+],
+"sites": []
+},
+"240002537089": {
+"instagram": [
+"soujefferson_schmidt"
+],
+"sites": [
+"https://www.jeffersonschmidt.com.br"
+]
+},
+"240002537094": {
+"instagram": [
+"deputadomarcosvieira"
+],
+"sites": [
+"https://www.deputadomarcosvieira.com.br"
+]
+},
+"240002551475": {
+"instagram": [
+"aparecidovoltolini"
+],
+"sites": []
+},
+"240002537098": {
+"instagram": [
+"edinho.casaazul"
+],
+"sites": []
+},
+"240002537091": {
+"instagram": [
+"crislanefernandes"
+],
+"sites": []
+},
+"240002537105": {
+"instagram": [
+"jucemarcustodio"
+],
+"sites": []
+},
+"240002537100": {
+"instagram": [
+"karinynaiaramuller"
+],
+"sites": []
+},
+"240002537095": {
+"instagram": [
+"patriciasobreda"
+],
+"sites": []
+},
+"240002537104": {
+"instagram": [
+"jedegering"
+],
+"sites": []
+},
+"240002537099": {
+"instagram": [
+"leonardo_heinzen"
+],
+"sites": []
+},
+"240002537102": {
+"instagram": [
+"paulo.spengler.1"
+],
+"sites": []
+},
+"240002537101": {
+"instagram": [
+"soniavedovatto"
+],
+"sites": []
+},
+"240002537103": {
+"instagram": [
+"tcharlespurim"
+],
+"sites": []
+},
+"240002537090": {
+"instagram": [
+"serginhoanitapolis"
+],
+"sites": []
+},
+"240002537088": {
+"instagram": [
+"tolfo.saude"
+],
+"sites": []
+},
+"240002537092": {
+"instagram": [
+"ver.renatodafarmacia"
+],
+"sites": []
+},
+"240002535770": {
+"instagram": [
+"afranioboppre50"
+],
+"sites": [
+"https://afranio.org.br"
+]
+},
+"240002537823": {
+"instagram": [],
+"sites": []
+},
+"240002537821": {
+"instagram": [
+"naualexandre"
+],
+"sites": []
+},
+"240002537803": {
+"instagram": [
+"agatha.d_sun"
+],
+"sites": []
+},
+"240002537817": {
+"instagram": [
+"anavazpsol50"
+],
+"sites": []
+},
+"240002537812": {
+"instagram": [
+"anaflaviapsol"
+],
+"sites": []
+},
+"240002537816": {
+"instagram": [
+"alexstein50"
+],
+"sites": []
+},
+"240002537807": {
+"instagram": [],
+"sites": []
+},
+"240002537837": {
+"instagram": [
+"biaalves50_"
+],
+"sites": []
+},
+"240002537824": {
+"instagram": [
+"camasao50"
+],
+"sites": [
+"https://camasao.com"
+]
+},
+"240002537810": {
+"instagram": [
+"carlosvulgojr"
+],
+"sites": []
+},
+"240002537814": {
+"instagram": [
+"douglas_becha_"
+],
+"sites": []
+},
+"240002537831": {
+"instagram": [
+"dragurbana"
+],
+"sites": []
+},
+"240002537832": {
+"instagram": [
+"inaciosperber"
+],
+"sites": []
+},
+"240002537818": {
+"instagram": [],
+"sites": []
+},
+"240002537813": {
+"instagram": [
+"fabiohenschel"
+],
+"sites": []
+},
+"240002537809": {
+"instagram": [],
+"sites": []
+},
+"240002537839": {
+"instagram": [
+"gilsantos_vat"
+],
+"sites": []
+},
+"240002537820": {
+"instagram": [
+"fabiode33339"
+],
+"sites": []
+},
+"240002537827": {
+"instagram": [
+"marisouzalicerce"
+],
+"sites": []
+},
+"240002537826": {
+"instagram": [
+"lutamadre",
+"sc.plural"
+],
+"sites": []
+},
+"240002537838": {
+"instagram": [
+"jessiemichels"
+],
+"sites": [
+"https://www.jessicamichels.com.br"
+]
+},
+"240002537808": {
+"instagram": [
+"marianafsartor"
+],
+"sites": [
+"https://marianasartor.com.br"
+]
+},
+"240002537801": {
+"instagram": [
+"jomarquez__"
+],
+"sites": []
+},
+"240002537798": {
+"instagram": [
+"ingridsateremawe"
+],
+"sites": [
+"https://ingridsateremawe.com.br"
+]
+},
+"240002537841": {
+"instagram": [
+"nandjaxokleng"
+],
+"sites": [
+"https://nandjaxokleng.com.br"
+]
+},
+"240002537830": {
+"instagram": [
+"mirechagasnavoz"
+],
+"sites": []
+},
+"240002537819": {
+"instagram": [
+"meirinho.psol.sc"
+],
+"sites": []
+},
+"240002537822": {
+"instagram": [
+"profa.izalicerce"
+],
+"sites": []
+},
+"240002537815": {
+"instagram": [
+"genesioadolfo"
+],
+"sites": []
+},
+"240002537811": {
+"instagram": [],
+"sites": []
+},
+"240002537828": {
+"instagram": [
+"professorcangurufederal"
+],
+"sites": []
+},
+"240002537836": {
+"instagram": [
+"prof.elsonpereira"
+],
+"sites": []
+},
+"240002537834": {
+"instagram": [
+"simonemedeiros.psol"
+],
+"sites": []
+},
+"240002537829": {
+"instagram": [
+"samarapsol"
+],
+"sites": []
+},
+"240002537806": {
+"instagram": [
+"andrewleal7"
+],
+"sites": [
+"https://andrewleal.com.br"
+]
+},
+"240002537802": {
+"instagram": [
+"professormarcelo50600"
+],
+"sites": [
+"https://www.professormarcelo50600.com.br/blog"
+]
+},
+"240002537632": {
+"instagram": [
+"oliveirajoaninhade"
+],
+"sites": []
+},
+"240002537842": {
+"instagram": [
+"sodrefloripa"
+],
+"sites": []
+},
+"240002537835": {
+"instagram": [
+"valmirbraznena"
+],
+"sites": []
+},
+"240002537840": {
+"instagram": [
+"professor.tatuado"
+],
+"sites": []
+},
+"240002537833": {
+"instagram": [
+"victor_gaspodini"
+],
+"sites": []
+},
+"240002537804": {
+"instagram": [
+"vivi.juntos",
+"pedroni_vivii"
+],
+"sites": []
+},
+"240002537630": {
+"instagram": [
+"dorvalpstu"
+],
+"sites": []
+},
+"240002540087": {
+"instagram": [
+"biavargas"
+],
+"sites": []
+},
+"240002533824": {
+"instagram": [
+"anapaulalimapt"
+],
+"sites": [
+"https://www.anapaulalimasc.com.br"
+]
+},
+"240002540089": {
+"instagram": [
+"arlindorochaptsc"
+],
+"sites": []
+},
+"240002538099": {
+"instagram": [
+"nadir.fernandes.148"
+],
+"sites": []
+},
+"240002538100": {
+"instagram": [
+"cristianoflorencio16"
+],
+"sites": []
+},
+"240002540074": {
+"instagram": [
+"claudiomarcio_13"
+],
+"sites": []
+},
+"240002540085": {
+"instagram": [
+"cacicaeliara"
+],
+"sites": []
+},
+"240002533828": {
+"instagram": [
+"carenmachado_adv"
+],
+"sites": [
+"https://www.carenmachado.com.br"
+]
+},
+"240002540101": {
+"instagram": [
+"claudiabratti.oficial"
+],
+"sites": []
+},
+"240002533825": {
+"instagram": [
+"carla.ayres13"
+],
+"sites": [
+"https://carlaayres.com.br"
+]
+},
+"240002533898": {
+"instagram": [
+"deciolima"
+],
+"sites": [
+"https://deciosenador.com.br"
+]
+},
+"240002533829": {
+"instagram": [
+"eduardozanattabc"
+],
+"sites": [
+"https://www.eduardozanatta.com.br"
+]
+},
+"240002540100": {
+"instagram": [],
+"sites": [
+"https://www.gislainedurski.com.br"
+]
+},
+"240002533835": {
+"instagram": [
+"franciscodeassis.pt"
+],
+"sites": []
+},
+"240002533836": {
+"instagram": [],
+"sites": []
+},
+"240002540084": {
+"instagram": [
+"fabianodaluzsc"
+],
+"sites": [
+"https://www.fabianodaluz.com.br"
+]
+},
+"240002540092": {
+"instagram": [
+"vereadordionisio"
+],
+"sites": []
+},
+"240002540072": {
+"instagram": [
+"jaciara.machuga"
+],
+"sites": [
+"https://www.jaciaramachuga.com.br"
+]
+},
+"240002540102": {
+"instagram": [],
+"sites": []
+},
+"240002540086": {
+"instagram": [
+"jumerizanetti"
+],
+"sites": [
+"https://jumerizanetti.com.br"
+]
+},
+"240002533832": {
+"instagram": [
+"juceliavargasvieira"
+],
+"sites": []
+},
+"240002533826": {
+"instagram": [],
+"sites": []
+},
+"240002540080": {
+"instagram": [
+"jeanvolpato13",
+"volpato.xap"
+],
+"sites": []
+},
+"240002533827": {
+"instagram": [
+"lirousdj",
+"lirouskyo",
+"thelirous"
+],
+"sites": []
+},
+"240002540083": {
+"instagram": [
+"lu.carminatti"
+],
+"sites": [
+"https://lucianecarminatti.com.br"
+]
+},
+"240002540076": {
+"instagram": [
+"linnovianna13"
+],
+"sites": []
+},
+"240002540090": {
+"instagram": [
+"marisazf"
+],
+"sites": []
+},
+"240002540097": {
+"instagram": [
+"maristelafranciscoo"
+],
+"sites": []
+},
+"240002533830": {
+"instagram": [
+"timekerexu",
+"kerexu_oficial"
+],
+"sites": [
+"https://kerexu.com.br"
+]
+},
+"240002540094": {
+"instagram": [
+"neodi_saretta"
+],
+"sites": []
+},
+"240002540071": {
+"instagram": [
+"calebclarindo"
+],
+"sites": []
+},
+"240002540081": {
+"instagram": [],
+"sites": []
+},
+"240002540082": {
+"instagram": [
+"padre.pedrobaldissera"
+],
+"sites": [
+"https://padrepedro.com.br"
+]
+},
+"240002533838": {
+"instagram": [
+"ju_andozio"
+],
+"sites": []
+},
+"240002540098": {
+"instagram": [],
+"sites": []
+},
+"240002540096": {
+"instagram": [
+"professora.analuciamartins"
+],
+"sites": []
+},
+"240002533823": {
+"instagram": [
+"vanessadarosajoinville"
+],
+"sites": []
+},
+"240002540075": {
+"instagram": [
+"professorchicosc"
+],
+"sites": []
+},
+"240002540091": {
+"instagram": [
+"profvitorxuxa"
+],
+"sites": []
+},
+"240002533833": {
+"instagram": [
+"pedro.uczai"
+],
+"sites": [
+"https://pedrouczai.com.br"
+]
+},
+"240002540093": {
+"instagram": [
+"caduprofessor"
+],
+"sites": [
+"https://professorcadusc.com.br/manifesto-pre-candidatura"
+]
+},
+"240002540073": {
+"instagram": [],
+"sites": [
+"https://www.rodolfoprecandidatopt.com.br"
+]
+},
+"240002540077": {
+"instagram": [
+"rafael_lima.sc"
+],
+"sites": []
+},
+"240002540099": {
+"instagram": [
+"preis.rodrigo"
+],
+"sites": [
+"https://rodrigopreis.com.br"
+]
+},
+"240002540088": {
+"instagram": [],
+"sites": []
+},
+"240002533822": {
+"instagram": [
+"doutora.rosana"
+],
+"sites": [
+"https://www.drarosana4321.com.br"
+]
+},
+"240002540079": {
+"instagram": [
+"rafaelconsulsj"
+],
+"sites": []
+},
+"240002533834": {
+"instagram": [
+"guaraci.fagundes"
+],
+"sites": [
+"https://www.guaraci4343.com.br"
+]
+},
+"240002537825": {
+"instagram": [
+"simoneredesustentabilidadesc"
+],
+"sites": []
+},
+"240002537918": {
+"instagram": [
+"oaceliocasagrande"
+],
+"sites": []
+},
+"240002537799": {
+"instagram": [
+"amandaredesustentabilidade18"
+],
+"sites": []
+},
+"240002537800": {
+"instagram": [
+"leandro_brusquemeias"
+],
+"sites": []
+},
+"240002537805": {
+"instagram": [],
+"sites": []
+},
+"240002537933": {
+"instagram": [
+"gerri.consoli"
+],
+"sites": []
+},
+"240002537929": {
+"instagram": [
+"brandeljunior"
+],
+"sites": []
+},
+"240002537932": {
+"instagram": [
+"noemiacabral10144"
+],
+"sites": []
+},
+"240002537911": {
+"instagram": [
+"educesconettosouza"
+],
+"sites": []
+},
+"240002537919": {
+"instagram": [
+"annacarolinaadv"
+],
+"sites": []
+},
+"240002537913": {
+"instagram": [
+"andre_moser"
+],
+"sites": []
+},
+"240002537076": {
+"instagram": [
+"depdarcidematos"
+],
+"sites": []
+},
+"240002537923": {
+"instagram": [
+"edsonpiriquito"
+],
+"sites": [
+"https://piriquito.pages.net.br"
+]
+},
+"240002537917": {
+"instagram": [
+"paulocoral.oficial",
+"drpaulocoral"
+],
+"sites": [
+"https://www.drpaulocoral.com.br"
+]
+},
+"240002537934": {
+"instagram": [
+"ronibatistaribeiro"
+],
+"sites": []
+},
+"240002537924": {
+"instagram": [
+"dra.aynoamello"
+],
+"sites": []
+},
+"240002537936": {
+"instagram": [
+"dr_jorgeoliveira"
+],
+"sites": []
+},
+"240002537081": {
+"instagram": [
+"geovaniasa"
+],
+"sites": [
+"https://geovaniadesa.com.br"
+]
+},
+"240002537079": {
+"instagram": [
+"egidiobeckhausersc"
+],
+"sites": []
+},
+"240002537910": {
+"instagram": [
+"gabrielcarraraoficial"
+],
+"sites": [
+"https://gabrielcarrara.com.br"
+]
+},
+"240002537914": {
+"instagram": [
+"expeditomichels"
+],
+"sites": []
+},
+"240002537077": {
+"instagram": [
+"fabriciooliveirabc"
+],
+"sites": [
+"https://fabriciooliveira.com.br"
+]
+},
+"240002537908": {
+"instagram": [
+"jean.kuhlmann"
+],
+"sites": [
+"https://jeankuhlmann.com.br"
+]
+},
+"240002537915": {
+"instagram": [
+"lucasneves.sc"
+],
+"sites": [
+"https://www.deputadolucasneves.com.br"
+]
+},
+"240002537085": {
+"instagram": [
+"jorgegoetten"
+],
+"sites": []
+},
+"240002537083": {
+"instagram": [
+"juninhomamao.sc"
+],
+"sites": []
+},
+"240002537909": {
+"instagram": [
+"jmonteirosc"
+],
+"sites": []
+},
+"240002537930": {
+"instagram": [
+"deputadojefersoncardozo"
+],
+"sites": []
+},
+"240002537912": {
+"instagram": [
+"vereadormarcelowerner"
+],
+"sites": [
+"https://www.marcelowernergabineteonline.com.br"
+]
+},
+"240002537080": {
+"instagram": [
+"mariareginablumenau"
+],
+"sites": []
+},
+"240002537084": {
+"instagram": [
+"miriapadilhaa",
+"miriamarcosbarbosa"
+],
+"sites": []
+},
+"240002537916": {
+"instagram": [
+"marcymiss_santacatarina",
+"marcy_miss_santacatarina"
+],
+"sites": []
+},
+"240002537937": {
+"instagram": [
+"patricia_odwazny"
+],
+"sites": []
+},
+"240002537935": {
+"instagram": [],
+"sites": []
+},
+"240002537926": {
+"instagram": [
+"a_paulasouza1"
+],
+"sites": []
+},
+"240002537920": {
+"instagram": [
+"sabrinasmgirardi",
+"sabrinamaiasc"
+],
+"sites": []
+},
+"240002537921": {
+"instagram": [
+"salmirprefeito"
+],
+"sites": [
+"https://timesalmir.com.br"
+]
+},
+"240002537082": {
+"instagram": [
+"c.sabrinada"
+],
+"sites": []
+},
+"240002537925": {
+"instagram": [
+"pedrao.floripa"
+],
+"sites": []
+},
+"240002537928": {
+"instagram": [
+"gimarpiccoli"
+],
+"sites": []
+},
+"240002537075": {
+"instagram": [
+"pauloalceuperfil"
+],
+"sites": [
+"https://pauloalceusc.com.br/manifesto"
+]
+},
+"240002537938": {
+"instagram": [
+"sergiomotta10sc"
+],
+"sites": [
+"https://coragempraenfrentar.com.br"
+]
+},
+"240002537927": {
+"instagram": [
+"victorhugoforte"
+],
+"sites": []
+},
+"240002537922": {
+"instagram": [],
+"sites": []
+},
+"240002537931": {
+"instagram": [
+"suelengeremia"
+],
+"sites": []
+},
+"240002537078": {
+"instagram": [
+"sargentogarbila",
+"sargentogarbilaoficiall"
+],
+"sites": []
+},
+"240002537086": {
+"instagram": [
+"verapinheirosc"
+],
+"sites": [
+"https://www.verapinheiro.com.br"
+]
+},
+"240002552137": {
+"instagram": [],
+"sites": []
+},
+"240002551669": {
+"instagram": [],
+"sites": []
+},
+"240002538096": {
+"instagram": [
+"zilanenunes"
+],
+"sites": []
+},
+"240002552931": {
+"instagram": [
+"adelinamartinsdida"
+],
+"sites": []
+},
+"240002551666": {
+"instagram": [
+"quiosque_da.adri"
+],
+"sites": []
+},
+"240002537939": {
+"instagram": [
+"yoli_ravazzi"
+],
+"sites": []
+},
+"240002552940": {
+"instagram": [
+"silvana40_silvano"
+],
+"sites": []
+},
+"240002551674": {
+"instagram": [
+"godinhocriciuma"
+],
+"sites": []
+},
+"240002554185": {
+"instagram": [
+"boniglendaa"
+],
+"sites": []
+},
+"240002552926": {
+"instagram": [],
+"sites": []
+},
+"240002554186": {
+"instagram": [],
+"sites": []
+},
+"240002552930": {
+"instagram": [],
+"sites": []
+},
+"240002541917": {
+"instagram": [
+"governadormoises"
+],
+"sites": [
+"https://www.carlosmoises.com.br"
+]
+},
+"240002552932": {
+"instagram": [],
+"sites": []
+},
+"240002543395": {
+"instagram": [
+"carlos.wagner.alemao"
+],
+"sites": []
+},
+"240002543393": {
+"instagram": [],
+"sites": []
+},
+"240002543417": {
+"instagram": [
+"davidbusarello"
+],
+"sites": []
+},
+"240002552927": {
+"instagram": [],
+"sites": []
+},
+"240002541928": {
+"instagram": [
+"debora_parisottoo"
+],
+"sites": [
+"https://deboraangelicaparisotto.com.br"
+]
+},
+"240002541924": {
+"instagram": [
+"derian.campos",
+"federal.derian4467"
+],
+"sites": []
+},
+"240002543400": {
+"instagram": [
+"gean_loureiro"
+],
+"sites": []
+},
+"240002541915": {
+"instagram": [
+"_fabioschiochet",
+"fabioschiochet"
+],
+"sites": [
+"https://www.fabioschiochet.com.br"
+]
+},
+"240002541921": {
+"instagram": [
+"dra_lisiane_anzanello"
+],
+"sites": []
+},
+"240002543392": {
+"instagram": [
+"drvicentecaropreso"
+],
+"sites": [
+"https://deputadodrvicente.com.br"
+]
+},
+"240002541920": {
+"instagram": [
+"hortenciamullertierling"
+],
+"sites": [
+"https://www.hortenciamuellertierling.com.br"
+]
+},
+"240002543422": {
+"instagram": [
+"jaciaradisanto"
+],
+"sites": [
+"https://jaciaradisanto.com.br"
+]
+},
+"240002543389": {
+"instagram": [
+"judotaxi_sc"
+],
+"sites": []
+},
+"240002541925": {
+"instagram": [
+"janestefenn.intisicada"
+],
+"sites": []
+},
+"240002543413": {
+"instagram": [
+"jacksongoetten_vereador"
+],
+"sites": []
+},
+"240002543388": {
+"instagram": [
+"gringovereador"
+],
+"sites": []
+},
+"240002543402": {
+"instagram": [
+"marciotinte.garuva"
+],
+"sites": []
+},
+"240002543421": {
+"instagram": [
+"kellytatianesilvapaz"
+],
+"sites": []
+},
+"240002543396": {
+"instagram": [
+"narcizo_parisottoo_ficial",
+"narcizoparisotto"
+],
+"sites": [
+"https://narcizoparisotto.com.br"
+]
+},
+"240002543385": {
+"instagram": [
+"pastor_napoleao_bonaparte"
+],
+"sites": []
+},
+"240002543415": {
+"instagram": [
+"pauloricardodrumm"
+],
+"sites": []
+},
+"240002543391": {
+"instagram": [
+"marciodede.itajai"
+],
+"sites": [
+"https://marciodede.com.br"
+]
+},
+"240002541412": {
+"instagram": [
+"unidadepopularsc",
+"amandawenc"
+],
+"sites": []
+},
+"240002543409": {
+"instagram": [
+"reporter.sergioguimaraes"
+],
+"sites": [
+"https://www.deputadosergioguimaraes.com.br"
+]
+},
+"240002543414": {
+"instagram": [
+"emily.rpereira"
+],
+"sites": []
+},
+"240002543407": {
+"instagram": [
+"ramos_policial04"
+],
+"sites": [
+"https://ramospolicial.com.br"
+]
+},
+"240002541918": {
+"instagram": [
+"tania_larson_sc"
+],
+"sites": []
+},
+"240002543398": {
+"instagram": [
+"sandra.scheffer22"
+],
+"sites": []
+},
+"240002550218": {
+"instagram": [
+"marlenesoccas.up",
+"unidadepopularsc"
+],
+"sites": []
+},
+"240002539586": {
+"instagram": [
+"andreluizdrejan.up"
+],
+"sites": []
+},
+"240002539636": {
+"instagram": [
+"unidadepopularsc",
+"analucia.up"
+],
+"sites": []
+}
+}
+}

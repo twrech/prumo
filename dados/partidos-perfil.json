@@ -1,0 +1,2002 @@
+{
+ "versao": "1.0",
+ "gerado_em": "2026-09-27",
+ "o_que_e": "Ficha de cada partido com registro no TSE: dados de registro, federação, representação atual e o que o partido diz de si, sempre com a fonte. O que o partido FEZ (votos) está em partidos-revelado.json e não se mistura com o que ele DIZ.",
+ "regra": "Autodefinição só entra como citação literal do próprio partido (estatuto, programa, manifesto ou página institucional), com URL. Sem citação, o campo fica vazio e a interface diz que não há autodefinição citada. História traz só marcos datados com fonte.",
+ "fontes_gerais": {
+  "registro": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+  "federacoes": "https://www.tse.jus.br/comunicacao/noticias/2026/Marco/tse-aprova-registro-da-federacao-uniao-progressista-1",
+  "camara": "https://dadosabertos.camara.leg.br/api/v2/partidos/{id} (status.totalMembros), lido em 2026-09-27",
+  "senado": "https://www25.senado.leg.br/web/senadores/em-exercicio/-/e/por-partido, lido em 2026-09-27 (81 senadores; 1 sem partido)"
+ },
+ "federacoes": {
+  "brasil-da-esperanca": {
+   "nome": "Federação Brasil da Esperança",
+   "partidos": [
+    "PT",
+    "PCdoB",
+    "PV"
+   ],
+   "desde": 2022
+  },
+  "psdb-cidadania": {
+   "nome": "Federação PSDB Cidadania",
+   "partidos": [
+    "PSDB",
+    "CIDADANIA"
+   ],
+   "desde": 2022
+  },
+  "psol-rede": {
+   "nome": "Federação PSOL Rede",
+   "partidos": [
+    "PSOL",
+    "REDE"
+   ],
+   "desde": 2022
+  },
+  "renovacao-solidaria": {
+   "nome": "Federação Renovação Solidária",
+   "partidos": [
+    "PRD",
+    "SOLIDARIEDADE"
+   ],
+   "desde": 2025
+  },
+  "uniao-progressista": {
+   "nome": "Federação União Progressista",
+   "partidos": [
+    "UNIÃO",
+    "PP"
+   ],
+   "desde": 2026
+  }
+ },
+ "partidos": {
+  "MDB": {
+   "sigla": "MDB",
+   "nome": "Movimento Democrático Brasileiro",
+   "numero": 15,
+   "registro_tse": "1981-06-30",
+   "presidente_nacional": "Luiz Felipe Baleia Tenuto Rossi",
+   "federacao": null,
+   "site": "https://www.mdb.org.br",
+   "linhagem": [
+    "PMDB (1980–2017)"
+   ],
+   "autodefinicao": {
+    "texto": "Desde a sua fundação, o MDB se mantém fiel às suas características: equilíbrio, moderação, pluralismo e respeito às minorias. O MDB é um radical defensor da Constituição, da harmonia e independência entre os Poderes, da liberdade de imprensa e do combate a discriminações de qualquer espécie.",
+    "fonte": "https://www.mdb.org.br/quem-somos/",
+    "documento": "Quem somos (página institucional)"
+   },
+   "historia": [
+    {
+     "ano": 1966,
+     "texto": "Fundado em 24 de março de 1966 como o partido de oposição permitido pelo bipartidarismo do Ato Institucional nº 2.",
+     "fonte": "https://www.mdb.org.br/quem-somos/"
+    },
+    {
+     "ano": 1980,
+     "texto": "Recriado como PMDB com o fim do bipartidarismo; registro no TSE em 30 de junho de 1981.",
+     "fonte": "https://www.mdb.org.br/quem-somos/"
+    },
+    {
+     "ano": 1985,
+     "texto": "Tancredo Neves (que morre antes da posse) e José Sarney vencem no Colégio Eleitoral; Sarney, do PMDB, é o primeiro presidente civil após a ditadura.",
+     "fonte": "https://www.mdb.org.br/quem-somos/"
+    },
+    {
+     "ano": 1988,
+     "texto": "Ulysses Guimarães preside a Assembleia Nacional Constituinte.",
+     "fonte": "https://www.mdb.org.br/quem-somos/"
+    },
+    {
+     "ano": 2016,
+     "texto": "Michel Temer assume a Presidência após o impeachment de Dilma Rousseff.",
+     "fonte": "https://www.mdb.org.br/quem-somos/"
+    },
+    {
+     "ano": 2017,
+     "texto": "Convenção de dezembro de 2017 decide voltar ao nome MDB; o TSE aprova a mudança em maio de 2018.",
+     "fonte": "https://www.tse.jus.br/comunicacao/noticias/2018/Maio/aprovada-mudanca-do-nome-do-partido-do-movimento-democratico-brasileiro-pmdb"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 38,
+     "lider": "Isnaldo Bulhões Jr.",
+     "data": "2026-05-14"
+    },
+    "senado": {
+     "senadores": 9
+    },
+    "governadores": [
+     {
+      "uf": "AL",
+      "nome": "Paulo Dantas",
+      "desde": "2022-05-15",
+      "obs": null
+     },
+     {
+      "uf": "ES",
+      "nome": "Ricardo Ferraço",
+      "desde": "2026-03-02",
+      "obs": "vice que assumiu"
+     },
+     {
+      "uf": "GO",
+      "nome": "Daniel Vilela",
+      "desde": "2026-03-31",
+      "obs": "vice que assumiu"
+     },
+     {
+      "uf": "MA",
+      "nome": "Carlos Brandão",
+      "desde": "2022-04-02",
+      "obs": null
+     },
+     {
+      "uf": "PA",
+      "nome": "Hana Ghassan",
+      "desde": "2026-04-02",
+      "obs": "vice que assumiu"
+     }
+    ],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.mdb.org.br/quem-somos/",
+    "https://www.tse.jus.br/comunicacao/noticias/2018/Maio/aprovada-mudanca-do-nome-do-partido-do-movimento-democratico-brasileiro-pmdb"
+   ]
+  },
+  "PDT": {
+   "sigla": "PDT",
+   "nome": "Partido Democrático Trabalhista",
+   "numero": 12,
+   "registro_tse": "1981-11-10",
+   "presidente_nacional": "Carlos Roberto Lupi",
+   "federacao": null,
+   "site": "https://pdt.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O primeiro compromisso é com as crianças e jovens de nosso país. [...] O segundo é com os interesses dos trabalhadores, muito especialmente das grandes maiorias populares [...] O sétimo compromisso é a recuperação para o povo brasileiro de todas as concessões feitas a grupos e interesses estrangeiros, lesivas ao nosso patrimônio, à economia nacional e atentatória a nossa própria soberania.",
+    "fonte": "https://pdt.org.br/index.php/o-pdt/ideologia/",
+    "documento": "Ideologia (compromissos do manifesto de lançamento)"
+   },
+   "historia": [
+    {
+     "ano": 1979,
+     "texto": "Manifesto de lançamento do trabalhismo democrático, liderado por Leonel Brizola, reivindicando a herança de Getúlio Vargas.",
+     "fonte": "https://pdt.org.br/index.php/o-pdt/historia/"
+    },
+    {
+     "ano": 1981,
+     "texto": "Registro no TSE em 10 de novembro de 1981.",
+     "fonte": "https://pdt.org.br/index.php/o-pdt/historia/"
+    },
+    {
+     "ano": 2004,
+     "texto": "\"Carta de São Paulo\" reafirma a defesa do projeto nacional de Vargas contra o modelo econômico que chama de neoliberal.",
+     "fonte": "https://pdt.org.br/index.php/o-pdt/historia/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 9,
+     "lider": "André Figueiredo",
+     "data": "2026-07-01"
+    },
+    "senado": {
+     "senadores": 2
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://pdt.org.br/index.php/o-pdt/ideologia/",
+    "https://pdt.org.br/index.php/o-pdt/historia/"
+   ],
+   "conferir": [
+    "manifesto de 1979 liderado por Brizola (a página de ideologia cita só \"manifesto de lançamento\")"
+   ]
+  },
+  "PT": {
+   "sigla": "PT",
+   "nome": "Partido dos Trabalhadores",
+   "numero": 13,
+   "registro_tse": "1982-02-11",
+   "presidente_nacional": "Edson Antonio Edinho da Silva",
+   "federacao": "brasil-da-esperanca",
+   "site": "https://pt.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O Partido dos Trabalhadores surge da necessidade sentida por milhões de brasileiros de intervir na vida social e política do país para transformá-la. [...] O PT pretende ser uma real expressão política de todos os explorados pelo sistema capitalista. Somos um Partido dos Trabalhadores, não um partido para iludir os trabalhadores.",
+    "fonte": "https://pt.org.br/manifesto-de-fundacao-do-partido-dos-trabalhadores/",
+    "documento": "Manifesto de fundação (10/02/1980)"
+   },
+   "historia": [
+    {
+     "ano": 1980,
+     "texto": "Fundado em 10 de fevereiro de 1980, no Colégio Sion (SP), por trabalhadores da cidade e do campo, militantes de esquerda, intelectuais e artistas; Lula, líder sindical, foi o principal fundador.",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    },
+    {
+     "ano": 1982,
+     "texto": "Registro definitivo no TSE em 11 de fevereiro de 1982.",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    },
+    {
+     "ano": 1989,
+     "texto": "Lula chega ao segundo turno da primeira eleição presidencial direta desde 1960.",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    },
+    {
+     "ano": 2003,
+     "texto": "Lula toma posse como presidente (eleito em 2002 e reeleito em 2006).",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    },
+    {
+     "ano": 2011,
+     "texto": "Dilma Rousseff torna-se presidenta (eleita em 2010 e reeleita em 2014); afastada por impeachment em 31 de agosto de 2016, que o partido chama de golpe parlamentar.",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    },
+    {
+     "ano": 2018,
+     "texto": "Lula é preso em 7 de abril de 2018, após condenação na Lava Jato, e fica impedido de concorrer; Fernando Haddad, candidato no lugar dele, tem 44,87% no segundo turno. Em 2021 o STF anula os processos e restaura os direitos políticos de Lula.",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    },
+    {
+     "ano": 2023,
+     "texto": "Lula assume o terceiro mandato em 1º de janeiro de 2023, eleito em 2022 com 50,90% dos votos válidos no segundo turno.",
+     "fonte": "https://pt.org.br/nossa-historia/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 65,
+     "lider": "Paulo Pimenta",
+     "data": "2026-04-15"
+    },
+    "senado": {
+     "senadores": 9
+    },
+    "governadores": [
+     {
+      "uf": "BA",
+      "nome": "Jerônimo Rodrigues",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "CE",
+      "nome": "Elmano de Freitas",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "PI",
+      "nome": "Rafael Fonteles",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "RN",
+      "nome": "Fátima Bezerra",
+      "desde": "2019-01-01",
+      "obs": null
+     }
+    ],
+    "presidencia": true
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://pt.org.br/manifesto-de-fundacao-do-partido-dos-trabalhadores/",
+    "https://pt.org.br/nossa-historia/"
+   ]
+  },
+  "PCdoB": {
+   "sigla": "PCdoB",
+   "nome": "Partido Comunista do Brasil",
+   "numero": 65,
+   "registro_tse": "1988-06-23",
+   "presidente_nacional": "Nádia Campeão",
+   "federacao": "brasil-da-esperanca",
+   "site": "https://pcdob.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O Partido Comunista do Brasil – organização política de vanguarda da classe operária e do povo trabalhador, apoiada na teoria revolucionária marxista-leninista – empenha-se em conjunto com outras organizações e lideranças políticas avançadas, pela vitória do empreendimento revolucionário.",
+    "fonte": "https://pcdob.org.br/programa/",
+    "documento": "Programa"
+   },
+   "historia": [
+    {
+     "ano": 1922,
+     "texto": "Reivindica a fundação em 25 de março de 1922, em Niterói, como origem comum dos comunistas brasileiros.",
+     "fonte": "https://pcdob.org.br/historia/"
+    },
+    {
+     "ano": 1988,
+     "texto": "Registro no TSE em 23 de junho de 1988.",
+     "fonte": "https://pcdob.org.br/historia/"
+    },
+    {
+     "ano": 2022,
+     "texto": "Integra a Federação Brasil da Esperança com PT e PV.",
+     "fonte": "https://pcdob.org.br/historia/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 11,
+     "lider": "Gervásio Maia",
+     "data": "2023-12-22"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://pcdob.org.br/programa/",
+    "https://pcdob.org.br/historia/"
+   ]
+  },
+  "PSB": {
+   "sigla": "PSB",
+   "nome": "Partido Socialista Brasileiro",
+   "numero": 40,
+   "registro_tse": "1988-07-01",
+   "presidente_nacional": "João Henrique de Andrade Lima Campos",
+   "federacao": null,
+   "site": "https://psb40.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O PSB tem como objetivo central um modelo de desenvolvimento sustentável capaz de gerar prosperidade suficiente que permita a redução drástica e permanente das desigualdades econômicas, sociais, regionais, de gênero, étnico-raciais [...] A refundação do Brasil, tendo a criatividade como uma de suas principais características, impulsiona o PSB a apresentar um conceito brasileiro de socialismo, o Socialismo Criativo.",
+    "fonte": "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+    "documento": "Manifesto e Programa (2022)"
+   },
+   "historia": [
+    {
+     "ano": 1947,
+     "texto": "Fundado em 1947, herdeiro da Esquerda Democrática de 1945, com o lema \"Socialismo e Liberdade\".",
+     "fonte": "https://psb40.org.br/quem-somos/nossa-historia-2/"
+    },
+    {
+     "ano": 1965,
+     "texto": "Extinto pelo AI-2.",
+     "fonte": "https://psb40.org.br/quem-somos/nossa-historia-2/"
+    },
+    {
+     "ano": 1985,
+     "texto": "Refundado em 2 de julho de 1985; registro no TSE em 1º de julho de 1988.",
+     "fonte": "https://psb40.org.br/quem-somos/nossa-historia-2/"
+    },
+    {
+     "ano": 2014,
+     "texto": "Eduardo Campos, presidente do partido e candidato a presidente, morre em acidente aéreo.",
+     "fonte": "https://psb40.org.br/quem-somos/nossa-historia-2/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 17,
+     "lider": "Jonas Donizette",
+     "data": "2026-01-02"
+    },
+    "senado": {
+     "senadores": 7
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.autorreformapsb.com.br/wp-content/uploads/2022/07/Manifesto_e_Programa_do_PSB.pdf",
+    "https://psb40.org.br/quem-somos/nossa-historia-2/"
+   ]
+  },
+  "PSDB": {
+   "sigla": "PSDB",
+   "nome": "Partido da Social Democracia Brasileira",
+   "numero": 45,
+   "registro_tse": "1989-08-24",
+   "presidente_nacional": "Aécio Neves da Cunha",
+   "federacao": "psdb-cidadania",
+   "site": "https://www.psdb.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O PSDB e a democracia brasileira nasceram juntos. No governo, o PSDB soube consolidar as instituições democráticas; na oposição, sabe zelar por elas e lutará sempre para que não se amesquinhem. [...] A luta principal dos que fundaram o PSDB foi contra o autoritarismo. Hoje nossa luta é pela melhoria das condições materiais e culturais de vida do povo brasileiro.",
+    "fonte": "https://www.psdb.org.br/conheca/programa",
+    "documento": "Programa (página institucional)"
+   },
+   "historia": [
+    {
+     "ano": 1988,
+     "texto": "Fundado em 25 de junho de 1988, durante a Constituinte, por dissidentes do PMDB (entre eles Mário Covas, Fernando Henrique Cardoso e José Serra); registro no TSE em 24 de agosto de 1989.",
+     "fonte": "https://www.psdb.org.br/acompanhe/noticias/psdb-38-anos-uma-historia-que-ainda-tem-muito-futuro/"
+    },
+    {
+     "ano": 1994,
+     "texto": "Fernando Henrique Cardoso é eleito presidente (reeleito em 1998); o partido associa a si o Plano Real, os medicamentos genéricos e as agências reguladoras.",
+     "fonte": "https://www.psdb.org.br/acompanhe/noticias/psdb-38-anos-uma-historia-que-ainda-tem-muito-futuro/"
+    },
+    {
+     "ano": 2022,
+     "texto": "Forma com o Cidadania a Federação PSDB Cidadania.",
+     "fonte": "https://www.psdb.org.br/acompanhe/noticias/psdb-38-anos-uma-historia-que-ainda-tem-muito-futuro/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 17,
+     "lider": "Adolfo Viana",
+     "data": "2026-04-22"
+    },
+    "senado": {
+     "senadores": 4
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.psdb.org.br/conheca/programa",
+    "https://www.psdb.org.br/acompanhe/noticias/psdb-38-anos-uma-historia-que-ainda-tem-muito-futuro/"
+   ],
+   "conferir": [
+    "origem em dissidentes do PMDB e os nomes dos fundadores: fato corrente, mas a nota do partido diz só \"nasceu em 1988\""
+   ]
+  },
+  "AGIR": {
+   "sigla": "AGIR",
+   "nome": "Agir",
+   "numero": 36,
+   "registro_tse": "1990-02-22",
+   "presidente_nacional": "Daniel S. Tourinho",
+   "federacao": null,
+   "site": null,
+   "linhagem": [
+    "PTC – Partido Trabalhista Cristão (2000–2021)",
+    "PRN (1989–2000)"
+   ],
+   "autodefinicao": null,
+   "historia": [
+    {
+     "ano": 1990,
+     "texto": "Registro no TSE em 22 de fevereiro de 1990 (então PRN, partido de Fernando Collor).",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/agir"
+    },
+    {
+     "ano": 2000,
+     "texto": "Passa a se chamar PTC.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/agir"
+    },
+    {
+     "ano": 2021,
+     "texto": "Passa a se chamar Agir.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/agir"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/agir"
+   ],
+   "sem_autodefinicao": "Não há site institucional acessível nem estatuto legível em texto no TSE; o campo fica vazio em vez de ser preenchido de memória.",
+   "conferir": [
+    "linhagem PRN→PTC→Agir e datas de mudança de nome: TSE só lista os estatutos, sem a nota de mudança"
+   ]
+  },
+  "MOBILIZA": {
+   "sigla": "MOBILIZA",
+   "nome": "Mobilização Nacional",
+   "numero": 33,
+   "registro_tse": "1990-10-25",
+   "presidente_nacional": "Antonio Carlos Bosco Massarollo",
+   "federacao": null,
+   "site": null,
+   "linhagem": [
+    "PMN – Partido da Mobilização Nacional (1990–2023)"
+   ],
+   "autodefinicao": null,
+   "historia": [
+    {
+     "ano": 1990,
+     "texto": "Registro no TSE em 25 de outubro de 1990 como PMN.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-da-mobilizacao-nacional"
+    },
+    {
+     "ano": 2023,
+     "texto": "Passa a se chamar Mobiliza.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-da-mobilizacao-nacional"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-da-mobilizacao-nacional"
+   ],
+   "sem_autodefinicao": "Não há site institucional acessível nem estatuto legível em texto no TSE; o campo fica vazio em vez de ser preenchido de memória.",
+   "conferir": [
+    "data da mudança de PMN para Mobiliza"
+   ]
+  },
+  "CIDADANIA": {
+   "sigla": "CIDADANIA",
+   "nome": "Cidadania",
+   "numero": 23,
+   "registro_tse": "1992-03-19",
+   "presidente_nacional": "Alex Spinelli Manente",
+   "federacao": "psdb-cidadania",
+   "site": "https://rede23.org",
+   "linhagem": [
+    "PPS (1992–2019)",
+    "PCB histórico (até 1992)"
+   ],
+   "autodefinicao": {
+    "texto": "O CIDADANIA desenvolve suas atividades em âmbito nacional, tendo por fundamentos o regime participativo, representativo e democrático, baseado no pluralismo político, na transparência como mecanismo de controle social e no protagonismo da sociedade civil e seus movimentos [...] O CIDADANIA defende o Estado laico [...] se compromete com o combate à pobreza e às desigualdades sociais, com o acesso universal à educação como principal vetor da cidadania, com a responsabilidade fiscal e com a sustentabilidade.",
+    "fonte": "https://rede23.org/estatuto/",
+    "documento": "Estatuto, arts. 2º a 4º"
+   },
+   "historia": [
+    {
+     "ano": 1992,
+     "texto": "Registro no TSE em 19 de março de 1992 como PPS, sucessor do PCB histórico.",
+     "fonte": "https://rede23.org/estatuto/"
+    },
+    {
+     "ano": 2019,
+     "texto": "Convenção de março de 2019 troca o nome PPS por Cidadania; o TSE aprova em setembro de 2019.",
+     "fonte": "https://www.tse.jus.br/comunicacao/noticias/2019/Setembro/plenario-aprova-mudanca-do-nome-do-pps-para-cidadania"
+    },
+    {
+     "ano": 2022,
+     "texto": "Integra a Federação PSDB Cidadania.",
+     "fonte": "https://rede23.org/estatuto/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 2,
+     "lider": "Alex Manente",
+     "data": "2021-03-02"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://rede23.org/estatuto/",
+    "https://www.tse.jus.br/comunicacao/noticias/2019/Setembro/plenario-aprova-mudanca-do-nome-do-pps-para-cidadania"
+   ],
+   "conferir": [
+    "linhagem \"PCB histórico\" (o PPS nasceu em 1992 da maioria do antigo PCB): fato corrente, mas não consta na fonte citada"
+   ]
+  },
+  "PV": {
+   "sigla": "PV",
+   "nome": "Partido Verde",
+   "numero": 43,
+   "registro_tse": "1993-09-30",
+   "presidente_nacional": "José Luiz de França Penna",
+   "federacao": "brasil-da-esperanca",
+   "site": "https://pv.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O PV é um instrumento da ecologia política. [...] O PV não se aprisiona na estreita polarização esquerda versus direita. Situa-se à frente. Está aberto ao diálogo como todas as demais forças políticas com o objetivo de levar à prática as propostas e programas verdes.",
+    "fonte": "https://pv.org.br/opartido/programa/",
+    "documento": "Programa"
+   },
+   "historia": [
+    {
+     "ano": 1986,
+     "texto": "Fundado em janeiro de 1986 no Rio de Janeiro, por Fernando Gabeira, Alfredo Sirkis, Carlos Minc e outros.",
+     "fonte": "https://pv.org.br/fundacao-1986/"
+    },
+    {
+     "ano": 1993,
+     "texto": "Registro no TSE em 30 de setembro de 1993.",
+     "fonte": "https://pv.org.br/fundacao-1986/"
+    },
+    {
+     "ano": 2022,
+     "texto": "Integra a Federação Brasil da Esperança com PT e PCdoB.",
+     "fonte": "https://pv.org.br/fundacao-1986/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 6,
+     "lider": "Júlio Delgado",
+     "data": "2022-10-25"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://pv.org.br/opartido/programa/",
+    "https://pv.org.br/fundacao-1986/"
+   ]
+  },
+  "AVANTE": {
+   "sigla": "AVANTE",
+   "nome": "Avante",
+   "numero": 70,
+   "registro_tse": "1994-10-11",
+   "presidente_nacional": "Luis Henrique de Oliveira Resende",
+   "federacao": null,
+   "site": "https://avante70.org.br",
+   "linhagem": [
+    "PTdoB (1989–2017)"
+   ],
+   "autodefinicao": {
+    "texto": "Nós nascemos das ruas. Ouvimos o desejo das pessoas e lutamos por um país que segue em frente. Somos o único partido que tem a direção certa: AVANTE.",
+    "fonte": "https://avante70.org.br/sobre-o-partido-avante/",
+    "documento": "Sobre o partido"
+   },
+   "historia": [
+    {
+     "ano": 1989,
+     "texto": "Fundado como Partido Trabalhista do Brasil (PTdoB); registro no TSE em 11 de outubro de 1994.",
+     "fonte": "https://avante70.org.br/sobre-o-partido-avante/"
+    },
+    {
+     "ano": 2017,
+     "texto": "Passa a se chamar Avante.",
+     "fonte": "https://avante70.org.br/sobre-o-partido-avante/"
+    },
+    {
+     "ano": 2024,
+     "texto": "Elege o prefeito de Manaus, primeira capital do partido.",
+     "fonte": "https://avante70.org.br/sobre-o-partido-avante/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 5,
+     "lider": "Waldemar Oliveira",
+     "data": "2026-04-15"
+    },
+    "senado": {
+     "senadores": 1
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://avante70.org.br/sobre-o-partido-avante/"
+   ]
+  },
+  "PP": {
+   "sigla": "PP",
+   "nome": "Progressistas",
+   "numero": 11,
+   "registro_tse": "1995-11-16",
+   "presidente_nacional": "Ciro Nogueira Lima Filho",
+   "federacao": "uniao-progressista",
+   "site": "https://progressistas.org.br",
+   "linhagem": [
+    "PPB (1995–2003)",
+    "PPR",
+    "PDS",
+    "ARENA"
+   ],
+   "autodefinicao": {
+    "texto": "O Partido Progressista - PP, nascido do idealismo de seus fundadores e da determinação de contribuirem com o País na construção de sociedade livre, democrática, justa, pluralista, solidária e participativa [...]",
+    "fonte": "https://progressistas.org.br/manifesto",
+    "documento": "Manifesto"
+   },
+   "historia": [
+    {
+     "ano": 1993,
+     "texto": "O PDS se funde com o Partido Democrata Cristão e nasce o PPR.",
+     "fonte": "https://progressistas.org.br/partido"
+    },
+    {
+     "ano": 1995,
+     "texto": "O PPR se funde com o Partido Progressista, criando o PPB; registro no TSE em 16 de novembro de 1995.",
+     "fonte": "https://progressistas.org.br/partido"
+    },
+    {
+     "ano": 2003,
+     "texto": "Convenção nacional de 4 de abril de 2003 retira o \"B\" da sigla: PP, Partido Progressista.",
+     "fonte": "https://progressistas.org.br/partido"
+    },
+    {
+     "ano": 2026,
+     "texto": "Forma com o União Brasil a Federação União Progressista, aprovada pelo TSE em 26 de março de 2026.",
+     "fonte": "https://progressistas.org.br/partido"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 46,
+     "lider": "Doutor Luizinho",
+     "data": "2026-07-06"
+    },
+    "senado": {
+     "senadores": 7
+    },
+    "governadores": [
+     {
+      "uf": "AC",
+      "nome": "Mailza Assis",
+      "desde": "2026-04-02",
+      "obs": "vice que assumiu"
+     },
+     {
+      "uf": "DF",
+      "nome": "Celina Leão",
+      "desde": "2026-03-30",
+      "obs": "vice que assumiu"
+     },
+     {
+      "uf": "MS",
+      "nome": "Eduardo Riedel",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "PB",
+      "nome": "Lucas Ribeiro",
+      "desde": "2026-04-02",
+      "obs": "vice que assumiu"
+     }
+    ],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://progressistas.org.br/manifesto",
+    "https://progressistas.org.br/partido"
+   ],
+   "conferir": [
+    "linhagem ARENA→PDS (1980): fato corrente, mas a página do partido começa a história em 1985/1993"
+   ]
+  },
+  "PSTU": {
+   "sigla": "PSTU",
+   "nome": "Partido Socialista dos Trabalhadores Unificado",
+   "numero": 16,
+   "registro_tse": "1995-12-19",
+   "presidente_nacional": "José Maria de Almeida",
+   "federacao": null,
+   "site": "https://www.pstu.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O PSTU é um partido formado por trabalhadoras e trabalhadores que carregam consigo o programa do socialismo.",
+    "fonte": "https://www.pstu.org.br/",
+    "documento": "Página inicial"
+   },
+   "historia": [
+    {
+     "ano": 1995,
+     "texto": "Registro no TSE em 19 de dezembro de 1995.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.pstu.org.br/"
+   ]
+  },
+  "PCB": {
+   "sigla": "PCB",
+   "nome": "Partido Comunista Brasileiro",
+   "numero": 21,
+   "registro_tse": "1996-05-09",
+   "presidente_nacional": "Edmilson Silva Costa",
+   "federacao": null,
+   "site": "https://pcb.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O Partido Comunista Brasileiro (PCB) é um partido político que se propõe a ser a vanguarda revolucionária da classe trabalhadora e de seus aliados. Nós, comunistas, lutamos pela transformação radical da sociedade atual, visando à substituição do sistema capitalista pelo socialismo, na perspectiva da construção da sociedade comunista, ou seja, um mundo sem opressão e sem exploração do ser humano.",
+    "fonte": "https://pcb.org.br/portal2/34297",
+    "documento": "\"Organize-se no Partido Comunista Brasileiro!\" (jornal O Poder Popular, set. 2026)"
+   },
+   "historia": [
+    {
+     "ano": 1922,
+     "texto": "Reivindica a fundação de 1922 e se apresenta como o partido mais antigo do Brasil.",
+     "fonte": "https://pcb.org.br/portal2/34297"
+    },
+    {
+     "ano": 1992,
+     "texto": "Reorganizado após a maioria do antigo PCB se transformar em PPS; registro no TSE em 9 de maio de 1996.",
+     "fonte": "https://pcb.org.br/portal2/34297"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://pcb.org.br/portal2/34297"
+   ],
+   "conferir": [
+    "reorganização em 1992 (não consta na página lida)"
+   ]
+  },
+  "PRTB": {
+   "sigla": "PRTB",
+   "nome": "Partido Renovador Trabalhista Brasileiro",
+   "numero": 28,
+   "registro_tse": "1997-02-18",
+   "presidente_nacional": "Leonardo Alves de Araújo",
+   "federacao": null,
+   "site": "https://www.prtb.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "Valorizar quem produz é valorizar o Brasil. [...] O Brasileiro 28 pertence ao Senhor Cristo Jesus.",
+    "fonte": "https://www.prtb.org.br/",
+    "documento": "Página inicial (frases de apresentação)"
+   },
+   "historia": [
+    {
+     "ano": 1997,
+     "texto": "Registro no TSE em 18 de fevereiro de 1997; fundado por Levy Fidelix.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.prtb.org.br/"
+   ],
+   "conferir": [
+    "fundação por Levy Fidelix (não consta no site)"
+   ]
+  },
+  "DC": {
+   "sigla": "DC",
+   "nome": "Democracia Cristã",
+   "numero": 27,
+   "registro_tse": "1997-08-05",
+   "presidente_nacional": "João Caldas da Silva",
+   "federacao": null,
+   "site": "https://www.democraciacrista.org.br",
+   "linhagem": [
+    "PSDC (1995–2018)",
+    "PDC histórico"
+   ],
+   "autodefinicao": {
+    "texto": "O objetivo fundamental do PSDC – Partido Social Democrata Cristão é construir em nosso país, uma sociedade verdadeiramente Livre, Justa e Solidária. [...] Repudia assim, o capitalismo selvagem que não realiza a Justiça e o marxismo que esmaga a Liberdade e proclama como sua doutrina, a Democracia Cristã.",
+    "fonte": "https://www.democraciacrista.org.br/programa",
+    "documento": "Programa"
+   },
+   "historia": [
+    {
+     "ano": 1945,
+     "texto": "O PDC é fundado em São Paulo em 9 de julho de 1945; extinto pelo AI-2 em 1965 e refundado em 1985.",
+     "fonte": "https://www.democraciacrista.org.br/sobre-nos"
+    },
+    {
+     "ano": 1995,
+     "texto": "Após a fusão do PDC com o PDS (1993), José Maria Eymael funda o PSDC em 30 de março de 1995; registro no TSE em 5 de agosto de 1997.",
+     "fonte": "https://www.democraciacrista.org.br/sobre-nos"
+    },
+    {
+     "ano": 2018,
+     "texto": "Passa a se chamar Democracia Cristã.",
+     "fonte": "https://www.democraciacrista.org.br/sobre-nos"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.democraciacrista.org.br/programa",
+    "https://www.democraciacrista.org.br/sobre-nos"
+   ],
+   "conferir": [
+    "mudança de nome em 2018 (a página não dá a data)"
+   ]
+  },
+  "PCO": {
+   "sigla": "PCO",
+   "nome": "Partido da Causa Operária",
+   "numero": 29,
+   "registro_tse": "1997-09-30",
+   "presidente_nacional": "Rui Costa Pimenta",
+   "federacao": null,
+   "site": "https://pco.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O Partido da Causa Operária surgiu como um agrupamento de militantes trotskistas rompidos com a Organização Socialista Internacionalista no final de 1978. [...] a vanguarda operária consciente deveria intervir energicamente neste processo com um programa socialista e na defesa da construção de um partido independente da burguesia e de massas.",
+    "fonte": "https://pco.org.br/uma-breve-historia-do-pco/",
+    "documento": "Uma breve história do PCO"
+   },
+   "historia": [
+    {
+     "ano": 1978,
+     "texto": "Origem como grupo trotskista; atua dentro do PT de 1980 até a expulsão de seus militantes em 1991.",
+     "fonte": "https://pco.org.br/uma-breve-historia-do-pco/"
+    },
+    {
+     "ano": 1997,
+     "texto": "Registro definitivo no TSE em 30 de setembro de 1997.",
+     "fonte": "https://pco.org.br/uma-breve-historia-do-pco/"
+    },
+    {
+     "ano": 2002,
+     "texto": "Primeira candidatura presidencial.",
+     "fonte": "https://pco.org.br/uma-breve-historia-do-pco/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://pco.org.br/uma-breve-historia-do-pco/"
+   ]
+  },
+  "PODE": {
+   "sigla": "PODE",
+   "nome": "Podemos",
+   "numero": 20,
+   "registro_tse": "1997-10-02",
+   "presidente_nacional": "Renata Hellmeister de Abreu",
+   "federacao": null,
+   "site": "https://podemos.org.br",
+   "linhagem": [
+    "PTN (1945–1965; 1995–2017)",
+    "PHS (incorporado)",
+    "PSC (incorporado)"
+   ],
+   "autodefinicao": {
+    "texto": "Por um país do povo, com o povo e para o povo, com um sistema político que fale com a maioria, que valorize a virtude pública e a justiça social.",
+    "fonte": "https://podemos.org.br/manifesto",
+    "documento": "Manifesto"
+   },
+   "historia": [
+    {
+     "ano": 1945,
+     "texto": "O PTN obtém registro provisório em 6 de outubro de 1945; lança Jânio Quadros; extinto pelo AI-2 em 1965.",
+     "fonte": "https://podemos.org.br/historia"
+    },
+    {
+     "ano": 1995,
+     "texto": "Recriado por Dorival de Abreu; registro no TSE em 2 de outubro de 1997.",
+     "fonte": "https://podemos.org.br/historia"
+    },
+    {
+     "ano": 2017,
+     "texto": "Em maio o TSE autoriza a mudança de nome de PTN para Podemos.",
+     "fonte": "https://podemos.org.br/historia"
+    },
+    {
+     "ano": 2022,
+     "texto": "Incorpora o PSC.",
+     "fonte": "https://podemos.org.br/historia"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 27,
+     "lider": "Rodrigo Gambale",
+     "data": "2026-03-23"
+    },
+    "senado": {
+     "senadores": 3
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://podemos.org.br/manifesto",
+    "https://podemos.org.br/historia"
+   ]
+  },
+  "REPUBLICANOS": {
+   "sigla": "REPUBLICANOS",
+   "nome": "Republicanos",
+   "numero": 10,
+   "registro_tse": "2005-08-25",
+   "presidente_nacional": "Marcos Antonio Pereira",
+   "federacao": null,
+   "site": "https://republicanos10.org.br",
+   "linhagem": [
+    "PRB (2005–2019)",
+    "PMR"
+   ],
+   "autodefinicao": {
+    "texto": "Nosso Manifesto enaltece a necessidade de ordem, respeito e disciplina como forma de garantir a sobrevivência e o avanço da humanidade, como já foi no passado. Nossa postura é fundamentada nos valores cristãos, temos a família como alicerce da sociedade, preservamos a soberania nacional, a livre iniciativa, a liberdade econômica e o progresso tecnológico.",
+    "fonte": "https://republicanos10.org.br/manifesto-e-programa",
+    "documento": "Manifesto e programa"
+   },
+   "historia": [
+    {
+     "ano": 2005,
+     "texto": "Registro no TSE em 25 de agosto de 2005 como PMR; José Alencar, vice-presidente da República, torna-se presidente de honra; renomeado PRB em outubro.",
+     "fonte": "https://republicanos10.org.br/linha-do-tempo"
+    },
+    {
+     "ano": 2019,
+     "texto": "Passa a se chamar Republicanos em 7 de maio de 2019.",
+     "fonte": "https://republicanos10.org.br/linha-do-tempo"
+    },
+    {
+     "ano": 2022,
+     "texto": "Elege os governadores de São Paulo e Tocantins.",
+     "fonte": "https://republicanos10.org.br/linha-do-tempo"
+    },
+    {
+     "ano": 2025,
+     "texto": "Hugo Motta é eleito presidente da Câmara dos Deputados.",
+     "fonte": "https://republicanos10.org.br/linha-do-tempo"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 42,
+     "lider": "Silvio Costa Filho",
+     "data": "2026-06-23"
+    },
+    "senado": {
+     "senadores": 6
+    },
+    "governadores": [
+     {
+      "uf": "MT",
+      "nome": "Otaviano Pivetta",
+      "desde": "2026-03-31",
+      "obs": "vice que assumiu"
+     },
+     {
+      "uf": "RR",
+      "nome": "Soldado Sampaio",
+      "desde": "2026-04-30",
+      "obs": "interino"
+     },
+     {
+      "uf": "SP",
+      "nome": "Tarcísio de Freitas",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "TO",
+      "nome": "Wanderlei Barbosa",
+      "desde": "2022-03-11",
+      "obs": null
+     }
+    ],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://republicanos10.org.br/manifesto-e-programa",
+    "https://republicanos10.org.br/linha-do-tempo"
+   ]
+  },
+  "PSOL": {
+   "sigla": "PSOL",
+   "nome": "Partido Socialismo e Liberdade",
+   "numero": 50,
+   "registro_tse": "2005-09-15",
+   "presidente_nacional": "Paula Bermudes Moraes Coradi",
+   "federacao": "psol-rede",
+   "site": "https://psol50.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O surgimento do PSOL representou um marco na história da esquerda brasileira, trazendo à cena um novo instrumento político de luta, comprometido com a defesa e a construção de uma estratégia socialista pautada na democracia e na liberdade. [...] O socialismo oferece uma alternativa estrutural a esse sistema que coloca a acumulação do capital por uma minoria acima da vida e do planeta.",
+    "fonte": "https://psol50.org.br/partido/programa/",
+    "documento": "Programa"
+   },
+   "historia": [
+    {
+     "ano": 2003,
+     "texto": "Nasce da ruptura de parlamentares do PT que votaram contra a reforma da Previdência do governo Lula.",
+     "fonte": "https://psol50.org.br/partido/programa/"
+    },
+    {
+     "ano": 2005,
+     "texto": "Registro no TSE em 15 de setembro de 2005.",
+     "fonte": "https://psol50.org.br/partido/programa/"
+    },
+    {
+     "ano": 2022,
+     "texto": "Integra a Federação PSOL Rede.",
+     "fonte": "https://psol50.org.br/partido/programa/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 13,
+     "lider": "Tarcísio Motta",
+     "data": "2026-02-05"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://psol50.org.br/partido/programa/"
+   ],
+   "conferir": [
+    "origem na reforma da Previdência de 2003 (a página só cita \"luta contra a reforma da previdência\")"
+   ]
+  },
+  "PL": {
+   "sigla": "PL",
+   "nome": "Partido Liberal",
+   "numero": 22,
+   "registro_tse": "2006-12-19",
+   "presidente_nacional": "Valdemar Costa Neto",
+   "federacao": null,
+   "site": "https://partidoliberal.org.br",
+   "linhagem": [
+    "PR (Partido da República, 2006–2019)",
+    "PRONA",
+    "PGT",
+    "PST"
+   ],
+   "autodefinicao": {
+    "texto": "Muito se poderá apreender do verdadeiro sentido e dos objetivos da Doutrina do Liberalismo Social, pela leitura atenta do Programa e do Manifesto de 1985. [...] Os fundadores do PL propunham em seu Manifesto: a) a Reforma Econômica e Social, pela valorização do trabalho e eliminação das desigualdades regionais; pelo salário justo e melhoria da qualidade de vida; pelo apoio à empresa nacional; [...] No seu Manifesto, o PL relembra a importância da defesa dos direitos das Minorias, dentro da mais pura tradição do liberalismo.",
+    "fonte": "https://partidoliberal.org.br/historia-do-pl/",
+    "documento": "História do PL (página institucional, citando o Manifesto de 1985)"
+   },
+   "historia": [
+    {
+     "ano": 1985,
+     "texto": "Fundado em 23 de junho de 1985 no Rio de Janeiro; Manifesto, Programa e Estatutos publicados no Diário Oficial em 25 de junho de 1985.",
+     "fonte": "https://partidoliberal.org.br/historia-do-pl/"
+    },
+    {
+     "ano": 2003,
+     "texto": "Incorpora o PGT e o PST.",
+     "fonte": "https://partidoliberal.org.br/historia-do-pl/"
+    },
+    {
+     "ano": 2006,
+     "texto": "Funde-se com o PRONA e passa a se chamar Partido da República (PR); registro no TSE em 19 de dezembro de 2006.",
+     "fonte": "https://partidoliberal.org.br/historia-do-pl/"
+    },
+    {
+     "ano": 2019,
+     "texto": "Convenção nacional decide voltar ao nome Partido Liberal (PL), homologado pelo TSE.",
+     "fonte": "https://partidoliberal.org.br/historia-do-pl/"
+    },
+    {
+     "ano": 2021,
+     "texto": "Jair Bolsonaro, então presidente da República, filia-se ao PL em 30 de novembro de 2021.",
+     "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2021-11/presidente-bolsonaro-assina-filiacao-ao-pl"
+    },
+    {
+     "ano": 2022,
+     "texto": "Elege a maior bancada da Câmara dos Deputados; em 2026 tem 98 deputados em exercício, a maior de todas.",
+     "fonte": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 98,
+     "lider": "Bia Kicis",
+     "data": "2026-03-31"
+    },
+    "senado": {
+     "senadores": 15
+    },
+    "governadores": [
+     {
+      "uf": "SC",
+      "nome": "Jorginho Mello",
+      "desde": "2023-01-01",
+      "obs": null
+     }
+    ],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://partidoliberal.org.br/historia-do-pl/",
+    "https://agenciabrasil.ebc.com.br/politica/noticia/2021-11/presidente-bolsonaro-assina-filiacao-ao-pl",
+    "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
+    "https://partidoliberal.org.br/wp-content/uploads/2023/02/programa_do_pl.pdf"
+   ],
+   "nota_autodefinicao": "A citação é da página de história do próprio partido e descreve o manifesto de 1985 (\"liberalismo social\"): é o único texto de autodefinição que o site publica em HTML. O programa vigente está em PDF: https://partidoliberal.org.br/wp-content/uploads/2023/02/programa_do_pl.pdf"
+  },
+  "PSD": {
+   "sigla": "PSD",
+   "nome": "Partido Social Democrático",
+   "numero": 55,
+   "registro_tse": "2011-09-27",
+   "presidente_nacional": "Gilberto Kassab",
+   "federacao": null,
+   "site": "https://psd.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O Partido Social Democrático constitui-se como instrumento de realização do processo político fiel ao princípio democrático, ao regime republicano em sua forma federativa, para defender um Brasil mais forte, desenvolvimentista, com uma economia dinâmica, moderna, competitiva e sustentável; um Brasil mais justo, no qual todos os brasileiros sejam, de fato, iguais perante a lei; um Brasil equânime pela inclusão social e um Brasil mais solidário, com mais oportunidades para todos.",
+    "fonte": "https://psd.org.br/wp-content/uploads/2024/09/psd-estatuto-do-partido-de-06-12-2023-aprovado-em-06-08.2024-1.pdf",
+    "documento": "Estatuto, art. 2º"
+   },
+   "historia": [
+    {
+     "ano": 2011,
+     "texto": "Lançado em março de 2011 em São Paulo por Gilberto Kassab e Guilherme Afif; registro no TSE em 27 de setembro de 2011, com o número 55; \"Manifesto à Nação\" apresentado em 28 de setembro.",
+     "fonte": "https://psd.org.br/linha-do-tempo"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 48,
+     "lider": "Antonio Brito",
+     "data": "2026-08-17"
+    },
+    "senado": {
+     "senadores": 14
+    },
+    "governadores": [
+     {
+      "uf": "MG",
+      "nome": "Mateus Simões",
+      "desde": "2026-03-22",
+      "obs": "vice que assumiu"
+     },
+     {
+      "uf": "PR",
+      "nome": "Ratinho Júnior",
+      "desde": "2019-01-01",
+      "obs": null
+     },
+     {
+      "uf": "PE",
+      "nome": "Raquel Lyra",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "RS",
+      "nome": "Eduardo Leite",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "RO",
+      "nome": "Marcos Rocha",
+      "desde": "2019-01-01",
+      "obs": null
+     },
+     {
+      "uf": "SE",
+      "nome": "Fábio Mitidieri",
+      "desde": "2023-01-01",
+      "obs": null
+     }
+    ],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://psd.org.br/wp-content/uploads/2024/09/psd-estatuto-do-partido-de-06-12-2023-aprovado-em-06-08.2024-1.pdf",
+    "https://psd.org.br/linha-do-tempo"
+   ]
+  },
+  "SOLIDARIEDADE": {
+   "sigla": "SOLIDARIEDADE",
+   "nome": "Solidariedade",
+   "numero": 77,
+   "registro_tse": "2013-09-24",
+   "presidente_nacional": "Paulo Pereira da Silva",
+   "federacao": "renovacao-solidaria",
+   "site": "https://solidariedade.org.br",
+   "linhagem": [
+    "PROS (incorporado em 2023)"
+   ],
+   "autodefinicao": {
+    "texto": "O Solidariedade luta por políticas públicas que promovam dignidade e desenvolvimento social. Acreditamos que a política é a única ferramenta para realizar essa transformação. Por meio do diálogo, respeitando diversos pontos de vista em busca de uma parceria de compromisso, ou seja, um acordo que favoreça o bem comum e seja capaz de equilibrar as desigualdades.",
+    "fonte": "https://solidariedade.org.br/nossa-historia/",
+    "documento": "Nossa história (página institucional)"
+   },
+   "historia": [
+    {
+     "ano": 2013,
+     "texto": "Criado por sindicalistas e lideranças ligadas à Força Sindical; registro no TSE em 24 de setembro de 2013; Paulinho da Força é o primeiro presidente.",
+     "fonte": "https://solidariedade.org.br/nossa-historia/"
+    },
+    {
+     "ano": 2023,
+     "texto": "Incorpora o PROS em 14 de fevereiro de 2023.",
+     "fonte": "https://solidariedade.org.br/nossa-historia/"
+    },
+    {
+     "ano": 2025,
+     "texto": "Forma com o PRD a Federação Renovação Solidária.",
+     "fonte": "https://solidariedade.org.br/nossa-historia/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 4,
+     "lider": "Aureo Ribeiro",
+     "data": "2025-10-21"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://solidariedade.org.br/nossa-historia/"
+   ]
+  },
+  "NOVO": {
+   "sigla": "NOVO",
+   "nome": "Partido Novo",
+   "numero": 30,
+   "registro_tse": "2015-09-15",
+   "presidente_nacional": "Eduardo Rodrigo Fernandes Ribeiro",
+   "federacao": null,
+   "site": "https://novo.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "O NOVO é um partido fundado por cidadãos ficha-limpa, que nunca haviam se envolvido com política e resolveram sair da indignação para a ação. [...] Só assim é possível mudar o modelo de Estado e construir um NOVO Brasil, com mais oportunidades e menos privilégios.",
+    "fonte": "https://novo.org.br/conheca-o-novo/",
+    "documento": "Conheça o NOVO (página institucional)"
+   },
+   "historia": [
+    {
+     "ano": 2011,
+     "texto": "Fundação e coleta de 1 milhão de assinaturas.",
+     "fonte": "https://novo.org.br/conheca-o-novo/"
+    },
+    {
+     "ano": 2015,
+     "texto": "Registro no TSE em 15 de setembro de 2015.",
+     "fonte": "https://novo.org.br/conheca-o-novo/"
+    },
+    {
+     "ano": 2018,
+     "texto": "Elege o governador de Minas Gerais (Romeu Zema), 8 deputados federais e 12 estaduais; Zema é reeleito em 2022.",
+     "fonte": "https://novo.org.br/conheca-o-novo/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 5,
+     "lider": "Gilson Marques",
+     "data": "2026-05-19"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://novo.org.br/conheca-o-novo/"
+   ]
+  },
+  "REDE": {
+   "sigla": "REDE",
+   "nome": "Rede Sustentabilidade",
+   "numero": 18,
+   "registro_tse": "2015-09-22",
+   "presidente_nacional": "Paulo Roberto Lamac Junior",
+   "federacao": "psol-rede",
+   "site": "https://redesustentabilidade.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "A Rede Sustentabilidade é fruto de um movimento aberto, autônomo e suprapartidário que reúne brasileiros decididos a reinventar o futuro do país. [...] nos organizamos na forma de um partido novo que tem, como seu maior desafio, ser um espaço de inovação no sistema político brasileiro.",
+    "fonte": "https://redesustentabilidade.org.br/rede/",
+    "documento": "Página \"A Rede\" e Manifesto"
+   },
+   "historia": [
+    {
+     "ano": 2013,
+     "texto": "Criada por Marina Silva; o primeiro pedido de registro é negado pelo TSE por falta de assinaturas.",
+     "fonte": "https://redesustentabilidade.org.br/rede/"
+    },
+    {
+     "ano": 2015,
+     "texto": "Registro no TSE em 22 de setembro de 2015.",
+     "fonte": "https://redesustentabilidade.org.br/rede/"
+    },
+    {
+     "ano": 2022,
+     "texto": "Integra a Federação PSOL Rede.",
+     "fonte": "https://redesustentabilidade.org.br/rede/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 3,
+     "lider": "Túlio Gadêlha",
+     "data": "2022-12-13"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://redesustentabilidade.org.br/rede/"
+   ],
+   "conferir": [
+    "criação por Marina Silva e negativa de registro em 2013: fatos correntes, não constam na página lida"
+   ]
+  },
+  "DEMOCRATA": {
+   "sigla": "DEMOCRATA",
+   "nome": "Democrata",
+   "numero": 35,
+   "registro_tse": "2015-09-29",
+   "presidente_nacional": "Suêd Haidar Nogueira",
+   "federacao": null,
+   "site": "https://democrata.org.br",
+   "linhagem": [
+    "PMB – Partido da Mulher Brasileira (2015–2025)"
+   ],
+   "autodefinicao": {
+    "texto": "Após anos de militância em causas sociais por todo o Brasil, criamos um partido político que garante maior representação das mulheres no Congresso Nacional e em todos os setores da sociedade.",
+    "fonte": "https://democrata.org.br/",
+    "documento": "Página inicial"
+   },
+   "historia": [
+    {
+     "ano": 2008,
+     "texto": "Fundado em 2008 como Partido da Mulher Brasileira (PMB); registro no TSE em 29 de setembro de 2015.",
+     "fonte": "https://democrata.org.br/"
+    },
+    {
+     "ano": 2025,
+     "texto": "TSE aprova a mudança de nome para Democrata em 2 de dezembro de 2025.",
+     "fonte": "https://democrata.org.br/"
+    },
+    {
+     "ano": 2026,
+     "texto": "Primeira candidatura presidencial (Wilson Grassi).",
+     "fonte": "https://democrata.org.br/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://democrata.org.br/"
+   ]
+  },
+  "UP": {
+   "sigla": "UP",
+   "nome": "Unidade Popular",
+   "numero": 80,
+   "registro_tse": "2019-12-10",
+   "presidente_nacional": "Leonardo Pericles Vieira Roque",
+   "federacao": null,
+   "site": "https://unidadepopular.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "A Unidade Popular (UP) surge num momento histórico de complexas e profundas crises e contradições capitalistas e imperialistas, forjando-se como Partido radicalmente defensor do socialismo para lutar contra todas as formas de exploração e opressão que mazela a classe trabalhadora!",
+    "fonte": "https://unidadepopular.org.br/",
+    "documento": "Página inicial"
+   },
+   "historia": [
+    {
+     "ano": 2019,
+     "texto": "Registro no TSE em 10 de dezembro de 2019.",
+     "fonte": "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 0,
+     "lider": null,
+     "data": null
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://unidadepopular.org.br/"
+   ]
+  },
+  "UNIÃO": {
+   "sigla": "UNIÃO",
+   "nome": "União Brasil",
+   "numero": 44,
+   "registro_tse": "2022-02-08",
+   "presidente_nacional": "Antônio Eduardo Gonçalves de Rueda",
+   "federacao": "uniao-progressista",
+   "site": "https://uniaobrasil.org.br",
+   "linhagem": [
+    "DEM (ex-PFL)",
+    "PSL"
+   ],
+   "autodefinicao": {
+    "texto": "O União Brasil é um somatório de forças que tem como propósito SERVIR de base, de instrumento, de caminho para a pacificação, o entendimento, o diálogo construtivo. [...] Somos uma alternativa aos extremos.",
+    "fonte": "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+    "documento": "Manifesto (e página \"O União Brasil\")"
+   },
+   "historia": [
+    {
+     "ano": 2022,
+     "texto": "Fusão do Democratas (DEM) com o PSL homologada pelo TSE em 8 de fevereiro de 2022.",
+     "fonte": "https://uniaobrasil.org.br/o-uniao-brasil/"
+    },
+    {
+     "ano": 2026,
+     "texto": "Forma com o Progressistas a Federação União Progressista, aprovada pelo TSE em 26 de março de 2026.",
+     "fonte": "https://uniaobrasil.org.br/o-uniao-brasil/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 52,
+     "lider": "Pedro Lucas Fernandes",
+     "data": "2026-06-09"
+    },
+    "senado": {
+     "senadores": 3
+    },
+    "governadores": [
+     {
+      "uf": "AP",
+      "nome": "Clécio Luís",
+      "desde": "2023-01-01",
+      "obs": null
+     },
+     {
+      "uf": "AM",
+      "nome": "Roberto Cidade",
+      "desde": "2026-04-04",
+      "obs": "assumiu após renúncia"
+     }
+    ],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://uniaobrasil.org.br/wp-content/uploads/2024/08/BOOK-148x210mm-Manifesto_Uniao_BRASIL.pdf",
+    "https://uniaobrasil.org.br/o-uniao-brasil/"
+   ]
+  },
+  "PRD": {
+   "sigla": "PRD",
+   "nome": "Partido Renovação Democrática",
+   "numero": 25,
+   "registro_tse": "2023-11-09",
+   "presidente_nacional": "Marcus Vinícius de Vasconcelos Ferreira",
+   "federacao": "renovacao-solidaria",
+   "site": null,
+   "linhagem": [
+    "PTB",
+    "Patriota (ex-PEN)"
+   ],
+   "autodefinicao": null,
+   "historia": [
+    {
+     "ano": 2023,
+     "texto": "Criado pela fusão do PTB com o Patriota, aprovada pelo TSE em 9 de novembro de 2023.",
+     "fonte": "https://www.tse.jus.br/comunicacao/noticias/2023/Novembro/tse-aprova-criacao-do-partido-renovacao-democratica-prd"
+    },
+    {
+     "ano": 2025,
+     "texto": "Forma com o Solidariedade a Federação Renovação Solidária.",
+     "fonte": "https://www.tse.jus.br/comunicacao/noticias/2023/Novembro/tse-aprova-criacao-do-partido-renovacao-democratica-prd"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 3,
+     "lider": "Fred Costa",
+     "data": "2024-04-16"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://www.tse.jus.br/comunicacao/noticias/2023/Novembro/tse-aprova-criacao-do-partido-renovacao-democratica-prd"
+   ],
+   "sem_autodefinicao": "Não há site institucional acessível nem estatuto legível em texto no TSE; o campo fica vazio em vez de ser preenchido de memória."
+  },
+  "MISSÃO": {
+   "sigla": "MISSÃO",
+   "nome": "Partido Missão",
+   "numero": 14,
+   "registro_tse": "2025-11-04",
+   "presidente_nacional": "Renan Antonio Ferreira dos Santos",
+   "federacao": null,
+   "site": "https://missao.org.br",
+   "linhagem": [],
+   "autodefinicao": {
+    "texto": "A Missão existe para reunir, organizar e potencializar aqueles que vão construir o país que nossos pais e avós sonharam, mas que nós vamos transformar em realidade.",
+    "fonte": "https://missao.org.br/",
+    "documento": "Página inicial"
+   },
+   "historia": [
+    {
+     "ano": 2025,
+     "texto": "Registro deferido pelo TSE em 4 de novembro de 2025. Presidido por Renan Santos, é o partido criado pelo Movimento Brasil Livre (MBL).",
+     "fonte": "https://conjur.com.br/2025-nov-04/missao-partido-politico-do-mbl-tem-registro-deferido-pelo-tse/"
+    }
+   ],
+   "representacao": {
+    "camara": {
+     "deputados": 1,
+     "lider": "Kim Kataguiri",
+     "data": "2026-03-10"
+    },
+    "senado": {
+     "senadores": 0
+    },
+    "governadores": [],
+    "presidencia": false
+   },
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/registrados-no-tse",
+    "https://missao.org.br/",
+    "https://conjur.com.br/2025-nov-04/missao-partido-politico-do-mbl-tem-registro-deferido-pelo-tse/"
+   ]
+  }
+ },
+ "governadores": {
+  "lido_em": "2026-09-27",
+  "fonte": "https://pt.wikipedia.org/wiki/Lista_de_governadores_das_unidades_federativas_do_Brasil (usada como índice; cada linha tem referência primária na própria tabela)",
+  "aviso": "Onze governadores renunciaram em março/abril de 2026 para concorrer; nesses estados governa o vice ou um interino. Lista volátil: conferir antes de publicar.",
+  "lista": [
+   {
+    "uf": "AC",
+    "nome": "Mailza Assis",
+    "partido": "PP",
+    "desde": "2026-04-02",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "AL",
+    "nome": "Paulo Dantas",
+    "partido": "MDB",
+    "desde": "2022-05-15",
+    "obs": null
+   },
+   {
+    "uf": "AP",
+    "nome": "Clécio Luís",
+    "partido": "UNIÃO",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "AM",
+    "nome": "Roberto Cidade",
+    "partido": "UNIÃO",
+    "desde": "2026-04-04",
+    "obs": "assumiu após renúncia"
+   },
+   {
+    "uf": "BA",
+    "nome": "Jerônimo Rodrigues",
+    "partido": "PT",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "CE",
+    "nome": "Elmano de Freitas",
+    "partido": "PT",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "DF",
+    "nome": "Celina Leão",
+    "partido": "PP",
+    "desde": "2026-03-30",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "ES",
+    "nome": "Ricardo Ferraço",
+    "partido": "MDB",
+    "desde": "2026-03-02",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "GO",
+    "nome": "Daniel Vilela",
+    "partido": "MDB",
+    "desde": "2026-03-31",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "MA",
+    "nome": "Carlos Brandão",
+    "partido": "MDB",
+    "desde": "2022-04-02",
+    "obs": null
+   },
+   {
+    "uf": "MT",
+    "nome": "Otaviano Pivetta",
+    "partido": "REPUBLICANOS",
+    "desde": "2026-03-31",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "MS",
+    "nome": "Eduardo Riedel",
+    "partido": "PP",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "MG",
+    "nome": "Mateus Simões",
+    "partido": "PSD",
+    "desde": "2026-03-22",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "PA",
+    "nome": "Hana Ghassan",
+    "partido": "MDB",
+    "desde": "2026-04-02",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "PB",
+    "nome": "Lucas Ribeiro",
+    "partido": "PP",
+    "desde": "2026-04-02",
+    "obs": "vice que assumiu"
+   },
+   {
+    "uf": "PR",
+    "nome": "Ratinho Júnior",
+    "partido": "PSD",
+    "desde": "2019-01-01",
+    "obs": null
+   },
+   {
+    "uf": "PE",
+    "nome": "Raquel Lyra",
+    "partido": "PSD",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "PI",
+    "nome": "Rafael Fonteles",
+    "partido": "PT",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "RJ",
+    "nome": "Ricardo Couto",
+    "partido": "sem partido",
+    "desde": "2026-03-23",
+    "obs": "interino (presidente do TJ)"
+   },
+   {
+    "uf": "RN",
+    "nome": "Fátima Bezerra",
+    "partido": "PT",
+    "desde": "2019-01-01",
+    "obs": null
+   },
+   {
+    "uf": "RS",
+    "nome": "Eduardo Leite",
+    "partido": "PSD",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "RO",
+    "nome": "Marcos Rocha",
+    "partido": "PSD",
+    "desde": "2019-01-01",
+    "obs": null
+   },
+   {
+    "uf": "RR",
+    "nome": "Soldado Sampaio",
+    "partido": "REPUBLICANOS",
+    "desde": "2026-04-30",
+    "obs": "interino"
+   },
+   {
+    "uf": "SC",
+    "nome": "Jorginho Mello",
+    "partido": "PL",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "SP",
+    "nome": "Tarcísio de Freitas",
+    "partido": "REPUBLICANOS",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "SE",
+    "nome": "Fábio Mitidieri",
+    "partido": "PSD",
+    "desde": "2023-01-01",
+    "obs": null
+   },
+   {
+    "uf": "TO",
+    "nome": "Wanderlei Barbosa",
+    "partido": "REPUBLICANOS",
+    "desde": "2022-03-11",
+    "obs": null
+   }
+  ]
+ },
+ "extintos": {
+  "PATRIOTA": {
+   "nome": "Patriota",
+   "destino": "PRD",
+   "texto": "Fundiu-se com o PTB em novembro de 2023, formando o PRD. Aparece aqui porque teve bancada nesta legislatura.",
+   "fonte": "https://www.tse.jus.br/comunicacao/noticias/2023/Novembro/tse-aprova-criacao-do-partido-renovacao-democratica-prd"
+  },
+  "PSC": {
+   "nome": "Partido Social Cristão",
+   "destino": "PODE",
+   "texto": "Incorporado ao Podemos. Aparece aqui porque teve bancada nesta legislatura.",
+   "fonte": "https://podemos.org.br/historia"
+  }
+ },
+ "revisao": {
+  "data": "2026-09-27",
+  "metodo": "Cada ficha lida duas vezes: como um militante do partido leria (a citação me representa? a história me trata com justiça?) e como um adversário leria (a ficha esconde algo decisivo?). Toda posição ou juízo vem atribuído (\"que o partido chama de\", \"reivindica\", \"associa a si\"); o Prumo não qualifica partido com palavras próprias.",
+  "mudancas": [
+   "PT: acrescentado o par prisão de Lula (2018) / anulação pelo STF (2021), que a ficha omitia — a omissão favorecia o partido.",
+   "PL: acrescentadas a filiação de Bolsonaro (2021) e a maior bancada da Câmara (2022); a citação de 1985 ganhou nota dizendo que descreve o manifesto de fundação e apontando o programa vigente em PDF.",
+   "MDB e Cidadania: datas de mudança de nome conferidas no TSE.",
+   "Missão: vínculo com o MBL passou de \"conferir\" para fato com fonte.",
+   "PSDB: a citação trazia texto de navegação do site (\"fique por dentro\"), que soava como deboche; trocada pela abertura do programa.",
+   "PCO: a citação só contava a origem; acrescentada a frase do próprio partido sobre o que defende (partido independente da burguesia, programa socialista)."
+  ],
+  "pendentes_de_conferencia": {
+   "PDT": [
+    "manifesto de 1979 liderado por Brizola (a página de ideologia cita só \"manifesto de lançamento\")"
+   ],
+   "PSDB": [
+    "origem em dissidentes do PMDB e os nomes dos fundadores: fato corrente, mas a nota do partido diz só \"nasceu em 1988\""
+   ],
+   "AGIR": [
+    "linhagem PRN→PTC→Agir e datas de mudança de nome: TSE só lista os estatutos, sem a nota de mudança"
+   ],
+   "MOBILIZA": [
+    "data da mudança de PMN para Mobiliza"
+   ],
+   "CIDADANIA": [
+    "linhagem \"PCB histórico\" (o PPS nasceu em 1992 da maioria do antigo PCB): fato corrente, mas não consta na fonte citada"
+   ],
+   "PP": [
+    "linhagem ARENA→PDS (1980): fato corrente, mas a página do partido começa a história em 1985/1993"
+   ],
+   "PCB": [
+    "reorganização em 1992 (não consta na página lida)"
+   ],
+   "PRTB": [
+    "fundação por Levy Fidelix (não consta no site)"
+   ],
+   "DC": [
+    "mudança de nome em 2018 (a página não dá a data)"
+   ],
+   "PSOL": [
+    "origem na reforma da Previdência de 2003 (a página só cita \"luta contra a reforma da previdência\")"
+   ],
+   "REDE": [
+    "criação por Marina Silva e negativa de registro em 2013: fatos correntes, não constam na página lida"
+   ]
+  }
+ }
+}

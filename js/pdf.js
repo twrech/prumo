@@ -11,7 +11,11 @@
  * de quem responde.
  *
  * O PDF contém gráfico, posições, confianças, rótulo, síntese, código de
- * perfil, data e — desde 15/09/2026 — as respostas, uma a uma.
+ * perfil, data e — desde 15/09/2026 — as respostas, uma a uma. Desde
+ * 27/09/2026 o código também sai no topo da primeira página (recuperador).
+ *
+ * Quando o perfil veio de um código recuperado, não há respostas nesta aba:
+ * o relatório sai sem a página delas, e diz por quê.
  *
  * AS RESPOSTAS NO ARQUIVO NÃO QUEBRAM A REGRA DE PRIVACIDADE, e vale dizer por
  * quê. A regra é que o SITE não guarda nada: não há servidor, storage, cookie
@@ -86,9 +90,19 @@ export async function gerarPdf({ perfil, eixos, arquetipos, codigo, textoIa = ''
   const larguraMarca = doc.getTextWidth('Prumo');
   doc.setFont('helvetica', 'normal').setFontSize(10).setTextColor(...suave);
   doc.text('seu perfil político em cinco eixos', M + larguraMarca + 3, y + 6);
+  // O código vai no topo da primeira página, e não só no rodapé da última:
+  // com as 114 respostas, o rodapé fica a cinco páginas de distância, e é o
+  // código que a pessoa precisa para continuar noutro aparelho.
+  doc.setFont('courier', 'bold').setFontSize(12).setTextColor(...cobre);
+  doc.text(codigo, 210 - M, y + 6, { align: 'right' });
+  const larguraCodigo = doc.getTextWidth(codigo);
+  doc.setFont('helvetica', 'normal').setFontSize(7.5).setTextColor(...suave);
+  doc.text('seu código:', 210 - M - larguraCodigo - 2, y + 6, { align: 'right' });
   doc.setDrawColor(...cobre).setLineWidth(0.6);
   doc.line(M, y + 10, 210 - M, y + 10);
-  y += 20;
+  doc.setFont('helvetica', 'normal').setFontSize(7.5).setTextColor(...suave);
+  doc.text('Para continuar em outro aparelho: abra o Prumo, toque em "Já fiz o teste" e digite o código acima.', M, y + 14.5);
+  y += 23;
 
   // Rótulo
   doc.setFont('helvetica', 'bold').setFontSize(17).setTextColor(...cobre);
@@ -201,6 +215,17 @@ export async function gerarPdf({ perfil, eixos, arquetipos, codigo, textoIa = ''
       doc.text(ROTULO[r] || r, 210 - M, y, { align: 'right' });
       y += texto.length * 3.9 + 2.4;
     }
+  }
+
+  if (!(perguntas?.length && respostas)) {
+    if (y > 250) { doc.addPage(); y = M; }
+    doc.setFont('helvetica', 'normal').setFontSize(8.5).setTextColor(...suave);
+    const semRespostas = doc.splitTextToSize(
+      'Este relatório foi montado a partir do código do perfil, e não das respostas: o código guarda só as '
+      + 'cinco posições. Por isso não há aqui a lista das respostas, uma a uma. Ela só sai no relatório '
+      + 'baixado logo depois de responder às perguntas.', L);
+    doc.text(semRespostas, M, y);
+    y += semRespostas.length * 3.8 + 4;
   }
 
   // Rodapé

@@ -1,0 +1,4202 @@
+{
+  "versao": "1.0",
+  "uf": "SC",
+  "o_que_e": "O que cada candidato de SC diz na própria campanha: frases literais de santinho, bandeira, faixa, camiseta, site, rede social, horário eleitoral ou entrevista. É o que a pessoa DIZ, nunca o que ela FEZ, e nunca vira posição nos cinco eixos.",
+  "regra": "Prioridade para material do próprio candidato (tipo 'proprio'), com fonte que qualquer um possa conferir: link público, ou foto/vídeo com data e local. Na falta dele, reportagem que descreva o material, atribuída ao veículo (tipo 'imprensa'). O texto é sempre literal. A descrição da imagem, quando houver, tem uma linha e nenhum adjetivo. Candidato sem material não é travado: aparece com o aviso de que não há frase coletada, o que nada diz sobre ele. Em bios de rede social, emojis são omitidos e as quebras de linha viram \" / \"; linhas que só repetem nome, número, cargo, partido ou @ de terceiros ficam de fora.",
+  "meta": "Pelo menos 50% dos candidatos da base com ao menos uma frase (decisão de Talyz, 27/09/2026).",
+  "tipos": {
+    "proprio": "material do próprio candidato",
+    "imprensa": "segundo reportagem"
+  },
+  "meios": [
+    "santinho",
+    "bandeira",
+    "faixa",
+    "camiseta",
+    "adesivo",
+    "site",
+    "instagram",
+    "facebook",
+    "tiktok",
+    "youtube",
+    "horario-eleitoral",
+    "entrevista",
+    "debate",
+    "outro"
+  ],
+  "frases": {
+    "240002535453": [
+      {
+        "texto": "Liberdade individual · Desburocratização · Transparência",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/657/isadora-piana/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535445": [
+      {
+        "texto": "Fiscalização · Saúde · Crescimento econômico",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/661/tatiane-santana/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535461": [
+      {
+        "texto": "Combate à corrupção · Crescimento econômico · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/450/matheus-cadorin/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535458": [
+      {
+        "texto": "Educação · Saúde · Segurança pública",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/638/maria-barros/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535470": [
+      {
+        "texto": "Empreendedorismo · Educação · Saúde",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/414/thayse-helena/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535460": [
+      {
+        "texto": "Desburocratização · Fiscalização · Transparência",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/454/neto-petters-do-novo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535450": [
+      {
+        "texto": "Combate à corrupção · Desburocratização · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/410/rick-zanata/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535439": [
+      {
+        "texto": "Empreendedorismo · Saúde · Segurança pública",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/489/cris-milli/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535447": [
+      {
+        "texto": "Crescimento econômico · Educação · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/421/julia-ilha/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535457": [
+      {
+        "texto": "Empreendedorismo · Educação · Saúde",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/389/bernadete-souza/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535464": [
+      {
+        "texto": "Educação · Agronegócio · Saúde",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/459/prof-norma/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535449": [
+      {
+        "texto": "Inovação e tecnologia · Liberdade individual · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/645/wilson-junior-cidrao/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535473": [
+      {
+        "texto": "Agronegócio · Educação · Crescimento econômico",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/370/matheus-testa/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535452": [
+      {
+        "texto": "Combate à corrupção · Desburocratização · Fiscalização",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/617/tramontin/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535463": [
+      {
+        "texto": "Saúde · Fiscalização · Combate à corrupção",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/653/luciano-pereira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535444": [
+      {
+        "texto": "Acessibilidade · Agronegócio · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/42/roberto-pereira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535442": [
+      {
+        "texto": "Saúde · Transporte · Fiscalização",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/748/ely-silveira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535468": [
+      {
+        "texto": "Combate à corrupção · Desburocratização · Fiscalização",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/626/cryslan/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535448": [
+      {
+        "texto": "Empreendedorismo · Segurança pública · Combate à corrupção",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/360/michele-marques/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535471": [
+      {
+        "texto": "Crescimento econômico · Empreendedorismo · Segurança pública",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/358/cesar-damiani/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535466": [
+      {
+        "texto": "Combate à corrupção · Liberdade individual · Crescimento econômico",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/379/lucas-jean/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535429": [
+      {
+        "texto": "Crescimento econômico · Combate à corrupção · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/456/rodrigo-livramento/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535434": [
+      {
+        "texto": "Desburocratização · Liberdade individual · Combate à corrupção",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/565/gilson-marques/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535424": [
+      {
+        "texto": "Crescimento econômico · Saúde · Segurança pública",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/349/morgana-daniel/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535436": [
+      {
+        "texto": "Fiscalização · Educação · Orçamento público",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/401/glenda-gerber/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535423": [
+      {
+        "texto": "Educação · Inovação e tecnologia · Crescimento econômico",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/402/reitor-claudio-jacoski/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535428": [
+      {
+        "texto": "Crescimento econômico · Desburocratização · Empregabilidade",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/470/ricardo-oliveira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535433": [
+      {
+        "texto": "Agronegócio · Combate à corrupção · Empreendedorismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Bandeiras escolhidas pelo candidato na página de candidatos do partido; as pautas completas estão na fonte.",
+        "fonte": "https://novo.org.br/candidato-2026/418/lucio-vanderlinde/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544688": [
+      {
+        "texto": "Contra o sistema podre e a velha política",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/paulojosue14/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543058": [
+      {
+        "texto": "Voz das mulheres / Compromisso com as pessoas / Coragem para mudar. Força para representar.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lucianalf45/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537839": [
+      {
+        "texto": "Movimento VAT — Vida Além do Trabalho / Fim da escala 6x1",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/gilsantos_vat/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537827": [
+      {
+        "texto": "Profª - Mulher Negra - Batalhadora",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marisouzalicerce/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543042": [
+      {
+        "texto": "Advogada | Empresária | Atleta de Jiu-Jitsu",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/anasirino40/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551679": [
+      {
+        "texto": "Cristã | Travesti / Coord. Parada LGBT+ BC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/sabrinadconceicao/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551677": [
+      {
+        "texto": "Apaixonado por Esportes / Unido pelo propósito de fazer o bem",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cws_silva.1304/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551688": [
+      {
+        "texto": "O futuro de Santa Catarina começa agora",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ricardorodrigues7044_/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551683": [
+      {
+        "texto": "Trabalho, experiência e compromisso com as pessoas.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/sadiribeirobv/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539635": [
+      {
+        "texto": "Médica pelo SUS há +10 anos / Mãe do Thomas e do Otto",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/barbarakawall_/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543045": [
+      {
+        "texto": "Pastor da Igreja Nacional Vida Nova / Teólogo, pastor, compositor e musicista",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/prfrancisnetooficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543055": [
+      {
+        "texto": "Esposa, Mãe e Cristã / Em defesa da Família",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/leticiapaloma_oficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541396": [
+      {
+        "texto": "É de casa, é do Oeste!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cleiton.fossa/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541405": [
+      {
+        "texto": "Planalto Norte Forte",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/dreloiquege/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541409": [
+      {
+        "texto": "A Voz do SUL em Brasília / Vamos construir esse futuro juntos",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jomafretta/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541404": [
+      {
+        "texto": "Prezo pelo bem estar, justiça e representação",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/maze_gatos/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541408": [
+      {
+        "texto": "Um mandato de trabalho e resultados / Cuidar de SC e nossa gente é meu compromisso",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/valdircobalchini/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Aqui a certeza de muito trabalho e de muitos resultados.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=136s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544675": [
+      {
+        "texto": "Professora | Servidora Pública / MINHA CASA É O MEU PAÍS",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/adriana.custodiolino/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544676": [
+      {
+        "texto": "Política | Comportamento | Opinião",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/annavargas.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544686": [
+      {
+        "texto": "Comerciante e Ativista Político",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/brunodias.missao/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544677": [
+      {
+        "texto": "Fundadora @partidomissao",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/larissakamers/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544678": [
+      {
+        "texto": "Destruindo políticos safados / Me ajude a combater os javalis da política",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tessarisc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544679": [
+      {
+        "texto": "Porta-voz do MBL / Contra a esquerda e o Centrão",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tucofariassc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544685": [
+      {
+        "texto": "Defendo politicas publicas de direita / Defendo quem produz e cobro soluções",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/vagner.visoli/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539378": [
+      {
+        "texto": "Não mexa com Santa Catarina, Lula.",
+        "tipo": "imprensa",
+        "meio": "instagram",
+        "veiculo": "Jornal Razão",
+        "descricao": "Vídeo publicado nas redes sociais da deputada em resposta a declaração do presidente sobre Santa Catarina.",
+        "fonte": "https://jornalrazao.com/politica/julia-zanatta-rebate-lula-mania-grandeza-santa-catarina",
+        "data": "2026-06-28",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551697": [
+      {
+        "texto": "Deputado Estadual Do menor IMPOSTO do Brasil / Santa Catarina Merece! / Anti PT",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/betaodoimposto/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551685": [
+      {
+        "texto": "Coragem para fazer e ser a sua voz em Brasília!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/levirioschi/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002554410": [
+      {
+        "texto": "O estadual do Cury.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lucasesmeraldino/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551694": [
+      {
+        "texto": "Mãe dedicada / Síndica com propósito / Apaixonada por animais",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/aneraulino/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551700": [
+      {
+        "texto": "Sou apaixonado pelo meio ambiente. Proteção às mulheres... Duas causas, uma missão.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputado_mamede/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551695": [
+      {
+        "texto": "foco, Fé,esperança / só Deus na minha vida / o resto é resto",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/michelli7731/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551687": [
+      {
+        "texto": "45 anos fazendo acontecer na construção civil. / Chega de impostos abusivos e burocracia. / Quem trabalha merece respeito.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/mauridaslajotas/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551682": [
+      {
+        "texto": "Empresário por profissão, voluntário por coração. / Deus, família, trabalho e voluntariado.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/rodrigosimao.sj/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551692": [
+      {
+        "texto": "Historiadora / Professora Aposentada do Estado de SC / Diretora Sindical SINTE EM MOVIMENTO",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/prof_angelicahistoria/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551698": [
+      {
+        "texto": "Escritor e Comunicador / Ativista Pesqueiro",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/nilsonjoseitajai/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537087": [
+      {
+        "texto": "Pelas pessoas e pelos animais! / Vereador de Blumenau. / Professor Advogado Escritor",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/brunocunhablu/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551701": [
+      {
+        "texto": "Professora há mais de 15 anos!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/saamelo_/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537096": [
+      {
+        "texto": "A nobreza da pessoa está na humildade do seu coração. Deus Honra!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fahiper/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539633": [
+      {
+        "texto": "Ex-Sec de Ass. Social e Habitação / Assistente Social / Companheira Leão",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/roseli_moraes23/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Quem conhece a realidade das pessoas decide melhor.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=35s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537093": [
+      {
+        "texto": "Construção Civil / Mãe atípica / Sempre atuei por moradia social! Quero ser a voz da Construção Civil na Alesc",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/mirnarubiacommandulli/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543047": [
+      {
+        "texto": "Respeito para ouvir, coragem para fazer!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/clerdasilva/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543048": [
+      {
+        "texto": "Representar e transformar / Juntos por um Brasil mais forte e justo",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/giliardidorn_dc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543049": [
+      {
+        "texto": "Engenheiro Agrônomo. / Trabalho, produção e responsabilidade / Por um Brasil livre da corrupção",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/djeiksson.p.s/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543050": [
+      {
+        "texto": "Apaixonado por Herval d'Oeste e Joaçaba / Farmacêutico",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/sergiodafarmacia_oficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543059": [
+      {
+        "texto": "Trabalho, compromisso e respeito por você.!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marcelobiagiotti_dep_fed_2707/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543051": [
+      {
+        "texto": "Um tempo novo",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/simonexavier_betelfm/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541399": [
+      {
+        "texto": "A coragem que SC precisa / 4x vereador de Gaspar / 5x presidente da Câmara",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ciroandrequintino/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541403": [
+      {
+        "texto": "Atuando com famílias e Cadastro Único / Lutando por quem mais precisa",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/angelarodriguesph/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543046": [
+      {
+        "texto": "Que os meus sonhos me levem para onde o meu coração é feliz.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/zagoneltaize/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541381": [
+      {
+        "texto": "“Quem trabalha, faz mais” / Defensor do Agro | Defensor dos Valores Cristãos.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/adilson.girardi/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541398": [
+      {
+        "texto": "Defensora das Mulheres e dos Animais / Proteger | Defender | Cuidar",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/scdanisantanna/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541376": [
+      {
+        "texto": "Delegado por 27 anos. / Duas vezes prefeito de Orleans.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jorgeluizkoch/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541388": [
+      {
+        "texto": "Médico, +20 mil cirurgias SUS / Prefeito de Camboriú 2x / Cuidando de pessoas",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/dr.elciokuhnen/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541370": [
+      {
+        "texto": "Médico neurologista / Professor universitário / Reitor da FURB de 2010-2018",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/drnatel/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541384": [
+      {
+        "texto": "Pedagoga | 25 anos na saúde e educação / Trabalho que cuida, ação que transforma",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/crisdasauude/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Sei das dificuldades que enfrentamos nas filas de cirurgia, na marcação de exames e é por isso que vou lutar.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=602s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541382": [
+      {
+        "texto": "Vice-Presidente da ALESC / Deus, família e trabalho. / Vamos juntos!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fernando.krelling/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Pelo desenvolvimento econômico e social de Santa Catarina, quero contar com você, porque você sempre pôde contar comigo.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=750s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541385": [
+      {
+        "texto": "90% de aprovação como prefeito de Mafra! / Agora é pelo Planalto Norte-SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/emersonmaasoficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541374": [
+      {
+        "texto": "Suplente de Deputado Estadual / Ex-Secretário do Meio Ambiente SC / Ex-prefeito reeleito de Porto Belo",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/emersonsteinpb/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541372": [
+      {
+        "texto": "Economista, viúvo, pai de dois filhos, apaixonado por Santa Catarina e em especial pela Serra Catarinense.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/elizeumattos_15/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541379": [
+      {
+        "texto": "Caminhoneiro por profissão / Ex-secretário de infraestrutura",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadojerry/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541407": [
+      {
+        "texto": "Educação move o futuro",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/joaomatos.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541387": [
+      {
+        "texto": "Enfermeira especialista em Gestão em Saúde Pública / Vereadora",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/isauraprovin/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541375": [
+      {
+        "texto": "MÃE ATIPICA | AUTISTA I ESCRITORA / Fundadora da ONG ABlupaa / Manifesto SC que acolhe",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/josi_menestrina/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541369": [
+      {
+        "texto": "Agora é por toda Santa Catarina",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/joaocobalchini/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548630": [
+      {
+        "texto": "Vou levar a enxada para o Senado / 100% Catarinense! / Colono / Empresário / Ex-Prefeito de Jaraguá do Sul, a cidade mais segura do Brasil",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/antidiolunelli/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Vou ao Senado em Brasília cobrar o que é nosso, o que é do povo catarinense.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=406s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541390": [
+      {
+        "texto": "Advogada especialista na Prevenção e Combate à Corrupção.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/leatricebez/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541380": [
+      {
+        "texto": "Vereador Balneário Camboriú -SC / Ex-Secretário de Educação / Suplente Deputado Federal",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marceloachutti/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541394": [
+      {
+        "texto": "Vereador mais votado de Videira (2º mandato) / Advogado e Empreendedor",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marcosboth_/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Acredito que política se faz com diálogo, coerência e trabalho sério.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=609s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541371": [
+      {
+        "texto": "Representar é ouvir, agir e fazer acontecer. Vem comigo!!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/luciane.cooper/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541410": [
+      {
+        "texto": "Educação, Inclusão e Qualidade de Vida / Psicopedagoga e Educadora Especial",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/prof.edinaruas/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541377": [
+      {
+        "texto": "Presente nos municípios / Autor de leis sobre autismo / Se importar e resolver / Trabalho e presença",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/maurodenadal/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541406": [
+      {
+        "texto": "Colono com orgulho",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadopezenti/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541386": [
+      {
+        "texto": "Vereador de Camboriú-SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/paulocoelhosc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541402": [
+      {
+        "texto": "Raquel da REURB / Moradia, dignidade e ação",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/raquelbachtold/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541411": [
+      {
+        "texto": "Vereador mais votado 2025/2028 / Motoboy e Vereador",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/teodoro_adao/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "levar a força do Vale do Rio Tijucas por toda Santa Catarina",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=175s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551491": [
+      {
+        "texto": "Policial Civil / Radialista / \"Acredito que o trabalho, a responsabilidade, família e caráter são os maiores bens que existem.\"",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/robertosalumoficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541401": [
+      {
+        "texto": "Ex-Deputado Federal por SC, Ex-Vereador e Ex-Vice-Prefeito de Joinville/SC. ADVOGADO.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/coelho_rodrigo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541400": [
+      {
+        "texto": "Mãe, professora e vereadora (6x) / Ex-presidente da Câmara e da Fesporte",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/natalialuciapetry/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Represento as mulheres, o esporte e a cultura por toda Santa Catarina.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=162s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541391": [
+      {
+        "texto": "Respeito, inclusão e compromisso com as pessoas.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/sirleimuller15/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Quero trabalhar com o coração por uma Santa Catarina mais respeitada e humana.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=627s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541397": [
+      {
+        "texto": "ESSE É NOSSO. É DAQUI.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/zagonel_ll/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541393": [
+      {
+        "texto": "O trabalho precisa continuar / Ex-prefeito de Turvo / Apaixonado pelo Sul",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tiagozilli_/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541392": [
+      {
+        "texto": "A sua voz na ALESC / Médico veterinário / 40 anos experiência a disposição de Santa Catarina",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tulio_veterinario/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541373": [
+      {
+        "texto": "Política se faz ouvindo as pessoas. Seguimos juntos, com trabalho, compromisso e respeito pelo povo.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tutasouza_/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541395": [
+      {
+        "texto": "EMBAIXADOR @cadeiaparamaustratos / Fundador @instituto.amoranimal",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/vini.protetordeanimais/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Até quando os crimes de maus tratos aos animais ficarão impunes?",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=148s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543542": [
+      {
+        "texto": "Missão: Lei e Ordem por uma Santa Catarina sempre melhor.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/margarethpratts/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543550": [
+      {
+        "texto": "FAZER O BEM, SEM OLHAR A QUEM!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ademir.anjos_ademir/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543554": [
+      {
+        "texto": "Mãe, enfermeira e doula",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carolformigoni.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543539": [
+      {
+        "texto": "SAÚDE PARA TODOS / Dentista. Esposa, mãe do Artur, do Miguel e do Romeo",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/dolzanbyanca/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002554309": [
+      {
+        "texto": "Você é, aquilo que você quer ser!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carlos_d_antunes/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543551": [
+      {
+        "texto": "associado ao agro / Minha opinião é independente e o que quero é um país melhor.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cleiton_siqueira1/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544682": [
+      {
+        "texto": "CORAGEM PARA MUDAR",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/felipebarcellos.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544690": [
+      {
+        "texto": "Cristão | Casado | Trabalhador",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jordambrito.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543553": [
+      {
+        "texto": "Fiscalizando a gestão pública / Análises políticas / Dados reais.Sem narrativa.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/gabrieloliveira_sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543544": [
+      {
+        "texto": "PARA TECNOLOGIA MATAR A CORRUPÇÃO EM SANTA CATARINA",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jairo99x/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544687": [
+      {
+        "texto": "Eu sou a Missão no Sul de SC / Por Criciúma e Santa Catarina / Cristão | Casado",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/olucasfsilveira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543549": [
+      {
+        "texto": "pelo combate a classe política corrupta / o futuro será glorioso",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/correasc14/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543545": [
+      {
+        "texto": "Pai, advogado, administrador, streamer / #segurança #educação #desenvolvimento #sc #sul",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marcodosuldomundo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543548": [
+      {
+        "texto": "Eng. Mecânico | 18 anos no saneamento público",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ricardobecker14777/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535422": [
+      {
+        "texto": "Meus filhos não são do estado! / Em defesa das famílias educadoras",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/amandateixeirahs/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002544674": [
+      {
+        "texto": "Por um Brasil GLORIOSO! / I have a dream.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/santiagocesarsc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543541": [
+      {
+        "texto": "Corretora @ycinvestimentos / DJ / Produtora musical",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/yolandasilva_sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535435": [
+      {
+        "texto": "Vereador mais votado da história de Itapema",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/andreoliveira.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535425": [
+      {
+        "texto": "Candidata do Nikolas Ferreira a Deputada Federal por SC / Vereadora em Biguaçu/SC, eleita aos 19 / Cristã, Conservadora, Anti feminista",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/beatrizborbasc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535432": [
+      {
+        "texto": "SANTA CATARINA em Primeiro Lugar! / Católica. Conservadora. Olavista.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/annavalente.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535467": [
+      {
+        "texto": "ARPA CULT/ACIRNE/ROTARY / Mãe do Lucas e da Luiza / Vó do Samuel",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ciliane_w_augustin/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535440": [
+      {
+        "texto": "Firme nos valores. Livre nas escolhas / Mulher de direita",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carolmatos_ap/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535431": [
+      {
+        "texto": "Vereador reeleito em Joinville, entre os 10 mais votados de Santa Catarina em 2024.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ericoviniciusdonovo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535455": [
+      {
+        "texto": "Empresário, produtor rural, treinador de alta performance",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/gilsonciconet/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535451": [
+      {
+        "texto": "Veterano/A Serviço do Povo/Proteger a Família Catarinense / Vontade para Servir, Experiência para Proteger SC!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/guilhermemartins.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535426": [
+      {
+        "texto": "Cristão I Conservador l Meio-Oeste de SC / Meu propósito é melhorar a sua vida !",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/kaueoliveiraa1/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535446": [
+      {
+        "texto": "40 anos defendendo produtor, criador e dono de animal. / Contra quem nunca criou um bicho decidir por quem cria.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jaironaarea/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535469": [
+      {
+        "texto": "Empresário / Extremo Oeste | SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/juliobolfe/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535456": [
+      {
+        "texto": "Vereadora 2025/2028 / Farmacêutica e Bioquímica (UFSC) / Administradora (UFSC)",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lizandradadam/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535427": [
+      {
+        "texto": "O Brasil tem dinheiro. Falta Gestão e sobra ladrão!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jungleswegher/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535430": [
+      {
+        "texto": "Por SC. Pelo Brasil. / Fui vereador de BC 2x uma sendo mais votado",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lucaswgotardo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535459": [
+      {
+        "texto": "Professor Universitário / Empresário",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/mariofelippi/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535472": [
+      {
+        "texto": "Médico | Gestor Público.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ramontartari/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535437": [
+      {
+        "texto": "Conservador. Aluno do Olavo. 4 anos no governo Bolsonaro + 4 no governo Jorginho. Prof da Brasil Paralelo.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/nogueira.r/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535421": [
+      {
+        "texto": "Advogada e Vereadora. / A única à Câmara Federal, da coligação PL/NOVO, na AMUREL!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/pamelys.adv/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535438": [
+      {
+        "texto": "Tolerância zero contra o abuso sexual de crianças e adolescentes.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tolerancia_zero_oficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533831": [
+      {
+        "texto": "Candidata a Deputada Federal do Lula em Santa Catarina / A nossa hora de mudar! / Vereadora (PCdoB), cirurgiã-dentista e professora.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/gimondardo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535462": [
+      {
+        "texto": "Aquele que é corajoso, é livre!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/viniciusnovolages/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540095": [
+      {
+        "texto": "Jovem, feminista, catarinense e trabalhadora",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/laristephanie65/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533837": [
+      {
+        "texto": "Por Santa Catarina! / Ex-driver de app, pela classe trabalhadora. / Foco em segurança, saúde e mobilidade.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jovino.goncalves65/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540078": [
+      {
+        "texto": "Defensor da causa Autista e Pessoas com Deficiência",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/paulinhodasilvaadvogado/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533814": [
+      {
+        "texto": "Sem produção não tem renda nem prato na mesa",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/advogadomarcobuzzi/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533285": [
+      {
+        "texto": "Vereador por São José / Músico • Jornalista • Produtor Cultural",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/andreguesser/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533289": [
+      {
+        "texto": "Defensora da Causa Animal",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/juliaopuski/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533303": [
+      {
+        "texto": "Saúde mental, inclusão e empreendedorismo. / Toda história importa. Inclusive a sua.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/analizoficial.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533277": [
+      {
+        "texto": "Pelas mulheres, cultura, educação e sustentabilidade",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cica.muller/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533274": [
+      {
+        "texto": "Música • Política • Comunidade",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/dorleiantunes/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533275": [
+      {
+        "texto": "Médico e professor comprometido com a saúde pública / Cuidar do futuro, cuidar das pessoas",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/dr.anibaldario/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533288": [
+      {
+        "texto": "Vivendo e trabalhando com sustentabilidade / Advogado e Comunicador",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/andre.sustentavel/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533304": [
+      {
+        "texto": "A CANDIDATA CONTRA O FEMINICIDO / DE IMARUÍ POR TODA SANTA CATARINA",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carolldarocha/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533276": [
+      {
+        "texto": "Presidente Movimento Axé SC / Defensora das Mulheres / Combate ao Racismo Religioso / Luta por Igualdade Racial",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/elianearaujo_sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533287": [
+      {
+        "texto": "Depois de 14 anos dedicados à inclusão e 04 mandatos como vereador na capital, me sinto preparado para representar todos os catarinenses na ALESC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/guipereirasc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533821": [
+      {
+        "texto": "Psicóloga | Estudante de Direito / Representar para transformar.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/indigena.adriana/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Coragem é agir, é proteger, é defender as mulheres, as crianças e as famílias.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=278s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533286": [
+      {
+        "texto": "+ serviço público + cidadania",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/haneronmarcos/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533282": [
+      {
+        "texto": "Vereadora / Professora e Musicista",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/hildadeola/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533816": [
+      {
+        "texto": "Cuidar das pessoas sempre foi a minha missão / Profissional da saúde",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/gracielawiemes/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533306": [
+      {
+        "texto": "Vereador, Vice-prefeito e Prefeito de Entre Rios 2x / Sempre a disposição do povo",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/joao.roque15/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533280": [
+      {
+        "texto": "ARQUITETA E URBANISTA / MÃE | MESTRANDA",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/janete.krueger/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533815": [
+      {
+        "texto": "Servidora Pública / Voluntária,defensora e ativista da causa animal desde 2010, em prol de animais necessitados",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jordanasanz/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533298": [
+      {
+        "texto": "Ex-Prefeito de Papanduva/SC / Técnico Agrícola por formação",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jefinhochupel/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002536965": [
+      {
+        "texto": "Venho do trabalho, da sala de aula, dos palcos, da pequena empresa e do contato diário com as pessoas.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/juliano._lima/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533279": [
+      {
+        "texto": "Chapecó conhece, Santa Catarina merece!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lucianobuligon/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533307": [
+      {
+        "texto": "Esporte • Gestão • Política",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/adalberto_vjunior/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Como deputado estadual, vou lutar contra o preconceito, trabalhar por segurança, por um centro de tradição nordestina em Itapema e pelo esporte como caminho para inclusão e oportunidades.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=442s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533296": [
+      {
+        "texto": "Engenheiro e Gestor Público / 32 anos na PRF",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/magnojunior_sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533291": [
+      {
+        "texto": "“#Manezinho” - #Avaiano - #Progressista - #Advogado.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/josecarlossilvajr.adv/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Estádio de futebol também é lugar de educação.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=831s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533302": [
+      {
+        "texto": "Graduada em Serviços Penais, graduada em criminologia MBA diplomacia pós graduação Direitos humanos...",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ludias2107/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533295": [
+      {
+        "texto": "Assistente Social / A transformação política é coletiva!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marianafrancosc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533297": [
+      {
+        "texto": "Doutora em ciências jurídicas, professora e mediadora.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ritacassialang/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533281": [
+      {
+        "texto": "Vereador Eleito 2025/2028",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fabriciodalcastagne/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533293": [
+      {
+        "texto": "Médico cardiologista / Ex-prefeito de Imbituba - 2016/2024 / O voto do coração.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/rosenvaldojunior/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533819": [
+      {
+        "texto": "Advogado, Professor e Empresário/empreendedor / Mestre em Direitos Fundamentais e Democracia",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/rodrigo.barzotto/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533283": [
+      {
+        "texto": "“Onde tem trabalho, tem resultado!”",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadorodrigominotto/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533290": [
+      {
+        "texto": "Pedagoga com ênfase em educação especial / Feminista, antirracista, sindicalista / Ativista do Movimento Negro",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/selmada0/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533294": [
+      {
+        "texto": "Juntos pela: Inclusão, Família Atípica, idosos e empreendedorismo!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/victorpiccolisc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539824": [
+      {
+        "texto": "Enfermeira emergencista | Ex-secretária de Saúde | Vereadora / Emergência é 192. Na urna, 22192.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/adrianinhadasaude/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539977": [
+      {
+        "texto": "Santa Catarina em primeiro lugar / conservadora e cristã",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/anacampagnolo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539966": [
+      {
+        "texto": "Cristão, conservador, direita de verdade",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/decobatisti/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533305": [
+      {
+        "texto": "Defendo a educação, a cultura e + oportunidades pra juventude com coragem e propósito",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/victoriasalgadosc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539975": [
+      {
+        "texto": "Líder @feccasc @pldefesasc @plmulherjoinville_oficial / Ceo @texasgunhouse @texas_expotiro @sc.outdoorexpo",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fabivenera/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541935": [
+      {
+        "texto": "Filho de Jair Bolsonaro (preso político) / Construindo um movimento de direita no 🇧🇷 há + de 25 anos",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carlosbolsonaro/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539983": [
+      {
+        "texto": "Quem já fez, faz de novo!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/camilomartinssc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539383": [
+      {
+        "texto": "A sua voz em Brasília / Vice-prefeito de Itajaí / Vereador mais votado da história / Deus, Pátria, Família",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/rubensangioletti/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Não esqueci de onde vim.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=544s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539964": [
+      {
+        "texto": "Marido, Pai, Empresário e Político",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carloshumbertobc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539984": [
+      {
+        "texto": "Enfermeira na UBS do Itacolomi. / Cuidando da saúde e do futuro de SC.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carla.rudolf/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539986": [
+      {
+        "texto": "Ex-Coordenador da Defesa Civil de Itajaí / Cmt. Geral do Corpo de Bombeiro Militar de SC 15/18",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/coronelmocellin/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541931": [
+      {
+        "texto": "Trabalho eu já mostrei. Coragem nunca faltou. / Agora é hora de renovar!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carolinedetoni/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539382": [
+      {
+        "texto": "Deixa com ela. Deixa com a Daniela / 1ª mulher vice-governadora e governadora de SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/danielareinehr/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Peço o seu voto para seguir trabalhando contra a corrupção e defendendo os nossos valores, o agro, a segurança, a infraestrutura e os municípios catarinenses.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=590s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539987": [
+      {
+        "texto": "Ex-prefeita de Salete | 92% de aprovação / A força de quem faz!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/chicadoeskudlark/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539370": [
+      {
+        "texto": "Médico por vocação. Deputado por missão.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/drmarceloreissc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539381": [
+      {
+        "texto": "Ex-prefeita de Palmeira / Uma voz que vem da realidade do interior / Coragem para transformar / Trabalho. Presença. Resultado.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fernandacordovasc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539990": [
+      {
+        "texto": "Ex-Delegado-Geral de SC / 20 anos servindo e protegendo SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/delegadoulisses/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539375": [
+      {
+        "texto": "Vereador Mais Votado de Chapecó / Cristão | Advogado",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fernandocordeirosc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539965": [
+      {
+        "texto": "Competência, Honestidade e Experiência.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadoivannaatz/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539371": [
+      {
+        "texto": "Filho 04 do ex Presidente Jair Bolsonaro.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/bolsonaro_jr/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539972": [
+      {
+        "texto": "Não tenhais medo. / MEU VOTO É CASADO! Santa Catarina",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/guilhermecolombosc/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "lutar por Santa Catarina com coragem, fé e trabalho",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=673s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539374": [
+      {
+        "texto": "Cristão | Conservador / Fé e Família / Compromisso com as pessoas",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadoismael/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Sempre na defesa da vida, da liberdade e no combate às drogas.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=611s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539985": [
+      {
+        "texto": "FÉ, EXPERIÊNCIA E DETERMINAÇÃO!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jairmiotto/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539974": [
+      {
+        "texto": "Secretário Aquicultura/Pesca de SC(2023/MAR2026) / Eng. de Aquicultura / Advogado / Cristão / CAC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/tiagobolanfrigo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539971": [
+      {
+        "texto": "Patriotas: BEM VINDOS / Comunistas: SUMAM",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/dep.jesseplsc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539373": [
+      {
+        "texto": "Aqui é Direita com propósito! / Fé ·Família ·Trabalho",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/juliethenitz/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539968": [
+      {
+        "texto": "Autor da Lei Biel / Pastor | Empresário | Marido e pai",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/juniorcardoso.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539969": [
+      {
+        "texto": "Prefeita de Canoinhas (2022-2026) / Do interior de SC / Defendendo a família, o agro e a nossa gente",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/julianamaciel_oficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539380": [
+      {
+        "texto": "Duas vezes Prefeito de Blumenau / Ex-deputado estadual e federal",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jpkleinubing/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539379": [
+      {
+        "texto": "Vereadora mais votada de SC! / Catarinense, cristã, empreendedora / Preparada para mudar o Brasil!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/manuvieirasc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539958": [
+      {
+        "texto": "Candidata mais jovem de SC / Uma nova voz por Santa Catarina / Juventude • Liberdade • Futuro",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lavinya_dealis/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539963": [
+      {
+        "texto": "Imagem e semelhança de Deus / Treinador de Desenvolvimento Pessoal / Cientista Político / Advogado",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/marciusmachado/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539982": [
+      {
+        "texto": "Fé, Trabalho e Defesa da Vida!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/hildebrandtmario/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539981": [
+      {
+        "texto": "Política com Seriedade / Família como principal fundamento da sociedade",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadomarcosdarosa/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Trabalho na prevenção, no combate às drogas e na recuperação de dependentes químicos.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=784s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539369": [
+      {
+        "texto": "Servir pessoas com excelência não é diferencial, é princípio!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/luzmartaferreira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539988": [
+      {
+        "texto": "Empresário do Ramo Madeireiro / Agricultor",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/deputadooscargutz/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539976": [
+      {
+        "texto": "Líder do Governo na Alesc / A voz de quem precisa ser ouvido / Deus, Pátria, Família e Liberdade",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/mauriciopeixer/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Defenda a vida, a saúde e a educação.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=811s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539962": [
+      {
+        "texto": "Vice-Prefeito por São José / Aqui tem ordem!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/michelschlemper/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Aqui tem trabalho, aqui tem coragem para fazer.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=651s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539989": [
+      {
+        "texto": "1ª Prefeita de Itapema/SC 2017/2024 / Vereadora por dois mandatos 2008/2016",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/nilzasimas/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Cuidar das pessoas é minha prioridade.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=719s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539377": [
+      {
+        "texto": "Trabalho, Família e Determinação!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/ricardozguidi/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539368": [
+      {
+        "texto": "Deus, Pátria, Família e Liberdade / PM da reserva | Instrutor de tiro | deputado estadual",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/depsargentolima/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Juntos iremos dar um novo rumo ao Brasil",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=504s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539979": [
+      {
+        "texto": "Presidente do PL Joaçaba / Unidos pelo Meio-Oeste",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/pedrini.rodrigo/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Acredito que o futuro começa pela educação.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=695s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551379": [
+      {
+        "texto": "A ÚNICA candidata do PL de Jaraguá do Sul",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/professorabruni/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Grandes mudanças começam com uma atitude.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=834s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539577": [
+      {
+        "texto": "O “A” vem primeiro. O Autismo também. / Saúde • Defesa das Mulheres",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/abialves.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539384": [
+      {
+        "texto": "Patriota / Anti PT / Defensor dos valores éticos e morais / Caminhoneiro",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/zetrovaodeputado/",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Tudo em prol da nossa liberdade.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=524s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539372": [
+      {
+        "texto": "TÉC. AGRÍCOLA E ENG. AGRÔNOMO / 2x DEPUTADO FEDERAL POR SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/valdircolatto/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539991": [
+      {
+        "texto": "Família é a base de tudo / Construindo o futuro de SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/leandrosorgatto/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539578": [
+      {
+        "texto": "Criado na lida, tradicionalista de verdade!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/alex.correa_10/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539960": [
+      {
+        "texto": "Conservador de Direita / Vereador Mais Votado de SC - 2024",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/wtonezi/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539554": [
+      {
+        "texto": "A voz da coragem",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/alexandrejosesc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539563": [
+      {
+        "texto": "Unir para realizar / Empreendedora há +20 anos / Cuidar de pessoas, animais e fazer o bem.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/carla.zpereira/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539556": [
+      {
+        "texto": "Por uma política próxima do povo / Contra altos impostos, desperdícios e mordomias",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cacatavaresbrusque/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539547": [
+      {
+        "texto": "“A inclusão não é um favor, é um direito! “",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cristianeclaudinoquadros/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538364": [
+      {
+        "texto": "Procuradora da Mulher / Ex-Secretária Municipal da Família / Fisioterapeuta",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/cristianeloureiro/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538367": [
+      {
+        "texto": "Contra o marxismo| Defesa da Família / Cristão | Pai | Empresário",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/daniloviscontioficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002553054": [
+      {
+        "texto": "Pastora (literalmente) / Se não for respeitar e amar, não crie.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/elainecasasfloriano/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538362": [
+      {
+        "texto": "Médica de Família • 30+ anos no SUS / Saúde • Mulheres • Educação • Boa gestão",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/drasandramfigueiredo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002553053": [
+      {
+        "texto": "Advogado | Gestão Pública / Irmão Gêmeo | Cristão | Chapecó",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fernandoferreira.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002552921": [
+      {
+        "texto": "Advogado | Gestão Pública / Irmão Gêmeo | Cristão | Chapecó",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/felipeferreira.sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538371": [
+      {
+        "texto": "É só trabalhar que dá!",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/vereadorgemada/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539566": [
+      {
+        "texto": "Advogado e Servidor Público / +de 20 anos a Serviço do Município",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/gilberto.lealjunior/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539561": [
+      {
+        "texto": "Administrador e contador",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/fabiobotelho_sc/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538365": [
+      {
+        "texto": "O caçador de corruptos",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/itodesouza/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539571": [
+      {
+        "texto": "Mulher de coragem / Trabalho, atitude e dedicação por SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jessicapradoherber/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539553": [
+      {
+        "texto": "Contra privilégios. A favor de quem produz. / Segurança. Anticorrupção. Menos imposto.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/iarahausmann.oficial/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538373": [
+      {
+        "texto": "Candidato a Deputado Federal da Pesca em SC / Pescador e empresário",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/joabdapesca/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539569": [
+      {
+        "texto": "Lutando pela estadualização do Antigranizo / Fortalecendo o agro catarinense",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jeancarloantigranizo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539572": [
+      {
+        "texto": "20 anos na vida pública / 31 anos de Rádio",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/joel_l_santos/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539557": [
+      {
+        "texto": "MULHER DE CORAGEM",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/luindalecioo/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539568": [
+      {
+        "texto": "Porque ‘não dá’ não é resposta.",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/llucindov/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538361": [
+      {
+        "texto": "Vereadora de Joinville da Causa Animal / Protetora e Ativista da @fradajoinville há 15 anos / Psicóloga",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/lilianedafrada/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539576": [
+      {
+        "texto": "Prefeito de Timbó SC | 17–2024 / Municípios fortes. Recursos de volta para SC",
+        "tipo": "proprio",
+        "meio": "instagram",
+        "descricao": "Trecho da apresentação do perfil declarado pelo candidato ao TSE; emojis omitidos, quebras de linha marcadas com /.",
+        "fonte": "https://www.instagram.com/jorgeakruger_/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543053": [
+      {
+        "texto": "Compromisso com o Sul / Desenvolvimento Regional",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.depfederal-claudiomirramos-2739.com/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543543": [
+      {
+        "texto": "Chega de Super Salários",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://orleicontraprivilegios.base44.app/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533301": [
+      {
+        "texto": "A educação é a nossa bandeira! / Valorização da Educação / Oportunidades para a Juventude / Gestão Transparente e Eficiente / Desenvolvimento Regional",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://professorevandro.com/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539376": [
+      {
+        "texto": "Quem defende, faz. Quem trabalha, entrega.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://eutocomdanielfreitas.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539961": [
+      {
+        "texto": "Defensora das Pautas Conservadoras / Deus. Pátria. Família. Liberdade.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.leticiamattos.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538374": [
+      {
+        "texto": "Uma voz que não se cala / Saúde oncológica como direito constitucional / Reabilitação oncológica no SUS para todo o Brasil / Combate ao tabagismo e fatores de risco evitáveis",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.melissamedeiros.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543403": [
+      {
+        "texto": "Cuidar de quem precisa / Rede Neuro SC / SC Sem Dor / SC Sem Maus-Tratos / Servidor Forte, Serviço Melhor",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://andersonbatata.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541929": [
+      {
+        "texto": "Vamos mudar Santa Catarina e o Brasil. Democracia se faz com homens honestos / Saúde / Infraestrutura / Segurança Pública / Educação",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.coronelarmando.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548632": [
+      {
+        "texto": "Tô com Amin",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://tocomamin.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543404": [
+      {
+        "texto": "Quem vive na estrada, sabe o caminho!",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://manjuvacaminhoneiro.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543418": [
+      {
+        "texto": "Infraestrutura / Saúde / Autismo e Inclusão / Educação e Infância",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://pepecollaco.com/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551469": [
+      {
+        "texto": "Presença para ouvir. Experiência para fazer. Trabalho para transformar. / Mulheres / Pessoas com deficiência / Crianças e adolescentes / Agricultura e cooperativismo",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://marlenefengler.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551460": [
+      {
+        "texto": "Agora, essa história ganha um novo desafio / Saúde / Educação / Segurança pública / Agricultura",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://rogeriopacheco.com/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548539": [
+      {
+        "texto": "40+ anos de serviço público / Gestão comprovada / Diálogo e equilíbrio / Liderança política nacional",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.raimundocolombo.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551468": [
+      {
+        "texto": "Segurança Pública & Mobilidade Urbana é com Ricardo Pastrana / Mobilidade Urbana / Segurança Pública",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.ricardopastrana.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551470": [
+      {
+        "texto": "Defender a justiça, ouvir a comunidade e transformar necessidades em ações concretas / Ser uma referência de liderança e a voz de quem não pode ser ouvido",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.sheylachaves.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548530": [
+      {
+        "texto": "Pelo Futuro De Santa Catarina / Defesa de SC / Família & Valores / Emprego & Economia / Saúde & Educação Forte",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.terezinhadybas.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002535770": [
+      {
+        "texto": "CUIDANDO DE FLORIPA / Meio Ambiente / Direitos dos Trabalhadores / Acesso à Cidade / Patrimônio Histórico",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://afranio.org.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537824": [
+      {
+        "texto": "Coragem pra contra-atacar / Combater o autoritarismo, o discurso de ódio e a violência política / Ampliar políticas públicas para a população LGBTIA+",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://camasao.com/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537798": [
+      {
+        "texto": "Uma candidatura indígena preparada para cuidar do presente e futuro de Santa Catarina / Mulheres / Natureza / Educação / Povos",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://ingridsateremawe.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537838": [
+      {
+        "texto": "Santa Catarina ousa sonhar / Feminismo Combativo, Direitos das Mulheres e População LGBTIA+ / Defesa da Democracia, Combate ao Neofascismo e à Censura",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.jessicamichels.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537808": [
+      {
+        "texto": "Ciência, coragem e cuidado para Santa Catarina / Feminista / Ecossocialista / Antifascista",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://marianasartor.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537802": [
+      {
+        "texto": "META 1 – MOBILIDADE URBANA / META 6 – EDUCAÇÃO E CULTURA",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.professormarcelo50600.com.br/blog",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533824": [
+      {
+        "texto": "Coragem pra lutar. Coragem pra cuidar. / Saúde Pública / Direitos das Mulheres / Justiça Social / Justiça Climática",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.anapaulalimasc.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533828": [
+      {
+        "texto": "A voz da Mulher Catarinense em Brasília",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.carenmachado.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533825": [
+      {
+        "texto": "Em defesa das Trabalhadoras e Trabalhadores, Mulheres, População LGBTI+, Movimentos Sociais e da Juventude / LGBTI+ / Cannabis Medicinal / Mudanças Climáticas / Pobreza Menstrual",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://carlaayres.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533898": [
+      {
+        "texto": "Com a força de Lula e o coração catarinense.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://deciosenador.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540084": [
+      {
+        "texto": "Coragem que move / Apoio à agricultura familiar / Transparência na fila da saúde / Valorização dos professores / Isenção de IPVA para motoristas de aplicativos",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.fabianodaluz.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540100": [
+      {
+        "texto": "Santa Catarina do lado esquerdo do peito! / Mulheres / Educação / Meio ambiente / Litoral e pesca",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.gislainedurski.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540086": [
+      {
+        "texto": "O futuro se constrói com coragem e participação / Serviço público de qualidade / Fim da violência contra a mulher / Tarifa zero com integração / Enfrentamento às mudanças climáticas",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://jumerizanetti.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533830": [
+      {
+        "texto": "Vamos aldear a política por Santa Catarina / Povos Indígenas / Meio Ambiente / Mulheres / Educação",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://kerexu.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540093": [
+      {
+        "texto": "Santa Catarina não é o estado do ódio. É o estado da nossa gente. / Educação / Saúde / Direitos humanos / Meio ambiente",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://professorcadusc.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540073": [
+      {
+        "texto": "Da Fábrica para a Política / A classe trabalhadora precisa ocupar os espaços de decisão / Movimento de Verdade",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.rodolfoprecandidatopt.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537917": [
+      {
+        "texto": "Cuidar. Gerar. Servir. / Saúde / Empreendedorismo / O Trabalhador Honesto / Política Limpa",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.drpaulocoral.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537923": [
+      {
+        "texto": "Uma voz para representar Santa Catarina.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://piriquito.pages.net.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537077": [
+      {
+        "texto": "Trabalho que se vê, resultado que se sente. / Mais recursos para Santa Catarina / Autonomia para estados e municípios / Segurança pública mais forte / Defesa de quem trabalha e empreende",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://fabriciooliveira.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537910": [
+      {
+        "texto": "Um futuro de segurança, liberdade, resultados e prosperidade. / Direito e tranquilidade, sim. Batalha e insegurança, não. / Menos burocracia imobiliária, mais tranquilidade e oportunidades.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://gabrielcarrara.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537081": [
+      {
+        "texto": "Ela faz, Santa Catarina cresce / Altera o Código Penal, para dispor sobre crimes contra sentimento religioso / Prioridade de atendimento a pessoas com fibromialgia",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://geovaniadesa.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537908": [
+      {
+        "texto": "Contra a indústria da multa / Geração de emprego e renda / Liberdade, democracia e respeito ao cidadão / Menos burocracia e mais eficiência na gestão pública / Combate à indústria da multa",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://jeankuhlmann.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537075": [
+      {
+        "texto": "Santa Catarina merece. O Brasil precisa ouvir. / Defender Santa Catarina / Combate ao crime organizado / Defesa da liberdade / Família e valores",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://pauloalceusc.com.br/manifesto",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537921": [
+      {
+        "texto": "O sonho continua. O trabalho permanece. / Desenvolvimento Econômico / Empreendedorismo e Agricultura / Desburocratização / Transparência e Gestão Eficiente",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://timesalmir.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537938": [
+      {
+        "texto": "Coragem Pra Enfrentar / Dignidade na saúde / Os verdadeiros vulneráveis / Fé, família e valores / Projeto de Lei do Mounjaro",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://coragempraenfrentar.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541915": [
+      {
+        "texto": "DIA 4 DE OUTUBRO, PRA FEDERAL É TUDO 4",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.fabioschiochet.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543391": [
+      {
+        "texto": "Conectar cidades. Avançar com Santa Catarina. / Mobilidade e Infraestrutura / Saúde Regional / Defesa Civil e Prevenção / Desenvolvimento Econômico",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://marciodede.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541917": [
+      {
+        "texto": "Trabalho e entrega para melhorar a vida dos catarinenses / Saúde e hospitais regionais / Segurança pública / Infraestrutura e logística / Municipalismo e Defesa dos Municípios",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.carlosmoises.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540083": [
+      {
+        "texto": "Educação / Mulheres / Cultura / Assistência Social",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://lucianecarminatti.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533833": [
+      {
+        "texto": "O DEPUTADO LIDER DO PT NA CÂMARA FEDERAL E DO PLANO NACIONAL DE EDUCAÇÃO",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://pedrouczai.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533284": [
+      {
+        "texto": "Deixa que eu resolvo! / Não é promessa. É resultado!",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://caminhadeputado.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539957": [
+      {
+        "texto": "O Brasil precisa de cidadãos que não se conformam, que defendem a liberdade, a segurança pública e os valores da família. / Aqui, bandido não tem vez!",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://alexbrasil.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539551": [
+      {
+        "texto": "É tempo de entrar em campo por Santa Catarina. / Esporte / Saúde / Educação",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://marquinhokurtz.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539580": [
+      {
+        "texto": "Minha história começou no interior, mas meu compromisso é com toda Santa Catarina.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://adrianesuppibiava.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543386": [
+      {
+        "texto": "A campanha para deputada estadual tem foco em trabalho e renda.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://crisbrilhante11011.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541922": [
+      {
+        "texto": "Menos Brasília, Mais Brasil. / Defesa de quem trabalha e produz / Proteção à Família e Valores Cristãos / Fortalecimento do Municipalismo / Uso rigoroso do dinheiro público",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://jeanpirola.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551465": [
+      {
+        "texto": "Sou patriota, cristão e conservador. Acredito em Deus acima de tudo, na família, na soberania do nosso país e, principalmente, luto pela LIBERDADE!",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://deputadoberlanda.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551459": [
+      {
+        "texto": "SC pelos ANIMAIS / AMOR PRECISA VIRAR AÇÃO / NÃO É APENAS SOBRE ANIMAIS. É sobre que tipo de sociedade queremos ser.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://sc.prifernandes.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537094": [
+      {
+        "texto": "O DEPUTADO QUE RESOLVE / Atendimento de saúde mental em todos os municípios / Ampliar escolas técnicas e o primeiro emprego / Infraestrutura moderna para acelerar as regiões / Segurança com tecnologia e prevenção inteligente",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://deputadomarcosvieira.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537841": [
+      {
+        "texto": "Quem conta nossa história decide nosso futuro! / DO TERRITÓRIO PARA O CONGRESSO NACIONAL. / PERIFERIA TAMBÉM DECIDE / COMIDA BOA NA MESA DE TODOS / MAIS MORADIA, MENOS DESIGUALDADE / CIDADE PARA VIVER, NÃO SOBREVIVER",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://nandjaxokleng.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537806": [
+      {
+        "texto": "EDUCAÇÃO MUDA VIDAS,VENHA ME AJUDAR A REALIZAR ESSE SONHO DE MUITOS. / Vamos sonhar por uma Santa Catarina com mais oportunidade, educação e inclusão pra todo mundo.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://andrewleal.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540072": [
+      {
+        "texto": "UMA VOZ. TODAS AS VOZES.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.jaciaramachuga.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540099": [
+      {
+        "texto": "DO CAMPO À CIDADE, A NOSSA VOZ / RODRIGO É LULA, PORQUE LULA É SC / PELA AGRICULTURA FAMILIAR",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://rodrigopreis.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533822": [
+      {
+        "texto": "Fé na justiça. / Desenvolvimento sustentável / Proteção às mulheres / Crianças e adolescentes / Democracia e justiça",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://drarosana4321.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533834": [
+      {
+        "texto": "É HORA DE SC TER UM DEPUTADO VERDE / CUIDAR DA VIDA, DA NATUREZA E DAS PESSOAS / POR UM BRASIL SUSTENTÁVEL, JUSTO E HUMANO",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://guaraci4343.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541928": [
+      {
+        "texto": "CORAGEM PARA INCLUIR. PRESENÇA PARA TRANSFORMAR. / Defensora da causa autista e de uma Santa Catarina mais inclusiva. / INCLUSÃO NÃO PODE SER APENAS DISCURSO.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://deboraangelicaparisotto.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543422": [
+      {
+        "texto": "Presença nas bases",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://jaciaradisanto.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543396": [
+      {
+        "texto": "FÉ PARA SERVIR. CORAGEM PARA CUIDAR. / POLÍTICA TAMBÉM É SERVIR. FÉ QUE ACOLHE. PRESENÇA QUE CUIDA.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://narcizoparisotto.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543409": [
+      {
+        "texto": "O Deputado do Povo / CAMPANHA FEITA SEM RECURSOS PÚBLICOS",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.deputadosergioguimaraes.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543394": [
+      {
+        "texto": "MUNICIPALISMO / ESTADO MENOR / CONCESSÕES",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.silviodreveck.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533829": [
+      {
+        "texto": "Ao lado de coletivos, movimentos e organizações sociais, transformo lutas em propostas e políticas públicas.",
+        "tipo": "proprio",
+        "meio": "site",
+        "descricao": "Slogan e bandeiras da página do site próprio declarado ao TSE, copiados literalmente e conferidos na página; trechos separados por /.",
+        "fonte": "https://www.eduardozanatta.com.br/",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533823": [
+      {
+        "texto": "Santa Catarina nunca elegeu uma mulher negra como deputada federal. Chegou a hora de mudar essa realidade.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "ND+",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://ndmais.com.br/politica/vereadora-do-pt-anuncia-pre-candidatura-deputada-ferederal-sc/",
+        "data": "2026-05-04",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551477": [
+      {
+        "texto": "Temos orgulho do que Santa Catarina se tornou, mas sabemos que ainda há muito a fazer. Se não prepararmos o caminho agora, não entregaremos o bastão da maneira correta às próximas gerações.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Cidade SC Portal de Notícias",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://cidadesc.com.br/mario-motta-lanca-candidatura-a-reeleicao-com-manifesto-voltado-as-proximas-geracoes/",
+        "data": "2026-08-05",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537103": [
+      {
+        "texto": "Essa decisão nasceu da convicção de que nossa região precisa estar bem representada na Assembleia Legislativa.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Perfil Multi",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://perfilmulti.com.br/79072/tcharles-purim-coloca-nome-a-disposicao-como-pre-candidato-a-deputado-estadual-e-quer-fortalecer-a-representatividade-de-rio-negrinho-na-alesc/",
+        "data": "2026-07-16",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551377": [
+      {
+        "texto": "Brasil o único país no mundo também onde não existe um limite legal aos juros e onde o sistema financeiro não está submetido ao crime de usura",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "ND+",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://ndmais.com.br/politica/jeferson-rocha-sabatina-grupo-nd-integra/",
+        "data": "2026-09-15",
+        "coletado_em": "2026-09-27"
+      },
+      {
+        "texto": "Santa Catarina trabalha, produz e paga, porém Brasília leva. É hora de dizer chega.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=146s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541926": [
+      {
+        "texto": "A evolução da tecnologia vai ser a minha grande bandeira, para que tenhamos profissionais da educação utilizando os mecanismos de tecnologia para a melhoria da qualidade do ensino.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "ND+",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://ndmais.com.br/politica/esperidiao-e-angela-amin-reafirmam-pre-candidaturas-e-elegem-educacao-tecnologia-e-infraestrutura-como-prioridades-em-sc/",
+        "data": "2026-07-31",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541919": [
+      {
+        "texto": "A remuneração dos serviços prestados pelo SUS é insuficiente. Precisamos criar políticas públicas permanentes que garantam condições para os hospitais continuarem atendendo",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "TN Sul",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://tnsul.com/2026/08/03/saude-e-agricultura-pautam-candidatura-de-ze-milton/",
+        "data": "2026-08-03",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548542": [
+      {
+        "texto": "O jovem é o presente. Com 12 anos ele tem que fazer o curso estudando e, com 14 anos, ser direcionado para o mercado de trabalho no que ele gosta de fazer",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Diário do Sul",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://diariodosul.com.br/geral/patricia-lisboa-apresenta-propostas-75809",
+        "data": "2026-08-26",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537076": [
+      {
+        "texto": "Quero continuar defendendo os interesses do nosso estado em Brasília, trabalhando por mais infraestrutura, saúde, segurança e desenvolvimento para quem vive e produz aqui",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Aconteceu em Joinville",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://aconteceuemjoinville.com.br/darci-de-matos-e-confirmado-pelo-republicanos-como-candidato-a-deputado-federal/",
+        "data": "2026-08-07",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537831": [
+      {
+        "texto": "Quero mostrar que é possível unir arte e política e construir uma representação que reconheça a diversidade de Santa Catarina",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Portal Desacato",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://desacato.info/drag-urbana-primeira-candidatura-drag-a-camara-dos-deputados-em-santa-catarina/",
+        "data": "2026-09-25",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537079": [
+      {
+        "texto": "Eu vivo o esporte durante toda a minha vida. Sei o quanto uma quadra, um treinador e um projeto esportivo podem mudar destinos. O esporte não é gasto, é investimento.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "ECX Online",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://ecxonline.com.br/atuante-fortemente-no-esporte-vereador-egidio-beckhauser-busca-uma-vaga-na-camara-dos-deputados/",
+        "data": "2026-08-06",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002554185": [
+      {
+        "texto": "É preciso conversar com as adolescentes, mas também com os meninos. A responsabilidade é dos dois.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Folha Regional",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://folharegionalwebtv.com/cotidiano/glenda-boni-defende-protecao-as-mulheres-e-investimentos-no-turismo-de-jaguaruna-129953",
+        "data": "2026-09-22",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551472": [
+      {
+        "texto": "Vamos lutar para estadualizar o Hospital de Navegantes.",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Jornal Nos Bairros",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://jornalnosbairros.com.br/wp/2026/09/entrevista-exclusiva-liba-afirma-que-navegantes-tem-a-chance-concreta-de-eleger-seu-deputado-estadual/",
+        "data": "2026-09-24",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548535": [
+      {
+        "texto": "Queremos combater o bom combate",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "SCTODODIA",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://sctd.com.br/geral/queremos-combater-o-bom-combate-diz-julio-garcia-sobre-as-eleicoes-de-2026/",
+        "data": "2026-03-31",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543411": [
+      {
+        "texto": "Uma das coisas que eu quero lutar é por um hospital regional, que a gente não tem aqui na região da Amrec",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Ligado no Sul",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://www.ligadonosul.com.br/eleicoes/medico-de-orleans-dr-irani-alberton-anuncia-candidatura-a-assembleia-legislativa-e-defende-hospital-regional-e-mais-investimentos-na-saude-do-sul-de-sc/",
+        "data": "2026-08-20",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537816": [
+      {
+        "texto": "Meu principal foco é a mobilidade urbana",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "DIARINHO",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://diarinho.net/materia/675493/---Meu-principal-foco-e-a-mobilidade-urbana-----diz-Alex-Stein",
+        "data": "2026-09-22",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537813": [
+      {
+        "texto": "Nada sobre nós sem nós",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "DIARINHO",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://diarinho.net/materia/675425/---Eu-vivo-na-pele-aquilo-que-muitos-so-falam-----destaca-Fabinho-do-PSOL",
+        "data": "2026-09-21",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537914": [
+      {
+        "texto": "Quando uma mãe tem um filho doente, ela quer ter a segurança de encontrar atendimento próximo da sua residência",
+        "tipo": "imprensa",
+        "meio": "outro",
+        "veiculo": "Folha Regional",
+        "descricao": "Fala do candidato citada entre aspas em reportagem; texto conferido na página do veículo.",
+        "fonte": "https://folharegionalwebtv.com/cotidiano/expedito-michels-defende-saude-24-horas-pesquisa-aplicada-e-prevencao-a-enchentes-na-amurel-130249",
+        "data": "2026-09-25",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537822": [
+      {
+        "texto": "Queremos direitos e dignidade.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=423s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537105": [
+      {
+        "texto": "Com todo o gás",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=469s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540076": [
+      {
+        "texto": "Apenas com sangue novo vamos realizar as mudanças que Santa Catarina precisa.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=492s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540079": [
+      {
+        "texto": "Queremos uma Santa Catarina com mais oportunidades, valorização dos trabalhadores e servidores públicos, fortalecimento da saúde e da educação",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=510s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540096": [
+      {
+        "texto": "Mulheres e grupos invisibilizados precisam ser representados.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=527s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540102": [
+      {
+        "texto": "Santa Catarina é terra de gente que trabalha e quer crescer.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=548s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539562": [
+      {
+        "texto": "Quero levar a experiência de quem faz acontecer pra assembleia.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=610s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539558": [
+      {
+        "texto": "Mulheres fortes, seguras e esporte valorizado.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=617s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543420": [
+      {
+        "texto": "Democracia se faz com homens honestos.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=666s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543401": [
+      {
+        "texto": "Vamos além. Eu com a coragem e você com o voto.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=678s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543387": [
+      {
+        "texto": "Seu voto é sua voz decidindo o futuro.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=715s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541383": [
+      {
+        "texto": "Estou pronta para trabalhar com compromisso, coragem e determinação para quem mais precisa.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=760s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551380": [
+      {
+        "texto": "quero trabalhar pela valorização dos profissionais da segurança pública e da educação.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=856s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537927": [
+      {
+        "texto": "Como deputado, vou ficar ao lado dos idosos, autistas, jovens e da causa animal.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=911s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537909": [
+      {
+        "texto": "Jeferson Monteiro quer criar a Frente Parlamentar em defesa da Proteção Veicular Catarinense.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 11/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=f7NGlvADTG0&t=927s",
+        "data": "2026-09-11",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002539567": [
+      {
+        "texto": "Ampliar as escolas cívico-militares e garantir mais segurança para nossas escolas.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=466s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543405": [
+      {
+        "texto": "Como deputada, quero representar o meu povo e cuidar de toda Santa Catarina.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=495s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551732": [
+      {
+        "texto": "Acredito que política se faz com trabalho, responsabilidade e compromisso com as pessoas.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=519s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543410": [
+      {
+        "texto": "O agro e os municípios são a essência de Santa Catarina.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=531s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543399": [
+      {
+        "texto": "Acredito que política se faz com trabalho, responsabilidade e compromisso com as pessoas.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=564s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543397": [
+      {
+        "texto": "Minha história foi construída com muito trabalho, geração de empregos e compromisso com agronegócio.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=580s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537937": [
+      {
+        "texto": "Com esperança, honestidade, trabalho e fé, quero fazer a diferença por você.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=793s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537801": [
+      {
+        "texto": "acredito que a política pode transformar vidas quando nasce da coragem e do compromisso com as pessoas.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=812s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540090": [
+      {
+        "texto": "Acreditamos que educar é cuidar do presente e construir o futuro.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=883s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540080": [
+      {
+        "texto": "Um deputado estadual tem que ter coragem para enfrentar os pinoquinhos da política.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=901s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540071": [
+      {
+        "texto": "Quero representar você lutando por mais dignidade, educação e justiça social para toda a nossa gente.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=921s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002540092": [
+      {
+        "texto": "Minhas bandeiras são saúde, educação, esporte",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 02/09/2026 (canal Acervo das Campanhas, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=HnLqnJWK4JA&t=941s",
+        "data": "2026-09-02",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002543043": [
+      {
+        "texto": "Chega de um congresso inimigo do povo.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=8s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537083": [
+      {
+        "texto": "Vou trabalhar por uma política nacional de segurança pública que atenda a todos e valorize seus profissionais.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=76s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537078": [
+      {
+        "texto": "Como deputado federal, vou trabalhar pela segurança do nosso povo.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=108s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002537836": [
+      {
+        "texto": "Santa Catarina exige responsabilidade e trabalho.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=192s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548534": [
+      {
+        "texto": "Agora quero representar você na Câmara dos Deputados Federais.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=220s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548537": [
+      {
+        "texto": "vou trabalhar por uma sociedade sem impunidade que valorize o empreendedor, as famílias e os direitos das mulheres e pessoas com deficiência.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=234s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548538": [
+      {
+        "texto": "Chega de promessas por mais respeito, tratamento e apoio às famílias do autismo e da fibromialgia.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=248s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002548529": [
+      {
+        "texto": "Santa Catarina merece muito mais de Brasília.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=262s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538372": [
+      {
+        "texto": "Minha missão é trazer mais recurso pra saúde e infraestrutura.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=302s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002538368": [
+      {
+        "texto": "Resultado não se consegue apenas com discurso.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=309s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541916": [
+      {
+        "texto": "quero ser a sua voz, a voz da mudança, a voz de Santa Catarina no Congresso Nacional.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=364s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541923": [
+      {
+        "texto": "Sou conservadora e líder comunitária e defensora da família brasileira.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=416s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002551730": [
+      {
+        "texto": "Acredito que as mulheres merecem mais respeito, segurança e oportunidade.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=426s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002541927": [
+      {
+        "texto": "Honestidade, transparência, ética e trabalho.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=450s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533838": [
+      {
+        "texto": "pelo fim da escala 6x1 e a revogação das reformas trabalhista e previdenciária",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=664s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ],
+    "240002533836": [
+      {
+        "texto": "Fui beneficiário do Bolsa Família e sei como a oportunidade muda vidas.",
+        "tipo": "proprio",
+        "meio": "horario-eleitoral",
+        "descricao": "Propaganda de TV de 19/09/2026 (canal BR Channel, YouTube). Legenda automática, não conferida no áudio; o link abre no minuto da fala.",
+        "fonte": "https://www.youtube.com/watch?v=T8UkahatuMA&t=725s",
+        "data": "2026-09-19",
+        "coletado_em": "2026-09-27"
+      }
+    ]
+  }
+}

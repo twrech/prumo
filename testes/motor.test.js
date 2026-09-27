@@ -9,9 +9,11 @@
 
 import { readFileSync } from 'node:fs';
 import {
-  EIXOS, pontuar, intensidade, rotular, gerarPerfil, ordenarPerguntas, rngSemente,
+  EIXOS, pontuar, intensidade, rotular, gerarPerfil, perfilDoVetor, ordenarPerguntas, rngSemente,
 } from '../js/motor.js';
-import { codificar, decodificar } from '../js/perfil.js';
+import { codificar, decodificar, recuperar } from '../js/perfil.js';
+import { balanca, decisaoDoRotulo } from '../js/explicar.js';
+import { selecionarPartidos } from '../js/alinhamento.js';
 import { responderTudo } from '../ferramentas/simular.js';
 import { fileURLToPath } from 'node:url';
 
@@ -345,6 +347,112 @@ teste('mil perfis aleatórios fazem a ida e a volta sem perda', () => {
       igual(volta.confianca[k], confianca[k], `iteração ${i}, confiança ${k}:`);
     }
   }
+});
+
+console.log('\nrecuperador\n');
+
+function lanca(fn, trecho) {
+  try { fn(); } catch (e) {
+    verdadeiro(!trecho || e.message.includes(trecho), `mensagem inesperada: ${e.message}`);
+    return;
+  }
+  throw new Error('deveria ter recusado');
+}
+
+const perfilBase = gerarPerfil(perguntas, todos('sim'), arquetipos, banco.config, '2026-09-27');
+const codigoBase = codificar(perfilBase);
+
+teste('recupera o código puro', () => {
+  igual(recuperar(codigoBase).codigo, codigoBase, 'código:');
+});
+
+teste('recupera com espaços e quebras de linha no meio (cópia de PDF)', () => {
+  const sujo = `  ${codigoBase.slice(0, 5)} ${codigoBase.slice(5, 11)}\n${codigoBase.slice(11)}  `;
+  igual(recuperar(sujo).codigo, codigoBase, 'código:');
+});
+
+teste('recupera de dentro do endereço da etapa 2', () => {
+  igual(recuperar(`https://twrech.github.io/prumo/etapa2/?p=${codigoBase}`).codigo, codigoBase, 'código:');
+  igual(recuperar(`etapa2/?x=1&p=${codigoBase}#topo`).codigo, codigoBase, 'código:');
+});
+
+teste('recusa vazio, curto, sinal estranho e letra trocada, com frase legível', () => {
+  lanca(() => recuperar('   '), 'Cole');
+  lanca(() => recuperar(codigoBase.slice(0, 15)), 'tem 15');
+  lanca(() => recuperar(`${codigoBase.slice(0, 15)}*`), 'outro sinal');
+  const trocado = (codigoBase[3] === 'A' ? 'B' : 'A');
+  lanca(() => recuperar(codigoBase.slice(0, 3) + trocado + codigoBase.slice(4)), 'não confere');
+});
+
+teste('o perfil recuperado tem o mesmo rótulo, intensidade e vetor do original', () => {
+  const rng = rngSemente(27);
+  for (let i = 0; i < 300; i++) {
+    const resp = {};
+    for (const q of perguntas) {
+      const x = rng();
+      resp[q.id] = x < 0.45 ? 'sim' : x < 0.9 ? 'nao' : 'pular';
+    }
+    const original = gerarPerfil(perguntas, resp, arquetipos, banco.config, '2026-09-27');
+    const volta = perfilDoVetor(recuperar(codificar(original)).perfil, arquetipos, banco.config);
+    igual(volta.rotulo, original.rotulo, `iteração ${i}, rótulo:`);
+    igual(volta.rotulo2, original.rotulo2, `iteração ${i}, rótulo2:`);
+    igual(volta.intensidade, original.intensidade, `iteração ${i}, intensidade:`);
+    for (const k of EIXOS) igual(volta.posicao[k], original.posicao[k], `iteração ${i}, ${k}:`);
+  }
+});
+
+console.log('\nexplicar.js\n');
+
+teste('a balança fecha: prato + menos prato − mais pulos dá a posição exibida', () => {
+  const rng = rngSemente(11);
+  for (let i = 0; i < 200; i++) {
+    const resp = {};
+    for (const q of perguntas) {
+      const x = rng();
+      resp[q.id] = x < 0.4 ? 'sim' : x < 0.8 ? 'nao' : 'pular';
+    }
+    const perfil = gerarPerfil(perguntas, resp, arquetipos, banco.config);
+    const b = balanca(perguntas, resp, banco.config);
+    for (const k of EIXOS) {
+      const saldo = b[k].positivo.pontos - b[k].negativo.pontos + b[k].pulos.pontos;
+      verdadeiro(Math.abs(saldo - perfil.posicao[k]) <= 2, `iteração ${i}, ${k}: saldo ${saldo} × posição ${perfil.posicao[k]}`);
+      verdadeiro(b[k].positivo.respostas.length <= 3 && b[k].negativo.respostas.length <= 3, 'mais de 3 por lado');
+    }
+  }
+});
+
+teste('o eixo decisivo do rótulo de fato favorece o primeiro colocado', () => {
+  for (const a of arquetipos.arquetipos) {
+    const rng = rngSemente(a.id.length * 31);
+    const perfil = gerarPerfil(perguntas, responderTudo(perguntas, a.coordenadas, rng, 'realista', 0.08), arquetipos, banco.config);
+    const d = decisaoDoRotulo(perfil, arquetipos, banco.config);
+    if (d.centrista) { igual(perfil.rotulo, 'centrista', 'centrista:'); continue; }
+    const somaParcelas = d.eixos.reduce((x, e) => x + e.parcela, 0);
+    verdadeiro(somaParcelas >= 0, `${a.id}: soma das parcelas negativa (${somaParcelas})`);
+    verdadeiro(d.eixos[0].parcela > 0, `${a.id}: eixo decisivo sem parcela positiva`);
+  }
+});
+
+console.log('\nseus partidos\n');
+
+const rk = (...v) => ({ faixaDeEmpate: 6, ranking: v.map((a, i) => ({ sigla: `P${i}`, alinhamento: a })) });
+
+teste('corte de 80 ou 3, o que vier primeiro', () => {
+  igual(selecionarPartidos(rk(95, 93, 90, 88, 70)).mostrados.length, 3, 'cinco acima de 80:');
+  igual(selecionarPartidos(rk(92, 81, 79, 60)).mostrados.length, 2, 'dois acima de 80:');
+  igual(selecionarPartidos(rk(85, 60)).mostrados.length, 1, 'um acima de 80:');
+});
+
+teste('ninguém acima de 80: três mais próximos, marcados como abaixo do corte', () => {
+  const s = selecionarPartidos(rk(66, 64, 55, 50));
+  igual(s.mostrados.length, 3, 'mostrados:');
+  igual(s.abaixoDoCorte, true, 'abaixoDoCorte:');
+});
+
+teste('empate não amplia a lista: vai à parte, contra o último mostrado', () => {
+  const s = selecionarPartidos(rk(95, 93, 90, 88, 84, 83));
+  igual(s.mostrados.length, 3, 'mostrados:');
+  igual(s.empatados.map((r) => r.alinhamento).join(','), '88,84', 'empatados:');
 });
 
 console.log(`\n${passou} passaram, ${falhas.length} falharam`);

@@ -186,6 +186,30 @@ export function gerarPerfil(perguntas, respostas, arquetipos, config = CONFIG_PA
   };
 }
 
+/**
+ * Perfil completo a partir de um vetor já pronto — o caminho do código
+ * recuperado. Rótulo e intensidade são recalculados com os arquétipos
+ * vigentes, exatamente como `gerarPerfil` faria, para que o mesmo código dê
+ * o mesmo resultado em qualquer aparelho.
+ */
+export function perfilDoVetor(vetor, arquetipos, config = CONFIG_PADRAO) {
+  const intens = intensidade(vetor.posicao);
+  const r = rotular(vetor.posicao, arquetipos, {
+    intensidade: intens,
+    ganho: config && config.ganho_rotulo,
+  });
+  return {
+    v: vetor.v || 1,
+    posicao: { ...vetor.posicao },
+    confianca: { ...vetor.confianca },
+    intensidade: intens,
+    rotulo: r.rotulo,
+    rotulo2: r.rotulo2,
+    // A data do teste não viaja no código; esta é a data de hoje.
+    data: new Date().toISOString().slice(0, 10),
+  };
+}
+
 /** Gerador pseudoaleatório determinístico (mulberry32), para simulação e testes. */
 export function rngSemente(semente) {
   let a = semente >>> 0;

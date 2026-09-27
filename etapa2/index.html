@@ -25,6 +25,32 @@
     </div>
   </header>
 
+  <!-- Barra de navegação entre as etapas. Tudo aqui dentro é a mesma página,
+       então ir e voltar não apaga a colinha; só "Meu resultado" sai dela. -->
+  <nav class="navegacao" id="navegacao" aria-label="Etapas">
+    <a href="../index.html" id="nav-resultado">Meu resultado</a>
+    <a href="#meus" id="nav-meus" class="oculto">Meus partidos</a>
+    <a href="#todos" id="nav-todos">Todos os partidos</a>
+    <a href="#colinha" id="nav-colinha">Colinha</a>
+  </nav>
+
+  <!-- ===================== MEUS PARTIDOS ===================== -->
+  <main id="tela-meus" class="oculto">
+    <h1 id="meus-titulo">Os partidos mais próximos de você</h1>
+    <p id="meus-intro"></p>
+    <p id="meus-aviso" class="aviso-destaque oculto"></p>
+    <div id="meus-lista" class="lista-meus"></div>
+    <section id="meus-empatados" class="oculto">
+      <h2>Empatados na margem de erro</h2>
+      <p class="discreto" id="meus-empatados-intro"></p>
+      <div class="linha-siglas" id="meus-empatados-lista"></div>
+    </section>
+    <div class="acoes">
+      <a class="botao" href="#todos">Ver todos os partidos</a>
+    </div>
+    <p class="discreto" id="meus-regra"></p>
+  </main>
+
   <!-- ===================== GALERIA ===================== -->
   <main id="tela-galeria">
     <h1 id="titulo-galeria">Os partidos, pelo que votaram</h1>
@@ -44,6 +70,23 @@
       <button class="discreta" id="botao-abrir-colinha">Minha colinha</button>
     </div>
 
+    <!-- Recuperador: quem chegou sem o código no endereço pode colá-lo aqui. -->
+    <details class="recuperador" id="recuperador">
+      <summary>Já fiz o teste — tenho meu código</summary>
+      <form id="form-recuperar" novalidate>
+        <label for="campo-codigo">
+          Digite ou cole o código de 16 caracteres do seu resultado para ver os
+          partidos em ordem de proximidade com você.
+        </label>
+        <div class="linha-codigo">
+          <input type="text" id="campo-codigo" autocomplete="off" autocapitalize="off"
+                 spellcheck="false" placeholder="Ex.: AQn8xLb2…" aria-describedby="erro-codigo">
+          <button type="submit" class="principal">Comparar</button>
+        </div>
+        <p class="erro oculto" id="erro-codigo" role="alert"></p>
+      </form>
+    </details>
+
     <p id="aviso-alinhamento" class="oculto" style="background:var(--cobre-fundo);border-radius:var(--raio);padding:1rem 1.1rem"></p>
 
     <div class="cartoes" id="lista-partidos"></div>
@@ -52,6 +95,16 @@
       <h2>Quem concorre ao Executivo</h2>
       <p class="discreto" id="intro-executivo"></p>
       <div class="cartoes" id="lista-executivo"></div>
+    </section>
+
+    <section id="secao-outros" class="oculto">
+      <h2>Outros partidos registrados no TSE</h2>
+      <p class="discreto">
+        Estes não têm bancada na Câmara nesta legislatura, então não há votos para
+        medir a posição deles. A ficha traz o que o partido diz de si, a história
+        e os candidatos em Santa Catarina.
+      </p>
+      <div class="cartoes" id="lista-outros"></div>
     </section>
 
     <section id="secao-sem-posicao" class="oculto">
@@ -69,11 +122,45 @@
 
   <!-- ===================== FICHA ===================== -->
   <main id="tela-ficha" class="oculto">
-    <button class="discreta" id="botao-voltar-galeria">← Todos os partidos</button>
+    <a class="voltar" href="#todos" id="botao-voltar-galeria">← Todos os partidos</a>
 
     <h1 id="ficha-sigla"></h1>
     <p class="discreto" id="ficha-nome"></p>
 
+    <nav class="abas" id="ficha-abas" role="tablist" aria-label="Seções da ficha">
+      <button role="tab" data-aba="quem">Quem é</button>
+      <button role="tab" data-aba="hoje">Hoje</button>
+      <button role="tab" data-aba="votos">Como vota</button>
+      <button role="tab" data-aba="candidatos">Candidatos</button>
+    </nav>
+
+    <!-- ---- aba: quem é ---- -->
+    <section id="aba-quem" role="tabpanel">
+      <section class="sintese">
+        <h2 class="titulo-aba">O que o partido diz de si</h2>
+        <blockquote class="citacao" id="quem-citacao"></blockquote>
+        <p class="discreto" id="quem-fonte"></p>
+      </section>
+      <h2>Marcos da história</h2>
+      <p class="discreto" id="quem-linhagem"></p>
+      <ol class="marcos" id="quem-marcos"></ol>
+      <p class="discreto" id="quem-registro"></p>
+      <p class="discreto" id="quem-nota"></p>
+    </section>
+
+    <!-- ---- aba: onde está hoje ---- -->
+    <section id="aba-hoje" role="tabpanel" class="oculto">
+      <div class="cartoes" id="hoje-cartoes"></div>
+      <section id="hoje-governadores">
+        <h2>Governos estaduais</h2>
+        <p class="discreto" id="hoje-gov-intro"></p>
+        <ul id="hoje-gov-lista"></ul>
+      </section>
+      <p class="discreto" id="hoje-nota"></p>
+    </section>
+
+    <!-- ---- aba: como vota ---- -->
+    <section id="aba-votos" role="tabpanel" class="oculto">
     <section class="sintese">
       <p id="ficha-sintese"></p>
       <p class="discreto" id="ficha-base"></p>
@@ -91,11 +178,16 @@
       linguagem simples; o placar é o da bancada, não o do plenário.
     </p>
     <div id="ficha-votacoes"></div>
+    </section>
 
+    <!-- ---- aba: candidatos ---- -->
+    <section id="aba-candidatos" role="tabpanel" class="oculto">
     <section id="secao-candidatos" class="oculto">
       <h2 id="titulo-candidatos"></h2>
       <p class="discreto" id="intro-candidatos"></p>
       <div id="lista-candidatos"></div>
+    </section>
+    <p class="discreto oculto" id="sem-candidatos"></p>
     </section>
   </main>
 
@@ -111,6 +203,8 @@
       <p class="discreto" id="cand-aviso-registro"></p>
     </section>
 
+    <section id="cand-campanha"></section>
+    <section id="cand-forca"></section>
     <div id="cand-medicao"></div>
     <div id="cand-historico"></div>
     <div id="cand-registro"></div>
@@ -118,7 +212,7 @@
 
   <!-- ===================== EXECUTIVO ===================== -->
   <main id="tela-executivo" class="oculto">
-    <button class="discreta" id="botao-voltar-executivo">← Todos os partidos</button>
+    <a class="voltar" href="#todos" id="botao-voltar-executivo">← Todos os partidos</a>
 
     <h1 id="exec-nome"></h1>
     <p class="discreto" id="exec-linha"></p>
@@ -134,7 +228,7 @@
 
   <!-- ===================== COLINHA (etapa 4) ===================== -->
   <main id="tela-colinha" class="oculto">
-    <button class="discreta" id="botao-voltar-colinha">← Todos os partidos</button>
+    <a class="voltar" href="#todos" id="botao-voltar-colinha">← Todos os partidos</a>
 
     <h1>Minha colinha</h1>
     <p class="discreto">

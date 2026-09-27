@@ -810,6 +810,80 @@ Economia e 180 em Costumes, com PT e PDT de um lado e PL e Republicanos do outro
 e correlação de 0,72 entre os dois eixos — alta, mas bem abaixo dos 0,94 dos
 partidos na etapa 2.
 
+### As frases de campanha
+
+A ficha de cada candidato tem uma seção "O que o candidato diz na campanha". Ela
+mostra slogans e bandeiras **nas palavras da própria pessoa**, sempre com o
+endereço de onde a frase saiu. Três regras:
+
+- **Texto literal.** Não se resume nem se corrige. Na bio de rede social, os
+  emojis saem e as quebras de linha viram " / ". Linhas que só repetem nome,
+  número, cargo ou partido ficam de fora.
+- **O próprio candidato vem antes da imprensa.** Primeiro o material da pessoa:
+  página de candidatos do partido, bio do Instagram e site declarados ao TSE.
+  Só na falta dele entra fala entre aspas publicada em reportagem de 2026, com o
+  nome do veículo.
+- **Frase não é posição.** Nada disso entra em conta de alinhamento. É o que a
+  pessoa diz, não o que fez.
+
+**A conferência.** A leitura automática de páginas resume sem avisar: numa amostra
+de sites, uma frase dada como "copiada" não existia na página. Por isso cada
+trecho de site e de reportagem foi conferido no navegador contra o texto e o HTML
+da própria página. O que não aparecia letra por letra foi descartado.
+
+**O horário eleitoral entra pela legenda automática.** As falas da propaganda
+de TV foram lidas pela legenda automática do YouTube, que troca nomes e números
+com frequência ("Afrânico", "Merío"). Por isso, a frase só é atribuída quando o
+nome ou o número do candidato aparece no mesmo trecho da fala, e só entra se fizer
+sentido completo. A ficha diz que o texto não foi conferido no áudio, e o link abre
+o vídeo no minuto da fala para quem quiser ouvir.
+
+**A cobertura é desigual, e a interface diz isso.** Em 27/09/2026, 386 dos 657
+candidatos (59%) tinham frase. Em partidos como Novo, MDB e PL, a cobertura passa
+de 85%. Em PRD, Solidariedade, PSDB e nos partidos pequenos, fica abaixo de 15%.
+A diferença não vem de escolha do Prumo. Vem de quanto material com fonte cada
+candidatura publica e de onde ele foi encontrado: o Novo, por exemplo, publica
+as bandeiras de cada candidato numa página do partido, e nenhum outro partido faz
+isso. Candidato sem frase aparece com um aviso de que a ausência não diz nada
+sobre ele.
+
+### Sinais de força eleitoral, atrás de uma tarja
+
+O eleitor que escolhe só por afinidade pode gastar o voto em uma candidatura
+sem chance nenhuma, às vezes lançada só para cumprir cota ou servir de laranja.
+Por isso a ficha do candidato traz três sinais de força, em `dados/forca-sc.json`:
+
+- **Dinheiro de campanha:** quanto a candidatura recebeu até a última entrega de
+  contas ao TSE e quanto disso veio do fundo eleitoral. O partido concentra o
+  fundo em quem acha que pode se eleger, e por isso esse é o melhor termômetro
+  disponível antes da urna.
+- **Votos na última eleição disputada:** vêm do resultado oficial do TSE. Vice e
+  suplente de senador não contam, porque não recebem voto próprio. Para 2020 e
+  antes, o TSE não publica o arquivo no formato que o Prumo lê, e aparece só o
+  resultado, sem o número de votos.
+- **Seguidores no Instagram,** quando houver: contagem feita pelo autor, com
+  data, no perfil que a pessoa declarou ao TSE. Não é dado oficial. A ficha mostra
+  o @, porque o perfil declarado nem sempre é o principal: um deputado com mais de
+  50 mil votos declarou um perfil com 164 seguidores. Por isso há uma regra
+  mecânica: quem teve 10 mil votos ou mais e tem menos de mil seguidores no perfil
+  declarado recebe o aviso "talvez não seja o perfil principal". Perfis de partido,
+  de outra organização ou declarados por mais de um candidato ficam de fora.
+
+Três travas protegem o resto do Prumo:
+
+1. Os números ficam **escondidos atrás de uma tarja** até o eleitor pedir. Uma
+   vez revelados, valem para a sessão e somem quando a aba fecha.
+2. **Nenhum rótulo de "chance"** é calculado. O Prumo mostra os fatos e não
+   conclui por cima deles.
+3. **A ordem das listas não muda.** Força eleitoral não reordena candidato nem
+   partido.
+
+A tela diz com todas as letras que seguidor não é voto, que dinheiro não garante
+eleição e que esses números podem pesar na escolha. Cabe ao eleitor decidir se
+devem pesar. Em 27/09/2026, 600 dos 657 candidatos tinham dinheiro declarado, 482
+já tinham disputado alguma eleição com voto próprio, e 374 tinham o número de
+votos disponível.
+
 ### O que a etapa 3 não cobre
 
 - **Deputado estadual, fora de Economia e Costumes.** A ALESC entrou, mas só

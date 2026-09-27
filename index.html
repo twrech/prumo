@@ -47,6 +47,29 @@
       <button class="principal" id="botao-comecar" disabled>Começar</button>
       <button class="discreta" id="botao-como">Como funciona</button>
     </div>
+
+    <!-- Recuperador: quem fez o teste noutro aparelho volta direto ao resultado. -->
+    <details class="recuperador" id="recuperador">
+      <summary>Já fiz o teste — tenho meu código</summary>
+      <form id="form-recuperar" novalidate>
+        <label for="campo-codigo">
+          Digite ou cole o código de 16 caracteres que aparece no fim do resultado
+          e no topo do relatório em PDF. Também serve colar o endereço inteiro da
+          página dos partidos.
+        </label>
+        <div class="linha-codigo">
+          <input type="text" id="campo-codigo" inputmode="text" autocomplete="off"
+                 autocapitalize="off" spellcheck="false" placeholder="Ex.: AQn8xLb2…" aria-describedby="erro-codigo">
+          <button type="submit" class="principal" id="botao-recuperar">Ver meu resultado</button>
+        </div>
+        <p class="erro oculto" id="erro-codigo" role="alert"></p>
+        <p class="discreto">
+          O código é lido aqui mesmo, no seu aparelho. Ele guarda só as suas cinco
+          posições — as respostas não viajam nele, então não dá para rever nem
+          baixar a lista delas a partir do código.
+        </p>
+      </form>
+    </details>
   </main>
 
   <!-- ===================== PERGUNTAS ===================== -->
@@ -73,12 +96,23 @@
 
   <!-- ===================== RESULTADO ===================== -->
   <main id="tela-resultado" class="oculto">
+    <nav class="navegacao" aria-label="Etapas">
+      <a href="#" aria-current="page">Meu resultado</a>
+      <a href="etapa2/" data-rota="meus">Meus partidos</a>
+      <a href="etapa2/" data-rota="todos">Todos os partidos</a>
+      <a href="etapa2/" data-rota="colinha">Colinha</a>
+    </nav>
     <h1>Seu prumo</h1>
 
     <section class="sintese">
       <p class="rotulo-grande" id="rotulo"></p>
       <p id="sintese-texto"></p>
       <p class="discreto" id="sintese-confianca"></p>
+    </section>
+
+    <section class="porque" id="porque-rotulo">
+      <h2>Por que esse rótulo</h2>
+      <div id="porque-rotulo-texto"></div>
     </section>
 
     <div class="grafico" id="grafico"></div>
@@ -88,6 +122,11 @@
     </div>
 
     <h2>Eixo por eixo</h2>
+    <p class="discreto" id="intro-eixos">
+      Cada resposta empurra o eixo para um lado. A sua posição é onde a balança
+      parou. Toque em "O que pesou" para ver as respostas que mais puxaram para
+      cada lado.
+    </p>
     <div class="cartoes" id="cartoes"></div>
 
     <section class="caixa-ia">
@@ -108,13 +147,29 @@
       </div>
     </section>
 
+    <section class="proximo-passo">
+      <h2>E agora?</h2>
+      <p>
+        O próximo passo é ver quais partidos votam mais parecido com o que você
+        respondeu — e, dentro deles, quem são os candidatos.
+      </p>
+      <div class="acoes">
+        <button class="principal" id="botao-etapa2">Ver os partidos mais próximos de mim</button>
+      </div>
+    </section>
+
     <div class="acoes">
-      <button class="principal" id="botao-pdf">Baixar meu relatório (PDF)</button>
-      <button id="botao-etapa2">Ir para os partidos</button>
-      <button class="discreta" id="botao-refazer">Refazer</button>
+      <button id="botao-pdf">Baixar meu relatório (PDF)</button>
+      <button class="discreta" id="botao-refazer">Refazer o teste</button>
     </div>
 
-    <p class="discreto">
+    <p class="discreto oculto" id="aviso-recuperado">
+      Este resultado foi aberto a partir do seu código. O código guarda só as
+      cinco posições, então as respostas não estão aqui: o relatório sai sem a
+      lista delas.
+    </p>
+
+    <p class="discreto" id="nota-relatorio">
       O relatório traz o seu resultado <b>e as suas 114 respostas, uma a uma</b>. Ele é
       montado aqui no seu aparelho e vai direto para a sua pasta de downloads:
       <b>ninguém vê esse arquivo além de você</b>, a não ser que você mesmo decida
@@ -123,11 +178,20 @@
       (A colinha do dia da eleição é outro arquivo, e sai na etapa dos partidos.)
     </p>
 
-    <p class="discreto">
-      Seu código de perfil é <span class="codigo-perfil" id="codigo-perfil"></span>.
-      Ele guarda só as suas cinco posições, nunca as respostas, e serve para levar
-      o resultado às próximas etapas. Anote se quiser voltar depois.
-    </p>
+    <section class="caixa-codigo">
+      <h2>Seu código</h2>
+      <p class="linha-codigo">
+        <span class="codigo-perfil" id="codigo-perfil"></span>
+        <button type="button" id="botao-copiar">Copiar</button>
+      </p>
+      <p class="discreto" id="copiado" role="status"></p>
+      <p class="discreto">
+        <b>Anote ou copie antes de fechar.</b> O Prumo não guarda nada, então este
+        código é o único jeito de reabrir o resultado — noutro dia ou noutro
+        aparelho: é só tocar em "Já fiz o teste" na primeira página. Ele guarda só
+        as suas cinco posições, nunca as respostas.
+      </p>
+    </section>
   </main>
 
   <!-- ===================== COMO FUNCIONA ===================== -->

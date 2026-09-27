@@ -115,6 +115,51 @@ export function decodificar(codigo) {
   return { v: bytes[0], posicao, confianca };
 }
 
+/**
+ * Recuperador: aceita o que a pessoa colar e acha o código dentro.
+ *
+ * Quem fez o teste noutro aparelho chega com uma de três coisas: o código
+ * puro (anotado ou copiado do PDF), o endereço inteiro da etapa 2 com `?p=`,
+ * ou o código com espaços e quebras de linha que o leitor de PDF acrescenta.
+ * As três viram o mesmo código. O que não der para ler vira erro com frase
+ * em português simples, porque a pessoa vai ler a mensagem, não o console.
+ *
+ * Devolve { codigo, perfil } — o código limpo e o perfil decodificado.
+ */
+export function recuperar(texto) {
+  const bruto = String(texto ?? '').trim();
+  if (!bruto) throw new Error('Cole o código do seu resultado no campo.');
+
+  let candidato = bruto;
+  const noEndereco = bruto.match(/[?&]p=([A-Za-z0-9_\-\s]+)/);
+  if (noEndereco) candidato = noEndereco[1];
+  candidato = candidato.replace(/\s+/g, '');
+
+  if (candidato.length !== 16) {
+    throw new Error(
+      `O código tem 16 caracteres, e o que foi colado tem ${candidato.length}. `
+      + 'Confira se não ficou faltando ou sobrando alguma letra.'
+    );
+  }
+  if (!/^[A-Za-z0-9_-]{16}$/.test(candidato)) {
+    throw new Error('O código só tem letras, números, hífen e sublinhado. Tem algum outro sinal no meio.');
+  }
+  try {
+    return { codigo: candidato, perfil: decodificar(candidato) };
+  } catch (e) {
+    if (/checksum/.test(e.message)) {
+      throw new Error(
+        'Esse código não confere: provavelmente alguma letra foi trocada ao copiar. '
+        + 'Atenção a maiúsculas e minúsculas, e a letras parecidas como l, I e 1, ou O e 0.'
+      );
+    }
+    if (/versão/.test(e.message)) {
+      throw new Error('Esse código é de outra versão do Prumo e não pode ser lido aqui. Será preciso refazer o teste.');
+    }
+    throw e;
+  }
+}
+
 /** Lê o código de perfil de uma URL (`?p=CODIGO`). Devolve null se não houver. */
 export function lerDaUrl(url = (typeof location !== 'undefined' ? location.href : '')) {
   try {
