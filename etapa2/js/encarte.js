@@ -791,6 +791,17 @@ function desenharVotacoesDaFicha(sigla) {
  * diz "pôr na colinha" e, quando já está lá, "tirar". O verbo é do eleitor.
  */
 function botaoColinha(candidato, cargo) {
+  // Quem saiu da urna (renúncia, indeferimento definitivo) não pode ir para a
+  // colinha: digitar o número dá voto nulo. O botão fica, desligado, para a
+  // pessoa entender por que não consegue.
+  if (candidato.na_urna === false) {
+    const b = document.createElement('button');
+    b.className = 'discreta';
+    b.style.marginTop = '1rem';
+    b.disabled = true;
+    b.textContent = 'Não está na urna — não dá para pôr na colinha';
+    return b;
+  }
   const b = document.createElement('button');
   b.className = 'discreta';
   b.style.marginTop = '1rem';
@@ -816,6 +827,24 @@ function botaoColinha(candidato, cargo) {
 
   pintar();
   return b;
+}
+
+/**
+ * O que dizer sobre o registro, na palavra do TSE e sem concluir por cima dela.
+ * Indeferido com recurso continua na urna (o voto vai para a conta e vale ou não
+ * conforme o recurso); renúncia e indeferimento definitivo saem da urna.
+ */
+function textoDoRegistro(c) {
+  if (!c.situacao_do_registro || c.situacao_do_registro === 'Deferido') return '';
+  if (c.na_urna === false) {
+    return `Atenção: esta candidatura não está na urna. Situação no TSE: "${c.situacao_do_registro}". `
+      + 'Digitar este número dá voto nulo.';
+  }
+  if (/^Indeferido/.test(c.situacao_do_registro)) {
+    return `Atenção: o TSE indeferiu este registro, e ainda cabe recurso ("${c.situacao_do_registro}"). `
+      + 'O nome continua na urna, mas se o indeferimento for mantido, os votos não valem.';
+  }
+  return `Atenção: o registro desta candidatura está como "${c.situacao_do_registro}" no TSE. O nome está na urna enquanto isso.`;
 }
 
 /** Recado curto logo abaixo do botão, para a ação nunca ser silenciosa. */
@@ -1101,7 +1130,9 @@ function cartaoCandidato(c) {
     const aviso = document.createElement('p');
     aviso.className = 'discreto confianca';
     aviso.style.color = 'var(--cobre)';
-    aviso.textContent = `registro: ${c.situacao_do_registro.toLowerCase()}`;
+    aviso.textContent = c.na_urna === false
+      ? `não está na urna · ${c.situacao_do_registro.toLowerCase()}`
+      : `registro: ${c.situacao_do_registro.toLowerCase()} · continua na urna`;
     cartao.append(aviso);
   }
 
@@ -1333,7 +1364,7 @@ function desenharForca(c) {
 }
 
 function abrirCandidato(id) {
-  const c = estado.candidatos?.candidatos.find((x) => x.id === id);
+  const c = estado.candidatos?.candidatos.find((x) => String(x.id) === String(id));
   if (!c) return;
 
   $('cand-nome').textContent = c.nome;
@@ -1344,9 +1375,7 @@ function abrirCandidato(id) {
   desenharForca(c);
 
   const avisoReg = $('cand-aviso-registro');
-  avisoReg.textContent = c.situacao_do_registro !== 'Deferido'
-    ? `Atenção: o registro desta candidatura está como "${c.situacao_do_registro}" no TSE. Pode não ir à urna.`
-    : '';
+  avisoReg.textContent = textoDoRegistro(c);
 
   // ---------------------------------------------------------- medição
   const alvoMed = $('cand-medicao');
@@ -1551,6 +1580,7 @@ const ROTULO_EXECUTIVO = {
   plano: 'plano de governo lido',
   'plano-ilegivel': 'plano registrado, mas ilegível',
   'sem-plano': 'não registrou plano',
+  'plano-pendente': 'plano ainda não lido pelo Prumo',
 };
 
 function cartaoExecutivo(c) {
@@ -1593,6 +1623,16 @@ function cartaoExecutivo(c) {
   }
   cartao.append(selo);
 
+  if (c.situacao_do_registro && c.situacao_do_registro !== 'Deferido') {
+    const aviso = document.createElement('p');
+    aviso.className = 'discreto confianca';
+    aviso.style.color = 'var(--cobre)';
+    aviso.textContent = c.na_urna === false
+      ? `não está na urna · ${c.situacao_do_registro.toLowerCase()}`
+      : `registro: ${c.situacao_do_registro.toLowerCase()} · está na urna`;
+    cartao.append(aviso);
+  }
+
   const abrir = () => ir(`executivo/${c.id}`);
   cartao.addEventListener('click', abrir);
   cartao.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); abrir(); } });
@@ -1610,14 +1650,17 @@ function desenharExecutivo() {
 
   $('intro-executivo').textContent =
     `Presidente e governador são os únicos cargos que registram plano de governo no TSE. `
-    + `Os ${cands.length} planos de 2026 foram lidos contra um catálogo fixo de `
+    + `${cands.filter((c) => c.evidencia !== 'plano-pendente').length} planos de 2026 foram lidos contra um catálogo fixo de `
     + `${estado.executivo.catalogo.temas} temas. Isto mede o que a pessoa diz que vai fazer — `
     + `nunca o que ela fez. De ${lidos.length} planos legíveis, ${comBase} chegam a ter posição firme `
     + `em pelo menos um eixo, e nenhum diz o bastante para virar um índice de compatibilidade.`;
 
   const lista = $('lista-executivo');
   lista.textContent = '';
-  for (const c of cands) lista.append(cartaoExecutivo(c));
+  // Quem não está na urna vai para o fim: continua visível, com o aviso, mas
+  // não fica entre as opções de voto.
+  const ordenados = [...cands].sort((a, b) => (a.na_urna === false) - (b.na_urna === false));
+  for (const c of ordenados) lista.append(cartaoExecutivo(c));
 }
 
 /** Régua de um eixo, marcando se aquele eixo tem base ou não. */
@@ -1690,7 +1733,7 @@ function reguaDoEixo(c, k) {
 
 function abrirExecutivo(id) {
   if (!estado.executivo) return;
-  const c = estado.executivo.candidatos.find((x) => x.id === id);
+  const c = estado.executivo.candidatos.find((x) => String(x.id) === String(id));
   if (!c) return;
 
   $('exec-nome').textContent = c.nome;
@@ -1700,6 +1743,16 @@ function abrirExecutivo(id) {
   const alvoPass = $('exec-passagens');
   alvoEixos.textContent = '';
   alvoPass.textContent = '';
+
+  const registro = textoDoRegistro(c);
+
+  if (c.evidencia === 'plano-pendente') {
+    $('exec-sintese').textContent = (registro ? `${registro} ` : '')
+      + (c.observacao_registro || 'O plano de governo desta candidatura ainda não foi lido pelo Prumo.');
+    $('exec-base').textContent = 'Sem leitura do plano, o Prumo não atribui posição nenhuma.';
+    mostrar('tela-executivo');
+    return;
+  }
 
   if (c.evidencia !== 'plano') {
     $('exec-sintese').textContent = c.evidencia === 'plano-ilegivel'
@@ -1713,8 +1766,8 @@ function abrirExecutivo(id) {
     return;
   }
 
-  $('exec-sintese').textContent =
-    'O que está abaixo é o que esta pessoa escreveu no plano de governo entregue ao TSE. '
+  $('exec-sintese').textContent = (registro ? `${registro} ` : '')
+    + 'O que está abaixo é o que esta pessoa escreveu no plano de governo entregue ao TSE. '
     + 'É o que ela diz que vai fazer — não é o que ela fez. '
     + 'Toda posição vem acompanhada da passagem que a originou e da página, para você conferir no documento original.'
     // O plano lido por OCR não é igual aos outros, e quem vai conferir precisa

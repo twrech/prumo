@@ -9289,6 +9289,19 @@
     "resultado": "Não eleito",
     "votos": 16
    }
+  },
+  "240002554491": {
+   "recebido": 50000,
+   "fundo_eleitoral": 0,
+   "de_partidos": 50000,
+   "contas_atualizadas_em": "25/09/2026",
+   "ultima_eleicao": {
+    "ano": 2024,
+    "cargo": "Vereador",
+    "local": "Florianópolis",
+    "resultado": "Suplente",
+    "votos": 35
+   }
   }
  }
 }

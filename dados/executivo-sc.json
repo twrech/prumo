@@ -72,7 +72,9 @@
             "sob"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002551975,
@@ -252,7 +254,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002551547,
@@ -369,7 +373,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002551544,
@@ -538,7 +544,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002541457,
@@ -697,7 +705,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002542548,
@@ -821,7 +831,32 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
+    },
+    {
+      "id": 280002554479,
+      "nome": "LEONARDO AVALANCHE",
+      "partido": "PRTB",
+      "cargo": "pres",
+      "cargo_nome": "Presidente da República",
+      "ue": "BR",
+      "paginas": null,
+      "numero": 28,
+      "evidencia": "plano-pendente",
+      "leitura": null,
+      "posicao": null,
+      "confianca": null,
+      "confianca_media": 0,
+      "temas_respondidos": 0,
+      "temas_no_catalogo": 27,
+      "eixos_com_base": [],
+      "permite_compatibilidade": false,
+      "passagens": [],
+      "situacao_do_registro": "Pendente de julgamento",
+      "na_urna": true,
+      "observacao_registro": "Candidatura registrada em setembro de 2026, depois da leitura dos planos pelo Prumo, em substituição a Pablo Marçal. O plano de governo está no TSE e ainda não foi lido aqui."
     },
     {
       "id": 280002553884,
@@ -874,7 +909,10 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Indeferido",
+      "na_urna": false,
+      "observacao_registro": "Registro indeferido pelo TSE (ausência de condição de elegibilidade e inelegibilidade da LC 64/90). Não consta da urna. O PRTB concorre com Leonardo Avalanche, que era o vice da chapa."
     },
     {
       "id": 280002540694,
@@ -990,7 +1028,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002551932,
@@ -1138,7 +1178,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002552487,
@@ -1296,7 +1338,9 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002538811,
@@ -1410,7 +1454,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002548139,
@@ -1508,7 +1554,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 280002539826,
@@ -1678,7 +1726,9 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002553718,
@@ -1836,7 +1886,9 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002548628,
@@ -1929,7 +1981,9 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002551001,
@@ -2003,7 +2057,9 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002537073,
@@ -2077,7 +2133,9 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002550544,
@@ -2170,7 +2228,9 @@
             "pod"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002544118,
@@ -2253,7 +2313,9 @@
             "pod"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002541913,
@@ -2423,7 +2485,9 @@
             "amb"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     },
     {
       "id": 240002552157,
@@ -2506,7 +2570,10 @@
             "eco"
           ]
         }
-      ]
+      ],
+      "situacao_do_registro": "Deferido",
+      "na_urna": true
     }
-  ]
+  ],
+  "atualizado_em": "2026-09-27"
 }
